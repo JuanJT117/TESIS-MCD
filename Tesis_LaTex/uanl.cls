@@ -1,5 +1,5 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Este archivo provee la clase FIME %
+% Este archivo provee la clase uanl %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \NeedsTeXFormat{LaTeX2e}[1995/12/01]
 \ProvidesClass{uanl}
@@ -89,5 +89,6 @@
 \def\uanl{Universidad Autónoma de Nuevo León}
 \def\fcfm{Facultad de Ciencias Físico Matemático}
 \def\pifi{Posgrado en Ingeniería Física Industrial}
+\def\mcd{Maestria en Ciencias de Datos}
 \def\snnl{San Nicolás de los Garza, Nuevo León}
 
