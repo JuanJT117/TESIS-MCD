@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.12)  14 OCT 2024 23:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.12)  4 NOV 2024 18:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -341,12 +341,14 @@ tex.def
 File: l3backend-pdftex.def 2024-04-11 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count293
 \l__pdf_internal_box=\box54
-) (MiTesis.aux (Portadas.aux)
+) (MiTesis.aux (Capitulos/Portadas.aux)
 LaTeX Info: Redefining \. on input line 12.
 LaTeX Info: Redefining \% on input line 12.
- (Dedicatoria.aux) (Agradecimientos.aux)
-(Resumen.aux) (Capitulo1.aux) (Capitulo2.aux) (Capitulo3.aux) (Capitulo4.aux)
-(Apendice1.aux) (Autobiografia.aux))
+ (Capitulos/Dedicatoria.aux)
+(Capitulos/Agradecimientos.aux) (Capitulos/Resumen.aux)
+(Capitulos/Capitulo1.aux) (Capitulos/Capitulo2.aux) (Capitulos/Capitulo3.aux)
+(Capitulos/Capitulo4.aux) (Capitulos/Apendice1.aux)
+(Capitulos/Autobiografia.aux))
 \openout1 = `MiTesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
@@ -407,9 +409,9 @@ Package hyperref Info: Link coloring ON on input line 42.
 \@outlinefile=\write3
 \openout3 = `MiTesis.out'.
 
-\openout2 = `Portadas.aux'.
+\openout2 = `Capitulos/Portadas.aux'.
 
- (Portadas.tex
+ (Capitulos/Portadas.tex
 <Figuras/uanl.png, id=91, 464.6961pt x 469.755pt>
 File: Figuras/uanl.png Graphic file (type png)
 <use Figuras/uanl.png>
@@ -446,25 +448,25 @@ and I'll forget about whatever was undefined.
 nl.png>]
 File: Figuras/uanl.png Graphic file (type png)
 <use Figuras/uanl.png>
-Package pdftex.def Info: Figuras/uanl.png  used on input line 72.
+Package pdftex.def Info: Figuras/uanl.png  used on input line 42.
 (pdftex.def)             Requested size: 56.29292pt x 56.9055pt.
 <Figuras/fcfm.png, id=100, 120.45pt x 120.45pt>
 File: Figuras/fcfm.png Graphic file (type png)
 <use Figuras/fcfm.png>
-Package pdftex.def Info: Figuras/fcfm.png  used on input line 72.
+Package pdftex.def Info: Figuras/fcfm.png  used on input line 42.
 (pdftex.def)             Requested size: 56.90556pt x 56.9055pt.
 
-Overfull \hbox (31.06377pt too wide) in paragraph at lines 70--77
+Overfull \hbox (31.06377pt too wide) in paragraph at lines 40--47
  |  $[]$ 
  []
 
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 79
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 49
 .
 (C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/base\ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 ! Undefined control sequence.
-l.79 ...ara obtener el grado de \grado\orientacion
+l.49 ...ara obtener el grado de \grado\orientacion
                                                   .
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -473,14 +475,14 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (23.68146pt too wide) in paragraph at lines 87--116
+Overfull \hbox (23.68146pt too wide) in paragraph at lines 57--86
  [][] 
  []
 
 ) [2 <./Figuras/fcfm.png>]
-\openout2 = `Dedicatoria.aux'.
+\openout2 = `Capitulos/Dedicatoria.aux'.
 
- (Dedicatoria.tex) [3
+ (Capitulos/Dedicatoria.tex) [3
 
 
 
@@ -531,16 +533,16 @@ LaTeX Info: Redefining \% on input line 1.
  [7
 
 ]
-\openout2 = `Agradecimientos.aux'.
+\openout2 = `Capitulos/Agradecimientos.aux'.
 
- (Agradecimientos.tex) [8
+ (Capitulos/Agradecimientos.tex)
+[8
 
 
 ]
-\openout2 = `Resumen.aux'.
+\openout2 = `Capitulos/Resumen.aux'.
 
-
-(Resumen.tex
+ (Capitulos/Resumen.tex
 ! Undefined control sequence.
 l.12 ...ara obtener el grado de \grado\orientacion
                                                   .
@@ -562,9 +564,9 @@ Overfull \hbox (6.9722pt too wide) in paragraph at lines 27--28
 
 
 ]
-\openout2 = `Capitulo1.aux'.
+\openout2 = `Capitulos/Capitulo1.aux'.
 
- (Capitulo1.tex
+ (Capitulos/Capitulo1.tex
 Cap\'{\i }tulo 1.
 [1
 
@@ -576,25 +578,21 @@ Cap\'{\i }tulo 1.
 <Figuras/graf.png, id=177, 426.84468pt x 268.00125pt>
 File: Figuras/graf.png Graphic file (type png)
 <use Figuras/graf.png>
-Package pdftex.def Info: Figuras/graf.png  used on input line 39.
+Package pdftex.def Info: Figuras/graf.png  used on input line 43.
 (pdftex.def)             Requested size: 398.33858pt x 250.11778pt.
-
-Overfull \vbox (183.58473pt too high) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 52.
-LaTeX Info: Redefining \% on input line 52.
-LaTeX Info: Redefining \. on input line 52.
-LaTeX Info: Redefining \% on input line 52.
-
-[2])
+LaTeX Info: Redefining \. on input line 68.
+LaTeX Info: Redefining \% on input line 68.
+LaTeX Info: Redefining \. on input line 68.
+LaTeX Info: Redefining \% on input line 68.
+ [2])
 LaTeX Info: Redefining \. on input line 61.
 LaTeX Info: Redefining \% on input line 61.
 LaTeX Info: Redefining \. on input line 61.
 LaTeX Info: Redefining \% on input line 61.
  [3 <./Figuras/graf.png>]
-\openout2 = `Capitulo2.aux'.
+\openout2 = `Capitulos/Capitulo2.aux'.
 
- (Capitulo2.tex
+ (Capitulos/Capitulo2.tex
 Cap\'{\i }tulo 2.
 ) [4
 
@@ -602,9 +600,9 @@ Cap\'{\i }tulo 2.
 
 
 ]
-\openout2 = `Capitulo3.aux'.
+\openout2 = `Capitulos/Capitulo3.aux'.
 
- (Capitulo3.tex
+ (Capitulos/Capitulo3.tex
 Cap\'{\i }tulo 3.
 ) [5
 
@@ -612,9 +610,9 @@ Cap\'{\i }tulo 3.
 
 
 ]
-\openout2 = `Capitulo4.aux'.
+\openout2 = `Capitulos/Capitulo4.aux'.
 
- (Capitulo4.tex
+ (Capitulos/Capitulo4.tex
 Cap\'{\i }tulo 4.
 ) [6
 
@@ -622,9 +620,9 @@ Cap\'{\i }tulo 4.
 
 
 ]
-\openout2 = `Apendice1.aux'.
+\openout2 = `Capitulos/Apendice1.aux'.
 
- (Apendice1.tex
+ (Capitulos/Apendice1.tex
 Ap\'{e}ndice A.
 ) [7
 
@@ -641,9 +639,9 @@ Package natbib Warning: Empty `thebibliography' environment on input line 21.
 
 
 ]
-\openout2 = `Autobiografia.aux'.
+\openout2 = `Capitulos/Autobiografia.aux'.
 
- (Autobiografia.tex
+ (Capitulos/Autobiografia.tex
 ! Undefined control sequence.
 <recently read> \orientacion 
                              
@@ -658,12 +656,14 @@ and I'll forget about whatever was undefined.
 ) [9
 
 
-] (MiTesis.aux (Portadas.aux)
+] (MiTesis.aux (Capitulos/Portadas.aux)
 LaTeX Info: Redefining \. on input line 12.
 LaTeX Info: Redefining \% on input line 12.
- (Dedicatoria.aux) (Agradecimientos.aux)
-(Resumen.aux) (Capitulo1.aux) (Capitulo2.aux) (Capitulo3.aux) (Capitulo4.aux)
-(Apendice1.aux) (Autobiografia.aux))
+ (Capitulos/Dedicatoria.aux)
+(Capitulos/Agradecimientos.aux) (Capitulos/Resumen.aux)
+(Capitulos/Capitulo1.aux) (Capitulos/Capitulo2.aux) (Capitulos/Capitulo3.aux)
+(Capitulos/Capitulo4.aux) (Capitulos/Apendice1.aux)
+(Capitulos/Autobiografia.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-04-11>
@@ -676,13 +676,13 @@ Package rerunfilecheck Info: File `MiTesis.out' has not changed.
 (rerunfilecheck)             Checksum: CD77D902386E1E1519D33CD664B49F93;3097.
  ) 
 Here is how much of TeX's memory you used:
- 12338 strings out of 474370
- 194136 string characters out of 5740535
+ 12341 strings out of 474370
+ 197146 string characters out of 5740535
  1938754 words of memory out of 5000000
- 34451 multiletter control sequences out of 15000+600000
+ 34452 multiletter control sequences out of 15000+600000
  565921 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,9n,79p,427b,781s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,9n,79p,437b,781s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmbx12.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmbx8.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/pu
@@ -697,7 +697,7 @@ fb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
 /cmtt12.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
 sfonts/latxfont/lasy10.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/
 type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on MiTesis.pdf (18 pages, 854095 bytes).
+Output written on MiTesis.pdf (18 pages, 854929 bytes).
 PDF statistics:
  286 PDF objects out of 1000 (max. 8388607)
  53 named destinations out of 1000 (max. 500000)

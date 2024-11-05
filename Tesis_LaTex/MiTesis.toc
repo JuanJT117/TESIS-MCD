@@ -4,8 +4,8 @@
 \contentsline {paragraph}{\numberline {0.0.0.0.1}Objetivos y método de estudio:}{\es@scroman {ix}}{paragraph.0.0.0.0.1}%
 \contentsline {paragraph}{\numberline {0.0.0.0.2}Contribuciones y conlusiones:}{\es@scroman {ix}}{paragraph.0.0.0.0.2}%
 \contentsline {chapter}{\numberline {1}Introducción}{1}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Antecedentes o historia del arte}{2}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Justificación o motivación}{2}{section.1.2}%
+\contentsline {section}{\numberline {1.1}Antecedentes o historia del arte}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Justificación o motivación}{1}{section.1.2}%
 \contentsline {section}{\numberline {1.3}Hipótesis}{2}{section.1.3}%
 \contentsline {subsection}{\numberline {1.3.1}Hipótesis nula}{2}{subsection.1.3.1}%
 \contentsline {subsection}{\numberline {1.3.2}Hipótesis alterna}{2}{subsection.1.3.2}%
