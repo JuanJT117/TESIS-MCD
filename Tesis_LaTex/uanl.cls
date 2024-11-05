@@ -38,14 +38,39 @@
 %%%%%%%%%%%%%%%%%%%%
 % Diseño de página %
 %%%%%%%%%%%%%%%%%%%%
-\voffset = -2.0cm
-\topmargin = 0.6cm
+%\voffset = 0.0cm
+%\topmargin = 0.0cm
+%\headheight = 0.6cm
+%\headsep = 0.66cm
+%\textheight = 24.04cm
+%\hoffset = 0.0cm
+%\oddsidemargin = -0.04cm
+%\textwidth = 12.5cm
+
+
+\voffset = 0cm         % Resetea cualquier desplazamiento vertical
+\topmargin = 0cm       % Resetea el margen superior inicial
 \headheight = 0.6cm
 \headsep = 0.66cm
-\textheight = 22.94cm
-\hoffset = 0.0cm
-\oddsidemargin = 1.5cm
+\textheight = 24.04cm  % Altura del texto modificada después de ajustar márgenes
+\hoffset = 0cm         % Resetea cualquier desplazamiento horizontal
+\oddsidemargin = -0.54cm % Ajusta para margen izquierdo de 4.0cm
 \textwidth = 15.05cm
+\evensidemargin = \oddsidemargin  % Establece margen izquierdo de páginas pares igual al de impares
+
+% Para los márgenes superiores e inferiores:
+\setlength{\topmargin}{-1in}
+\addtolength{\topmargin}{2.5cm}
+\setlength{\textheight}{\paperheight}
+\addtolength{\textheight}{-5cm} % Restar márgenes superior e inferior
+
+% Para los márgenes izquierdos y derechos:
+\setlength{\oddsidemargin}{-1in}
+\addtolength{\oddsidemargin}{4cm}
+\setlength{\textwidth}{\paperwidth}
+\addtolength{\textwidth}{-6.5cm} % Restar márgenes izquierdo y derecho
+
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Encabezados y cabeceras de página %
@@ -81,7 +106,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%
 \setlength{\parindent}{10mm}
 \setlength{\parskip}{0.9em}
-\def\baselinestretch{1.5}
+\def\baselinestretch{0.7}
 
 %%%%%%%%%%%%%%%%%%%%%%%%
 % Algunas definiciones %
