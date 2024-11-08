@@ -21,6 +21,7 @@
 \usepackage[clearempty,pagestyles]{titlesec}
 	\setcounter{secnumdepth}{4}
 
+
 %%%%%%%%%%%%%%%%%%%%%%%%
 % Entornos matemáticos %
 %%%%%%%%%%%%%%%%%%%%%%%%
