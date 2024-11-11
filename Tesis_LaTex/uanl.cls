@@ -107,7 +107,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%
 \setlength{\parindent}{10mm}
 \setlength{\parskip}{0.9em}
-\def\baselinestretch{1.0}
+\def\baselinestretch{1.5}
 
 %%%%%%%%%%%%%%%%%%%%%%%%
 % Algunas definiciones %

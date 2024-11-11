@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.12)  7 NOV 2024 22:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.12)  10 NOV 2024 21:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -412,7 +412,7 @@ Package hyperref Info: Link coloring ON on input line 45.
 \openout2 = `Capitulos/Portadas.aux'.
 
  (Capitulos/Portadas.tex
-<Figuras/uanl.png, id=59, 464.6961pt x 469.755pt>
+<Figuras/uanl.png, id=107, 464.6961pt x 469.755pt>
 File: Figuras/uanl.png Graphic file (type png)
 <use Figuras/uanl.png>
 Package pdftex.def Info: Figuras/uanl.png  used on input line 12.
@@ -439,7 +439,7 @@ File: Figuras/uanl.png Graphic file (type png)
 <use Figuras/uanl.png>
 Package pdftex.def Info: Figuras/uanl.png  used on input line 40.
 (pdftex.def)             Requested size: 56.29292pt x 56.9055pt.
-<Figuras/fcfm.png, id=68, 120.45pt x 120.45pt>
+<Figuras/fcfm.png, id=116, 120.45pt x 120.45pt>
 File: Figuras/fcfm.png Graphic file (type png)
 <use Figuras/fcfm.png>
 Package pdftex.def Info: Figuras/fcfm.png  used on input line 40.
@@ -481,22 +481,26 @@ Package spanish Warning: Replacing `OT1/cmr/bx/sc' by
 Package spanish Warning: Replacing `OT1/cmr/bx/sc' by 
 (spanish)                faked small caps on input line 3.
 
-)
+[4
+
+
+
+])
 \tf@toc=\write4
 \openout4 = `MiTesis.toc'.
 
- [4
-
-
-
-] (MiTesis.lof
+LaTeX Info: Redefining \. on input line 54.
+LaTeX Info: Redefining \% on input line 54.
+LaTeX Info: Redefining \. on input line 54.
+LaTeX Info: Redefining \% on input line 54.
+ [5] (MiTesis.lof
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
 \tf@lof=\write5
 \openout5 = `MiTesis.lof'.
 
- [5
+ [6
 
 ] (MiTesis.lot
 LaTeX Info: Redefining \. on input line 1.
@@ -505,13 +509,13 @@ LaTeX Info: Redefining \% on input line 1.
 \tf@lot=\write6
 \openout6 = `MiTesis.lot'.
 
- [6
+ [7
 
 ]
 \openout2 = `Capitulos/Agradecimientos.aux'.
 
  (Capitulos/Agradecimientos.tex)
-[7
+[8
 
 
 ]
@@ -533,7 +537,7 @@ Overfull \hbox (5.83415pt too wide) in paragraph at lines 27--28
  aqu^^S^^P tus con-tri-bu-cio-nes y con-clu-sio-nes. (Tam-
  []
 
-) [8
+) [9
 
 
 
@@ -554,12 +558,22 @@ Cap\'{\i }tulo 1.
 
  (Capitulos/Capitulo2.tex
 Cap\'{\i }tulo 2.
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
 ) [2
 
 
 
 
 ]
+LaTeX Info: Redefining \. on input line 65.
+LaTeX Info: Redefining \% on input line 65.
+LaTeX Info: Redefining \. on input line 65.
+LaTeX Info: Redefining \% on input line 65.
+ [3]
 \openout2 = `Capitulos/Capitulo3.aux'.
 
  (Capitulos/Capitulo3.tex
@@ -569,7 +583,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--66
 
  []
 
-[3
+[4
 
 
 
@@ -579,7 +593,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--66
 
  (Capitulos/Capitulo4.tex
 Cap\'{\i }tulo 4.
-) [4
+) [5
 
 
 
@@ -589,17 +603,30 @@ Cap\'{\i }tulo 4.
 
  (Capitulos/Capitulo5.tex
 Cap\'{\i }tulo 5.
-) [5
+) [6
 
 
 
 
 ]
+LaTeX Info: Redefining \. on input line 68.
+LaTeX Info: Redefining \% on input line 68.
+LaTeX Info: Redefining \. on input line 68.
+LaTeX Info: Redefining \% on input line 68.
+ [7]
+Overfull \vbox (119.06502pt too high) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 68.
+LaTeX Info: Redefining \% on input line 68.
+LaTeX Info: Redefining \. on input line 68.
+LaTeX Info: Redefining \% on input line 68.
+
+[8]
 \openout2 = `Capitulos/Capitulo6.aux'.
 
  (Capitulos/Capitulo6.tex
 Cap\'{\i }tulo 6.
-) [6
+) [9
 
 
 
@@ -609,7 +636,7 @@ Cap\'{\i }tulo 6.
 
  (Capitulos/Capitulo7.tex
 Cap\'{\i }tulo 7.
-) [7
+) [10
 
 
 
@@ -619,7 +646,7 @@ Cap\'{\i }tulo 7.
 
  (Capitulos/Apendice1.tex
 Ap\'{e}ndice A.
-) [8
+) [11
 
 
 
@@ -628,7 +655,7 @@ Ap\'{e}ndice A.
 
 Package natbib Warning: Empty `thebibliography' environment on input line 21.
 
-) [9
+) [12
 
 
 
@@ -650,16 +677,16 @@ L3 programming layer <2024-04-11>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `MiTesis.out' has not changed.
-(rerunfilecheck)             Checksum: 235BAD398CA5ACC72CB1B085D9A9CF65;1790.
+(rerunfilecheck)             Checksum: A38BD3BCC8A4C92A879649F24988C924;3762.
  ) 
 Here is how much of TeX's memory you used:
- 12314 strings out of 474370
- 197597 string characters out of 5740535
+ 12348 strings out of 474370
+ 198094 string characters out of 5740535
  1939754 words of memory out of 5000000
- 34429 multiletter control sequences out of 15000+600000
+ 34447 multiletter control sequences out of 15000+600000
  565584 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,9n,79p,410b,460s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,9n,79p,460b,781s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmbx12.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmbx8.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/pu
@@ -667,9 +694,9 @@ blic/amsfonts/cm/cmcsc10.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/font
 s/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/juanj/AppData/Local/Programs/MiK
 TeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/juanj/AppData/Local/Pro
 grams/MiKTeX/fonts/type1/public/amsfonts/latxfont/lasy10.pfb>
-Output written on MiTesis.pdf (17 pages, 623342 bytes).
+Output written on MiTesis.pdf (21 pages, 638210 bytes).
 PDF statistics:
- 199 PDF objects out of 1000 (max. 8388607)
- 38 named destinations out of 1000 (max. 500000)
- 123 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 278 PDF objects out of 1000 (max. 8388607)
+ 54 named destinations out of 1000 (max. 500000)
+ 219 words of extra memory for PDF output out of 10000 (max. 10000000)
 
