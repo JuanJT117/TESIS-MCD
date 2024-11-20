@@ -49,27 +49,27 @@
 %\textwidth = 12.5cm
 
 
-\voffset = 0cm         % Resetea cualquier desplazamiento vertical
-\topmargin = 0cm       % Resetea el margen superior inicial
-\headheight = 0.6cm
+\voffset = 0cm
+\topmargin = 0cm
+\headheight = 0.0cm
 \headsep = 0.66cm
-\textheight = 24.04cm  % Altura del texto modificada después de ajustar márgenes
-\hoffset = 0cm         % Resetea cualquier desplazamiento horizontal
-\oddsidemargin = -0.54cm % Ajusta para margen izquierdo de 4.0cm
-\textwidth = 15.05cm
-\evensidemargin = \oddsidemargin  % Establece margen izquierdo de páginas pares igual al de impares
+\textheight = 23cm
+\hoffset = 0cm
+\oddsidemargin = -1in
+\evensidemargin = \oddsidemargin
+\textwidth = 15cm
 
 % Para los márgenes superiores e inferiores:
 \setlength{\topmargin}{-1in}
 \addtolength{\topmargin}{2.5cm}
 \setlength{\textheight}{\paperheight}
-\addtolength{\textheight}{-5cm} % Restar márgenes superior e inferior
+\addtolength{\textheight}{-5cm}
 
 % Para los márgenes izquierdos y derechos:
 \setlength{\oddsidemargin}{-1in}
 \addtolength{\oddsidemargin}{4cm}
-\setlength{\textwidth}{\paperwidth}
-\addtolength{\textwidth}{-6.5cm} % Restar márgenes izquierdo y derecho
+\setlength{\textwidth}{15cm}
+\addtolength{\textwidth}{0cm}
 
 
 
@@ -77,14 +77,14 @@
 % Encabezados y cabeceras de página %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \titleformat{\chapter}[display]{\large \scshape}
-	{\filcenter \chaptertitlename\ \thechapter}{1.5em}
-	{\filcenter \Huge}[\titlerule\vspace{-0.4em}]
+	{\filcenter \chaptertitlename\ \thechapter}{0.9em}
+	{\filcenter \Large}[\titlerule\vspace{-0.4em}]
 \titleformat{\section}[hang]{\filcenter \Large \scshape}
 	{}{0mm}{\thesection\hspace{1em}}
 \titleformat{\subsection}[hang]{\vspace{0.9em}\large \scshape}
 	{}{0mm}{\filright \thesubsection\hspace{1em}}
 \titleformat{\subsubsection}[hang]{\vspace{0.9em}\scshape}
-	{}{0mm}{\filright \hspace{10mm}\thesubsubsection\hspace{1em}}
+	{}{0mm}{\filright \hspace{5mm}\thesubsubsection\hspace{1em}}
 \titleformat{\paragraph}[runin]{\vspace{-0.4em}\scshape}{}{0mm}{}
 \titleformat{\subparagraph}[runin]{\vspace{-0.4em}\scshape}{}{0mm}{}
 \newpagestyle{main}[\scshape]{
@@ -115,6 +115,6 @@
 \def\uanl{Universidad Autónoma de Nuevo León}
 \def\fcfm{Facultad de Ciencias Físico Matemático}
 \def\pifi{Posgrado en Ingeniería Física Industrial}
-\def\mcd{Maestria en Ciencias de Datos}
+\def\mcd{Maestría en Ciencias de Datos}
 \def\snnl{San Nicolás de los Garza, Nuevo León}
 
