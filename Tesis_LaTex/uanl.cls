@@ -76,9 +76,9 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Encabezados y cabeceras de página %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\titleformat{\chapter}[display]{\large \scshape}
-	{\filcenter \chaptertitlename\ \thechapter}{0.9em}
-	{\filcenter \Large}[\titlerule\vspace{-0.4em}]
+\titleformat{\chapter}[display]{\large \scshape \vspace{1em}}
+	{\filcenter \chaptertitlename \vspace{1em} \thechapter}{0.9em}
+	{\filcenter \Large}[\titlerule\vspace{1em}]
 \titleformat{\section}[hang]{\filcenter \Large \scshape}
 	{}{0mm}{\thesection\hspace{1em}}
 \titleformat{\subsection}[hang]{\vspace{0.9em}\large \scshape}

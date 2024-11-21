@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.19)  20 NOV 2024 00:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.19)  20 NOV 2024 23:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -601,7 +601,7 @@ Cap\'{\i }tulo 5.
 
 
 ]
-Overfull \vbox (327.1009pt too high) has occurred while \output is active []
+Overfull \vbox (219.46864pt too high) has occurred while \output is active []
 
 
 
@@ -682,7 +682,7 @@ Package rerunfilecheck Info: File `MiTesis.out' has not changed.
 Here is how much of TeX's memory you used:
  12432 strings out of 473682
  199021 string characters out of 5719215
- 605716 words of memory out of 5000000
+ 605725 words of memory out of 5000000
  35225 multiletter control sequences out of 15000+600000
  565283 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -694,7 +694,7 @@ blic/amsfonts/cm/cmcsc10.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/font
 s/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/juanj/AppData/Local/Programs/MiK
 TeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/juanj/AppData/Local/Pro
 grams/MiKTeX/fonts/type1/public/amsfonts/latxfont/lasy10.pfb>
-Output written on MiTesis.pdf (19 pages, 400383 bytes).
+Output written on MiTesis.pdf (19 pages, 400495 bytes).
 PDF statistics:
  257 PDF objects out of 1000 (max. 8388607)
  49 named destinations out of 1000 (max. 500000)
