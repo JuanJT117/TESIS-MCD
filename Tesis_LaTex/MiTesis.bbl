@@ -1,4 +1,4 @@
-\begin{thebibliography}{0}
+\begin{thebibliography}{3}
 \ProvideTextCommand{\guillemotleft}{OT1}{%
   \leavevmode\raise .27ex\hbox{$\scriptscriptstyle\ll$}}
 \ProvideTextCommand{\guillemotright}{OT1}{%
@@ -17,5 +17,22 @@
   \begin{quotation}\noindent\textsc{Key:} #1\\
   \textsc{Annotation:}\ #2\end{quotation}}
 \providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem[{Fox(1830)}]{fox1830}
+\textsc{Fox, R.~W.} (1830), \enquote{On the electro-magnetic properties of
+  metalliferous veins in the mines of Cornwall}, \textit{Philosophical
+  Transactions of the Royal Society of London}, p\'ags. 399--414.
+\bibAnnoteFile{fox1830}
+
+\bibitem[{Revil y Jardani(2013)}]{revil2013}
+\textsc{Revil, A.} y \textsc{A.~Jardani} (2013), \textit{The self-potential
+  method: Theory and applications in environmental geosciences}, Cambridge
+  University Press.
+\bibAnnoteFile{revil2013}
+
+\bibitem[{Reynolds(2011)}]{reynolds2011}
+\textsc{Reynolds, J.~M.} (2011), \textit{An introduction to applied and
+  environmental geophysics}, John Wiley \& Sons.
+\bibAnnoteFile{reynolds2011}
 
 \end{thebibliography}
