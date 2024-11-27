@@ -14,39 +14,62 @@
 	\item Establecer modelos de geoeléctricos con unidades geológicas de terrenos ya caracterizados mente SEV's.
 	\item Generar un modelo de clasificación y regresión mediante Random Forest mediante modelos geoeléctricos.
 \end{itemize}
+
+
 \newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \chapter{MARCO TEÓRICO}
 	\section{Método Geoeléctrico}
 		La geofísica es una rama de la ciencia relativamente reciente, la primera prospección geoeléctrica data de 1830 realizados por \cite{fox1830} en Cornwal, Reino Unido, donde aplico técnicas de Self-Potential en exploración de mineralización de sulfuro en vetas, la medición del potencial natural resulto altamente efectiva para la prospección de este tipo de mineralizaciones ya que su anomalía se caracterizaba por presentar una respuesta muy marcada con respecto al medio (\cite{revil2013}; \cite{reynolds2011}).\\
-		
-		Los métodos Geoeléctricos se clasifican en dos grupos, métodos pasivos y de inducción, los primeros corresponden a aquellos en los que se mide el potencial eléctrico natural, usualmente medido en mili volts, en donde se requiere de electrodos no polarizables para tener medidas lo mas claras posibles; Mientras que los métodos de inducción se emplea un arreglo de electrodos, o inductores de campo electromagnéticos, mediante los cuales se induce un campo eléctrico el subsuelo, calculando al diferencia de potencia eléctrico en el medio, o bien el decaimiento de la polarización inducida en el medio.\\
+		%%%elimiminar parentesis de la fecha de la 
+		Los métodos Geoeléctricos se clasifican en dos grupos, métodos pasivos y de inducción, los primeros corresponden a aquellos en los que se mide el potencial eléctrico natural, usualmente medido en mili volts, en donde se requiere de electrodos no polarizables para tener medidas lo mas claras posibles; mientras que los métodos de inducción emplean un arreglo de electrodos, o inductores de campo electromagnéticos, mediante los cuales se induce un campo eléctrico al subsuelo, calculando al diferencia de potencia eléctrica en el medio, o bien el decaimiento de la polarización inducida en el medio (\cite{revil2013}; \cite{reynolds2011}; \cite{igboama2023}).\\
 		
 		
 		\subsection{Principios Básicos}
 		
-			explicación teórica de la física y matemática del método geoeléctricos
+			%explicación teórica de la física y matemática del método geoeléctricos
+			De manera general la materia presenta características definidas a partir de los elementos que la integran, en primer orden la configuración atómica establece las propiedades físicas corresponden a la estructura de electrones, protones y neutrones que presentan los átomos; a su vez, las moléculas pueden estar conformadas por una clase especifica de átomos (moléculas homonucleares) o por conjuntos de diferentes (compuestos) tipos cuya conformación depende de factores físico-químicos ( \cite{tiab2024}).%eliminar parentesis
 			
+			La configuración molecular inorgánica que presenta la materia, definirá el tipo de estructura cristalina que formarán, en conjunto, la estructura de los minerales; esta configuración cristalina es la que encontramos en el medio geológico conformando los minerales que componen la estructura mineral de una unidad geológica (ver figura \cite{tiab2024}; \cite{gandhi2016}).\\
 		\subsection{Configuración de electrodos}
 			%%%%    sin contenido
 			\subsubsection{Caso General}
 				%%%%	explicacion del metodo en el caso particular de un medio homogenio
-				Si consideramos un medio continuo y homogéneo explicacion del metodo mediante el caso particular.\\
+				Si consideramos un medio continuo y homogéneo explicación del método mediante el caso particular (\cite{reynolds2011}; \cite{igboama2023}).\\
 				  
 			\subsubsection{Arreglos Convencionales}
-				Metodo Wenner, método Shlumberger, dipolo dipolo, polo dipolo, ecuatorial.\\
+				Método Wenner, método Shlumberger, dipolo dipolo, polo dipolo, ecuatorial.\\
 				
 		\subsection{Sondeo Eléctrico Vertical}
-		caso particular de sondeos, distribucion de señal, interpretacion, caso particular de exploracion hidrologica, señales caracteristicas de acuiferos, modelos reales y simulaciones.\\
+		caso particular de sondeos, distribución de señal, interpretacion, caso particular de exploración hidrológica, señales características de acuíferos, modelos reales y simulaciones.\\
+	\section{Aprendizaje Automático Conceptos Básicos}
+		De manera general podemos identificas dos distintos de modelos de entrenamiento, correspondiendo a, aprendizaje de tipo supervisado y no supervisado.\\
 		
+		existe diferencias claras entre ambos tipos de técnicas,
+		
+		\begin{description}
+			\item[Aprendizaje Supervisado] Este tipo de modelos emplea un conjunto de datos integrados por datos de entrada y de salida
+		\end{description}
+		
+		 
 	\section{Árboles de Decisión}
+		\subsection{Algoritmos de árboles de decisión}
+		\subsection{criterios de división}
+		\subsection{Poda de árboles de decisión}
 	\section{Random Forest}
-		\subsection{Número de Árboles}
-			\subsubsection{Max Tree Depth}
+		\subsection{Bootstrap Aggregating}
+		\subsection{Feature bagging}
+	\section{Número de Árboles}
+		\subsection{Max Tree Depth}
 		\subsection{Bootstrap}
 		\subsection{Overfitting y Underfitting}
 		\subsection{OOB Score}
-		\section{Validación Cruzada}
-		\section{Métricas de Evaluación}
+		\subsection{Validación Cruzada}
+		\subsection{Métricas de Evaluación}
 		
 			
 		

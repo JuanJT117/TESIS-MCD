@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.18)  23 NOV 2024 23:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.18)  26 NOV 2024 23:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -412,7 +412,7 @@ Package hyperref Info: Link coloring ON on input line 45.
 \openout2 = `Capitulos/Portadas.aux'.
 
  (Capitulos/Portadas.tex
-<Figuras/uanl.png, id=95, 464.6961pt x 469.755pt>
+<Figuras/uanl.png, id=123, 464.6961pt x 469.755pt>
 File: Figuras/uanl.png Graphic file (type png)
 <use Figuras/uanl.png>
 Package pdftex.def Info: Figuras/uanl.png  used on input line 12.
@@ -571,17 +571,7 @@ Cap\'{\i }tulo 4.
 ]
 Cap\'{\i }tulo 5.
 
-Underfull \hbox (badness 10000) in paragraph at lines 20--21
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 22--23
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--34
+Underfull \hbox (badness 10000) in paragraph at lines 27--30
 
  []
 
@@ -590,26 +580,41 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--34
 [5
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 36--37
+Underfull \hbox (badness 10000) in paragraph at lines 37--38
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--40
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--49
+
+ []
+
+
+
+LaTeX Info: Redefining \. on input line 49.
+LaTeX Info: Redefining \% on input line 49.
+
+Overfull \vbox (11.36665pt too high) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 49.
+LaTeX Info: Redefining \% on input line 49.
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
 
  []
 
 )
-
-LaTeX Info: Redefining \. on input line 67.
-LaTeX Info: Redefining \% on input line 67.
-
-Overfull \vbox (11.36665pt too high) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 67.
-LaTeX Info: Redefining \% on input line 67.
-
-[6]
 
 LaTeX Info: Redefining \. on input line 67.
 LaTeX Info: Redefining \% on input line 67.
@@ -620,13 +625,23 @@ LaTeX Info: Redefining \. on input line 67.
 LaTeX Info: Redefining \% on input line 67.
 
 [7]
+
+LaTeX Info: Redefining \. on input line 67.
+LaTeX Info: Redefining \% on input line 67.
+
+Overfull \vbox (11.36665pt too high) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 67.
+LaTeX Info: Redefining \% on input line 67.
+
+[8]
 \openout2 = `Capitulos/Capitulo6.aux'.
 
  (Capitulos/Capitulo6.tex
 Cap\'{\i }tulo 6.
 )
 
-[8
+[9
 
 
 
@@ -638,7 +653,7 @@ Cap\'{\i }tulo 6.
 Cap\'{\i }tulo 7.
 )
 
-[9
+[10
 
 
 
@@ -650,14 +665,14 @@ Cap\'{\i }tulo 7.
 Ap\'{e}ndice A.
 )
 
-[10
+[11
 
 
 
 
 ] (MiTesis.bbl)
 
-[11
+[12
 
 
 
@@ -678,13 +693,13 @@ L3 programming layer <2024-11-02>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `MiTesis.out' has not changed.
-(rerunfilecheck)             Checksum: 418633F25EEC9F382BDD6F6AA95E387A;3383.
+(rerunfilecheck)             Checksum: E49970E9F91E42978811A0158D910A91;4744.
  ) 
 Here is how much of TeX's memory you used:
- 12430 strings out of 473683
- 198184 string characters out of 5726314
- 605448 words of memory out of 5000000
- 35227 multiletter control sequences out of 15000+600000
+ 12470 strings out of 473683
+ 198861 string characters out of 5726314
+ 605607 words of memory out of 5000000
+ 35257 multiletter control sequences out of 15000+600000
  564984 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,9n,79p,742b,782s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -694,9 +709,9 @@ r/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local
 e/miktex-texmf/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/share/mikte
 x-texmf/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/share/miktex-texm
 f/fonts/type1/public/amsfonts/latxfont/lasy10.pfb>
-Output written on MiTesis.pdf (19 pages, 409036 bytes).
+Output written on MiTesis.pdf (20 pages, 423943 bytes).
 PDF statistics:
- 263 PDF objects out of 1000 (max. 8388607)
- 53 named destinations out of 1000 (max. 500000)
- 190 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 323 PDF objects out of 1000 (max. 8388607)
+ 63 named destinations out of 1000 (max. 500000)
+ 246 words of extra memory for PDF output out of 10000 (max. 10000000)
 

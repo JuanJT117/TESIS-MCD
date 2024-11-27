@@ -84,10 +84,10 @@
 	{}{0mm}{\thesection\hspace{1em}}
 	
 \titleformat{\subsection}[hang]{\vspace{0.01em}\large \scshape}
-	{}{0mm}{\filright \thesubsection\hspace{0.01em}}
+	{}{0mm}{\filright \thesubsection\hspace{1em}}
 	
 \titleformat{\subsubsection}[hang]{\vspace{0.01em}\scshape}
-	{}{0mm}{\filright \hspace{-0.5mm}\thesubsubsection\hspace{0.01em}}
+	{}{5mm}{\filright \hspace{-0.5mm}\thesubsubsection\hspace{1em}}
 	
 \titleformat{\paragraph}[runin]{\vspace{0.01em}\scshape}{}{0mm}{}
 \titleformat{\subparagraph}[runin]{\vspace{0.01em}\scshape}{}{0mm}{}
