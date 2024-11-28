@@ -80,17 +80,17 @@
 	{\filcenter \chaptertitlename \vspace{-1em} \thechapter}{-0.5em}
 	{\filcenter \large}[\titlerule\vspace{-1.5em}]
 	
-\titleformat{\section}[hang]{\filcenter \large \scshape}
-	{}{0mm}{\thesection\hspace{1em}}
+\titleformat{\section}[hang]{\filcenter \normalsize }
+	{}{0mm}{\thesection\hspace{1em}}{}
 	
-\titleformat{\subsection}[hang]{\vspace{0.01em}\large \scshape}
+\titleformat{\subsection}[hang]{\vspace{0.01em}\normalsize }
 	{}{0mm}{\filright \thesubsection\hspace{1em}}
 	
-\titleformat{\subsubsection}[hang]{\vspace{0.01em}\scshape}
-	{}{5mm}{\filright \hspace{-0.5mm}\thesubsubsection\hspace{1em}}
+\titleformat{\subsubsection}[hang]{\vspace{0.01em}}
+	{}{5mm}{\filright \hspace{5mm}\thesubsubsection\hspace{1em}}
 	
-\titleformat{\paragraph}[runin]{\vspace{0.01em}\scshape}{}{0mm}{}
-\titleformat{\subparagraph}[runin]{\vspace{0.01em}\scshape}{}{0mm}{}
+\titleformat{\paragraph}[runin]{\vspace{0.01em}}{}{0mm}{}
+\titleformat{\subparagraph}[runin]{\vspace{0.01em}}{}{0mm}{}
 \newpagestyle{main}[\scshape]{
 	\sethead{\chaptertitle}{}{\thepage}
 	\headrule}
