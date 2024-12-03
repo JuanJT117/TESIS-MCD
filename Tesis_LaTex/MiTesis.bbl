@@ -1,4 +1,4 @@
-\begin{thebibliography}{6}
+\begin{thebibliography}{17}
 \ProvideTextCommand{\guillemotleft}{OT1}{%
   \leavevmode\raise .27ex\hbox{$\scriptscriptstyle\ll$}}
 \ProvideTextCommand{\guillemotright}{OT1}{%
@@ -17,6 +17,23 @@
   \begin{quotation}\noindent\textsc{Key:} #1\\
   \textsc{Annotation:}\ #2\end{quotation}}
 \providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem[{Alvarado~Reyes y Stern~Forgach(2010)}]{alvarado2010}
+\textsc{Alvarado~Reyes, J.} y \textsc{C.~Stern~Forgach} (2010), \enquote{Un
+  complemento al teorema de Nyquist}, \textit{Revista mexicana de f{\'\i}sica
+  E}, \textbf{56}(2), p\'ags. 165--171.
+\bibAnnoteFile{alvarado2010}
+
+\bibitem[{Breiman(2001)}]{breiman2001}
+\textsc{Breiman, L.} (2001), \enquote{Random forests}, \textit{Machine
+  learning}, \textbf{45}, p\'ags. 5--32.
+\bibAnnoteFile{breiman2001}
+
+\bibitem[{El-Qady y Ushijima(2001)}]{el2001}
+\textsc{El-Qady, G.} y \textsc{K.~Ushijima} (2001), \enquote{Inversion of DC
+  resistivity data using neural networks}, \textit{Geophysical Prospecting},
+  \textbf{49}(4), p\'ags. 417--430.
+\bibAnnoteFile{el2001}
 
 \bibitem[{Fox(1830)}]{fox1830}
 \textsc{Fox, R.~W.} (1830), \enquote{On the electro-magnetic properties of
@@ -37,6 +54,37 @@
   \textit{Nigerian Journal of Physics}, \textbf{32}(3), p\'ags. 141--158.
 \bibAnnoteFile{igboama2023}
 
+\bibitem[{Lay y Wallace(1995)}]{lay1995}
+\textsc{Lay, T.} y \textsc{T.~C. Wallace} (1995), \textit{Modern global
+  seismology}, Elsevier.
+\bibAnnoteFile{lay1995}
+
+\bibitem[{Li \textit{et al.}(2024)Li, Yin, Liu y Zhang}]{li2024}
+\textsc{Li, M.}, \textsc{S.~Yin}, \textsc{Z.~Liu} y \textsc{H.~Zhang} (2024),
+  \enquote{Machine learning enables electrical resistivity modeling of printed
+  lines in aerosol jet 3D printing}, \textit{Scientific Reports},
+  \textbf{14}(1), p\'ag. 14\,614.
+\bibAnnoteFile{li2024}
+
+\bibitem[{Liu \textit{et al.}(2020)Liu, Guo, Li, Liu, Ren, Pang, Guo, Liu y
+  Jiang}]{liu2020}
+\textsc{Liu, B.}, \textsc{Q.~Guo}, \textsc{S.~Li}, \textsc{B.~Liu},
+  \textsc{Y.~Ren}, \textsc{Y.~Pang}, \textsc{X.~Guo}, \textsc{L.~Liu} y
+  \textsc{P.~Jiang} (2020), \enquote{Deep learning inversion of electrical
+  resistivity data}, \textit{IEEE Transactions on Geoscience and Remote
+  Sensing}, \textbf{58}(8), p\'ags. 5715--5728.
+\bibAnnoteFile{liu2020}
+
+\bibitem[{Lowrie y Fichtner(2020)}]{lowrie2020}
+\textsc{Lowrie, W.} y \textsc{A.~Fichtner} (2020), \textit{Fundamentals of
+  geophysics}, Cambridge university press.
+\bibAnnoteFile{lowrie2020}
+
+\bibitem[{Parasnis(2012)}]{parasnis2012}
+\textsc{Parasnis, D.~S.} (2012), \textit{Principles of applied geophysics},
+  Springer Science \& Business Media.
+\bibAnnoteFile{parasnis2012}
+
 \bibitem[{Revil y Jardani(2013)}]{revil2013}
 \textsc{Revil, A.} y \textsc{A.~Jardani} (2013), \textit{The self-potential
   method: Theory and applications in environmental geosciences}, Cambridge
@@ -48,10 +96,28 @@
   environmental geophysics}, John Wiley \& Sons.
 \bibAnnoteFile{reynolds2011}
 
+\bibitem[{Sorrell(1973)}]{sorrell1973}
+\textsc{Sorrell, C.~A.} (1973), \textit{Rocks and minerals: A guide to field
+  identification}, Macmillan.
+\bibAnnoteFile{sorrell1973}
+
+\bibitem[{Telford \textit{et al.}(1990)Telford, Geldart y
+  Sheriff}]{telford1990}
+\textsc{Telford, W.~M.}, \textsc{L.~P. Geldart} y \textsc{R.~E. Sheriff}
+  (1990), \textit{Applied geophysics}, Cambridge university press.
+\bibAnnoteFile{telford1990}
+
 \bibitem[{Tiab y Donaldson(2024)}]{tiab2024}
 \textsc{Tiab, D.} y \textsc{E.~C. Donaldson} (2024), \textit{Petrophysics:
   theory and practice of measuring reservoir rock and fluid transport
   properties}, Elsevier.
 \bibAnnoteFile{tiab2024}
+
+\bibitem[{Wrona \textit{et al.}(2018)Wrona, Pan, Gawthorpe y
+  Fossen}]{wrona2018}
+\textsc{Wrona, T.}, \textsc{I.~Pan}, \textsc{R.~L. Gawthorpe} y
+  \textsc{H.~Fossen} (2018), \enquote{Seismic facies analysis using machine
+  learning}, \textit{Geophysics}, \textbf{83}(5), p\'ags. O83--O95.
+\bibAnnoteFile{wrona2018}
 
 \end{thebibliography}

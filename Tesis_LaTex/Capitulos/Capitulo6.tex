@@ -1,1 +1,46 @@
 \chapter{METODOLOGÍA}
+
+\section{ideas y apuntes}
+
+faltan las referencias....
+
+Esta investigación propone la implementación de un modelo de Random Forests (Bosques Aleatorios) para mejorar la calidad y optimización del proceso de adquisición de datos durante un Sondeo Eléctrico Vertical (SEV). El objetivo es utilizar técnicas de aprendizaje automático para clasificar las lecturas obtenidas y generar una regresión que permita sugerir intervalos de muestreo adicionales, mejorando así la exploración geofísica.
+
+El flujo de trabajo propuesto consta de las siguientes etapas:
+
+Adquisición de datos y preprocesamiento: En primer lugar, se realiza la adquisición de datos in situ utilizando el método de Sondeo Eléctrico Vertical (SEV), el cual consiste en medir la resistividad del terreno a diferentes profundidades con un intervalo de muestreo predefinido. Este intervalo se determina de acuerdo con el objetivo de exploración, como la identificación de unidades geológicas, acuíferos, fallas, fracturas o estructuras antropogénicas. Para garantizar que los datos sean adecuados para el análisis, se lleva a cabo un preprocesamiento de los datos, que incluye la limpieza de valores atípicos, normalización de las lecturas y manejo de valores faltantes.
+
+Clasificación de las lecturas con Random Forests: Se emplea el algoritmo Random Forests, una técnica de aprendizaje automático no paramétrica que consiste en crear múltiples árboles de decisión que luego se combinan para mejorar la precisión del modelo. El modelo se entrena utilizando las lecturas de resistividad obtenidas de las distintas profundidades y las características asociadas (como el tipo de terreno, las propiedades geológicas conocidas o las variables del sondeo). Los árboles se entrenan para clasificar los datos en diferentes categorías, tales como las unidades geológicas presentes, los acuíferos, las fracturas, entre otros. La clasificación permitirá identificar patrones en las lecturas de resistividad que corresponden a diferentes tipos de formaciones geológicas.
+
+Generación de la regresión para optimizar el intervalo de muestreo: Una vez que se haya realizado la clasificación, se utiliza el modelo de regresión basado en Random Forests para predecir la resistividad eléctrica en profundidades no muestreadas. Esto permitirá estimar la resistividad del terreno en puntos específicos que no han sido cubiertos por el muestreo inicial. A partir de estas predicciones, se podrán proponer intervalos de muestreo adicionales in situ que mejoren la representación de las formaciones geológicas de interés. La regresión también proporcionará un modelo predictivo que puede ajustarse dinámicamente para adaptar los intervalos de muestreo según las características del terreno y los objetivos de exploración.
+
+Evaluación del modelo y ajuste de parámetros: Se realiza una evaluación exhaustiva del modelo mediante técnicas de validación cruzada para asegurarse de que el modelo esté bien entrenado y sea capaz de generalizar correctamente a nuevos datos. Además, se compara el rendimiento del modelo de Random Forests con otras técnicas de clasificación y regresión para determinar su eficacia en comparación con otros enfoques. Se analizan métricas como la precisión en la clasificación, el error cuadrático medio (RMSE) en la regresión y la capacidad de predicción en términos de muestreos adicionales.
+
+Optimización y mejora continua: Finalmente, se optimizan los parámetros del modelo (como el número de árboles y la profundidad de los mismos) para mejorar la precisión y eficiencia del modelo. A medida que se incorporan nuevos datos de exploración y se obtienen más lecturas de resistividad, el modelo puede ser recalibrado y ajustado para mantener su efectividad en la identificación de objetivos geofísicos y en la optimización del intervalo de muestreo.
+
+
+En la implementación de técnicas avanzadas como Machine Learning (ML), modelos como Random Forests pueden analizar patrones en los datos y predecir áreas con alta variabilidad de resistividad. Esto permite:
+
+Ajustar dinámicamente el intervalo de muestreo durante la adquisición \textit{in situ}.
+Generar muestreos adicionales en áreas críticas para aumentar la precisión.
+Con este enfoque, se asegura que el intervalo de muestreo esté alineado con el teorema de Nyquist, optimizando la calidad de los datos y reduciendo la redundancia.
+
+El uso de Random Forests permite abordar la complejidad y la variabilidad inherentes al proceso de adquisición de datos en el contexto de exploración geofísica. Este enfoque optimiza el proceso de muestreo, mejora la calidad de los datos obtenidos y proporciona una base para generar predicciones más precisas, contribuyendo así al éxito de las campañas de exploración.
+
+%\subsection{Necesidad de Enfoques Alternativos: Machine Learning (ML)}
+%\section{Optimización del Intervalo de Muestreo con Random Forests} 
+%\subsection{Optimización de Muestreo en SEV con ML}
+%\subsection{Aplicación de Random Forests en la Regresión de Resistividad}
+%\subsection{Predicción de Resistividad en Zonas No Muestreadas}
+%\subsection{Generación de Intervalos de Muestreo Adicionales}
+%\subsection{Ajuste Dinámico de Intervalos de Muestreo}
+%\subsection{Mejora en la Calidad de los Datos Geofísicos}
+%\subsection{Casos de Estudio de Optimización del Muestreo con Random Forests}
+
+%\section{Ventajas y Limitaciones del Enfoque Propuesto} 
+%\subsection{Ventajas de Random Forests en la Geofísica}
+%\subsubsection{Mejora en la Precisión de Predicción}
+%\subsubsection{Reducción de Incertidumbre en la Interpretación}
+%\subsubsection{Mayor Eficiencia en la Exploración}
+%\subsection{Limitaciones y Desafíos del Modelo}
+%\subsubsection{Complejidad Computacional}
