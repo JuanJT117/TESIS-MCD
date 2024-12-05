@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.19)  3 DEC 2024 03:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.19)  5 DEC 2024 04:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -704,15 +704,25 @@ LaTeX Info: Redefining \% on input line 159.
 
 [13]
 
-LaTeX Info: Redefining \. on input line 175.
-LaTeX Info: Redefining \% on input line 175.
+LaTeX Info: Redefining \. on input line 176.
+LaTeX Info: Redefining \% on input line 176.
 
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 175.
-LaTeX Info: Redefining \% on input line 175.
+LaTeX Info: Redefining \. on input line 176.
+LaTeX Info: Redefining \% on input line 176.
 
-[14])
+[14]
+
+LaTeX Info: Redefining \. on input line 189.
+LaTeX Info: Redefining \% on input line 189.
+
+Overfull \vbox (11.36665pt too high) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 189.
+LaTeX Info: Redefining \% on input line 189.
+
+[15])
 
 LaTeX Info: Redefining \. on input line 68.
 LaTeX Info: Redefining \% on input line 68.
@@ -722,14 +732,14 @@ Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 LaTeX Info: Redefining \. on input line 68.
 LaTeX Info: Redefining \% on input line 68.
 
-[15]
+[16]
 \openout2 = `Capitulos/Capitulo7.aux'.
 
  (Capitulos/Capitulo7.tex
 Cap\'{\i }tulo 6.
 )
 
-[16
+[17
 
 
 
@@ -741,14 +751,14 @@ Cap\'{\i }tulo 6.
 Ap\'{e}ndice A.
 )
 
-[17
+[18
 
 
 
 
 ] (MiTesis.bbl
 
-[18
+[19
 
 
 
@@ -763,7 +773,7 @@ Overfull \vbox (9.33333pt too high) has occurred while \output is active []
 LaTeX Info: Redefining \. on input line 90.
 LaTeX Info: Redefining \% on input line 90.
 
-[19] (MiTesis.aux (Capitulos/Portadas.aux)
+[20] (MiTesis.aux (Capitulos/Portadas.aux)
 LaTeX Info: Redefining \. on input line 12.
 LaTeX Info: Redefining \% on input line 12.
  (Capitulos/Dedicatoria.aux)
@@ -777,14 +787,20 @@ L3 programming layer <2024-11-02>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package rerunfilecheck Info: File `MiTesis.out' has not changed.
-(rerunfilecheck)             Checksum: 3BA676E0F1E283EF2767497B08C310BD;4230.
+
+Package rerunfilecheck Warning: File `MiTesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `MiTesis.out':
+(rerunfilecheck)             Before: 6E96FB20E4556377EC8F087A75F70A92;4059
+(rerunfilecheck)             After:  26CCDDF765B94C1BCED7F4432A589C08;4296.
  ) 
 Here is how much of TeX's memory you used:
- 12633 strings out of 473682
- 202204 string characters out of 5719215
- 606461 words of memory out of 5000000
- 35392 multiletter control sequences out of 15000+600000
+ 12642 strings out of 473682
+ 202315 string characters out of 5719215
+ 606521 words of memory out of 5000000
+ 35397 multiletter control sequences out of 15000+600000
  564984 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,9n,79p,938b,782s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -801,9 +817,9 @@ AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users
 <C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
 ti12.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
 nts/latxfont/lasy10.pfb>
-Output written on MiTesis.pdf (27 pages, 798382 bytes).
+Output written on MiTesis.pdf (28 pages, 807316 bytes).
 PDF statistics:
- 467 PDF objects out of 1000 (max. 8388607)
- 91 named destinations out of 1000 (max. 500000)
+ 488 PDF objects out of 1000 (max. 8388607)
+ 95 named destinations out of 1000 (max. 500000)
  220 words of extra memory for PDF output out of 10000 (max. 10000000)
 

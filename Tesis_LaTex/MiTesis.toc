@@ -18,10 +18,10 @@
 \contentsline {subsection}{\numberline {5.2.2}Proceso de Adquisición In Situ}{13}{subsection.5.2.2}%
 \contentsline {section}{\numberline {5.3}Machine Learning (ML) en la Geofísica}{13}{section.5.3}%
 \contentsline {section}{\numberline {5.4}Random Forests}{15}{section.5.4}%
-\contentsline {subsection}{\numberline {5.4.1}Propiedades de Random Forests}{15}{subsection.5.4.1}%
-\contentsline {subsection}{\numberline {5.4.2}Robustez y Precisión}{15}{subsection.5.4.2}%
-\contentsline {subsubsection}{\numberline {5.4.2.1}Manejo de Datos Complejos}{15}{subsubsection.5.4.2.1}%
-\contentsline {subsection}{\numberline {5.4.3}Random Forests para Clasificación y Regresión}{15}{subsection.5.4.3}%
-\contentsline {subsection}{\numberline {5.4.4}Aplicaciones de Random Forests en Geofísica}{15}{subsection.5.4.4}%
-\contentsline {chapter}{\numberline {6}RESULTADOS Y CONCLUSIONES}{16}{chapter.6}%
-\contentsline {chapter}{\numberline {A}Apéndice I}{17}{appendix.Alph1}%
+\contentsline {subsection}{\numberline {5.4.1}Siembra del bosque}{15}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}Predicciones del bosque}{15}{subsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.4.3}Margen y Error de Generalización}{16}{subsection.5.4.3}%
+\contentsline {subsection}{\numberline {5.4.4}Robustez y Convergencia}{16}{subsection.5.4.4}%
+\contentsline {subsection}{\numberline {5.4.5}Aplicaciones de Random Forests en Geofísica}{16}{subsection.5.4.5}%
+\contentsline {chapter}{\numberline {6}RESULTADOS Y CONCLUSIONES}{17}{chapter.6}%
+\contentsline {chapter}{\numberline {A}Apéndice I}{18}{appendix.Alph1}%

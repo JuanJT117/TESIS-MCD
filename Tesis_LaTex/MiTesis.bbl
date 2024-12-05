@@ -1,4 +1,4 @@
-\begin{thebibliography}{17}
+\begin{thebibliography}{18}
 \ProvideTextCommand{\guillemotleft}{OT1}{%
   \leavevmode\raise .27ex\hbox{$\scriptscriptstyle\ll$}}
 \ProvideTextCommand{\guillemotright}{OT1}{%
@@ -53,6 +53,13 @@
   \enquote{Review of geoelectrical methods in geophysical exploration},
   \textit{Nigerian Journal of Physics}, \textbf{32}(3), p\'ags. 141--158.
 \bibAnnoteFile{igboama2023}
+
+\bibitem[{Lan \textit{et al.}(2020)Lan, Hu, Jiang, Yang y Zhao}]{lan2020}
+\textsc{Lan, T.}, \textsc{H.~Hu}, \textsc{C.~Jiang}, \textsc{G.~Yang} y
+  \textsc{Z.~Zhao} (2020), \enquote{A comparative study of decision tree,
+  random forest, and convolutional neural network for spread-F identification},
+  \textit{Advances in Space Research}, \textbf{65}(8), p\'ags. 2052--2061.
+\bibAnnoteFile{lan2020}
 
 \bibitem[{Lay y Wallace(1995)}]{lay1995}
 \textsc{Lay, T.} y \textsc{T.~C. Wallace} (1995), \textit{Modern global

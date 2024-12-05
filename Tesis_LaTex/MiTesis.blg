@@ -18,8 +18,6 @@ A level-1 auxiliary file: Capitulos/Capitulo4.aux
 Reallocating 'name_of_file' (item size: 1) to 25 items.
 A level-1 auxiliary file: Capitulos/Capitulo-5.aux
 Reallocating 'name_of_file' (item size: 1) to 24 items.
-A level-1 auxiliary file: Capitulos/Capitulo6.aux
-Reallocating 'name_of_file' (item size: 1) to 24 items.
 A level-1 auxiliary file: Capitulos/Capitulo7.aux
 Reallocating 'name_of_file' (item size: 1) to 24 items.
 A level-1 auxiliary file: Capitulos/Apendice1.aux
@@ -29,44 +27,44 @@ Reallocating 'name_of_file' (item size: 1) to 9 items.
 Database file #1: MiBiblio.bib
 Reallocating 'wiz_functions' (item size: 4) to 6000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
-You've used 17 entries,
+You've used 18 entries,
             3461 wiz_defined-function locations,
-            770 strings with 7933 characters,
-and the built_in function-call counts, 14559 in all, are:
-= -- 1405
-> -- 439
-< -- 20
-+ -- 200
-- -- 135
-* -- 966
-:= -- 1616
-add.period$ -- 17
-call.type$ -- 17
-change.case$ -- 113
-chr.to.int$ -- 17
-cite$ -- 34
-duplicate$ -- 1482
-empty$ -- 1009
-format.name$ -- 190
-if$ -- 2940
+            775 strings with 8143 characters,
+and the built_in function-call counts, 16123 in all, are:
+= -- 1585
+> -- 486
+< -- 21
++ -- 226
+- -- 150
+* -- 1063
+:= -- 1759
+add.period$ -- 18
+call.type$ -- 18
+change.case$ -- 122
+chr.to.int$ -- 18
+cite$ -- 36
+duplicate$ -- 1651
+empty$ -- 1092
+format.name$ -- 208
+if$ -- 3258
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 179
-newline$ -- 89
-num.names$ -- 68
-pop$ -- 539
+missing$ -- 193
+newline$ -- 93
+num.names$ -- 72
+pop$ -- 582
 preamble$ -- 1
-purify$ -- 113
+purify$ -- 122
 quote$ -- 0
-skip$ -- 816
+skip$ -- 931
 stack$ -- 0
-substring$ -- 623
-swap$ -- 1099
-text.length$ -- 8
+substring$ -- 706
+swap$ -- 1251
+text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 126
+type$ -- 135
 warning$ -- 0
-while$ -- 82
+while$ -- 89
 width$ -- 0
-write$ -- 214
+write$ -- 226

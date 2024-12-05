@@ -171,10 +171,34 @@
 	Dada la naturaleza de los datos de SEV's, heterogéneos, discontinuos y no lineales, es conveniente abordar su analistas desde un enfoque no paramétrico, teniendo esto en cuanta, la técnica Random Forests destaca siendo eficaz en la tarea de clasificación y regresión, teniendo algunos beneficios como son la reducción del sobre ajuste, interpretación de variables, resistencia al aliasing.
 	
 	\section{Random Forests} 
-		La herramienta de Random Forests,  de acuerdo con \citet{breiman2001} es un  clasificador que emplea conjuntos de arboles de decisión, previamente entrenados, estos son combinados por votación 
-		\subsection{Propiedades de Random Forests}
-		\subsection{Robustez y Precisión}
-			\subsubsection{Manejo de Datos Complejos}
-		\subsection{Random Forests para Clasificación y Regresión}
+	
+		La técnica Random Forests emplea múltiples arboles de decisión independientes entre si, donde cada árbol realiza una votación de clases, donde se selecciona la más popular de la entrada de cada árbol realizando una combinación de salida, permitiendo realizar una clasificación de características complejas o realizar regresiones de datos complejos multivariables \citep{breiman2001, lan2020}.
+		
+		La herramienta de Random Forests, de acuerdo con \citet{breiman2001} emplea tres elementos clave en el proceso de entrenamiento, bagging, selección aleatoria de características y agregación por votación, resultando en la combinación del los resultados en una predicción o clasificación robusta y ajustada \citep{lan2020}.
+		
+		\subsection{Siembra del bosque}
+		
+			\citet{breiman2001} nos dice que Random Forests es un conjunto de clasificadores $H(x,\theta_{k})$, $x$ es un vector de entrada y $\theta_{k}$ corresponden a vectores aleatorios independientes.
+			
+			A partir de los datos de entrada, se generan subconjuntos de datos de entrenamiento, estos se seleccionan con cierta aleatoriedad empleando la técnica bootstrap sampling, en cada nodo de los subconjuntos de entrenamiento se selecciona un subconjunto de características por votación de popularidad, dejando crecer cada árbol sin realizar poda hasta completar los criterios de finalización, es decir un numero de instancias preestablecido\citep{breiman2001}.
+			
+		\subsection{Predicciones del bosque}
+		
+			
+			 La salida de un Random Forest para una entrada $x$ se basa en las predicciones individuales de los árboles para cada clase $h_{k}(x)$, se realiza un conteo de cada clase, producto de la predicción de cada árbol, sumando las salidas $I(h_{k}(x)=c)$, y finalmente se selecciona clase con mayor numero de predicciones, obteniendo la predicción de clasificación $H(x)$,donde $x$ es una función indicadora que vale 1 si $h_{k}(x)=c$, y $0$ en caso contrario \citep{breiman2001}.
+			
+			\begin{equation}
+				H(x) = \text{argmax}_c \sum_{k=1}^K I(h_k(x) = c)
+			\end{equation}
+
+			
+			El proceso de la regresión se obtiene a partir de la media aritmética de cada predicción individual, donde cada árbol produce un valor numérico $h_{k}(x)$ correspondiente a cada $x$, al corresponder con promedio de las predicciones se le otorga mas estabilidad cuando tenemos un numero elevado de arboles  y un conjunto de datos grande, entendiéndolo como un modelo central que incorpora información de cada árbol \citep{breiman2001}. 
+			
+			\begin{equation}
+					H(x) = \frac{1}{K} \sum_{k=1}^K h_k(x)	
+			\end{equation}
+
+		\subsection{Margen y Error de Generalización}
+		\subsection{Robustez y Convergencia}
 		\subsection{Aplicaciones de Random Forests en Geofísica}
 	
