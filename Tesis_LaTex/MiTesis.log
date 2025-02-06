@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.19)  8 JAN 2025 23:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.19)  6 FEB 2025 00:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -536,6 +536,21 @@ Cap\'{\i }tulo 1.
 
  (Capitulos/Capitulo2.tex
 Cap\'{\i }tulo 2.
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
 )
 
 [2
@@ -684,45 +699,55 @@ LaTeX Info: Redefining \% on input line 126.
 
 [11 <./Imagenes/1.png> <./Imagenes/2.png> <./Imagenes/3.png>]
 
-LaTeX Info: Redefining \. on input line 141.
-LaTeX Info: Redefining \% on input line 141.
+LaTeX Info: Redefining \. on input line 145.
+LaTeX Info: Redefining \% on input line 145.
 
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 141.
-LaTeX Info: Redefining \% on input line 141.
+LaTeX Info: Redefining \. on input line 145.
+LaTeX Info: Redefining \% on input line 145.
 
 [12]
 
-LaTeX Info: Redefining \. on input line 159.
-LaTeX Info: Redefining \% on input line 159.
+LaTeX Info: Redefining \. on input line 168.
+LaTeX Info: Redefining \% on input line 168.
 
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 159.
-LaTeX Info: Redefining \% on input line 159.
+LaTeX Info: Redefining \. on input line 168.
+LaTeX Info: Redefining \% on input line 168.
 
 [13]
 
-LaTeX Info: Redefining \. on input line 176.
-LaTeX Info: Redefining \% on input line 176.
+LaTeX Info: Redefining \. on input line 177.
+LaTeX Info: Redefining \% on input line 177.
 
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 176.
-LaTeX Info: Redefining \% on input line 176.
+LaTeX Info: Redefining \. on input line 177.
+LaTeX Info: Redefining \% on input line 177.
 
 [14]
 
-LaTeX Info: Redefining \. on input line 189.
-LaTeX Info: Redefining \% on input line 189.
+LaTeX Info: Redefining \. on input line 194.
+LaTeX Info: Redefining \% on input line 194.
 
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 189.
-LaTeX Info: Redefining \% on input line 189.
+LaTeX Info: Redefining \. on input line 194.
+LaTeX Info: Redefining \% on input line 194.
 
-[15])
+[15]
+
+LaTeX Info: Redefining \. on input line 211.
+LaTeX Info: Redefining \% on input line 211.
+
+Overfull \vbox (11.36665pt too high) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 211.
+LaTeX Info: Redefining \% on input line 211.
+
+[16])
 
 LaTeX Info: Redefining \. on input line 68.
 LaTeX Info: Redefining \% on input line 68.
@@ -732,14 +757,14 @@ Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 LaTeX Info: Redefining \. on input line 68.
 LaTeX Info: Redefining \% on input line 68.
 
-[16]
+[17]
 \openout2 = `Capitulos/Capitulo7.aux'.
 
  (Capitulos/Capitulo7.tex
 Cap\'{\i }tulo 6.
 )
 
-[17
+[18
 
 
 
@@ -751,14 +776,14 @@ Cap\'{\i }tulo 6.
 Ap\'{e}ndice A.
 )
 
-[18
+[19
 
 
 
 
 ] (MiTesis.bbl
 
-[19
+[20
 
 
 
@@ -773,7 +798,7 @@ Overfull \vbox (9.33333pt too high) has occurred while \output is active []
 LaTeX Info: Redefining \. on input line 90.
 LaTeX Info: Redefining \% on input line 90.
 
-[20] (MiTesis.aux (Capitulos/Portadas.aux)
+[21] (MiTesis.aux (Capitulos/Portadas.aux)
 LaTeX Info: Redefining \. on input line 12.
 LaTeX Info: Redefining \% on input line 12.
  (Capitulos/Dedicatoria.aux)
@@ -791,8 +816,8 @@ Package rerunfilecheck Info: File `MiTesis.out' has not changed.
 (rerunfilecheck)             Checksum: 26CCDDF765B94C1BCED7F4432A589C08;4296.
  ) 
 Here is how much of TeX's memory you used:
- 12643 strings out of 473682
- 202333 string characters out of 5719215
+ 12644 strings out of 473682
+ 202340 string characters out of 5719215
  606522 words of memory out of 5000000
  35398 multiletter control sequences out of 15000+600000
  564984 words of font info for 62 fonts, out of 8000000 for 9000
@@ -811,9 +836,9 @@ AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users
 <C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
 ti12.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
 nts/latxfont/lasy10.pfb>
-Output written on MiTesis.pdf (28 pages, 807955 bytes).
+Output written on MiTesis.pdf (29 pages, 809079 bytes).
 PDF statistics:
- 492 PDF objects out of 1000 (max. 8388607)
- 95 named destinations out of 1000 (max. 500000)
+ 494 PDF objects out of 1000 (max. 8388607)
+ 96 named destinations out of 1000 (max. 500000)
  228 words of extra memory for PDF output out of 10000 (max. 10000000)
 

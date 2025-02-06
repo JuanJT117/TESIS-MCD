@@ -121,8 +121,19 @@
 	Previo al trabajo de adquisición se realiza un análisis de entorno, en el cual se verifica la viabilidad del arreglo dadas las condiciones del sitio, considerando lo siguiente: espacio disponible en el sitio de estudio, profundidad de exploración, nivel de ruido eléctrico, interferencias con la estabilidad del potencial natural del subsuelo, profundidad del objeto de exploración y dimensiones aproximadas del mismo.
 	
 		\subsection{Intervalo de Muestreo en SEV}
-		
-			El intervalo de muestreo empleado durante la adquisición de un SEV es un parámetro crítico que influye en la calidad y precisión de los datos geofísicos adquiridos, ya que esta estrechamente relacionado con la resolución vertical que deseamos de acuerdo al objeto de estudio. Para lograr este objetivo es necesario considerar el Teorema de Muestreo de Nyquist, el cual, es un principio fundamental en el procesamiento de señales analógicas y digitales, donde establece las condiciones mínimas necesarias para una reconstrucción una señal analógica a partir de muestras discretas \citep{alvarado2010}.
+			
+			El intervalo de muestreo empleado durante la adquisición de un SEV es un parámetro crítico que influye en la calidad y precisión de los datos geofísicos adquiridos, ya que esta estrechamente relacionado con la resolución vertical que deseamos de acuerdo al objeto de estudio. Para lograr este objetivo es necesario considerar distintas condiciones, como son:
+			
+			\begin{itemize}
+				\item Los espesores de cada unidad.
+				\item La distribución de las distintas unidades.
+				\item Profundidad de investigación
+				\item Ruido en la señal.
+			\end{itemize}
+			
+			Para establecer un intervalo de muestreo apropiado, se deben considerar el Teorema de Muestreo de Nyquist y El teorema de Shannon-Hartley (teorema de codificación de canal ruidoso)
+			
+			 El Teorema de Muestreo de Nyquist, el cual, es un principio fundamental en el procesamiento de señales analógicas y digitales, donde establece las condiciones mínimas necesarias para una reconstrucción una señal analógica a partir de muestras discretas \citep{alvarado2010}.
 			
 			El teorema de de muestreo de nyquist nos garantiza las condiciones necesarias y suficientes para llevar a cabo una adquisición exitosa de muestreo de una señal, llámese distribución de resistividad en un medio heterogéneo y discontinuo \citep{alvarado2010}.
 			
@@ -132,7 +143,9 @@
 			
 			Donde la frecuencia de muestreo $f_{s}$ es por lo menos dos veces mayor a la frecuencia máxima $f_{max}$ conocida, cuando el teorema no se cumple se genera una distorsión en la señal, sumando las frecuencias altas incompletas a la señal natural de baja frecuencia, generando ruido, y problemas de interpretación, se conoce como aliasing \citep{alvarado2010}. 
 			
+			Considerando el medio geologico como una region con precencia coanstante de ruido electrico de fuentes tanto naturales como humanas, es impresindible considerar el teorema de Shannon-Hartley aplicando apilamiento de muestreo como metodo de reduccion de la relacion ruido señal, durante la adquisicion de datos; esto quiere decir calcular el promedio de muestreos cointinuos en un intervalo definido de aperturas entre electrodos.
 			
+			%% agregar ecuacion de shanon y desgrlosar sus elementos e interpretacion
 				
 			\subsubsection{Factores que Determinan el Intervalo de Muestreo}
 		
@@ -147,6 +160,8 @@
 				\begin{equation}
 					\Delta x \leq \frac{\lambda_{min} }{2}
 				\end{equation}
+				
+				
 			
 		\subsection{Proceso de Adquisición In Situ}
 			La adquisición de datos se realiza mediante la lectura directa en campo, al inducir corriente continua empleando un resistivimetro mediante de los electrodos de corriente A ($C_{1}$) y B ($C_{2}$), mientras se realiza la lectura de potencia en los electrodos M ($P_{1}$) y N ($P_{2}$), la lectura se realiza en intervalos regulares en instantes de inyección de corriente distintos \citep{telford1990}.
