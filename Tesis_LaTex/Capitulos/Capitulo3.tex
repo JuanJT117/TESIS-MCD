@@ -1,8 +1,18 @@
 \chapter{JUSTIFICACIÓN}
-Existen múltiples aplicaciones de ML y DL en el procesamiento, modelado e interpretación geofísica (INSERTAR REFERENCIAS), así como aplicaciones directas por software en las disciplinas mas comerciales (Sísmica de exploración de hidrocarburos PETREL, Shlumberger,  INSERTAR REFERENCIA).
+Existen múltiples aplicaciones de ML y DL en el procesamiento, modelado e interpretación geofísica \citep{li2024, liu2020,el2001,wrona2018}, algunas de estas aplicaciones corresponden a implementaciones académicas, al igual es posible identificar aplicaciones comerciales implementadas en software principalmente de exploración sísmica de hidrocarburos \citep{diaferia2024high, panebianco2024automated}.\\
+
 
 %Es de esperar que al implementar ciencias de datos en diversas áreas de la ciencia, se optimicen aspectos básicos, mejorando la analítica e interpretación de resultados, o bien, modelando predicciones de tendencias.
 
-En este sentido, es oportuna la implementación de modelos de regresión y clasificación durante la adquisición de datos, en particular al ejecutar muestreo de Sondeo Eléctrico Vertical (SEV, VES por sus siglas en inglés), el proceso de adquisición \textit{in situ} consta de un intervalo de muestreo predefinido, el cual está acotado de acuerdo al objetivo de exploración, este análisis previo es un factor determinante, debido a que establecer un intervalo de muestreo correcto permite identificar el objetivo, unidades geológicas, acuíferos, fallas, fracturas, estructuras antropogenicas, etc.. , es decir mantener un intervalo de muestreo menor a la frecuencia de ocurrencia del objetivo de estudio, por lo que el éxito de la exploración dependerá en su totalidad de la planeación previa de la adquisición.
+La aplicación de herramientas de ML durante la ejecutar de muestreo de Sondeo Eléctrico Vertical (SEV), en particular durante el proceso de adquisición \textit{in situ}, presenta la posibilidad de evaluar y ampliar el intervalo de muestreo original, mejorando la adquisición tradicional, permitiendo evaluar el muestreo contra la regresiones y establecer nuevos intervalos de oportunidad.\\
 
-De manera que un modelo que permita clasificar las lecturas y generar una regresión para proponer muestreos adicionales \textit{in situ} tendría la ventaja de optimizar y mejorar la calidad de la adquisición y muestreo de las frecuencias deseadas.
+Durante el muestreo tradicional los intervalos se diseñan considerando el objetivo de exploración (idealmente), este análisis previo es un factor determinante, en esta etapa se establece el intervalo de muestreo que permitiría identificar el objeto de exploración, este objeto de exploración pueden ser unidades geológicas, acuíferos, fallas, zonas de fracturas, estructuras antropogénicas, etc.\\
+
+De manera general se busca mantener un intervalo de muestreo menor a la frecuencia de ocurrencia del objetivo de estudio, por lo que el éxito de la exploración dependerá en su totalidad de la planeación previa de la adquisición, lo que implicaría conocer previamente la conformación, distribución y espesor de cada unidad, lo que resulta irrisorio.\\
+
+De manera que un modelo entrenado permita generar múltiples regresiones e identificar regiones de interés no cubiertas por el muestreos y de esta manera generar puntos adicionales \textit{in situ} optimizando la adquisición de datos e impactando en la calidad del muestreo , mejorando el acotamiento de las frecuencias identificadas.\\
+
+Pese a existir aplicaciones de ML implementadas en geofísica, no se identifica alguna enfocada este esta problemática en particular, sin embargo hay aplicaciones en otros campos de estudio con un enfoque en el muestreo y clasificación de datos no paramétricos \citep{entezami2022non, bkassiny2013multidimensional, shi2021non} empleando técnicas como Dirichlet Process Mixture Model (DPMM), radial basis function network (RBFN),  Multiple Point Statistics (MPS) y Bayesian Compressive Sensing (BCS).\\
+
+
+porque random forest y su copmaracion con BCS
