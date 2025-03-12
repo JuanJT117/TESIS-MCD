@@ -27,20 +27,71 @@ Con este enfoque, se asegura que el intervalo de muestreo esté alineado con el 
 
 El uso de Random Forests permite abordar la complejidad y la variabilidad inherentes al proceso de adquisición de datos en el contexto de exploración geofísica. Este enfoque optimiza el proceso de muestreo, mejora la calidad de los datos obtenidos y proporciona una base para generar predicciones más precisas, contribuyendo así al éxito de las campañas de exploración.
 
-%\subsection{Necesidad de Enfoques Alternativos: Machine Learning (ML)}
-%\section{Optimización del Intervalo de Muestreo con Random Forests} 
-%\subsection{Optimización de Muestreo en SEV con ML}
-%\subsection{Aplicación de Random Forests en la Regresión de Resistividad}
-%\subsection{Predicción de Resistividad en Zonas No Muestreadas}
-%\subsection{Generación de Intervalos de Muestreo Adicionales}
-%\subsection{Ajuste Dinámico de Intervalos de Muestreo}
-%\subsection{Mejora en la Calidad de los Datos Geofísicos}
-%\subsection{Casos de Estudio de Optimización del Muestreo con Random Forests}
+\section{Variables de Entrada}
+	Al observar las ecuaciones 5.1, 5.3 y 5.4, es posible identificar las variables involucradas en el calculo de la resistividad aparente, bien se realice mediante un equipo automático o se establezca la configuración de la adquisición desde el entendimiento y desglose de las ecuaciones que describen el fenómeno.
+		
+	Como observamos en la tabla \ref{tab:T1}, se cuenta con 8 campos iniciales, definidos durante el proceso de planeación de adquisición, 3 variables medidas en campo y la resistividad aparente resultante de la ecuación 5.4, en donde esta ultima es el resultado de la multiplicación del factor geométrico $k$ 
+	
+% Please add the following required packages to your document preamble:
+% \usepackage{graphicx}
+% \usepackage[table,xcdraw]{xcolor}
+% Beamer presentation requires \usepackage{colortbl} instead of \usepackage[table,xcdraw]{xcolor}
+\begin{table}[]
+	\resizebox{\columnwidth}{!}{%
+		\begin{tabular}{c|c|c|c|c|c|l|l|l|l|l|l|l|l|l|l|l|l|l|l}
+			\rowcolor[HTML]{C0C0C0} 
+			\textbf{Z} & \textbf{K} & \textbf{AB/2} & \textit{\textbf{AB/5  \textgreater{}}} & \textit{\textbf{MN}} & \textit{\textbf{\textgreater AB/20}} & \multicolumn{1}{c|}{\cellcolor[HTML]{C0C0C0}\textbf{Pn}} & \multicolumn{1}{c|}{\cellcolor[HTML]{C0C0C0}\textbf{Pi}} & \multicolumn{1}{c|}{\cellcolor[HTML]{C0C0C0}\textbf{I}} & \multicolumn{1}{c|}{\cellcolor[HTML]{C0C0C0}\textbf{Pn}} & \multicolumn{1}{c|}{\cellcolor[HTML]{C0C0C0}\textbf{Pi}} & \multicolumn{1}{c|}{\cellcolor[HTML]{C0C0C0}\textbf{I}} & \multicolumn{1}{c|}{\cellcolor[HTML]{C0C0C0}\textbf{Pn}} & \multicolumn{1}{c|}{\cellcolor[HTML]{C0C0C0}\textbf{Pi}} & \multicolumn{1}{c|}{\cellcolor[HTML]{C0C0C0}\textbf{I}} & \multicolumn{1}{c|}{\cellcolor[HTML]{C0C0C0}\textbf{PPn}} & \multicolumn{1}{c|}{\cellcolor[HTML]{C0C0C0}\textbf{PPi}} & \multicolumn{1}{c|}{\cellcolor[HTML]{C0C0C0}\textbf{U}} & \multicolumn{1}{c|}{\cellcolor[HTML]{C0C0C0}\textbf{PI}} & \multicolumn{1}{c}{\cellcolor[HTML]{C0C0C0}\textbf{Rha}} \\ \hline
+			\rowcolor[HTML]{FFFFFF} 
+			\textbf{1.8} & \textbf{56.549} & \textbf{3} & \textit{\textbf{1.2}} & \textit{\textbf{0.5}} & \textit{\textbf{0.3}} & 1 & 6 & 15 & 0 & 6 & 15 & 0 & 5 & 15 & 0.3 & 5.7 & 5.3 & 15.0 & 20.11 \\ \hline
+			\rowcolor[HTML]{FFFFFF} 
+			\textbf{2.4} & \textbf{100.531} & \textbf{4} & \textit{\textbf{1.6}} & \textit{\textbf{0.5}} & \textit{\textbf{0.4}} & 12 & 19 & 3 & 0 & 25 & 17 & 5 & 24 & 13 & 5.7 & 22.7 & 17.0 & 11.0 & 176.45 \\ \hline
+			\rowcolor[HTML]{FFFFFF} 
+			\textbf{3} & \textbf{157.080} & \textbf{5} & \textit{\textbf{2}} & \textit{\textbf{0.5}} & \textit{\textbf{0.5}} & 8 & 54 & 73 & 8 & 52 & 85 & 8 & 40 & 83 & 8.0 & 48.7 & 40.7 & 80.3 & 80.28 \\ \hline
+			\rowcolor[HTML]{FFFFFF} 
+			\textbf{3} & \textbf{31.416} & \textbf{5} & \textit{\textbf{2}} & \textit{\textbf{2.5}} & \textit{\textbf{0.5}} & 52 & 508 & 42 & 52 & 648 & 72 & 52 & 606 & 21 & 52.0 & 587.3 & 535.3 & 45.0 & 476.64 \\ \hline
+			\rowcolor[HTML]{FFFFFF} 
+			\textbf{4.8} & \textbf{80.425} & \textbf{8} & \textit{\textbf{3.2}} & \textit{\textbf{2.5}} & \textit{\textbf{0.8}} & 48 & 60 & 6 & 48 & 62 & 7 & 51 & 59 & 4 & 49.0 & 60.3 & 11.3 & 5.7 & 160.85 \\ \hline
+			\rowcolor[HTML]{FFFFFF} 
+			\textbf{6} & \textbf{125.664} & \textbf{10} & \textit{\textbf{4}} & \textit{\textbf{2.5}} & \textit{\textbf{1}} & 52 & 60 & 2 & 52 & 60 & 5 & 52 & 60 & 5 & 52.0 & 60.0 & 8.0 & 4.0 & 301.59 \\ \hline
+			\rowcolor[HTML]{FFFFFF} 
+			\textbf{9} & \textbf{282.743} & \textbf{15} & \textit{\textbf{6}} & \textit{\textbf{2.5}} & \textit{\textbf{1.5}} & 52 & 76 & 54 & 52 & 78 & 87 & 50 & 64 & 44 & 51.3 & 72.7 & 21.3 & 61.7 & 100.04
+		\end{tabular}%
+	}
+	\caption{Ejemplo de atributos empleados en el calculo de la resistividad aparente.}
+	\label{tab:T1}
+\end{table}
+	
+	Obteniendo finalmente una tabla con valores de resistividad aparente en intervalos predefinidos de profundidad.
+	
+	Se integran datos generados durante la planeación de la adquisición y valores medidos durante la etapa de adquisición; Z= Profundidad aparente de exploración; K= Factor Geométrico; AB/2= Apertura Total de muestreo;  MN= Rangos admisibles para apertura de electrodos de potencial; Pn= Potencial natural; Pi= Potencial inducido; I= Corriente Inducida; PPn= Promedio del potencial natural; Promedio de potencial inducido; U= diferencia entre PPn y PPi; PI= Promedio de corriente inducida; Rha= Resistividad aparente ponderada.
+	
+	
+	\subsection{Datos de entrada}
+		
+		\subsubsection{Parámetros para la generación de valores SEV’s}
+		\subsubsection{Resistividad aparente}
+		\subsubsection{Atributos cualitativos asociados a la curva de resistividad}
+		\subsubsection{Limpieza de datos}
 
-%\section{Ventajas y Limitaciones del Enfoque Propuesto} 
-%\subsection{Ventajas de Random Forests en la Geofísica}
-%\subsubsection{Mejora en la Precisión de Predicción}
-%\subsubsection{Reducción de Incertidumbre en la Interpretación}
-%\subsubsection{Mayor Eficiencia en la Exploración}
-%\subsection{Limitaciones y Desafíos del Modelo}
-%\subsubsection{Complejidad Computacional}
+	\subsection{Clasificación, transformación y escalado de los datos}
+		\subsubsection{Normalización o estandarización de resistividades si se observan grandes variaciones}
+		\subsubsection{Transformación logarítmica de resistividad para reducir el sesgo de valores extremos}
+		\subsubsection{Codificación de categorías litológicas si se incluyen como variable adicional}
+
+\section{Diseño del Modelo Random Forest}
+	\subsection{Clasificación y regresión}
+	\subsection{Configuración inicial del modelo, numero de árboles, profundidad, muestras y muestra mínima}
+	\subsection{Configuración y optimización de hiperparametros}
+
+\section{Preparación del dataset para la implementación del modelo}
+
+\section{Implementación del modelo}
+\subsection{Entrenamiento del modelo}
+\subsection{Mapas de probabilidad y entrenamiento de regresión}
+
+\section{Evaluación del modelo}
+	\subsection{Regresión y validación cruzada}
+	\subsection{Análisis de incertidumbre}
+
+
+\section{Reporte estadístico}
