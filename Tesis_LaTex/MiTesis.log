@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.19)  11 MAR 2025 22:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.19)  12 MAR 2025 23:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -814,15 +814,15 @@ LaTeX Info: Redefining \% on input line 20.
 [20]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 39.
+               Default added (so using `tbp') on input line 41.
 
-LaTeX Font Info:    Trying to load font information for OML+cmr on input line 5
-9.
+LaTeX Font Info:    Trying to load font information for OML+cmr on input line 6
+1.
 (C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/base\omlcmr.fd
 File: omlcmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/bx/it' in size <12> not available
-(Font)              Font shape `OML/cmm/b/it' tried instead on input line 59.
+(Font)              Font shape `OML/cmm/b/it' tried instead on input line 61.
 
 
 LaTeX Info: Redefining \. on input line 67.
@@ -854,7 +854,7 @@ LaTeX Info: Redefining \. on input line 70.
 LaTeX Info: Redefining \% on input line 70.
 
 [23]
-Overfull \vbox (281.71826pt too high) has occurred while \output is active []
+Overfull \vbox (241.52602pt too high) has occurred while \output is active []
 
 
 
@@ -940,13 +940,19 @@ L3 programming layer <2024-11-02>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package rerunfilecheck Info: File `MiTesis.out' has not changed.
-(rerunfilecheck)             Checksum: C8372E67CE1B3822C3BA2E968654BE8E;8278.
+
+Package rerunfilecheck Warning: File `MiTesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `MiTesis.out':
+(rerunfilecheck)             Before: C8372E67CE1B3822C3BA2E968654BE8E;8278
+(rerunfilecheck)             After:  2005E10BF3C0E2196A344ADEE5FE78AF;8189.
  ) 
 Here is how much of TeX's memory you used:
  13346 strings out of 473682
  213245 string characters out of 5719215
- 670947 words of memory out of 5000000
+ 672212 words of memory out of 5000000
  36039 multiletter control sequences out of 15000+600000
  565701 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -966,7 +972,7 @@ cm/cmr8.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
 sfonts/cm/cmsy10.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/
 public/amsfonts/cm/cmti12.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fon
 ts/type1/public/amsfonts/latxfont/lasy10.pfb>
-Output written on MiTesis.pdf (38 pages, 869211 bytes).
+Output written on MiTesis.pdf (38 pages, 870072 bytes).
 PDF statistics:
  672 PDF objects out of 1000 (max. 8388607)
  135 named destinations out of 1000 (max. 500000)
