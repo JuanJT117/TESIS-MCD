@@ -67,21 +67,44 @@ El uso de Random Forests permite abordar la complejidad y la variabilidad inhere
 
 	\subsection{Datos de entrada}
 		
-		Para los datos de entrada se emplearon levantamientos de SEV previamente procesados e interpretados en correlación con muestreo directo por sondeo de penetración estándar (SPT por sus siglas en inglés), correspondientes a ambiente de deposito sedimentario y flujos volcánico, en ambos caso subyaciendo a unidades sedimentarias recientes.
+		Para los datos de entrada se emplearon levantamientos de SEV, empleando la configuración geométrica Shlumberger, previamente procesados e interpretados, ya sea mediante correlación geológica o con muestreo directo por sondeo de penetración estándar (SPT por sus siglas en inglés), correspondientes a ambiente de deposito sedimentario y flujos volcánico, en ambos caso subyaciendo a unidades sedimentarias recientes.
 		
 		A partir de estos resultados etiquetados, valores de resistividad aparente, es como de modela variaciones, modificando el espesor de las unidades, ya que cada muestreo de resistividad aparente integra la respuesta conjunta de las unidades que la preceden, es decir las capas geoeléctricas por arriba de la profundidad aparente de exploración, para iguar las condiciones en los modelos que integran los datos de entrenamiento, se emplea la Librería PyGIMLI, la cual esta preparada para realizar esta tarea.
 		
+		Los datos corresponden a trabajos realizados en en distintas condiciones geológicas, correspondientes a proyectos de exploración hidrológica y minera, se integran un total de 99999 SEV's, procesados, interpretados y validados, a partir de los cuales se generaran las variantes para generar la base de entrenamiento. 
+		
+		La información particular de nombres de proyectos, localidad, ubicación geográfica o cualquier información que pueda relacionar directamente al propietario del proyecto, son omitidos. 
+		
 		\subsubsection{Limpieza de datos}
 		
-		\subsubsection{Generación de valores SEV’s}
+		En esta etapa se consideran los siguientes criterios para la selección y limpieza de datos, permitiendo detectar y corregir errores, identificar valores atípicos en el muestreo así como datos inconsistentes.
+		
+		\begin{description}
+			\item[1.- Interpretacion geologica de los perfiles] Deberán incluir interpretación geológica de los resultados de inversión, es decir, es necesario conocer la unidad geológica correspondiente al modelo de resistividad, correspondiendo a etiquetas de datos. 
+			\item[2.- Muestreo continuos a intervalos regularres] En caso de que no se cuente con un muestreo adecuado, se integraran los intervalos faltantes, de manera que se modele la señal completa en un muestreo extenso, considerando como mínimo 30 datos de muestreo por sondeo.  
+			\item[3.- profundidad de exploracion calculada] Poder identificar durante la adquisición, la profundidad de exploración y los valores de resistividad aparente en el medio, permite detectar variaciones o puntos de inflexión en la curva de la señal.
+			\item[4.- Valores de resitividad atipicos] Estos errores por inconsistencia pueden surgir por una mala lectura en campo, al no identificar un cambio de polaridad en el medio.
+			\item[5.- Valores duplicados ] identificación de modelos duplicados en los registros.
+		\end{description}
+		
+		
+		
+	\subsection{Generación de datos de entrenamiento}
+	
+	a partir d
 		
 		\subsubsection{Resistividad aparente}
 		
 		\subsubsection{Atributos cualitativos asociados a la curva de resistividad}
-
+			
+			etiquetas de acuerdo a unidades geológicas especificas
 
 	\subsection{Clasificación, transformación y escalado de los datos}
+	
 		\subsubsection{Normalización o estandarización de resistividades si se observan grandes variaciones}
+		
+		Normalización y escalado: Al tener datos con escalas diferentes, es decir, sistemas de unidades de medición muy distintas como en este caso donde encontramos valores de Resistividad en Ohm·m y distancias en metros.
+		 
 		\subsubsection{Transformación logarítmica de resistividad para reducir el sesgo de valores extremos}
 		\subsubsection{Codificación de categorías litológicas si se incluyen como variable adicional}
 

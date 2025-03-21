@@ -27,25 +27,25 @@
 \contentsline {section}{\numberline {6.1}ideas y apuntes}{19}{section.6.1}%
 \contentsline {section}{\numberline {6.2}Variables de Entrada}{21}{section.6.2}%
 \contentsline {subsection}{\numberline {6.2.1}Datos de entrada}{22}{subsection.6.2.1}%
-\contentsline {subsubsection}{\numberline {6.2.1.1}Limpieza de datos}{24}{subsubsection.6.2.1.1}%
-\contentsline {subsubsection}{\numberline {6.2.1.2}Generación de valores SEV’s}{24}{subsubsection.6.2.1.2}%
-\contentsline {subsubsection}{\numberline {6.2.1.3}Resistividad aparente}{24}{subsubsection.6.2.1.3}%
-\contentsline {subsubsection}{\numberline {6.2.1.4}Atributos cualitativos asociados a la curva de resistividad}{24}{subsubsection.6.2.1.4}%
-\contentsline {subsection}{\numberline {6.2.2}Clasificación, transformación y escalado de los datos}{24}{subsection.6.2.2}%
-\contentsline {subsubsection}{\numberline {6.2.2.1}Normalización o estandarización de resistividades si se observan grandes variaciones}{24}{subsubsection.6.2.2.1}%
-\contentsline {subsubsection}{\numberline {6.2.2.2}Transformación logarítmica de resistividad para reducir el sesgo de valores extremos}{24}{subsubsection.6.2.2.2}%
-\contentsline {subsubsection}{\numberline {6.2.2.3}Codificación de categorías litológicas si se incluyen como variable adicional}{24}{subsubsection.6.2.2.3}%
-\contentsline {section}{\numberline {6.3}Diseño del Modelo Random Forest}{24}{section.6.3}%
-\contentsline {subsection}{\numberline {6.3.1}Regresión}{24}{subsection.6.3.1}%
-\contentsline {subsection}{\numberline {6.3.2}Configuración inicial del modelo, numero de árboles, profundidad, muestras y muestra mínima}{24}{subsection.6.3.2}%
-\contentsline {subsection}{\numberline {6.3.3}Configuración y optimización de hiperparametros}{24}{subsection.6.3.3}%
-\contentsline {section}{\numberline {6.4}Preparación del dataset para la implementación del modelo}{24}{section.6.4}%
-\contentsline {section}{\numberline {6.5}Implementación del modelo}{24}{section.6.5}%
-\contentsline {subsection}{\numberline {6.5.1}Entrenamiento del modelo}{24}{subsection.6.5.1}%
-\contentsline {subsection}{\numberline {6.5.2}Mapas de probabilidad y entrenamiento de regresión}{24}{subsection.6.5.2}%
-\contentsline {section}{\numberline {6.6}Evaluación del modelo}{24}{section.6.6}%
-\contentsline {subsection}{\numberline {6.6.1}Regresión y validación cruzada}{24}{subsection.6.6.1}%
-\contentsline {subsection}{\numberline {6.6.2}Análisis de incertidumbre}{24}{subsection.6.6.2}%
-\contentsline {section}{\numberline {6.7}Reporte estadístico}{24}{section.6.7}%
-\contentsline {chapter}{\numberline {7}RESULTADOS Y CONCLUSIONES}{25}{chapter.7}%
-\contentsline {chapter}{\numberline {A}Apéndice I}{26}{appendix.Alph1}%
+\contentsline {subsubsection}{\numberline {6.2.1.1}Limpieza de datos}{23}{subsubsection.6.2.1.1}%
+\contentsline {subsection}{\numberline {6.2.2}Generación de datos de entrenamiento}{24}{subsection.6.2.2}%
+\contentsline {subsubsection}{\numberline {6.2.2.1}Resistividad aparente}{24}{subsubsection.6.2.2.1}%
+\contentsline {subsubsection}{\numberline {6.2.2.2}Atributos cualitativos asociados a la curva de resistividad}{24}{subsubsection.6.2.2.2}%
+\contentsline {subsection}{\numberline {6.2.3}Clasificación, transformación y escalado de los datos}{24}{subsection.6.2.3}%
+\contentsline {subsubsection}{\numberline {6.2.3.1}Normalización o estandarización de resistividades si se observan grandes variaciones}{24}{subsubsection.6.2.3.1}%
+\contentsline {subsubsection}{\numberline {6.2.3.2}Transformación logarítmica de resistividad para reducir el sesgo de valores extremos}{25}{subsubsection.6.2.3.2}%
+\contentsline {subsubsection}{\numberline {6.2.3.3}Codificación de categorías litológicas si se incluyen como variable adicional}{25}{subsubsection.6.2.3.3}%
+\contentsline {section}{\numberline {6.3}Diseño del Modelo Random Forest}{25}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Regresión}{25}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}Configuración inicial del modelo, numero de árboles, profundidad, muestras y muestra mínima}{25}{subsection.6.3.2}%
+\contentsline {subsection}{\numberline {6.3.3}Configuración y optimización de hiperparametros}{25}{subsection.6.3.3}%
+\contentsline {section}{\numberline {6.4}Preparación del dataset para la implementación del modelo}{25}{section.6.4}%
+\contentsline {section}{\numberline {6.5}Implementación del modelo}{25}{section.6.5}%
+\contentsline {subsection}{\numberline {6.5.1}Entrenamiento del modelo}{25}{subsection.6.5.1}%
+\contentsline {subsection}{\numberline {6.5.2}Mapas de probabilidad y entrenamiento de regresión}{25}{subsection.6.5.2}%
+\contentsline {section}{\numberline {6.6}Evaluación del modelo}{25}{section.6.6}%
+\contentsline {subsection}{\numberline {6.6.1}Regresión y validación cruzada}{25}{subsection.6.6.1}%
+\contentsline {subsection}{\numberline {6.6.2}Análisis de incertidumbre}{25}{subsection.6.6.2}%
+\contentsline {section}{\numberline {6.7}Reporte estadístico}{25}{section.6.7}%
+\contentsline {chapter}{\numberline {7}RESULTADOS Y CONCLUSIONES}{26}{chapter.7}%
+\contentsline {chapter}{\numberline {A}Apéndice I}{27}{appendix.Alph1}%
