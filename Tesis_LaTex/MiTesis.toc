@@ -1,51 +1,51 @@
 \babel@toc {spanish}{}\relax 
 \contentsline {chapter}{Agradecimientos}{\es@scroman {ix}}{chapter*.4}%
 \contentsline {chapter}{\numberline {1}INTRODUCCIÓN}{1}{chapter.1}%
-\contentsline {chapter}{\numberline {2}DELIMITACIÓN Y PLANTEAMIENTO DEL PROBLEMA}{2}{chapter.2}%
-\contentsline {chapter}{\numberline {3}JUSTIFICACIÓN}{3}{chapter.3}%
-\contentsline {chapter}{\numberline {4}FORMULACIÓN DE OBJETIVOS}{5}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Generales}{5}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Específicos}{5}{section.4.2}%
-\contentsline {chapter}{\numberline {5}MARCO TEÓRICO}{6}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Geofísica y Geoeléctrica}{6}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}Definición de Geofísica}{6}{subsection.5.1.1}%
-\contentsline {subsection}{\numberline {5.1.2}Resistividad de la Tierra}{6}{subsection.5.1.2}%
-\contentsline {subsection}{\numberline {5.1.3}Sondeo Eléctrico Vertical}{8}{subsection.5.1.3}%
-\contentsline {subsubsection}{\numberline {5.1.3.1}Arreglo de Electrodos y Factor Geométrico}{10}{subsubsection.5.1.3.1}%
-\contentsline {section}{\numberline {5.2}Adquisición de Datos Geofísicos}{12}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Intervalo de Muestreo en SEV}{13}{subsection.5.2.1}%
-\contentsline {subsubsection}{\numberline {5.2.1.1}Factores que Determinan el Intervalo de Muestreo}{14}{subsubsection.5.2.1.1}%
+\contentsline {chapter}{\numberline {2}DELIMITACIÓN Y PLANTEAMIENTO DEL PROBLEMA}{3}{chapter.2}%
+\contentsline {chapter}{\numberline {3}JUSTIFICACIÓN}{4}{chapter.3}%
+\contentsline {chapter}{\numberline {4}FORMULACIÓN DE OBJETIVOS}{6}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Generales}{6}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Específicos}{6}{section.4.2}%
+\contentsline {chapter}{\numberline {5}MARCO TEÓRICO}{7}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Geofísica y Geoeléctrica}{7}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Definición de Geofísica}{7}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Resistividad de la Tierra}{7}{subsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.1.3}Sondeo Eléctrico Vertical}{9}{subsection.5.1.3}%
+\contentsline {subsubsection}{\numberline {5.1.3.1}Arreglo de Electrodos y Factor Geométrico}{11}{subsubsection.5.1.3.1}%
+\contentsline {section}{\numberline {5.2}Adquisición de Datos Geofísicos}{13}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Intervalo de Muestreo en SEV}{14}{subsection.5.2.1}%
+\contentsline {subsubsection}{\numberline {5.2.1.1}Factores que Determinan el Intervalo de Muestreo}{15}{subsubsection.5.2.1.1}%
 \contentsline {subsection}{\numberline {5.2.2}Proceso de Adquisición In Situ}{15}{subsection.5.2.2}%
-\contentsline {section}{\numberline {5.3}Machine Learning (ML) en la Geofísica}{15}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Random Forests}{16}{section.5.4}%
-\contentsline {subsection}{\numberline {5.4.1}Siembra del bosque}{17}{subsection.5.4.1}%
-\contentsline {subsection}{\numberline {5.4.2}Predicciones del bosque}{17}{subsection.5.4.2}%
-\contentsline {subsection}{\numberline {5.4.3}Margen y Error de Generalización}{18}{subsection.5.4.3}%
-\contentsline {subsection}{\numberline {5.4.4}Robustez y Convergencia}{18}{subsection.5.4.4}%
-\contentsline {subsection}{\numberline {5.4.5}Aplicaciones de Random Forests en Geofísica}{18}{subsection.5.4.5}%
-\contentsline {chapter}{\numberline {6}METODOLOGÍA}{19}{chapter.6}%
-\contentsline {section}{\numberline {6.1}ideas y apuntes}{19}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Variables de Entrada}{21}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}Datos de entrada}{22}{subsection.6.2.1}%
-\contentsline {subsubsection}{\numberline {6.2.1.1}Limpieza de datos}{23}{subsubsection.6.2.1.1}%
-\contentsline {subsection}{\numberline {6.2.2}Generación de datos de entrenamiento}{24}{subsection.6.2.2}%
-\contentsline {subsubsection}{\numberline {6.2.2.1}Resistividad aparente}{24}{subsubsection.6.2.2.1}%
-\contentsline {subsubsection}{\numberline {6.2.2.2}Atributos cualitativos asociados a la curva de resistividad}{24}{subsubsection.6.2.2.2}%
-\contentsline {subsection}{\numberline {6.2.3}Clasificación, transformación y escalado de los datos}{24}{subsection.6.2.3}%
-\contentsline {subsubsection}{\numberline {6.2.3.1}Normalización o estandarización de resistividades si se observan grandes variaciones}{24}{subsubsection.6.2.3.1}%
-\contentsline {subsubsection}{\numberline {6.2.3.2}Transformación logarítmica de resistividad para reducir el sesgo de valores extremos}{25}{subsubsection.6.2.3.2}%
-\contentsline {subsubsection}{\numberline {6.2.3.3}Codificación de categorías litológicas si se incluyen como variable adicional}{25}{subsubsection.6.2.3.3}%
-\contentsline {section}{\numberline {6.3}Diseño del Modelo Random Forest}{25}{section.6.3}%
-\contentsline {subsection}{\numberline {6.3.1}Regresión}{25}{subsection.6.3.1}%
-\contentsline {subsection}{\numberline {6.3.2}Configuración inicial del modelo, numero de árboles, profundidad, muestras y muestra mínima}{25}{subsection.6.3.2}%
-\contentsline {subsection}{\numberline {6.3.3}Configuración y optimización de hiperparametros}{25}{subsection.6.3.3}%
-\contentsline {section}{\numberline {6.4}Preparación del dataset para la implementación del modelo}{25}{section.6.4}%
-\contentsline {section}{\numberline {6.5}Implementación del modelo}{25}{section.6.5}%
-\contentsline {subsection}{\numberline {6.5.1}Entrenamiento del modelo}{25}{subsection.6.5.1}%
-\contentsline {subsection}{\numberline {6.5.2}Mapas de probabilidad y entrenamiento de regresión}{25}{subsection.6.5.2}%
-\contentsline {section}{\numberline {6.6}Evaluación del modelo}{25}{section.6.6}%
-\contentsline {subsection}{\numberline {6.6.1}Regresión y validación cruzada}{25}{subsection.6.6.1}%
-\contentsline {subsection}{\numberline {6.6.2}Análisis de incertidumbre}{25}{subsection.6.6.2}%
-\contentsline {section}{\numberline {6.7}Reporte estadístico}{25}{section.6.7}%
-\contentsline {chapter}{\numberline {7}RESULTADOS Y CONCLUSIONES}{26}{chapter.7}%
-\contentsline {chapter}{\numberline {A}Apéndice I}{27}{appendix.Alph1}%
+\contentsline {section}{\numberline {5.3}Machine Learning (ML) en la Geofísica}{16}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Random Forests}{17}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Siembra del bosque}{18}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}Predicciones del bosque}{18}{subsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.4.3}Margen y Error de Generalización}{19}{subsection.5.4.3}%
+\contentsline {subsection}{\numberline {5.4.4}Robustez y Convergencia}{19}{subsection.5.4.4}%
+\contentsline {subsection}{\numberline {5.4.5}Aplicaciones de Random Forests en Geofísica}{19}{subsection.5.4.5}%
+\contentsline {chapter}{\numberline {6}METODOLOGÍA}{20}{chapter.6}%
+\contentsline {section}{\numberline {6.1}ideas y apuntes}{20}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Variables de Entrada}{22}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Datos de entrada}{23}{subsection.6.2.1}%
+\contentsline {subsubsection}{\numberline {6.2.1.1}Limpieza de datos}{24}{subsubsection.6.2.1.1}%
+\contentsline {subsection}{\numberline {6.2.2}Generación de datos de entrenamiento}{25}{subsection.6.2.2}%
+\contentsline {subsubsection}{\numberline {6.2.2.1}Resistividad aparente}{25}{subsubsection.6.2.2.1}%
+\contentsline {subsubsection}{\numberline {6.2.2.2}Atributos cualitativos asociados a la curva de resistividad}{25}{subsubsection.6.2.2.2}%
+\contentsline {subsection}{\numberline {6.2.3}Clasificación, transformación y escalado de los datos}{25}{subsection.6.2.3}%
+\contentsline {subsubsection}{\numberline {6.2.3.1}Normalización o estandarización de resistividades si se observan grandes variaciones}{25}{subsubsection.6.2.3.1}%
+\contentsline {subsubsection}{\numberline {6.2.3.2}Transformación logarítmica de resistividad para reducir el sesgo de valores extremos}{26}{subsubsection.6.2.3.2}%
+\contentsline {subsubsection}{\numberline {6.2.3.3}Codificación de categorías litológicas si se incluyen como variable adicional}{26}{subsubsection.6.2.3.3}%
+\contentsline {section}{\numberline {6.3}Diseño del Modelo Random Forest}{26}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Regresión}{26}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}Configuración inicial del modelo, numero de árboles, profundidad, muestras y muestra mínima}{26}{subsection.6.3.2}%
+\contentsline {subsection}{\numberline {6.3.3}Configuración y optimización de hiperparametros}{26}{subsection.6.3.3}%
+\contentsline {section}{\numberline {6.4}Preparación del dataset para la implementación del modelo}{26}{section.6.4}%
+\contentsline {section}{\numberline {6.5}Implementación del modelo}{26}{section.6.5}%
+\contentsline {subsection}{\numberline {6.5.1}Entrenamiento del modelo}{26}{subsection.6.5.1}%
+\contentsline {subsection}{\numberline {6.5.2}Mapas de probabilidad y entrenamiento de regresión}{26}{subsection.6.5.2}%
+\contentsline {section}{\numberline {6.6}Evaluación del modelo}{26}{section.6.6}%
+\contentsline {subsection}{\numberline {6.6.1}Regresión y validación cruzada}{26}{subsection.6.6.1}%
+\contentsline {subsection}{\numberline {6.6.2}Análisis de incertidumbre}{26}{subsection.6.6.2}%
+\contentsline {section}{\numberline {6.7}Reporte estadístico}{26}{section.6.7}%
+\contentsline {chapter}{\numberline {7}RESULTADOS Y CONCLUSIONES}{27}{chapter.7}%
+\contentsline {chapter}{\numberline {A}Apéndice I}{28}{appendix.Alph1}%
