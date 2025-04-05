@@ -1,21 +1,44 @@
 \chapter{INTRODUCCIÓN}
-la prospeccion geofisic atiene aplicaciones en proyectos de ingeniería civil, vial, petrolera, geohidrológica, minera, etcétera, en donde se requiere conocer el medio sobre el cual se desarrollaran los proyectos, ya sea para definir el estado inicial del medio que sera intervenido, del cual se busca algún beneficio o aprobechamiento, correspondeindo al conjunto de metodos  de exploración indirecta.
+La geofísica es la ciencia que se encarga de explorar el medio terrestre, empleando métodos que aprovechan las propiedades físicas del subsuelo como medio de respuesta ante la interacciona interacción activa, como la aplicación de un campo eléctrico o una onda mecánica,  o pasiva, en la cual se realizan mediciones de las variaciones de los campos naturales de la tierra, como son el campo magnético, gravimétrico o el potencial eléctrico natural del subsuelo.
 
-los metodos geofisicos corresponden a tecnicas no destructivas de exploracion, resultando en un amanera eficiente y rápida para conocer las propiedades físicas del medio, existen distintas técnicas y metodologías de prospección geofísica,  para la seleccion del metodo apropiado se consideran las características del medio y las propiedades físicas del objeto de estudio.
+El método geofísico de prospección geoeléctrica aprovecha las propiedad de resistividad para caracterizar las distintas unidades del medio a partir de su capacidad de resistividad eléctrica, siendo de interés para este trabajo el método de inducción eléctrica en su modalidad de Sondeo Eléctrico Vertical (SEV).
 
-Una de estas metodologías corresponde a la prospección geoeléctrica, la cual aprovecha las propiedades de conductividad del subsuelo para medir la resistencia la paso del flujo eléctrico a través de las distintas capas del subsuelo, permitiendo conocer la contribución de la resistividad para una sección del medio.
+Los SEV se realizan siguiendo un arreglo geométrico de 4 electrodos previamente definido (ver figura 888888), el cual puedo ejecutarse siguiendo la configuración Wenner, Dipolo-Dipolo o Schlumberger, entre otros, cada arreglo presenta un patrón distinto de dispersión del flujo eléctrico, cambiando su sensibilidad ante variaciones verticales u horizontales. 
 
-En este trabajo se aborda la modalida de Sondeo Electrico Vertical, el cual consta de un arreglo de lectrodos incados a tierra, dos de inyeccion de corriente (A y B) y dos de lectura de potencial (M y N) (ver figura 88888), distribuidos geometricamente de acaurdo al tipo de arreglo geoelctrico, durante la adquisicion se incrementa la distancia entre los electrodos abarcando un area de contribucion electrica y consecuentemente profundizando con cada incremento de apertura de electrodos
+Durante la adquisición de datos en campo la apertura entre los electrodos cambia en razón al arreglo geoeléctricos empleado, de manera que obtenemos para cada cambio en apertura un valor de resistividad aparente, $Rha$ o $\rho a$ en $(\varOmega\ m)$, posterior al proceso de interpretación y modelado, obtenemos una distribución de espesores con una resistividad asociada, datos que corresponden a la base de este trabajo.
+
+Para realizar un entrenamiento efectivo, se requiere de un gran numero de datos de entrenamiento,por lo que se empelaran los espesor por sondeo para definir variaciones de distribuciones de espesores manteniendo la relación entre las distribuciones originales y las variaciones generadas.
+
+Inicialmente se cuenta con 8 sitios, integrados de 2 a 4 SEV's, sumando un total de 25 sondeos, a partir de cada uno se generan 100 variaciones, donde la variante corresponde a los espesores de cada unidad identificada, manteniendo la distribución inicial de los espesores observadas en los sondeos originales de cada sitio.
+
+Generadas las variaciones, se procede a simular el SEV empleando la librería PiGIMLi, obteniendo como resultado un set compuesto por 75000 registros. 
+
+El entrenamiento se realiza global y por sitio empleando los modelos Bayesian Compressive Sensing (BCS) y Random Forests (RF), principalmente por el alto nivel de ruido que presente en la respuesta geoeléctrica, si como la nula correlación que entre las variables
 
 
 
-\begin{itemize}
-	\item Teorema de muestreo de Nyquist
-	\item Teorema de Shannon-Hartley
-	\item reconocimietno geologico del sitio 
-	\item Espacio espacio disponible
-	\item Topografia del del area de exploracion
-\end{itemize}
+
+
+
+
+
+  %atiene aplicaciones en proyectos de ingeniería civil, vial, petrolera, geohidrológica, minera, etcétera, en donde se requiere conocer el medio sobre el cual se desarrollaran los proyectos, ya sea para definir el estado inicial del medio que sera intervenido, del cual se busca algún beneficio o aprovechamiento
+
+%los metodos geofisicos corresponden a tecnicas no destructivas de exploracion, resultando en un amanera eficiente y rápida para conocer las propiedades físicas del medio, existen distintas técnicas y metodologías de prospección geofísica,  para la seleccion del metodo apropiado se consideran las características del medio y las propiedades físicas del objeto de estudio.
+
+%Una de estas metodologías corresponde a la prospección geoeléctrica, la cual aprovecha las propiedades de conductividad del subsuelo para medir la resistencia la paso del flujo eléctrico a través de las distintas capas del subsuelo, permitiendo conocer la contribución de la resistividad para una sección del medio.
+
+%En este trabajo se aborda la modalida de Sondeo Electrico Vertical, el cual consta de un arreglo de lectrodos incados a tierra, dos de inyeccion de corriente (A y B) y dos de lectura de potencial (M y N) (ver figura 88888), distribuidos geometricamente de acaurdo al tipo de arreglo geoelctrico, durante la adquisicion se incrementa la distancia entre los electrodos abarcando un area de contribucion electrica y consecuentemente profundizando con cada incremento de apertura de electrodos
+
+
+
+%\begin{itemize}
+%	\item Teorema de muestreo de Nyquist
+%	\item Teorema de Shannon-Hartley
+%	\item reconocimietno geologico del sitio 
+%	\item Espacio espacio disponible
+%	\item Topografia del del area de exploracion
+%\end{itemize}
 
 
 
