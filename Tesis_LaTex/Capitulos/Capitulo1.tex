@@ -9,11 +9,16 @@ Durante la adquisición de datos en campo la apertura entre los electrodos cambi
 
 Para realizar un entrenamiento efectivo, se requiere de un gran numero de datos de entrenamiento,por lo que se empelaran los espesor por sondeo para definir variaciones de distribuciones de espesores manteniendo la relación entre las distribuciones originales y las variaciones generadas.
 
-Inicialmente se cuenta con 8 sitios, integrados de 2 a 4 SEV's, sumando un total de 25 sondeos, a partir de cada uno se generan 100 variaciones, donde la variante corresponde a los espesores de cada unidad identificada, manteniendo la distribución inicial de los espesores observadas en los sondeos originales de cada sitio.
+Inicialmente se cuenta con 8 sitios, integrados de 2 a 4 SEV's, sumando un total de 25 sondeos, a partir de cada uno se generan 100 variaciones, siendo la variante los espesores de cada unidad resistiva del modelo de interpretación.% manteniendo la distribución inicial de los espesores observadas en los sondeos originales de cada sitio.
+Establecidas las variaciones, se simular la respuesta eléctrica de cada SEV-sintético, obteniendo como resultado un set compuesto por 75000 registros.% los cuales se clasifican y compara el comparan copn las distribuciones estadisticas de los datos original
 
-Generadas las variaciones, se procede a simular el SEV empleando la librería PiGIMLi, obteniendo como resultado un set compuesto por 75000 registros. 
+%La relación entre los datos de entrada y los de predicción, $AB/2$ y $Rha$, es prácticamente nula entre distintos sitio, solo identioficandose  
+ 
+Se realiza el entrenamiento empleando y comparando los modelos Support Vector Machines (SVM), Bayesian Compressive Sensing (BCS) y Random Forests (RF), los cuales se  seleccionaron a partir de su tolerancia a las características no paramétricas de los datos, el alto nivel de ruido que presente en la respuesta geoeléctrica, si como una relación compleja entre las variables.%ajustando los hiperparamtros  mediante greed reserch
 
-El entrenamiento se realiza global y por sitio empleando los modelos Bayesian Compressive Sensing (BCS) y Random Forests (RF), principalmente por el alto nivel de ruido que presente en la respuesta geoeléctrica, si como la nula correlación que entre las variables
+A partir de los resultados del entrenamiento se realiza predicciones empleando como datos de entrada los datos reales de adquisición de un SEV ($AB/2$ y $Rha$),  se realiza una comparación entre las puntuaciones (scorts) de los modelos, los distintos grupos de entrenamiento, identificando la mejor respuesta y el mejor ajuste en la predicción final.
+
+El entrenamiento y predicción representa un gran oportunidad en el proceso de planeación y adquisición de datos geofísicos, permitiendo generar establecer un conjunto de entrenamiento con pocos datos de entrada, procurando que estos sean confiables preferentemente obtenidos por exploración directa mediante reconocimiento geológico, SPT o PCA, de manera que el resultado de predicción de aperturas nos permita definir de mejor manera el muestreo de unidades geológicas. 
 
 
 
@@ -39,16 +44,6 @@ El entrenamiento se realiza global y por sitio empleando los modelos Bayesian Co
 %	\item Espacio espacio disponible
 %	\item Topografia del del area de exploracion
 %\end{itemize}
-
-
-
-
-
-Es aquí donde se pretende establecer una relación de predictibilidad entre un medio conocido y nuevos levantamientos
- 
-
-
-oportunidades de la cuiencia de datos en el análisis en tiempo real de la respuesta 
 
 
 

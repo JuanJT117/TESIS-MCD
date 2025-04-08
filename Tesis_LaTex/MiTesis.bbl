@@ -1,4 +1,4 @@
-\begin{thebibliography}{23}
+\begin{thebibliography}{27}
 \ProvideTextCommand{\guillemotleft}{OT1}{%
   \leavevmode\raise .27ex\hbox{$\scriptscriptstyle\ll$}}
 \ProvideTextCommand{\guillemotright}{OT1}{%
@@ -67,10 +67,23 @@
   Transactions of the Royal Society of London}, p\'ags. 399--414.
 \bibAnnoteFile{fox1830}
 
+\bibitem[{Friedman(2001)}]{friedman2001}
+\textsc{Friedman, J.~H.} (2001), \enquote{Greedy Function Approximation: A
+  Gradient Boosting Machine}, \textit{Annals of Statistics}, \textbf{29}(5),
+  p\'ags. 1189--1232.
+\bibAnnoteFile{friedman2001}
+
 \bibitem[{Gandhi y Sarkar(2016)}]{gandhi2016}
 \textsc{Gandhi, S.} y \textsc{B.~Sarkar} (2016), \textit{Essentials of mineral
   exploration and evaluation}, Elsevier.
 \bibAnnoteFile{gandhi2016}
+
+\bibitem[{Hastie \textit{et al.}(2009)Hastie, Tibshirani y
+  Friedman}]{hastie2009}
+\textsc{Hastie, T.}, \textsc{R.~Tibshirani} y \textsc{J.~Friedman} (2009),
+  \textit{The Elements of Statistical Learning: Data Mining, Inference, and
+  Prediction}, segunda edici\'on, Springer, New York.
+\bibAnnoteFile{hastie2009}
 
 \bibitem[{Igboama \textit{et al.}(2023)Igboama, Aroyehun, Amosun, Ayanda,
   Hammed y Olowofela}]{igboama2023}
@@ -79,6 +92,13 @@
   \enquote{Review of geoelectrical methods in geophysical exploration},
   \textit{Nigerian Journal of Physics}, \textbf{32}(3), p\'ags. 141--158.
 \bibAnnoteFile{igboama2023}
+
+\bibitem[{James \textit{et al.}(2013)James, Witten, Hastie, Tibshirani
+  \textit{et al.}}]{james2013}
+\textsc{James, G.}, \textsc{D.~Witten}, \textsc{T.~Hastie},
+  \textsc{R.~Tibshirani} \textit{et al.} (2013), \textit{An introduction to
+  statistical learning}, tomo 112, Springer.
+\bibAnnoteFile{james2013}
 
 \bibitem[{Lan \textit{et al.}(2020)Lan, Hu, Jiang, Yang y Zhao}]{lan2020}
 \textsc{Lan, T.}, \textsc{H.~Hu}, \textsc{C.~Jiang}, \textsc{G.~Yang} y
@@ -162,6 +182,14 @@
   theory and practice of measuring reservoir rock and fluid transport
   properties}, Elsevier.
 \bibAnnoteFile{tiab2024}
+
+\bibitem[{Veirana \textit{et al.}(2021)Veirana, Perdomo y
+  Ainchil}]{veirana2021}
+\textsc{Veirana, G. M.~M.}, \textsc{S.~Perdomo} y \textsc{J.~Ainchil} (2021),
+  \enquote{Three-dimensional modelling using spatial regression machine
+  learning and hydrogeological basement VES}, \textit{Computers \&
+  Geosciences}, \textbf{156}, p\'ag. 104\,907.
+\bibAnnoteFile{veirana2021}
 
 \bibitem[{Wrona \textit{et al.}(2018)Wrona, Pan, Gawthorpe y
   Fossen}]{wrona2018}
