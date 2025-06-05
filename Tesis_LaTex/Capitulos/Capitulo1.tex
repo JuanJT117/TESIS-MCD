@@ -1,16 +1,23 @@
 \chapter{INTRODUCCIÓN}
-La geofísica es la ciencia que se encarga de explorar el medio terrestre, empleando métodos que aprovechan las propiedades físicas del subsuelo como medio de respuesta ante la interacciona interacción activa, como la aplicación de un campo eléctrico o una onda mecánica,  o pasiva, en la cual se realizan mediciones de las variaciones de los campos naturales de la tierra, como son el campo magnético, gravimétrico o el potencial eléctrico natural del subsuelo.
+
+La aplicación de la ciencia de datos en el área de geociencias presenta retos y oportunidades, mayor mente aprovechada en sísmica petrolera, presentando un costo beneficio alto y aprovechando la gran cantidad de datos que se generan en las campañas de exploración e interpretación, otorgando elementos cruciales para el modelado y entrenamiento para reconocimiento de patrones y secuencias geológicas; mientras que la oportunidad de aplicación en otros métodos geofísicos es aun vigente. 
+
+La geofísica es la ciencia que se encarga de explorar el medio terrestre, empleando métodos que aprovechan las propiedades físicas del subsuelo como medio de respuesta ante la interacción activa, como la aplicación de un campo eléctrico o una onda mecánica,  o pasiva, en la cual se realizan mediciones de las variaciones de los campos naturales de la tierra, como son el campo magnético, gravimétrico o el potencial eléctrico natural del subsuelo.
 
 El método geofísico de prospección geoeléctrica aprovecha las propiedad de resistividad para caracterizar las distintas unidades del medio a partir de su capacidad de resistividad eléctrica, siendo de interés para este trabajo el método de inducción eléctrica en su modalidad de Sondeo Eléctrico Vertical (SEV).
 
-Los SEV se realizan siguiendo un arreglo geométrico de 4 electrodos previamente definido (ver figura 888888), el cual puedo ejecutarse siguiendo la configuración Wenner, Dipolo-Dipolo o Schlumberger, entre otros, cada arreglo presenta un patrón distinto de dispersión del flujo eléctrico, cambiando su sensibilidad ante variaciones verticales u horizontales. 
+Los SEV se realizan siguiendo un arreglo geométrico de 4 electrodos previamente definido (ver figura \ref{fig:AE}), el cual puedo ejecutarse siguiendo la configuración Wenner, Dipolo-Dipolo o Schlumberger, entre otros, cada arreglo presenta un patrón distinto de dispersión del flujo eléctrico, cambiando su sensibilidad ante variaciones verticales u horizontales. 
 
-Durante la adquisición de datos en campo la apertura entre los electrodos cambia en razón al arreglo geoeléctricos empleado, de manera que obtenemos para cada cambio en apertura un valor de resistividad aparente, $Rha$ o $\rho a$ en $(\varOmega\ m)$, posterior al proceso de interpretación y modelado, obtenemos una distribución de espesores con una resistividad asociada, datos que corresponden a la base de este trabajo.
+Durante la adquisición de datos en campo la apertura entre los electrodos cambia en razón al arreglo geoeléctricos empleado, de manera que obtenemos para cada cambio en apertura un valor de resistividad aparente, $Rha$ o $\rho a$ en $(\varOmega\ m)$, posterior al proceso de interpretación y modelado, obtenemos una distribución de espesores con una resistividad asociada a cada uno de ellos.
 
-Para realizar un entrenamiento efectivo, se requiere de un gran numero de datos de entrenamiento,por lo que se empelaran los espesor por sondeo para definir variaciones de distribuciones de espesores manteniendo la relación entre las distribuciones originales y las variaciones generadas.
+Convencionalmente la prospección eléctrica se aplica, procesa e interpreta siguiendo una metodología claramente establecida, esto no la exime de ser viable la mejora de cada uno de sus aspectos.
 
-Inicialmente se cuenta con 8 sitios, integrados de 2 a 4 SEV's, sumando un total de 25 sondeos, a partir de cada uno se generan 100 variaciones, siendo la variante los espesores de cada unidad resistiva del modelo de interpretación.% manteniendo la distribución inicial de los espesores observadas en los sondeos originales de cada sitio.
-Establecidas las variaciones, se simular la respuesta eléctrica de cada SEV-sintético, obteniendo como resultado un set compuesto por 75000 registros.% los cuales se clasifican y compara el comparan copn las distribuciones estadisticas de los datos original
+Algunas etapas de este proceso an sido optimizadas, como la automatización de la lectura de datos, dicho esto, en el proceso de planeación de adquisición y validación de lecturas en campo pueden mejorar por medio de modelos de aprendizaje, los cuales requieren un amplio numero de datos para su entrenamiento.
+
+Para realizar un entrenamiento efectivo, se requiere de un gran numero de datos de entrenamiento, por lo que se empelaran los espesor por sondeo para definir variaciones de distribuciones de espesores manteniendo la relación entre las distribuciones originales y las variaciones generadas.
+
+Inicialmente se cuenta con 8 sitios, integrados de 2 a 4 modelos SEV's, sumando un total de 25 sondeos, a partir de cada uno se generan 100 variaciones, siendo la variante los espesores de cada unidad resistiva del modelo de interpretación.\ % manteniendo la distribución inicial de los espesores observadas en los sondeos originales de cada sitio.
+Establecidas las variaciones, se simular la respuesta eléctrica de cada SEV-sintético, obteniendo como resultado un set compuesto por 75000 registros de resistividad aparente.% los cuales se clasifican y compara el comparan copn las distribuciones estadisticas de los datos original
 
 %La relación entre los datos de entrada y los de predicción, $AB/2$ y $Rha$, es prácticamente nula entre distintos sitio, solo identioficandose  
  

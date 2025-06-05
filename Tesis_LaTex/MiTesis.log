@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.19)  7 APR 2025 01:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.19)  5 JUN 2025 04:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -568,7 +568,17 @@ Cap\'{\i }tulo 1.
 
 
 
-])
+]
+
+LaTeX Info: Redefining \. on input line 27.
+LaTeX Info: Redefining \% on input line 27.
+
+Overfull \vbox (11.36665pt too high) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 27.
+LaTeX Info: Redefining \% on input line 27.
+
+[2])
 
 LaTeX Info: Redefining \. on input line 65.
 LaTeX Info: Redefining \% on input line 65.
@@ -578,14 +588,14 @@ Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 LaTeX Info: Redefining \. on input line 65.
 LaTeX Info: Redefining \% on input line 65.
 
-[2]
+[3]
 \openout2 = `Capitulos/Capitulo2.aux'.
 
  (Capitulos/Capitulo2.tex
 Cap\'{\i }tulo 2.
 )
 
-[3
+[4
 
 
 
@@ -597,7 +607,7 @@ Cap\'{\i }tulo 2.
 Cap\'{\i }tulo 3.
 
 
-[4
+[5
 
 
 
@@ -612,14 +622,14 @@ Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 LaTeX Info: Redefining \. on input line 67.
 LaTeX Info: Redefining \% on input line 67.
 
-[5]
+[6]
 \openout2 = `Capitulos/Capitulo4.aux'.
 
  (Capitulos/Capitulo4.tex
 Cap\'{\i }tulo 4.
 )
 
-[6
+[7
 
 
 
@@ -631,7 +641,7 @@ Cap\'{\i }tulo 4.
 Cap\'{\i }tulo 5.
 
 
-[7
+[8
 
 
 
@@ -641,7 +651,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
 
-<Imagenes/estructura-oro.png, id=419, 425.11765pt x 420.15794pt>
+<Imagenes/estructura-oro.png, id=424, 425.11765pt x 420.15794pt>
 File: Imagenes/estructura-oro.png Graphic file (type png)
 <use Imagenes/estructura-oro.png>
 Package pdftex.def Info: Imagenes/estructura-oro.png  used on input line 17.
@@ -656,7 +666,7 @@ Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 LaTeX Info: Redefining \. on input line 24.
 LaTeX Info: Redefining \% on input line 24.
 
-[8 <./Imagenes/estructura-oro.png>]
+[9 <./Imagenes/estructura-oro.png>]
 
 LaTeX Info: Redefining \. on input line 33.
 LaTeX Info: Redefining \% on input line 33.
@@ -666,12 +676,12 @@ Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 LaTeX Info: Redefining \. on input line 33.
 LaTeX Info: Redefining \% on input line 33.
 
-[9]
+[10]
 Underfull \hbox (badness 10000) in paragraph at lines 34--35
 
  []
 
-<Imagenes/ArregloElectrodos.png, id=447, 576.74294pt x 298.29088pt>
+<Imagenes/ArregloElectrodos.png, id=453, 576.74294pt x 298.29088pt>
 File: Imagenes/ArregloElectrodos.png Graphic file (type png)
 <use Imagenes/ArregloElectrodos.png>
 Package pdftex.def Info: Imagenes/ArregloElectrodos.png  used on input line 38.
@@ -687,8 +697,8 @@ Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 LaTeX Info: Redefining \. on input line 52.
 LaTeX Info: Redefining \% on input line 52.
 
-[10 <./Imagenes/ArregloElectrodos.png>]
-<Imagenes/5.png, id=477, 637.63219pt x 608.2725pt>
+[11 <./Imagenes/ArregloElectrodos.png>]
+<Imagenes/5.png, id=482, 637.63219pt x 608.2725pt>
 File: Imagenes/5.png Graphic file (type png)
 <use Imagenes/5.png>
 Package pdftex.def Info: Imagenes/5.png  used on input line 72.
@@ -707,8 +717,8 @@ Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 LaTeX Info: Redefining \. on input line 78.
 LaTeX Info: Redefining \% on input line 78.
 
-[11]
-<Imagenes/1.png, id=497, 511.15968pt x 48.18pt>
+[12]
+<Imagenes/1.png, id=502, 511.15968pt x 48.18pt>
 File: Imagenes/1.png Graphic file (type png)
 <use Imagenes/1.png>
 Package pdftex.def Info: Imagenes/1.png  used on input line 87.
@@ -723,13 +733,13 @@ Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 LaTeX Info: Redefining \. on input line 96.
 LaTeX Info: Redefining \% on input line 96.
 
-[12 <./Imagenes/5.png> <./Imagenes/1.png>]
-<Imagenes/2.png, id=507, 522.45187pt x 68.50594pt>
+[13 <./Imagenes/5.png> <./Imagenes/1.png>]
+<Imagenes/2.png, id=512, 522.45187pt x 68.50594pt>
 File: Imagenes/2.png Graphic file (type png)
 <use Imagenes/2.png>
 Package pdftex.def Info: Imagenes/2.png  used on input line 100.
 (pdftex.def)             Requested size: 256.0748pt x 33.5776pt.
-<Imagenes/3.png, id=510, 532.99126pt x 37.64063pt>
+<Imagenes/3.png, id=515, 532.99126pt x 37.64063pt>
 File: Imagenes/3.png Graphic file (type png)
 <use Imagenes/3.png>
 Package pdftex.def Info: Imagenes/3.png  used on input line 113.
@@ -744,7 +754,7 @@ Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 LaTeX Info: Redefining \. on input line 129.
 LaTeX Info: Redefining \% on input line 129.
 
-[13 <./Imagenes/2.png> <./Imagenes/3.png>]
+[14 <./Imagenes/2.png> <./Imagenes/3.png>]
 
 LaTeX Info: Redefining \. on input line 147.
 LaTeX Info: Redefining \% on input line 147.
@@ -753,119 +763,119 @@ Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 147.
 LaTeX Info: Redefining \% on input line 147.
-
-[14]
-
-LaTeX Info: Redefining \. on input line 170.
-LaTeX Info: Redefining \% on input line 170.
-
-Overfull \vbox (11.36665pt too high) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 170.
-LaTeX Info: Redefining \% on input line 170.
 
 [15]
 
-LaTeX Info: Redefining \. on input line 185.
-LaTeX Info: Redefining \% on input line 185.
+LaTeX Info: Redefining \. on input line 170.
+LaTeX Info: Redefining \% on input line 170.
 
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 185.
-LaTeX Info: Redefining \% on input line 185.
+LaTeX Info: Redefining \. on input line 170.
+LaTeX Info: Redefining \% on input line 170.
 
 [16]
 
-LaTeX Info: Redefining \. on input line 201.
-LaTeX Info: Redefining \% on input line 201.
+LaTeX Info: Redefining \. on input line 185.
+LaTeX Info: Redefining \% on input line 185.
 
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 201.
-LaTeX Info: Redefining \% on input line 201.
+LaTeX Info: Redefining \. on input line 185.
+LaTeX Info: Redefining \% on input line 185.
 
 [17]
 
-LaTeX Info: Redefining \. on input line 218.
-LaTeX Info: Redefining \% on input line 218.
+LaTeX Info: Redefining \. on input line 201.
+LaTeX Info: Redefining \% on input line 201.
 
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 218.
-LaTeX Info: Redefining \% on input line 218.
+LaTeX Info: Redefining \. on input line 201.
+LaTeX Info: Redefining \% on input line 201.
 
 [18]
 
-LaTeX Info: Redefining \. on input line 237.
-LaTeX Info: Redefining \% on input line 237.
+LaTeX Info: Redefining \. on input line 218.
+LaTeX Info: Redefining \% on input line 218.
 
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 237.
-LaTeX Info: Redefining \% on input line 237.
+LaTeX Info: Redefining \. on input line 218.
+LaTeX Info: Redefining \% on input line 218.
 
 [19]
 
-LaTeX Info: Redefining \. on input line 254.
-LaTeX Info: Redefining \% on input line 254.
+LaTeX Info: Redefining \. on input line 237.
+LaTeX Info: Redefining \% on input line 237.
 
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 254.
-LaTeX Info: Redefining \% on input line 254.
+LaTeX Info: Redefining \. on input line 237.
+LaTeX Info: Redefining \% on input line 237.
 
 [20]
 
-LaTeX Info: Redefining \. on input line 280.
-LaTeX Info: Redefining \% on input line 280.
+LaTeX Info: Redefining \. on input line 254.
+LaTeX Info: Redefining \% on input line 254.
 
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 280.
-LaTeX Info: Redefining \% on input line 280.
+LaTeX Info: Redefining \. on input line 254.
+LaTeX Info: Redefining \% on input line 254.
 
 [21]
 
-LaTeX Info: Redefining \. on input line 305.
-LaTeX Info: Redefining \% on input line 305.
+LaTeX Info: Redefining \. on input line 280.
+LaTeX Info: Redefining \% on input line 280.
 
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 305.
-LaTeX Info: Redefining \% on input line 305.
+LaTeX Info: Redefining \. on input line 280.
+LaTeX Info: Redefining \% on input line 280.
 
 [22]
 
-LaTeX Info: Redefining \. on input line 335.
-LaTeX Info: Redefining \% on input line 335.
+LaTeX Info: Redefining \. on input line 305.
+LaTeX Info: Redefining \% on input line 305.
 
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 335.
-LaTeX Info: Redefining \% on input line 335.
+LaTeX Info: Redefining \. on input line 305.
+LaTeX Info: Redefining \% on input line 305.
 
 [23]
 
-LaTeX Info: Redefining \. on input line 353.
-LaTeX Info: Redefining \% on input line 353.
+LaTeX Info: Redefining \. on input line 335.
+LaTeX Info: Redefining \% on input line 335.
 
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 353.
-LaTeX Info: Redefining \% on input line 353.
+LaTeX Info: Redefining \. on input line 335.
+LaTeX Info: Redefining \% on input line 335.
 
 [24]
 
-LaTeX Info: Redefining \. on input line 370.
-LaTeX Info: Redefining \% on input line 370.
+LaTeX Info: Redefining \. on input line 353.
+LaTeX Info: Redefining \% on input line 353.
 
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 370.
-LaTeX Info: Redefining \% on input line 370.
+LaTeX Info: Redefining \. on input line 353.
+LaTeX Info: Redefining \% on input line 353.
 
 [25]
 
+LaTeX Info: Redefining \. on input line 370.
+LaTeX Info: Redefining \% on input line 370.
+
+Overfull \vbox (11.36665pt too high) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 370.
+LaTeX Info: Redefining \% on input line 370.
+
+[26]
+
 LaTeX Info: Redefining \. on input line 403.
 LaTeX Info: Redefining \% on input line 403.
 
@@ -874,7 +884,7 @@ Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 LaTeX Info: Redefining \. on input line 403.
 LaTeX Info: Redefining \% on input line 403.
 
-[26])
+[27])
 
 LaTeX Info: Redefining \. on input line 69.
 LaTeX Info: Redefining \% on input line 69.
@@ -884,14 +894,14 @@ Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 LaTeX Info: Redefining \. on input line 69.
 LaTeX Info: Redefining \% on input line 69.
 
-[27]
+[28]
 \openout2 = `Capitulos/Capitulo6.aux'.
 
  (Capitulos/Capitulo6.tex
 Cap\'{\i }tulo 6.
 
 
-[28
+[29
 
 
 
@@ -918,7 +928,7 @@ Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 LaTeX Info: Redefining \. on input line 52.
 LaTeX Info: Redefining \% on input line 52.
 
-[29]
+[30]
 Overfull \hbox (3.47252pt too wide) in paragraph at lines 53--54
 []\OT1/cmr/m/n/12 Los da-tos co-rres-pon-den a tra-ba-jos rea-li-za-dos en en d
 is-tin-tas con-di-cio-nes geol^^Sogi-
@@ -945,7 +955,7 @@ Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 LaTeX Info: Redefining \. on input line 65.
 LaTeX Info: Redefining \% on input line 65.
 
-[30]
+[31]
 
 LaTeX Info: Redefining \. on input line 84.
 LaTeX Info: Redefining \% on input line 84.
@@ -955,7 +965,7 @@ Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 LaTeX Info: Redefining \. on input line 84.
 LaTeX Info: Redefining \% on input line 84.
 
-[31]
+[32]
 Overfull \hbox (8.5813pt too wide) in paragraph at lines 87--88
 []\OT1/cmr/bx/sc/12 Optimizaci^^Son y me-jo-ra con-ti-nua: Fi-nal-men-te, se op
 -ti-mi-zan los par^^Same-
@@ -971,17 +981,7 @@ Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 LaTeX Info: Redefining \. on input line 95.
 LaTeX Info: Redefining \% on input line 95.
 
-[32])
-
-LaTeX Info: Redefining \. on input line 70.
-LaTeX Info: Redefining \% on input line 70.
-
-Overfull \vbox (11.36665pt too high) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 70.
-LaTeX Info: Redefining \% on input line 70.
-
-[33]
+[33])
 
 LaTeX Info: Redefining \. on input line 70.
 LaTeX Info: Redefining \% on input line 70.
@@ -992,13 +992,23 @@ LaTeX Info: Redefining \. on input line 70.
 LaTeX Info: Redefining \% on input line 70.
 
 [34]
+
+LaTeX Info: Redefining \. on input line 70.
+LaTeX Info: Redefining \% on input line 70.
+
+Overfull \vbox (11.36665pt too high) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 70.
+LaTeX Info: Redefining \% on input line 70.
+
+[35]
 \openout2 = `Capitulos/Capitulo7.aux'.
 
  (Capitulos/Capitulo7.tex
 Cap\'{\i }tulo 7.
 )
 
-[35
+[36
 
 
 
@@ -1010,7 +1020,7 @@ Cap\'{\i }tulo 7.
 Ap\'{e}ndice A.
 )
 
-[36
+[37
 
 
 
@@ -1024,7 +1034,7 @@ c/12 D. Pic-ci-ni-ni \OT1/cmr/m/n/12 (2024), []A
 
 
 
-[37
+[38
 
 
 
@@ -1039,7 +1049,7 @@ Overfull \vbox (9.33333pt too high) has occurred while \output is active []
 LaTeX Info: Redefining \. on input line 150.
 LaTeX Info: Redefining \% on input line 150.
 
-[38])
+[39])
 
 LaTeX Info: Redefining \. on input line 91.
 LaTeX Info: Redefining \% on input line 91.
@@ -1049,7 +1059,7 @@ Overfull \vbox (9.33333pt too high) has occurred while \output is active []
 LaTeX Info: Redefining \. on input line 91.
 LaTeX Info: Redefining \% on input line 91.
 
-[39] (MiTesis.aux (Capitulos/Portadas.aux)
+[40] (MiTesis.aux (Capitulos/Portadas.aux)
 LaTeX Info: Redefining \. on input line 12.
 LaTeX Info: Redefining \% on input line 12.
  (Capitulos/Dedicatoria.aux)
@@ -1069,8 +1079,8 @@ Package rerunfilecheck Info: File `MiTesis.out' has not changed.
 (rerunfilecheck)             Checksum: B1D923721DAE93DE29211550AF9DB416;10475.
  ) 
 Here is how much of TeX's memory you used:
- 13432 strings out of 473682
- 214577 string characters out of 5719215
+ 13433 strings out of 473682
+ 214584 string characters out of 5719215
  666514 words of memory out of 5000000
  36088 multiletter control sequences out of 15000+600000
  566038 words of font info for 65 fonts, out of 8000000 for 9000
@@ -1094,9 +1104,9 @@ type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTe
 X/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/juanj/AppData/Local/Progra
 ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/juanj/AppData/Loc
 al/Programs/MiKTeX/fonts/type1/public/amsfonts/latxfont/lasy10.pfb>
-Output written on MiTesis.pdf (48 pages, 957601 bytes).
+Output written on MiTesis.pdf (49 pages, 959419 bytes).
 PDF statistics:
- 891 PDF objects out of 1000 (max. 8388607)
- 171 named destinations out of 1000 (max. 500000)
+ 897 PDF objects out of 1000 (max. 8388607)
+ 172 named destinations out of 1000 (max. 500000)
  468 words of extra memory for PDF output out of 10000 (max. 10000000)
 
