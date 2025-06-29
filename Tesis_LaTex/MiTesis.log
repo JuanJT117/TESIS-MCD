@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.19)  5 JUN 2025 04:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.19)  22 JUN 2025 21:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -570,13 +570,13 @@ Cap\'{\i }tulo 1.
 
 ]
 
-LaTeX Info: Redefining \. on input line 27.
-LaTeX Info: Redefining \% on input line 27.
+LaTeX Info: Redefining \. on input line 24.
+LaTeX Info: Redefining \% on input line 24.
 
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 27.
-LaTeX Info: Redefining \% on input line 27.
+LaTeX Info: Redefining \. on input line 24.
+LaTeX Info: Redefining \% on input line 24.
 
 [2])
 
@@ -651,7 +651,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
 
-<Imagenes/estructura-oro.png, id=424, 425.11765pt x 420.15794pt>
+<Imagenes/estructura-oro.png, id=423, 425.11765pt x 420.15794pt>
 File: Imagenes/estructura-oro.png Graphic file (type png)
 <use Imagenes/estructura-oro.png>
 Package pdftex.def Info: Imagenes/estructura-oro.png  used on input line 17.
@@ -681,7 +681,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--35
 
  []
 
-<Imagenes/ArregloElectrodos.png, id=453, 576.74294pt x 298.29088pt>
+<Imagenes/ArregloElectrodos.png, id=452, 576.74294pt x 298.29088pt>
 File: Imagenes/ArregloElectrodos.png Graphic file (type png)
 <use Imagenes/ArregloElectrodos.png>
 Package pdftex.def Info: Imagenes/ArregloElectrodos.png  used on input line 38.
@@ -698,7 +698,7 @@ LaTeX Info: Redefining \. on input line 52.
 LaTeX Info: Redefining \% on input line 52.
 
 [11 <./Imagenes/ArregloElectrodos.png>]
-<Imagenes/5.png, id=482, 637.63219pt x 608.2725pt>
+<Imagenes/5.png, id=481, 637.63219pt x 608.2725pt>
 File: Imagenes/5.png Graphic file (type png)
 <use Imagenes/5.png>
 Package pdftex.def Info: Imagenes/5.png  used on input line 72.
@@ -718,7 +718,7 @@ LaTeX Info: Redefining \. on input line 78.
 LaTeX Info: Redefining \% on input line 78.
 
 [12]
-<Imagenes/1.png, id=502, 511.15968pt x 48.18pt>
+<Imagenes/1.png, id=501, 511.15968pt x 48.18pt>
 File: Imagenes/1.png Graphic file (type png)
 <use Imagenes/1.png>
 Package pdftex.def Info: Imagenes/1.png  used on input line 87.
@@ -734,12 +734,12 @@ LaTeX Info: Redefining \. on input line 96.
 LaTeX Info: Redefining \% on input line 96.
 
 [13 <./Imagenes/5.png> <./Imagenes/1.png>]
-<Imagenes/2.png, id=512, 522.45187pt x 68.50594pt>
+<Imagenes/2.png, id=511, 522.45187pt x 68.50594pt>
 File: Imagenes/2.png Graphic file (type png)
 <use Imagenes/2.png>
 Package pdftex.def Info: Imagenes/2.png  used on input line 100.
 (pdftex.def)             Requested size: 256.0748pt x 33.5776pt.
-<Imagenes/3.png, id=515, 532.99126pt x 37.64063pt>
+<Imagenes/3.png, id=514, 532.99126pt x 37.64063pt>
 File: Imagenes/3.png Graphic file (type png)
 <use Imagenes/3.png>
 Package pdftex.def Info: Imagenes/3.png  used on input line 113.
@@ -909,77 +909,77 @@ Cap\'{\i }tulo 6.
 ]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 20.
+               Default added (so using `tbp') on input line 14.
 
-LaTeX Font Info:    Trying to load font information for OML+cmr on input line 4
-0.
+LaTeX Font Info:    Trying to load font information for OML+cmr on input line 3
+4.
 (C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/base\omlcmr.fd
 File: omlcmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/bx/it' in size <12> not available
-(Font)              Font shape `OML/cmm/b/it' tried instead on input line 40.
+(Font)              Font shape `OML/cmm/b/it' tried instead on input line 34.
 
 
-LaTeX Info: Redefining \. on input line 52.
-LaTeX Info: Redefining \% on input line 52.
+LaTeX Info: Redefining \. on input line 46.
+LaTeX Info: Redefining \% on input line 46.
 
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 52.
-LaTeX Info: Redefining \% on input line 52.
+LaTeX Info: Redefining \. on input line 46.
+LaTeX Info: Redefining \% on input line 46.
 
 [30]
-Overfull \hbox (3.47252pt too wide) in paragraph at lines 53--54
+Overfull \hbox (3.47252pt too wide) in paragraph at lines 47--48
 []\OT1/cmr/m/n/12 Los da-tos co-rres-pon-den a tra-ba-jos rea-li-za-dos en en d
 is-tin-tas con-di-cio-nes geol^^Sogi-
  []
 
 
-Overfull \hbox (7.97926pt too wide) in paragraph at lines 55--56
+Overfull \hbox (7.97926pt too wide) in paragraph at lines 49--50
 []\OT1/cmr/m/n/12 La in-for-ma-ci^^Son par-ti-cu-lar de nom-bres de pro-yec-tos
 , lo-ca-li-dad, ubi-ca-ci^^Son geogr^^Safi-
  []
 
 
-Overfull \hbox (19.99689pt too wide) in paragraph at lines 62--63
+Overfull \hbox (19.99689pt too wide) in paragraph at lines 56--57
 []\OT1/cmr/m/n/12 Deber^^San in-cluir in-ter-pre-ta-ci^^Son geol^^Sogi-
  []
 
 
 
-LaTeX Info: Redefining \. on input line 65.
-LaTeX Info: Redefining \% on input line 65.
+LaTeX Info: Redefining \. on input line 59.
+LaTeX Info: Redefining \% on input line 59.
 
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 65.
-LaTeX Info: Redefining \% on input line 65.
+LaTeX Info: Redefining \. on input line 59.
+LaTeX Info: Redefining \% on input line 59.
 
 [31]
 
-LaTeX Info: Redefining \. on input line 84.
-LaTeX Info: Redefining \% on input line 84.
+LaTeX Info: Redefining \. on input line 78.
+LaTeX Info: Redefining \% on input line 78.
 
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 84.
-LaTeX Info: Redefining \% on input line 84.
+LaTeX Info: Redefining \. on input line 78.
+LaTeX Info: Redefining \% on input line 78.
 
 [32]
-Overfull \hbox (8.5813pt too wide) in paragraph at lines 87--88
+Overfull \hbox (8.5813pt too wide) in paragraph at lines 81--82
 []\OT1/cmr/bx/sc/12 Optimizaci^^Son y me-jo-ra con-ti-nua: Fi-nal-men-te, se op
 -ti-mi-zan los par^^Same-
  []
 
 
 
-LaTeX Info: Redefining \. on input line 95.
-LaTeX Info: Redefining \% on input line 95.
+LaTeX Info: Redefining \. on input line 89.
+LaTeX Info: Redefining \% on input line 89.
 
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 95.
-LaTeX Info: Redefining \% on input line 95.
+LaTeX Info: Redefining \. on input line 89.
+LaTeX Info: Redefining \% on input line 89.
 
 [33])
 
@@ -1081,7 +1081,7 @@ Package rerunfilecheck Info: File `MiTesis.out' has not changed.
 Here is how much of TeX's memory you used:
  13433 strings out of 473682
  214584 string characters out of 5719215
- 666514 words of memory out of 5000000
+ 666491 words of memory out of 5000000
  36088 multiletter control sequences out of 15000+600000
  566038 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1104,9 +1104,9 @@ type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTe
 X/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/juanj/AppData/Local/Progra
 ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/juanj/AppData/Loc
 al/Programs/MiKTeX/fonts/type1/public/amsfonts/latxfont/lasy10.pfb>
-Output written on MiTesis.pdf (49 pages, 959419 bytes).
+Output written on MiTesis.pdf (49 pages, 958985 bytes).
 PDF statistics:
- 897 PDF objects out of 1000 (max. 8388607)
+ 894 PDF objects out of 1000 (max. 8388607)
  172 named destinations out of 1000 (max. 500000)
  468 words of extra memory for PDF output out of 10000 (max. 10000000)
 
