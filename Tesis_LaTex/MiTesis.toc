@@ -18,49 +18,33 @@
 \contentsline {subsection}{\numberline {5.2.2}Proceso de Adquisición In Situ}{16}{subsection.5.2.2}%
 \contentsline {section}{\numberline {5.3}Machine Learning en la Geofísica}{17}{section.5.3}%
 \contentsline {section}{\numberline {5.4}Random Forests}{18}{section.5.4}%
-\contentsline {subsection}{\numberline {5.4.1}Bootstrap aggregating}{18}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.1}Bootstrap aggregating}{19}{subsection.5.4.1}%
 \contentsline {subsection}{\numberline {5.4.2}Selección Aleatoria de Características}{19}{subsection.5.4.2}%
-\contentsline {subsection}{\numberline {5.4.3}Predicción por Agregación}{19}{subsection.5.4.3}%
+\contentsline {subsection}{\numberline {5.4.3}Predicción por Agregación}{20}{subsection.5.4.3}%
 \contentsline {subsection}{\numberline {5.4.4}Varianza y Overfitting}{20}{subsection.5.4.4}%
-\contentsline {subsection}{\numberline {5.4.5}Bias-Varianza Tradeoff}{20}{subsection.5.4.5}%
+\contentsline {subsection}{\numberline {5.4.5}Bias-Varianza Tradeoff}{21}{subsection.5.4.5}%
 \contentsline {section}{\numberline {5.5}Support Vector Machines}{21}{section.5.5}%
 \contentsline {subsection}{\numberline {5.5.1}Hiperplano Separador}{22}{subsection.5.5.1}%
-\contentsline {subsection}{\numberline {5.5.2}Clasificador de Margen Máximo}{22}{subsection.5.5.2}%
+\contentsline {subsection}{\numberline {5.5.2}Clasificador de Margen Máximo}{23}{subsection.5.5.2}%
 \contentsline {subsection}{\numberline {5.5.3}Clasificador de Margen Suave (Soft Margin)}{23}{subsection.5.5.3}%
 \contentsline {subsection}{\numberline {5.5.4}Método del Kernel}{23}{subsection.5.5.4}%
 \contentsline {subsection}{\numberline {5.5.5}Regresión por Vectores de Soporte (SVR)}{24}{subsection.5.5.5}%
-\contentsline {section}{\numberline {5.6}Gradient Boosting Regression}{24}{section.5.6}%
+\contentsline {section}{\numberline {5.6}Gradient Boosting Regression}{25}{section.5.6}%
 \contentsline {subsection}{\numberline {5.6.1}Naturaleza Secuencial}{25}{subsection.5.6.1}%
 \contentsline {subsection}{\numberline {5.6.2}Minimización de la Función de Pérdida}{25}{subsection.5.6.2}%
 \contentsline {subsection}{\numberline {5.6.3}Ajuste a los Residuales}{25}{subsection.5.6.3}%
-\contentsline {subsection}{\numberline {5.6.4}Shrinkage (Tasa de Aprendizaje)}{25}{subsection.5.6.4}%
+\contentsline {subsection}{\numberline {5.6.4}Shrinkage (Tasa de Aprendizaje)}{26}{subsection.5.6.4}%
 \contentsline {subsection}{\numberline {5.6.5}Regularización}{26}{subsection.5.6.5}%
 \contentsline {subsubsection}{\numberline {5.6.5.1}Algoritmo de Gradient Boosting para Regresión}{26}{subsubsection.5.6.5.1}%
-\contentsline {subsubsection}{\numberline {5.6.5.2}Parámetros de Ajuste Importantes}{27}{subsubsection.5.6.5.2}%
+\contentsline {subsubsection}{\numberline {5.6.5.2}Parámetros de Ajuste Importantes}{28}{subsubsection.5.6.5.2}%
 \contentsline {subsubsection}{\numberline {5.6.5.3}Compensación Bias-Varianza}{28}{subsubsection.5.6.5.3}%
-\contentsline {chapter}{\numberline {6}METODOLOGÍA}{29}{chapter.6}%
-\contentsline {section}{\numberline {6.1}ideas y apuntes}{29}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Variables de Entrada}{29}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}Datos de entrada}{30}{subsection.6.2.1}%
-\contentsline {subsubsection}{\numberline {6.2.1.1}Limpieza de datos}{31}{subsubsection.6.2.1.1}%
-\contentsline {subsection}{\numberline {6.2.2}Generación de datos de entrenamiento}{32}{subsection.6.2.2}%
-\contentsline {subsubsection}{\numberline {6.2.2.1}Resistividad aparente}{32}{subsubsection.6.2.2.1}%
-\contentsline {subsubsection}{\numberline {6.2.2.2}Atributos cualitativos asociados a la curva de resistividad}{32}{subsubsection.6.2.2.2}%
-\contentsline {subsection}{\numberline {6.2.3}Clasificación, transformación y escalado de los datos}{34}{subsection.6.2.3}%
-\contentsline {subsubsection}{\numberline {6.2.3.1}Normalización o estandarización de resistividades si se observan grandes variaciones}{34}{subsubsection.6.2.3.1}%
-\contentsline {subsubsection}{\numberline {6.2.3.2}Transformación logarítmica de resistividad para reducir el sesgo de valores extremos}{35}{subsubsection.6.2.3.2}%
-\contentsline {subsubsection}{\numberline {6.2.3.3}Codificación de categorías litológicas si se incluyen como variable adicional}{35}{subsubsection.6.2.3.3}%
-\contentsline {section}{\numberline {6.3}Diseño de los Modelos ML}{35}{section.6.3}%
-\contentsline {subsection}{\numberline {6.3.1}Regresión}{35}{subsection.6.3.1}%
-\contentsline {subsection}{\numberline {6.3.2}Configuración inicial del modelo}{35}{subsection.6.3.2}%
-\contentsline {subsection}{\numberline {6.3.3}Configuración y optimización de hiperparametros}{35}{subsection.6.3.3}%
-\contentsline {section}{\numberline {6.4}Preparación del dataset para la implementación del modelo}{35}{section.6.4}%
-\contentsline {section}{\numberline {6.5}Implementación del modelo}{35}{section.6.5}%
-\contentsline {subsection}{\numberline {6.5.1}Entrenamiento del modelo}{35}{subsection.6.5.1}%
-\contentsline {subsection}{\numberline {6.5.2}Mapas de probabilidad y entrenamiento de regresión}{35}{subsection.6.5.2}%
-\contentsline {section}{\numberline {6.6}Evaluación del modelos}{35}{section.6.6}%
-\contentsline {subsection}{\numberline {6.6.1}Regresión y validación cruzada}{35}{subsection.6.6.1}%
-\contentsline {subsection}{\numberline {6.6.2}Análisis de incertidumbre}{35}{subsection.6.6.2}%
-\contentsline {section}{\numberline {6.7}Reporte estadístico}{35}{section.6.7}%
-\contentsline {chapter}{\numberline {7}RESULTADOS Y CONCLUSIONES}{36}{chapter.7}%
-\contentsline {chapter}{\numberline {A}Apéndice I}{37}{appendix.Alph1}%
+\contentsline {chapter}{\numberline {6}METODOLOGÍA}{30}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Análisis de datos iniciales y simulación}{30}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Datos iniciales}{31}{subsection.6.1.1}%
+\contentsline {subsubsection}{\numberline {6.1.1.1}Limpieza de datos}{32}{subsubsection.6.1.1.1}%
+\contentsline {section}{\numberline {6.2}Limpieza y preparación de datos}{33}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Modelado y entrenamiento}{33}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Validación, optimización y comparación de modelos}{33}{section.6.4}%
+\contentsline {section}{\numberline {6.5}Test y evaluación}{33}{section.6.5}%
+\contentsline {chapter}{\numberline {7}RESULTADOS Y CONCLUSIONES}{34}{chapter.7}%
+\contentsline {chapter}{\numberline {A}Apéndice I}{35}{appendix.Alph1}%

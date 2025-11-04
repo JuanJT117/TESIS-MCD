@@ -1,109 +1,72 @@
 \chapter{METODOLOGÍA}
 
-\section{ideas y apuntes}
+%\section{ideas y apuntes}
 
 
-\textbf{Adquisición de datos y preprocesamiento: En primer lugar, se realiza la adquisición de datos in situ utilizando el método de Sondeo Eléctrico Vertical (SEV), el cual consiste en medir la resistividad del terreno a diferentes profundidades con un intervalo de muestreo predefinido. Este intervalo se determina de acuerdo con el objetivo de exploración, como la identificación de unidades geológicas, acuíferos, fallas, fracturas o estructuras antropogénicas. Para garantizar que los datos sean adecuados para el análisis, se lleva a cabo un preprocesamiento de los datos, que incluye la limpieza de valores atípicos, normalización de las lecturas y manejo de valores faltantes.}
+%\textbf{Adquisición de datos y preprocesamiento: En primer lugar, se realiza la adquisición de datos in situ utilizando el método de Sondeo Eléctrico Vertical (SEV), el cual consiste en medir la resistividad del terreno a diferentes profundidades con un intervalo de muestreo predefinido. Este intervalo se determina de acuerdo con el objetivo de exploración, como la identificación de unidades geológicas, acuíferos, fallas, fracturas o estructuras antropogénicas. Para garantizar que los datos sean adecuados para el análisis, se lleva a cabo un preprocesamiento de los datos, que incluye la limpieza de valores atípicos, normalización de las lecturas y manejo de valores faltantes.}
 
-
-\section{Variables de Entrada}
-	Al observar las ecuaciones 5.1, 5.3 y 5.4, es posible identificar las variables involucradas en el calculo de la resistividad aparente, estos valores son medidos por un equipo automático o bien, de forma manual a través de la lectura directa en un resistivímetro, para lo cual se requiere de comprobaciones durante la adquisición.
-		
-	Como observamos en la tabla \ref{tab:T1}, se integran datos generados durante la planeación y valores medidos en la etapa de adquisición; Z= profundidad aparente de exploración; K= factor geométrico; AB/2= apertura total de muestreo entre dos; MN= distancia entre electrodos de potencial; Pn= potencial natural; Pi= potencial inducido; I= corriente Inducida; PPn= promedio del potencial natural; PPi= promedio de potencial inducido; U= diferencia entre PPn y PPi; PI= promedio de corriente inducida; Rha= resistividad aparente ponderada.
+	El objetivo central de la metodología consiste en evaluar la eficacia de la generación de pronósticos de resistividad aparente a partir del entrenamiento supervisado de los modelos Random Forest, Gradient Boosting Regression y Vector Sopporter Machine.
 	
-\begin{table}[]% Ejemplo de atributos empleados en el calculo de la resistividad aparente  - \label{tab:T1}
-	\resizebox{\columnwidth}{!}{%
-		\begin{tabular}{c|c|c|c|c|c|l|l|l|l|l|l|l|l|l|l|l|l|l|l}
-			\rowcolor[HTML]{C0C0C0} 
-			\textbf{Z} & \textbf{K} & \textbf{AB/2} & \textit{\textbf{AB/5  \textgreater{}}} & \textit{\textbf{MN}} & \textit{\textbf{\textgreater AB/20}} & \multicolumn{1}{c|}{\cellcolor[HTML]{C0C0C0}\textbf{Pn}} & \multicolumn{1}{c|}{\cellcolor[HTML]{C0C0C0}\textbf{Pi}} & \multicolumn{1}{c|}{\cellcolor[HTML]{C0C0C0}\textbf{I}} & \multicolumn{1}{c|}{\cellcolor[HTML]{C0C0C0}\textbf{Pn}} & \multicolumn{1}{c|}{\cellcolor[HTML]{C0C0C0}\textbf{Pi}} & \multicolumn{1}{c|}{\cellcolor[HTML]{C0C0C0}\textbf{I}} & \multicolumn{1}{c|}{\cellcolor[HTML]{C0C0C0}\textbf{Pn}} & \multicolumn{1}{c|}{\cellcolor[HTML]{C0C0C0}\textbf{Pi}} & \multicolumn{1}{c|}{\cellcolor[HTML]{C0C0C0}\textbf{I}} & \multicolumn{1}{c|}{\cellcolor[HTML]{C0C0C0}\textbf{PPn}} & \multicolumn{1}{c|}{\cellcolor[HTML]{C0C0C0}\textbf{PPi}} & \multicolumn{1}{c|}{\cellcolor[HTML]{C0C0C0}\textbf{U}} & \multicolumn{1}{c|}{\cellcolor[HTML]{C0C0C0}\textbf{PI}} & \multicolumn{1}{c}{\cellcolor[HTML]{C0C0C0}\textbf{Rha}} \\ \hline
-			\rowcolor[HTML]{FFFFFF} 
-			\textbf{1.8} & \textbf{56.549} & \textbf{3} & \textit{\textbf{1.2}} & \textit{\textbf{0.5}} & \textit{\textbf{0.3}} & 1 & 6 & 15 & 0 & 6 & 15 & 0 & 5 & 15 & 0.3 & 5.7 & 5.3 & 15.0 & 20.11 \\ \hline
-			\rowcolor[HTML]{FFFFFF} 
-			\textbf{2.4} & \textbf{100.531} & \textbf{4} & \textit{\textbf{1.6}} & \textit{\textbf{0.5}} & \textit{\textbf{0.4}} & 12 & 19 & 3 & 0 & 25 & 17 & 5 & 24 & 13 & 5.7 & 22.7 & 17.0 & 11.0 & 176.45 \\ \hline
-			\rowcolor[HTML]{FFFFFF} 
-			\textbf{3} & \textbf{157.080} & \textbf{5} & \textit{\textbf{2}} & \textit{\textbf{0.5}} & \textit{\textbf{0.5}} & 8 & 54 & 73 & 8 & 52 & 85 & 8 & 40 & 83 & 8.0 & 48.7 & 40.7 & 80.3 & 80.28 \\ \hline
-			\rowcolor[HTML]{FFFFFF} 
-			\textbf{3} & \textbf{31.416} & \textbf{5} & \textit{\textbf{2}} & \textit{\textbf{2.5}} & \textit{\textbf{0.5}} & 52 & 508 & 42 & 52 & 648 & 72 & 52 & 606 & 21 & 52.0 & 587.3 & 535.3 & 45.0 & 476.64 \\ \hline
-			\rowcolor[HTML]{FFFFFF} 
-			\textbf{4.8} & \textbf{80.425} & \textbf{8} & \textit{\textbf{3.2}} & \textit{\textbf{2.5}} & \textit{\textbf{0.8}} & 48 & 60 & 6 & 48 & 62 & 7 & 51 & 59 & 4 & 49.0 & 60.3 & 11.3 & 5.7 & 160.85 \\ \hline
-			\rowcolor[HTML]{FFFFFF} 
-			\textbf{6} & \textbf{125.664} & \textbf{10} & \textit{\textbf{4}} & \textit{\textbf{2.5}} & \textit{\textbf{1}} & 52 & 60 & 2 & 52 & 60 & 5 & 52 & 60 & 5 & 52.0 & 60.0 & 8.0 & 4.0 & 301.59 \\ \hline
-			\rowcolor[HTML]{FFFFFF} 
-			\textbf{9} & \textbf{282.743} & \textbf{15} & \textit{\textbf{6}} & \textit{\textbf{2.5}} & \textit{\textbf{1.5}} & 52 & 76 & 54 & 52 & 78 & 87 & 50 & 64 & 44 & 51.3 & 72.7 & 21.3 & 61.7 & 100.04
-		\end{tabular}%
-	}
-	\caption{Ejemplo de atributos empleados en el calculo de la resistividad aparente.}
-	\label{tab:T1}
-\end{table}
+	En ciencia de datos la cadena de procesos de análisis, se estructura y diseña rigurosamente para garantizar la calidad de los datos de entrada, la preparación y diseño de los datos de entrenamiento, la optimización de los modelos y la evaluación de los resultados, así como la comparación de cada modelo empleado.
 	
-	En términos generales, el proceso de adquisición consiste en la inducción de una corriente eléctrica a través del medio geológico, dicha intensidad de corriente es registrada, junto con el valor del potencial natural (Self-Potential) y el potencial inducido, generado por la inyección de corriente a tierra, obteniendo así los elementos necesarios para calcular el valor de la resistividad, habiendo previamente planeado la configuración geométrica del arreglo.
+	El proceso metodológico se dividió en 5 etapas:
+	
+	\begin{enumerate}
+		\item Análisis de datos iniciales y simulación
+		\item Limpieza y preparación de datos
+		\item Modelado y entrenamiento
+		\item Validación, optimización y comparación de modelos
+		\item Test y evaluación
+	\end{enumerate}
+	
 
-	\subsection{Datos de entrada}
-		
-		Para los datos de entrada se emplearon levantamientos de SEV, empleando la configuración geométrica Shlumberger, previamente procesados e interpretados, ya sea mediante correlación geológica o con muestreo directo por sondeo de penetración estándar (SPT por sus siglas en inglés), correspondientes a ambiente de deposito sedimentario y flujos volcánico, en ambos caso subyaciendo a unidades sedimentarias recientes.
-		
-		A partir de estos resultados etiquetados, valores de resistividad aparente, es como de modela variaciones, modificando el espesor de las unidades, ya que cada muestreo de resistividad aparente integra la respuesta conjunta de las unidades que la preceden, es decir las capas geoeléctricas por arriba de la profundidad aparente de exploración, para iguar las condiciones en los modelos que integran los datos de entrenamiento, se emplea la Librería PyGIMLI, la cual esta preparada para realizar esta tarea.
-		
-		Los datos corresponden a trabajos realizados en en distintas condiciones geológicas, correspondientes a proyectos de exploración hidrológica y minera, se integran un total de 99999 SEV's, procesados, interpretados y validados, a partir de los cuales se generaran las variantes para generar la base de entrenamiento. 
-		
-		La información particular de nombres de proyectos, localidad, ubicación geográfica o cualquier información que pueda relacionar directamente al propietario del proyecto, son omitidos. 
-		
-		\subsubsection{Limpieza de datos}
-		
-		En esta etapa se consideran los siguientes criterios para la selección y limpieza de datos, permitiendo detectar y corregir errores, identificar valores atípicos en el muestreo así como datos inconsistentes.
-		
-		\begin{description}
-			\item[1.- Interpretacion geologica de los perfiles] Deberán incluir interpretación geológica de los resultados de inversión, es decir, es necesario conocer la unidad geológica correspondiente al modelo de resistividad, correspondiendo a etiquetas de datos. 
-			\item[2.- Muestreo continuos a intervalos regularres] En caso de que no se cuente con un muestreo adecuado, se integraran los intervalos faltantes, de manera que se modele la señal completa en un muestreo extenso, considerando como mínimo 30 datos de muestreo por sondeo.  
-			\item[3.- profundidad de exploracion calculada] Poder identificar durante la adquisición, la profundidad de exploración y los valores de resistividad aparente en el medio, permite detectar variaciones o puntos de inflexión en la curva de la señal.
-			\item[4.- Valores de resitividad atipicos] Estos errores por inconsistencia pueden surgir por una mala lectura en campo, al no identificar un cambio de polaridad en el medio.
-			\item[5.- Valores duplicados ] identificación de modelos duplicados en los registros.
-		\end{description}
-		
-		
-		
-	\subsection{Generación de datos de entrenamiento}
+	\section{Análisis de datos iniciales y simulación}
 	
-	a partir d
-		
-		\subsubsection{Resistividad aparente}
-		
-		\subsubsection{Atributos cualitativos asociados a la curva de resistividad}
+	Durante las etapas de adquisición "in situ", se cuenta con datos limitados, contando unicamente con la información generada en gabinete y los datos obtenidos durante la adquisición geofísica, correspondiendo a profundidades aparentes de exploración, aperturas de electrodos de corriente y potencial, así como los resultados de resistividad aparente resultantes de cada lectura.
+	
+	Ya que se cuenta con un numero limitado de variables, $\rho _{A}$, $AB/2$, $Z$ y el modelo de unidades geológicas esperada, así como su valor de resistividad asociado, como elementos base para el entrenamiento de los modelos.
+	
+	Las variables identificadas no pueden integrarse directamente a los datos de entrenamiento, para ello se requiere contar con condiciones de simetría en los datos, así como cubrir o remplazar los datos faltantes mediante técnicas de análisis de datos.
+	
+	Para la evaluación e los modelos que se implementaran, así como el objetivo de uso, considero el uso de datos procesados y validados en campo, en condiciones y situaciones en las que los datos obtenidos y los modelos presentados pudieron ser validados por exploración directa.
+	
+	Se cuenta con un total de 8 sitios de exploración, los cuales cuentan al menos con 2 sondeos realizados, en diferentes ambientes geológicos, reuniendo un total de 26 Sondeos Eléctricos Verticales, adicionalmente con el objetivo de reducir el sesgo, no se emplean los datos de resistividad aparente medido in situ, en su lugar se generan modelos sintéticos para el entrenamiento, dejando los datos reales para las para los test y evaluación de los modelos.
+	
+	%asi como un numero aun mas limitado de muestras para un entrenamiento 
+	
+	
+	
+		\subsection{Datos iniciales}
 			
-			etiquetas de acuerdo a unidades geológicas especificas
-
-\textbf{Clasificación de las lecturas con Random Forests: Se emplea el algoritmo Random Forests, una técnica de aprendizaje automático no paramétrica que consiste en crear múltiples árboles de decisión que luego se combinan para mejorar la precisión del modelo. El modelo se entrena utilizando las lecturas de resistividad obtenidas de las distintas profundidades y las características asociadas (como el tipo de terreno, las propiedades geológicas conocidas o las variables del sondeo). Los árboles se entrenan para clasificar los datos en diferentes categorías, tales como las unidades geológicas presentes, los acuíferos, las fracturas, entre otros. La clasificación permitirá identificar patrones en las lecturas de resistividad que corresponden a diferentes tipos de formaciones geológicas.}
-
-\textbf{Generación de la regresión para optimizar el intervalo de muestreo: Una vez que se haya realizado la clasificación, se utiliza el modelo de regresión basado en Random Forests para predecir la resistividad eléctrica en profundidades no muestreadas. Esto permitirá estimar la resistividad del terreno en puntos específicos que no han sido cubiertos por el muestreo inicial. A partir de estas predicciones, se podrán proponer intervalos de muestreo adicionales in situ que mejoren la representación de las formaciones geológicas de interés. La regresión también proporcionará un modelo predictivo que puede ajustarse dinámicamente para adaptar los intervalos de muestreo según las características del terreno y los objetivos de exploración.}
-
-\textbf{Evaluación del modelo y ajuste de parámetros: Se realiza una evaluación exhaustiva del modelo mediante técnicas de validación cruzada para asegurarse de que el modelo esté bien entrenado y sea capaz de generalizar correctamente a nuevos datos. Además, se compara el rendimiento del modelo de Random Forests con otras técnicas de clasificación y regresión para determinar su eficacia en comparación con otros enfoques. Se analizan métricas como la precisión en la clasificación, el error cuadrático medio (RMSE) en la regresión y la capacidad de predicción en términos de muestreos adicionales.}
-
-\textbf{Optimización y mejora continua: Finalmente, se optimizan los parámetros del modelo (como el número de árboles y la profundidad de los mismos) para mejorar la precisión y eficiencia del modelo. A medida que se incorporan nuevos datos de exploración y se obtienen más lecturas de resistividad, el modelo puede ser recalibrado y ajustado para mantener su efectividad en la identificación de objetivos geofísicos y en la optimización del intervalo de muestreo.}
-
-
-	\subsection{Clasificación, transformación y escalado de los datos}
-	
-		\subsubsection{Normalización o estandarización de resistividades si se observan grandes variaciones}
+			Para los datos de entrada se emplearon levantamientos de SEV, empleando la configuración geométrica Shlumberger, previamente procesados e interpretados, ya sea mediante correlación geológica o con muestreo directo por sondeo de penetración estándar (SPT por sus siglas en inglés), correspondientes a ambiente de deposito sedimentario y flujos volcánico, en ambos caso subyaciendo a unidades sedimentarias recientes.
+			
+			A partir de estos resultados etiquetados, valores de resistividad aparente, es como de modela variaciones, modificando el espesor de las unidades, ya que cada muestreo de resistividad aparente integra la respuesta conjunta de las unidades que la preceden, es decir las capas geoeléctricas por arriba de la profundidad aparente de exploración, para iguar las condiciones en los modelos que integran los datos de entrenamiento, se emplea la Librería PyGIMLI, la cual esta preparada para realizar esta tarea.
+			
+			Los datos corresponden a trabajos realizados en en distintas condiciones geológicas, correspondientes a proyectos de exploración hidrológica y minera, se integran un total de 99999 SEV's, procesados, interpretados y validados, a partir de los cuales se generaran las variantes para generar la base de entrenamiento. 
+			
+			La información particular de nombres de proyectos, localidad, ubicación geográfica o cualquier información que pueda relacionar directamente al propietario del proyecto, son omitidos. 
+			
+			\subsubsection{Limpieza de datos}
+			
+			En esta etapa se consideran los siguientes criterios para la selección y limpieza de datos, permitiendo detectar y corregir errores, identificar valores atípicos en el muestreo así como datos inconsistentes.
+			
+			\begin{description}
+				\item[1.- Interpretacion geologica de los perfiles] Deberán incluir interpretación geológica de los resultados de inversión, es decir, es necesario conocer la unidad geológica correspondiente al modelo de resistividad, correspondiendo a etiquetas de datos. 
+				\item[2.- Muestreo continuos a intervalos regularres] En caso de que no se cuente con un muestreo adecuado, se integraran los intervalos faltantes, de manera que se modele la señal completa en un muestreo extenso, considerando como mínimo 30 datos de muestreo por sondeo.  
+				\item[3.- profundidad de exploracion calculada] Poder identificar durante la adquisición, la profundidad de exploración y los valores de resistividad aparente en el medio, permite detectar variaciones o puntos de inflexión en la curva de la señal.
+				\item[4.- Valores de resitividad atipicos] Estos errores por inconsistencia pueden surgir por una mala lectura en campo, al no identificar un cambio de polaridad en el medio.
+				\item[5.- Valores duplicados ] identificación de modelos duplicados en los registros.
+			\end{description}
 		
-		Normalización y escalado: Al tener datos con escalas diferentes, es decir, sistemas de unidades de medición muy distintas como en este caso donde encontramos valores de Resistividad en Ohm·m y distancias en metros.
-		 
-		\subsubsection{Transformación logarítmica de resistividad para reducir el sesgo de valores extremos}
-		\subsubsection{Codificación de categorías litológicas si se incluyen como variable adicional}
-
-\section{Diseño de los Modelos ML}
-	\subsection{Regresión}
-	\subsection{Configuración inicial del modelo}
-	\subsection{Configuración y optimización de hiperparametros}
-
-\section{Preparación del dataset para la implementación del modelo}
-
-\section{Implementación del modelo}
-\subsection{Entrenamiento del modelo}
-\subsection{Mapas de probabilidad y entrenamiento de regresión}
-
-\section{Evaluación del modelos}
-	\subsection{Regresión y validación cruzada}
-	\subsection{Análisis de incertidumbre}
+	
+		
 
 
-\section{Reporte estadístico}
+	\section{Limpieza y preparación de datos}
+
+	\section{Modelado y entrenamiento}
+
+	\section{Validación, optimización y comparación de modelos}
+	
+	\section{Test y evaluación}
+	
