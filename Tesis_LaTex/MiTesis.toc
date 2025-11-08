@@ -42,9 +42,9 @@
 \contentsline {section}{\numberline {6.1}Análisis de datos iniciales y simulación}{30}{section.6.1}%
 \contentsline {subsection}{\numberline {6.1.1}Datos iniciales}{31}{subsection.6.1.1}%
 \contentsline {subsubsection}{\numberline {6.1.1.1}Limpieza de datos}{32}{subsubsection.6.1.1.1}%
-\contentsline {section}{\numberline {6.2}Limpieza y preparación de datos}{33}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Modelado y entrenamiento}{33}{section.6.3}%
-\contentsline {section}{\numberline {6.4}Validación, optimización y comparación de modelos}{33}{section.6.4}%
-\contentsline {section}{\numberline {6.5}Test y evaluación}{33}{section.6.5}%
-\contentsline {chapter}{\numberline {7}RESULTADOS Y CONCLUSIONES}{34}{chapter.7}%
-\contentsline {chapter}{\numberline {A}Apéndice I}{35}{appendix.Alph1}%
+\contentsline {section}{\numberline {6.2}Limpieza y preparación de datos}{32}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Modelado y entrenamiento}{32}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Validación, optimización y comparación de modelos}{32}{section.6.4}%
+\contentsline {section}{\numberline {6.5}Test y evaluación}{32}{section.6.5}%
+\contentsline {chapter}{\numberline {7}RESULTADOS Y CONCLUSIONES}{33}{chapter.7}%
+\contentsline {chapter}{\numberline {A}Apéndice I}{34}{appendix.Alph1}%
