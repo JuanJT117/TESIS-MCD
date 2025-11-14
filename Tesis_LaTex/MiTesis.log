@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.19)  7 NOV 2025 00:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.19)  11 NOV 2025 23:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -459,26 +459,26 @@ LaTeX Info: Redefining \% on input line 12.
 (Capitulos/Apendice1.aux))
 \openout1 = `MiTesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Info: Redefining \. on input line 55.
-LaTeX Info: Redefining \% on input line 55.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Info: Redefining \. on input line 60.
+LaTeX Info: Redefining \% on input line 60.
 
 (C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
@@ -505,7 +505,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring ON on input line 55.
+Package hyperref Info: Link coloring ON on input line 60.
  (MiTesis.out) (MiTesis.out)
 \@outlinefile=\write3
 \openout3 = `MiTesis.out'.
@@ -519,7 +519,7 @@ File: translations-basic-dictionary-spanish.trsl (spanish translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `spanish'. on input line 55.
+or `spanish'. on input line 60.
 \openout2 = `Capitulos/Portadas.aux'.
 
  (Capitulos/Portadas.tex
@@ -602,13 +602,13 @@ LaTeX Info: Redefining \% on input line 43.
 
 
 
-LaTeX Info: Redefining \. on input line 64.
-LaTeX Info: Redefining \% on input line 64.
+LaTeX Info: Redefining \. on input line 69.
+LaTeX Info: Redefining \% on input line 69.
 
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 64.
-LaTeX Info: Redefining \% on input line 64.
+LaTeX Info: Redefining \. on input line 69.
+LaTeX Info: Redefining \% on input line 69.
 
 [6] (MiTesis.lof
 LaTeX Info: Redefining \. on input line 1.
@@ -665,13 +665,13 @@ LaTeX Info: Redefining \% on input line 24.
 
 [2])
 
-LaTeX Info: Redefining \. on input line 74.
-LaTeX Info: Redefining \% on input line 74.
+LaTeX Info: Redefining \. on input line 79.
+LaTeX Info: Redefining \% on input line 79.
 
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 74.
-LaTeX Info: Redefining \% on input line 74.
+LaTeX Info: Redefining \. on input line 79.
+LaTeX Info: Redefining \% on input line 79.
 
 [3]
 \openout2 = `Capitulos/Capitulo2.aux'.
@@ -699,13 +699,13 @@ Cap\'{\i }tulo 3.
 
 ])
 
-LaTeX Info: Redefining \. on input line 76.
-LaTeX Info: Redefining \% on input line 76.
+LaTeX Info: Redefining \. on input line 81.
+LaTeX Info: Redefining \% on input line 81.
 
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 76.
-LaTeX Info: Redefining \% on input line 76.
+LaTeX Info: Redefining \. on input line 81.
+LaTeX Info: Redefining \% on input line 81.
 
 [6]
 \openout2 = `Capitulos/Capitulo4.aux'.
@@ -736,7 +736,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
 
-<Imagenes/estructura-oro.png, id=361, 425.11765pt x 420.15794pt>
+<Imagenes/estructura-oro.png, id=367, 425.11765pt x 420.15794pt>
 File: Imagenes/estructura-oro.png Graphic file (type png)
 <use Imagenes/estructura-oro.png>
 Package pdftex.def Info: Imagenes/estructura-oro.png  used on input line 17.
@@ -767,7 +767,7 @@ LaTeX Info: Redefining \. on input line 35.
 LaTeX Info: Redefining \% on input line 35.
 
 [10]
-<Imagenes/ArregloElectrodos.png, id=391, 576.74294pt x 298.29088pt>
+<Imagenes/ArregloElectrodos.png, id=397, 576.74294pt x 298.29088pt>
 File: Imagenes/ArregloElectrodos.png Graphic file (type png)
 <use Imagenes/ArregloElectrodos.png>
 Package pdftex.def Info: Imagenes/ArregloElectrodos.png  used on input line 38.
@@ -784,7 +784,7 @@ LaTeX Info: Redefining \. on input line 56.
 LaTeX Info: Redefining \% on input line 56.
 
 [11 <./Imagenes/ArregloElectrodos.png>]
-<Imagenes/5.png, id=418, 637.63219pt x 608.2725pt>
+<Imagenes/5.png, id=424, 637.63219pt x 608.2725pt>
 File: Imagenes/5.png Graphic file (type png)
 <use Imagenes/5.png>
 Package pdftex.def Info: Imagenes/5.png  used on input line 73.
@@ -804,12 +804,12 @@ LaTeX Info: Redefining \. on input line 84.
 LaTeX Info: Redefining \% on input line 84.
 
 [12]
-<Imagenes/1.png, id=434, 511.15968pt x 48.18pt>
+<Imagenes/1.png, id=440, 511.15968pt x 48.18pt>
 File: Imagenes/1.png Graphic file (type png)
 <use Imagenes/1.png>
 Package pdftex.def Info: Imagenes/1.png  used on input line 88.
 (pdftex.def)             Requested size: 256.0748pt x 24.13623pt.
-<Imagenes/2.png, id=437, 522.45187pt x 68.50594pt>
+<Imagenes/2.png, id=443, 522.45187pt x 68.50594pt>
 File: Imagenes/2.png Graphic file (type png)
 <use Imagenes/2.png>
 Package pdftex.def Info: Imagenes/2.png  used on input line 101.
@@ -818,7 +818,7 @@ Package pdftex.def Info: Imagenes/2.png  used on input line 101.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Imagenes/3.png, id=440, 532.99126pt x 37.64063pt>
+<Imagenes/3.png, id=446, 532.99126pt x 37.64063pt>
 File: Imagenes/3.png Graphic file (type png)
 <use Imagenes/3.png>
 Package pdftex.def Info: Imagenes/3.png  used on input line 114.
@@ -1025,13 +1025,13 @@ LaTeX Info: Redefining \% on input line 466.
 
 [28])
 
-LaTeX Info: Redefining \. on input line 78.
-LaTeX Info: Redefining \% on input line 78.
+LaTeX Info: Redefining \. on input line 83.
+LaTeX Info: Redefining \% on input line 83.
 
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 78.
-LaTeX Info: Redefining \% on input line 78.
+LaTeX Info: Redefining \. on input line 83.
+LaTeX Info: Redefining \% on input line 83.
 
 [29]
 \openout2 = `Capitulos/Capitulo6.aux'.
@@ -1047,32 +1047,89 @@ Cap\'{\i }tulo 6.
 
 ]
 
-LaTeX Info: Redefining \. on input line 39.
-LaTeX Info: Redefining \% on input line 39.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Imagenes/histograma_variables_Iniciales.png, id=684, 1003.8303pt x 711.8595pt>
+
+File: Imagenes/histograma_variables_Iniciales.png Graphic file (type png)
+<use Imagenes/histograma_variables_Iniciales.png>
+Package pdftex.def Info: Imagenes/histograma_variables_Iniciales.png  used on i
+nput line 98.
+(pdftex.def)             Requested size: 426.79134pt x 302.65033pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+
+LaTeX Info: Redefining \. on input line 104.
+LaTeX Info: Redefining \% on input line 104.
 
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 39.
-LaTeX Info: Redefining \% on input line 39.
+LaTeX Info: Redefining \. on input line 104.
+LaTeX Info: Redefining \% on input line 104.
 
-[31])
+[31]
+<Imagenes/box-plot-sitio.png, id=690, 859.2903pt x 2015.6103pt>
+File: Imagenes/box-plot-sitio.png Graphic file (type png)
+<use Imagenes/box-plot-sitio.png>
+Package pdftex.def Info: Imagenes/box-plot-sitio.png  used on input line 107.
+(pdftex.def)             Requested size: 369.88582pt x 867.61823pt.
 
-LaTeX Info: Redefining \. on input line 79.
-LaTeX Info: Redefining \% on input line 79.
+
+LaTeX Warning: Float too large for page by 270.412pt on input line 110.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+
+LaTeX Info: Redefining \. on input line 114.
+LaTeX Info: Redefining \% on input line 114.
 
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 79.
-LaTeX Info: Redefining \% on input line 79.
+LaTeX Info: Redefining \. on input line 114.
+LaTeX Info: Redefining \% on input line 114.
 
 [32]
+
+LaTeX Info: Redefining \. on input line 119.
+LaTeX Info: Redefining \% on input line 119.
+
+Overfull \vbox (11.36665pt too high) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 119.
+LaTeX Info: Redefining \% on input line 119.
+
+[33 <./Imagenes/histograma_variables_Iniciales.png>])
+
+LaTeX Info: Redefining \. on input line 84.
+LaTeX Info: Redefining \% on input line 84.
+
+Overfull \vbox (11.36665pt too high) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 84.
+LaTeX Info: Redefining \% on input line 84.
+
+[34]
+
+LaTeX Info: Redefining \. on input line 84.
+LaTeX Info: Redefining \% on input line 84.
+
+Overfull \vbox (11.36665pt too high) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 84.
+LaTeX Info: Redefining \% on input line 84.
+
+[35 <./Imagenes/box-plot-sitio.png>]
 \openout2 = `Capitulos/Capitulo7.aux'.
 
  (Capitulos/Capitulo7.tex
 Cap\'{\i }tulo 7.
 )
 
-[33
+[36
 
 
 
@@ -1084,13 +1141,13 @@ Cap\'{\i }tulo 7.
 Ap\'{e}ndice A.
 )
 
-[34
+[37
 
 
 
 
 ] (MiTesis.bbl
-Underfull \hbox (badness 2088) in paragraph at lines 43--49
+Underfull \hbox (badness 2088) in paragraph at lines 34--40
 []\OT1/cmr/m/sc/12 Diaferia, G.\OT1/cmr/m/n/12 , \OT1/cmr/m/sc/12 L. Va-lo-ro-s
 o\OT1/cmr/m/n/12 , \OT1/cmr/m/sc/12 L. Im-pro-ta \OT1/cmr/m/n/12 y \OT1/cmr/m/s
 c/12 D. Pic-ci-ni-ni \OT1/cmr/m/n/12 (2024), []A
@@ -1098,32 +1155,32 @@ c/12 D. Pic-ci-ni-ni \OT1/cmr/m/n/12 (2024), []A
 
 
 
-[35
+[38
 
 
 
 
 ]
 
-LaTeX Info: Redefining \. on input line 150.
-LaTeX Info: Redefining \% on input line 150.
+LaTeX Info: Redefining \. on input line 153.
+LaTeX Info: Redefining \% on input line 153.
 
 Overfull \vbox (9.33333pt too high) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 150.
-LaTeX Info: Redefining \% on input line 150.
+LaTeX Info: Redefining \. on input line 153.
+LaTeX Info: Redefining \% on input line 153.
 
-[36])
+[39])
 
-LaTeX Info: Redefining \. on input line 100.
-LaTeX Info: Redefining \% on input line 100.
+LaTeX Info: Redefining \. on input line 105.
+LaTeX Info: Redefining \% on input line 105.
 
 Overfull \vbox (9.33333pt too high) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 100.
-LaTeX Info: Redefining \% on input line 100.
+LaTeX Info: Redefining \. on input line 105.
+LaTeX Info: Redefining \% on input line 105.
 
-[37] (MiTesis.aux (Capitulos/Portadas.aux)
+[40] (MiTesis.aux (Capitulos/Portadas.aux)
 LaTeX Info: Redefining \. on input line 12.
 LaTeX Info: Redefining \% on input line 12.
  (Capitulos/Dedicatoria.aux)
@@ -1143,13 +1200,13 @@ Package rerunfilecheck Info: File `MiTesis.out' has not changed.
 (rerunfilecheck)             Checksum: 1262C4350DDC54DE711A512425ABEE70;8038.
  ) 
 Here is how much of TeX's memory you used:
- 18600 strings out of 473682
- 361600 string characters out of 5719215
- 748032 words of memory out of 5000000
- 41252 multiletter control sequences out of 15000+600000
- 564984 words of font info for 62 fonts, out of 8000000 for 9000
+ 18619 strings out of 473682
+ 362028 string characters out of 5719215
+ 789240 words of memory out of 5000000
+ 41265 multiletter control sequences out of 15000+600000
+ 565798 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,13n,79p,875b,1361s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,14n,79p,875b,1361s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmbx12.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmbx8.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/pu
@@ -1164,10 +1221,11 @@ AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users
 sy6.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmsy8.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/publi
 c/amsfonts/cm/cmti12.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/ty
-pe1/public/amsfonts/latxfont/lasy10.pfb>
-Output written on MiTesis.pdf (46 pages, 922212 bytes).
+pe1/public/amsfonts/cm/cmtt12.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX
+/fonts/type1/public/amsfonts/latxfont/lasy10.pfb>
+Output written on MiTesis.pdf (49 pages, 1102140 bytes).
 PDF statistics:
- 799 PDF objects out of 1000 (max. 8388607)
- 158 named destinations out of 1000 (max. 500000)
- 380 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 830 PDF objects out of 1000 (max. 8388607)
+ 161 named destinations out of 1000 (max. 500000)
+ 390 words of extra memory for PDF output out of 10000 (max. 10000000)
 

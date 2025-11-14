@@ -1,4 +1,4 @@
-\begin{thebibliography}{27}
+\begin{thebibliography}{25}
 \ProvideTextCommand{\guillemotleft}{OT1}{%
   \leavevmode\raise .27ex\hbox{$\scriptscriptstyle\ll$}}
 \ProvideTextCommand{\guillemotright}{OT1}{%
@@ -24,15 +24,6 @@
   E}, \textbf{56}(2), p\'ags. 165--171.
 \bibAnnoteFile{alvarado2010}
 
-\bibitem[{Bkassiny \textit{et al.}(2013)Bkassiny, Jayaweera y
-  Li}]{bkassiny2013multidimensional}
-\textsc{Bkassiny, M.}, \textsc{S.~K. Jayaweera} y \textsc{Y.~Li} (2013),
-  \enquote{Multidimensional dirichlet process-based non-parametric signal
-  classification for autonomous self-learning cognitive radios}, \textit{IEEE
-  Transactions on Wireless Communications}, \textbf{12}(11), p\'ags.
-  5413--5423.
-\bibAnnoteFile{bkassiny2013multidimensional}
-
 \bibitem[{Breiman(2001)}]{breiman2001}
 \textsc{Breiman, L.} (2001), \enquote{Random forests}, \textit{Machine
   learning}, \textbf{45}, p\'ags. 5--32.
@@ -52,14 +43,6 @@
   resistivity data using neural networks}, \textit{Geophysical Prospecting},
   \textbf{49}(4), p\'ags. 417--430.
 \bibAnnoteFile{el2001}
-
-\bibitem[{Entezami \textit{et al.}(2022)Entezami, Shariatmadar y
-  De~Michele}]{entezami2022non}
-\textsc{Entezami, A.}, \textsc{H.~Shariatmadar} y \textsc{C.~De~Michele}
-  (2022), \enquote{Non-parametric empirical machine learning for short-term and
-  long-term structural health monitoring}, \textit{Structural Health
-  Monitoring}, \textbf{21}(6), p\'ags. 2700--2718.
-\bibAnnoteFile{entezami2022non}
 
 \bibitem[{Fox(1830)}]{fox1830}
 \textsc{Fox, R.~W.} (1830), \enquote{On the electro-magnetic properties of
@@ -159,12 +142,14 @@
   environmental geophysics}, John Wiley \& Sons.
 \bibAnnoteFile{reynolds2011}
 
-\bibitem[{Shi y Wang(2021)}]{shi2021non}
-\textsc{Shi, C.} y \textsc{Y.~Wang} (2021), \enquote{Non-parametric machine
-  learning methods for interpolation of spatially varying non-stationary and
-  non-Gaussian geotechnical properties}, \textit{Geoscience Frontiers},
-  \textbf{12}(1), p\'ags. 339--350.
-\bibAnnoteFile{shi2021non}
+\bibitem[{R\"ucker \textit{et al.}(2017)R\"ucker, G\"unther y
+  Wagner}]{Ruecker2017}
+\textsc{R\"ucker, C.}, \textsc{T.~G\"unther} y \textsc{F.~M. Wagner} (2017),
+  \enquote{{pyGIMLi}: An open-source library for modelling and inversion in
+  geophysics}, \textit{Computers and Geosciences}, \textbf{109}, p\'ags.
+  106--123,
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0098300417300584}.
+\bibAnnoteFile{Ruecker2017}
 
 \bibitem[{Sorrell(1973)}]{sorrell1973}
 \textsc{Sorrell, C.~A.} (1973), \textit{Rocks and minerals: A guide to field
