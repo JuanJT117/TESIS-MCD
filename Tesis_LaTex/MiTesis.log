@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.19)  25 NOV 2025 23:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.19)  9 DEC 2025 22:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -736,7 +736,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
 
-<Imagenes/estructura-oro.png, id=371, 425.11765pt x 420.15794pt>
+<Imagenes/estructura-oro.png, id=375, 425.11765pt x 420.15794pt>
 File: Imagenes/estructura-oro.png Graphic file (type png)
 <use Imagenes/estructura-oro.png>
 Package pdftex.def Info: Imagenes/estructura-oro.png  used on input line 17.
@@ -767,7 +767,7 @@ LaTeX Info: Redefining \. on input line 35.
 LaTeX Info: Redefining \% on input line 35.
 
 [10]
-<Imagenes/ArregloElectrodos.png, id=401, 576.74294pt x 298.29088pt>
+<Imagenes/ArregloElectrodos.png, id=405, 576.74294pt x 298.29088pt>
 File: Imagenes/ArregloElectrodos.png Graphic file (type png)
 <use Imagenes/ArregloElectrodos.png>
 Package pdftex.def Info: Imagenes/ArregloElectrodos.png  used on input line 38.
@@ -784,7 +784,7 @@ LaTeX Info: Redefining \. on input line 56.
 LaTeX Info: Redefining \% on input line 56.
 
 [11 <./Imagenes/ArregloElectrodos.png>]
-<Imagenes/5.png, id=428, 637.63219pt x 608.2725pt>
+<Imagenes/5.png, id=432, 637.63219pt x 608.2725pt>
 File: Imagenes/5.png Graphic file (type png)
 <use Imagenes/5.png>
 Package pdftex.def Info: Imagenes/5.png  used on input line 73.
@@ -804,12 +804,12 @@ LaTeX Info: Redefining \. on input line 84.
 LaTeX Info: Redefining \% on input line 84.
 
 [12]
-<Imagenes/1.png, id=444, 511.15968pt x 48.18pt>
+<Imagenes/1.png, id=448, 511.15968pt x 48.18pt>
 File: Imagenes/1.png Graphic file (type png)
 <use Imagenes/1.png>
 Package pdftex.def Info: Imagenes/1.png  used on input line 88.
 (pdftex.def)             Requested size: 256.0748pt x 24.13623pt.
-<Imagenes/2.png, id=447, 522.45187pt x 68.50594pt>
+<Imagenes/2.png, id=451, 522.45187pt x 68.50594pt>
 File: Imagenes/2.png Graphic file (type png)
 <use Imagenes/2.png>
 Package pdftex.def Info: Imagenes/2.png  used on input line 101.
@@ -818,7 +818,7 @@ Package pdftex.def Info: Imagenes/2.png  used on input line 101.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Imagenes/3.png, id=450, 532.99126pt x 37.64063pt>
+<Imagenes/3.png, id=454, 532.99126pt x 37.64063pt>
 File: Imagenes/3.png Graphic file (type png)
 <use Imagenes/3.png>
 Package pdftex.def Info: Imagenes/3.png  used on input line 114.
@@ -1056,10 +1056,14 @@ LaTeX Info: Redefining \. on input line 88.
 LaTeX Info: Redefining \% on input line 88.
 
 [31]
-<Imagenes/6.png, id=690, 859.2903pt x 426.393pt>
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
+
+ []
+
+<Imagenes/6.png, id=694, 859.2903pt x 426.393pt>
 File: Imagenes/6.png Graphic file (type png)
 <use Imagenes/6.png>
-Package pdftex.def Info: Imagenes/6.png  used on input line 98.
+Package pdftex.def Info: Imagenes/6.png  used on input line 99.
 (pdftex.def)             Requested size: 426.79134pt x 211.77762pt.
 
 
@@ -1074,66 +1078,86 @@ LaTeX Info: Redefining \% on input line 104.
 [32
 
  <./Imagenes/6.png>]
-<Imagenes/7.png, id=697, 859.2903pt x 426.393pt>
+<Imagenes/7.png, id=701, 859.2903pt x 426.393pt>
 File: Imagenes/7.png Graphic file (type png)
 <use Imagenes/7.png>
-Package pdftex.def Info: Imagenes/7.png  used on input line 107.
+Package pdftex.def Info: Imagenes/7.png  used on input line 110.
 (pdftex.def)             Requested size: 426.79134pt x 211.77762pt.
-<Imagenes/8.png, id=698, 859.2903pt x 1076.1003pt>
+<Imagenes/8.png, id=704, 859.2903pt x 1076.1003pt>
 File: Imagenes/8.png Graphic file (type png)
 <use Imagenes/8.png>
-Package pdftex.def Info: Imagenes/8.png  used on input line 116.
+Package pdftex.def Info: Imagenes/8.png  used on input line 121.
 (pdftex.def)             Requested size: 341.43306pt x 427.57542pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Imagenes/9.png, id=699, 859.2903pt x 1438.173pt>
+
+
+LaTeX Info: Redefining \. on input line 127.
+LaTeX Info: Redefining \% on input line 127.
+
+Overfull \vbox (11.36665pt too high) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 127.
+LaTeX Info: Redefining \% on input line 127.
+
+[33
+
+ <./Imagenes/7.png>]
+<Imagenes/9.png, id=711, 859.2903pt x 1438.173pt>
 File: Imagenes/9.png Graphic file (type png)
 <use Imagenes/9.png>
-Package pdftex.def Info: Imagenes/9.png  used on input line 123.
+Package pdftex.def Info: Imagenes/9.png  used on input line 130.
 (pdftex.def)             Requested size: 341.43306pt x 571.44064pt.
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 
-LaTeX Info: Redefining \. on input line 131.
-LaTeX Info: Redefining \% on input line 131.
+LaTeX Info: Redefining \. on input line 136.
+LaTeX Info: Redefining \% on input line 136.
 
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 131.
-LaTeX Info: Redefining \% on input line 131.
-
-[33 <./Imagenes/7.png>]
-
-LaTeX Info: Redefining \. on input line 135.
-LaTeX Info: Redefining \% on input line 135.
-
-Overfull \vbox (11.36665pt too high) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 135.
-LaTeX Info: Redefining \% on input line 135.
+LaTeX Info: Redefining \. on input line 136.
+LaTeX Info: Redefining \% on input line 136.
 
 [34 <./Imagenes/8.png>]
 
 LaTeX Warning: Text page 35 contains only floats.
 
 
-Overfull \vbox (2.23442pt too high) has occurred while \output is active []
 
-
-
-LaTeX Info: Redefining \. on input line 135.
-LaTeX Info: Redefining \% on input line 135.
+LaTeX Info: Redefining \. on input line 136.
+LaTeX Info: Redefining \% on input line 136.
 
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 135.
-LaTeX Info: Redefining \% on input line 135.
+LaTeX Info: Redefining \. on input line 136.
+LaTeX Info: Redefining \% on input line 136.
 
-[35 <./Imagenes/9.png>])
+[35 <./Imagenes/9.png>]
+<Imagenes/PCA-Analisis_Componentes_Principales.png, id=723, 613.5723pt x 341.83
+71pt>
+File: Imagenes/PCA-Analisis_Componentes_Principales.png Graphic file (type png)
+
+<use Imagenes/PCA-Analisis_Componentes_Principales.png>
+Package pdftex.def Info: Imagenes/PCA-Analisis_Componentes_Principales.png  use
+d on input line 149.
+(pdftex.def)             Requested size: 426.79134pt x 237.77689pt.
+
+
+LaTeX Info: Redefining \. on input line 161.
+LaTeX Info: Redefining \% on input line 161.
+
+Overfull \vbox (11.36665pt too high) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 161.
+LaTeX Info: Redefining \% on input line 161.
+
+[36 <./Imagenes/PCA-Analisis_Componentes_Principales.png>])
 
 LaTeX Info: Redefining \. on input line 84.
 LaTeX Info: Redefining \% on input line 84.
@@ -1143,14 +1167,24 @@ Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 LaTeX Info: Redefining \. on input line 84.
 LaTeX Info: Redefining \% on input line 84.
 
-[36]
+[37]
+
+LaTeX Info: Redefining \. on input line 84.
+LaTeX Info: Redefining \% on input line 84.
+
+Overfull \vbox (11.36665pt too high) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 84.
+LaTeX Info: Redefining \% on input line 84.
+
+[38]
 \openout2 = `Capitulos/Capitulo7.aux'.
 
  (Capitulos/Capitulo7.tex
 Cap\'{\i }tulo 7.
 )
 
-[37
+[39
 
 
 
@@ -1162,7 +1196,7 @@ Cap\'{\i }tulo 7.
 Ap\'{e}ndice A.
 )
 
-[38
+[40
 
 
 
@@ -1176,7 +1210,7 @@ c/12 D. Pic-ci-ni-ni \OT1/cmr/m/n/12 (2024), []A
 
 
 
-[39
+[41
 
 
 
@@ -1191,7 +1225,7 @@ Overfull \vbox (9.33333pt too high) has occurred while \output is active []
 LaTeX Info: Redefining \. on input line 153.
 LaTeX Info: Redefining \% on input line 153.
 
-[40])
+[42])
 
 LaTeX Info: Redefining \. on input line 105.
 LaTeX Info: Redefining \% on input line 105.
@@ -1201,7 +1235,7 @@ Overfull \vbox (9.33333pt too high) has occurred while \output is active []
 LaTeX Info: Redefining \. on input line 105.
 LaTeX Info: Redefining \% on input line 105.
 
-[41] (MiTesis.aux (Capitulos/Portadas.aux)
+[43] (MiTesis.aux (Capitulos/Portadas.aux)
 LaTeX Info: Redefining \. on input line 12.
 LaTeX Info: Redefining \% on input line 12.
  (Capitulos/Dedicatoria.aux)
@@ -1218,13 +1252,13 @@ L3 programming layer <2024-11-02>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `MiTesis.out' has not changed.
-(rerunfilecheck)             Checksum: 1262C4350DDC54DE711A512425ABEE70;8038.
+(rerunfilecheck)             Checksum: 5A31431E8513B95EEC76BF4EC1EE6C23;7977.
  ) 
 Here is how much of TeX's memory you used:
- 18638 strings out of 473682
- 362090 string characters out of 5719215
- 785452 words of memory out of 5000000
- 41281 multiletter control sequences out of 15000+600000
+ 18656 strings out of 473682
+ 362572 string characters out of 5719215
+ 785692 words of memory out of 5000000
+ 41289 multiletter control sequences out of 15000+600000
  565798 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,14n,79p,875b,1361s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1244,9 +1278,9 @@ ts/cm/cmsy8.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/publi
 c/amsfonts/cm/cmti12.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/ty
 pe1/public/amsfonts/cm/cmtt12.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX
 /fonts/type1/public/amsfonts/latxfont/lasy10.pfb>
-Output written on MiTesis.pdf (50 pages, 1107839 bytes).
+Output written on MiTesis.pdf (52 pages, 1137789 bytes).
 PDF statistics:
- 845 PDF objects out of 1000 (max. 8388607)
- 164 named destinations out of 1000 (max. 500000)
- 400 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 870 PDF objects out of 1000 (max. 8388607)
+ 174 named destinations out of 1000 (max. 500000)
+ 405 words of extra memory for PDF output out of 10000 (max. 10000000)
 
