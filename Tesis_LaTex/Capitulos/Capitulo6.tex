@@ -118,7 +118,7 @@
 			
 			\begin{figure}[h!] % Box-plot 8.png  fig:bp-s1
 				\centering
-				\includegraphics[width=12cm]{Imagenes/8.png}
+				\includegraphics[width=15cm]{Imagenes/8.png}
 				\caption[Boxplot de la distribución global de espesores por sitio]{Boxplot de la distribución global de espesores por sitio.}
 				\label{fig:bp-s1}
 			\end{figure}
@@ -127,12 +127,12 @@
 			
 			\begin{figure}[h!] % Box-plot 9.png  fig:bp-s2
 				\centering
-				\includegraphics[width=12cm]{Imagenes/9.png}
+				\includegraphics[width=15cm]{Imagenes/9.png}
 				\caption[Boxplot de la distribución global de resistividad por sitio]{Boxplot de la distribución global de resistividad por sitio.}
 				\label{fig:bp-s2}
 			\end{figure}
 			
-			Al realizar el análisis de componentes principales (PCA) identificamos que los primeros 4 componentes (Espesor 1, Espesor 2, Espesor 3 y Resistividad 1) describen casi el 92\% de la variabilidad de los datos, muy cerca del umbral del 95\%, siendo prácticamente redundante la componente 7 (Resistividad 4).
+			Al realizar el análisis de componentes principales (PCA) identificamos que los primeros 4 componentes (Espesor 1, Espesor 2, Espesor 3 y Resistividad 1) describen casi el 92\% de la variabilidad de los datos, muy cerca del umbral del 95\%, siendo prácticamente no representativa la componente 7 (Resistividad 4).
 			
 			\begin{enumerate}
 				\item PC1: 39.41\% (Espesor 1)
@@ -151,28 +151,96 @@
 				\label{fig:PCA-1}
 			\end{figure}
 			
+			Al analizar los resultados cualitativos y cuantitativos resultantes de las evaluaciones estadísticas, se observa que las variables correspondientes a los 8 sitios corresponden a datos no relacionados y lo suficientemente independientes, este comportamiento se confirma al observar las matriz de correlación entre variables (ver figura \ref{fig:MCVI}), observando una valor de correlación general menor a 0.52, a excepción del valor obtenido entre la variable  Resistividad\_3 y Resistividad\_4.   
 			
-			
+			\begin{figure}[h!] % Box-plot 9.png  fig:bp-s2
+				\centering
+				\includegraphics[width=15cm]{Imagenes/MC-DI.png}
+				\caption[Matriz de correlación de variables iniciales]{Matriz de correlación de variables iniciales, correspondientes a los conjuntos de datos modelos interpretados.}
+				\label{fig:MCVI}
+			\end{figure}
 			 
 			
 	\section{Preparación de datos}
-	
-			Al contar con una interpretación geoeléctrica, cuyos espesores y resistividades (ver tabla \ref{tab:resistividad_sitios}) fueron validadas directamente para cada sondeo, se emplean estos datos acotados, para generar modelos sintéticos de respuesta geoeléctrica, empleando la librería pyGIMLI, publicada por \cite{Ruecker2017}, reservando los datos originales de resistividad de cada sitio para la etapa de evaluación.
 			
-			En este punto es importante considerar cuatro aspectos, la heterogeneidad del subsuelo, las condiciones geotécnicas particulares del medio, el principio de equivalencia y la densidad de datos requeridos por los modelos para su entrenamiento; los dos primeros corresponden a factores cruciales que determinan en el comportamiento eléctrico del medio y su respuesta; los últimos dos atañe a la complejidad de interpretación, relacionada con la cantidad de modelos requeridos para el entrenamiento.
+			el volumen de datos iniciales, aunque significativo localmente para la interpretación de cada sitio, es insuficiente para establece una base de entrenamiento robusta, por lo que es imprescindible contar con las cantidad de datos suficiente para el entrenamiento.
 			
-			Como estrategia, ante estos enormes obstáculos, se opto por una postura centrada en la aleatoriedad de las propiedades resultantes (espesor y resistividad), empleando los rangos respectivos de cada sitio, teniendo en cuanta que los resultados obtenidos corresponden a condiciones geológicas similares, donde se observan mismas unidades, pero con distinta respuesta geoeléctricas.
+			Para lograr el volumen de datos necesarios se implementa la generación de SEV's sintéticos, en esta tarea se emplea la librería PyGIMLI, publicada por \cite{Ruecker2017}, la cual permite realizar una simulación de sondeo a partir de unidades de espesor con un valor de resistividad establecido y la relación geométrica de apertura de los electrodos de corriente.
 			
-			Al considerar un estado "aleatorio" entre los rangos de valores de las variables evitamos el ajuste a una distribución no representativa, evitando así overfitting inicial, lo cual permite entrenar los modelos con todas las variaciones posibles.
+			Al contar con datos de espesores y resistividad producto de una interpretación geoeléctrica, cuyos valores (ver tabla \ref{tab:resistividad_sitios}) fueron validadas directamente para cada sondeo, se cuenta con la base necesaria para generar modelos sintéticos de respuesta geoeléctrica; empleando los valores de apertura de electrodos ($AB/2$) de los sondeos originales.
+			
+			En este punto es importante considerar cuatro aspectos, la heterogeneidad del subsuelo, las condiciones geotécnicas particulares del medio, el principio de equivalencia y la densidad de datos requeridos por los modelos para su entrenamiento; los dos primeros corresponden a factores cruciales que determinan el comportamiento eléctrico del medio y su respuesta; los últimos dos atañe a la complejidad de interpretación, relacionada con la cantidad de modelos requeridos para el entrenamiento y el infinito numero de modelos de inversión de ajuste de la señal resultante.
+			
+			Como estrategia se opto por una postura centrada en la aleatoriedad de las propiedades evaluadas y validadas, empleando los rangos máximos y mínimos de espesor y resistividad de cada sitio, teniendo en cuanta que los resultados obtenidos corresponden a condiciones geológicas similares pero con distinta respuesta geoeléctricas, cubriendo el aspecto de heterogeneidad del subsuelo y el principio de equivalencia, con rangos aleatorios de resistividad y espesor respectivamente (ver tabla \ref{tab:espesores_sitio}). 
+			
+			\begin{table}[h!]
+				\centering
+				\tiny
+				\setlength{\tabcolsep}{6pt} 
+				
+				\caption{Rango de espesores (mínimo y máximo) registrados por sitio.}
+				\label{tab:espesores_sitio}
+				\begin{tabular}{ 
+						c                   % Sitio
+						l                   % Espesor (Nombre)
+						S[table-format=3.2] % Mínimo (alineado decimal)
+						S[table-format=3.2] % Máximo (alineado decimal)
+					}
+					\toprule
+					\textbf{Sitio} & \textbf{variable} & {\textbf{Mínimo}} & {\textbf{Máximo}} \\
+					\midrule
+					
+					1 & Espesor 1 & 6.00 & 6.40 \\
+					& Espesor 2 & 60.70 & 78.47 \\
+					& Espesor 3 & 113.53 & 131.30 \\
+					\addlinespace
+					2 & Espesor 1 & 1.30 & 3.50 \\
+					& Espesor 2 & 4.50 & 23.00 \\
+					& Espesor 3 & 32.00 & 66.00 \\
+					\addlinespace
+					3 & Espesor 1 & 3.00 & 4.00 \\
+					& Espesor 2 & 6.00 & 7.00 \\
+					& Espesor 3 & 20.00 & 20.00 \\
+					\addlinespace
+					4 & Espesor 1 & 1.70 & 2.90 \\
+					& Espesor 2 & 5.60 & 19.90 \\
+					& Espesor 3 & 37.20 & 52.70 \\
+					\addlinespace
+					5 & Espesor 1 & 0.70 & 2.00 \\
+					& Espesor 2 & 6.40 & 25.00 \\
+					& Espesor 3 & 33.40 & 59.00 \\
+					\addlinespace
+					6 & Espesor 1 & 2.36 & 4.00 \\
+					& Espesor 2 & 15.80 & 20.70 \\
+					& Espesor 3 & 47.30 & 53.80 \\
+					\addlinespace
+					7 & Espesor 1 & 3.00 & 40.00 \\
+					& Espesor 2 & 14.00 & 26.00 \\
+					& Espesor 3 & 80.00 & 204.00 \\
+					\addlinespace
+					8 & Espesor 1 & 3.50 & 8.00 \\
+					& Espesor 2 & 6.00 & 37.00 \\
+					& Espesor 3 & 20.00 & 56.00 \\
+					
+					\bottomrule
+				\end{tabular}
+			\end{table}
+			
+			
+			Al considerar un estado \textit{aleatorio} entre los rangos de valores de las variables evitamos el ajuste a una distribución no representativa, evadiendo así el overfitting inicial, lo cual permite entrenar los modelos con todas las variaciones aleatorias posibles.
+			
+			Finalmente las variaciones sinbteticas 
 			
 			
 		
 			
 	\section{Modelado y entrenamiento}
 	
-			caracteristicas ajustes de cada modelo empleadoy evaluación $r^{2}$
+			características ajustes de cada modelo empleado y evaluación $r^{2}$
 
 	\section{Validación, optimización y comparación de modelos}
+	
+	
 	
 	\section{Test y evaluación}
 	
