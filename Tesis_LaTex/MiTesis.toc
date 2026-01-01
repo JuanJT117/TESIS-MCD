@@ -42,8 +42,8 @@
 \contentsline {section}{\numberline {6.1}Análisis de datos iniciales y simulación}{30}{section.6.1}%
 \contentsline {subsection}{\numberline {6.1.1}Datos iniciales}{32}{subsection.6.1.1}%
 \contentsline {section}{\numberline {6.2}Preparación de datos}{38}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Modelado y entrenamiento}{39}{section.6.3}%
-\contentsline {section}{\numberline {6.4}Validación, optimización y comparación de modelos}{40}{section.6.4}%
-\contentsline {section}{\numberline {6.5}Test y evaluación}{40}{section.6.5}%
-\contentsline {chapter}{\numberline {7}RESULTADOS Y CONCLUSIONES}{41}{chapter.7}%
-\contentsline {chapter}{\numberline {A}Apéndice I}{42}{appendix.Alph1}%
+\contentsline {section}{\numberline {6.3}Modelado y entrenamiento}{40}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Validación, optimización y comparación de modelos}{41}{section.6.4}%
+\contentsline {section}{\numberline {6.5}Test y evaluación}{41}{section.6.5}%
+\contentsline {chapter}{\numberline {7}RESULTADOS Y CONCLUSIONES}{42}{chapter.7}%
+\contentsline {chapter}{\numberline {A}Apéndice I}{43}{appendix.Alph1}%

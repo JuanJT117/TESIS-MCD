@@ -175,7 +175,7 @@
 			
 			\begin{table}[h!]
 				\centering
-				\tiny
+				\footnotesize 
 				\setlength{\tabcolsep}{6pt} 
 				
 				\caption{Rango de espesores (mínimo y máximo) registrados por sitio.}
@@ -227,9 +227,22 @@
 			\end{table}
 			
 			
-			Al considerar un estado \textit{aleatorio} entre los rangos de valores de las variables evitamos el ajuste a una distribución no representativa, evadiendo así el overfitting inicial, lo cual permite entrenar los modelos con todas las variaciones aleatorias posibles.
+			Al considerar un estado \textit{aleatorio} entre los rangos de valores de las variables, evitamos el ajuste a una distribución sesgada, pasando a una distribución uniforme, evadiendo así el overfitting inicial, lo cual permite entrenar los modelos con todas las variaciones aleatorias posibles.
 			
-			Finalmente las variaciones sinbteticas 
+			Inicialmente se establecen dos parámetros iniciales importantes, que definirán el volumen de datos de entrenamiento; el primero corresponde al número de aperturas de $AB/2$, con un tope máximo de 30 muestras, estableciendo la matriz de variables; en el segundo parámetro se establece al numero de variantes aleatorias entre los rangos para cada sitio - variable, establecida en $500$ variaciones.
+			
+			A partir de las variantes establecidas, espesor, rangos de aperturas y la resistividad, se ejecuta la simulación de la respuesta geoeléctrica obteniendo los valores de $\rho_{A}$ para cada $AB/2$, empleando el arreglo geométrico del método Schlumberger.
+			
+			finalmente se integran a cada variante los últimos dos parámetros para el entrenamiento; la profundidad de exploración aparente de cada variante, calculada a partir de la distancia entre electrodos $AB/2$, para cada $Z_i = (AB2_i*2)*0.299$ \citep{telford1990}; y el valor inicial de resistividad ($\rho$) modelada esperado en cada intervalo $Z_i$.
+			
+			Adicionalmente se estableció un filtrado tomando como criterio el valor máximo $Z_i$, limitando las variaciones de espesores en función de $Z_i$, donde: 
+			
+			 $
+			 \sum_{i=1}^{n} \text{Espesor}_i < \max(Z_i)
+			 $
+			
+			
+			
 			
 			
 		
