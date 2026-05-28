@@ -1,0 +1,19 @@
+\chapter{RESULTADOS Y CONCLUSIONES}
+
+Adicionalmente durante el entrenamiento se evaluó el rendimiento empleando entradas y salidas de datos (test) con transformación logarítmica, mostrando un pobre desempeño en la evaluación del entrenamiento y predicción.
+
+
+Tal como se observa en la tabla \ref{tab:hiperparametros_modelos}, el modelo Random Forest (RF) selecciona y realiza el entrenamiento empleando como hiperparametros óptimos los siguientes valores: 
+
+\begin{itemize}
+	\item $max_depth: 20$
+	\item $min_samples_split: 2$
+	\item $n_estimators: 200$
+\end{itemize}
+
+Esta selección es un reflejo de la alta complejidad no lineal en las series, implicando la necesidad de arboles profundos para lograr una buena generalización considerando los cambios sutiles en las curvas de resistividad aparente, al establecer en 200 el numero de estimadores proporciona la estabilidad necesaria para reducir la varianza inherente a árboles tan profundos.
+
+
+GBR
+
+El modelo Gradient Boosting Regressor (GBR), optimizado mediante validación cruzada ($k=5$), demuestra una capacidad predictiva sobresaliente con un $R^2$ de 0.9884. La configuración de 500 estimadores con baja profundidad permitió capturar la complejidad de los sondeos sin caer en sobreajuste. Aunque el modelo presenta una alta precisión global, la diferencia entre el MAE (13.04) y el RMSE (48.90), sumado a un MAPE del 9.51\%, revela una sensibilidad a valores extremos, comportándose de manera robusta en la mayoría del dominio pero perdiendo precisión en puntos singulares de alta resistividad o ruido elevado.

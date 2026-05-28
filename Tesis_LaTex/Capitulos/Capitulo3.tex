@@ -1,0 +1,18 @@
+\chapter{JUSTIFICACIÓN}
+
+Existen múltiples aplicaciones de ML en el procesamiento, modelado e interpretación geofísica \citep{li2024, liu2020,el2001,wrona2018}, algunas de estas aplicaciones corresponden a implementaciones académicas, al igual que comerciales, mayormente desarrolladas en software de exploración sísmica de hidrocarburos \citep{diaferia2024high, panebianco2024automated}.
+
+
+%Es de esperar que al implementar ciencias de datos en diversas áreas de la ciencia, se optimicen aspectos básicos, mejorando la analítica e interpretación de resultados, o bien, modelando predicciones de tendencias.
+
+La aplicación de ML durante la ejecutar de muestreo de Sondeo Eléctrico Vertical (SEV), en particular durante el proceso de adquisición \textit{in situ}, presenta la posibilidad de evaluar y ampliar el intervalo de muestreo original, mejorando la adquisición tradicional, realizando una predicción de muestreo en intervalos intermedios o finales durante la adquisición, identificando nuevos intervalos de apertura de electrodos no considerados previamente.
+
+Durante el muestreo tradicional los intervalos se diseñan considerando el objetivo de exploración (idealmente), este análisis previo es un factor determinante, en esta etapa permitiendo establecer el intervalo de muestreo que permitirá identificar el objeto de exploración, o anomalía, su respuesta puede asociarse a unidades geológicas, acuíferos, fallas, zonas de fracturas, estructuras antropogénicas, infraestructura moderna, etc.
+
+De manera general se busca mantener un intervalo de muestreo menor a la frecuencia de ocurrencia del objetivo de estudio, por lo que el éxito de la exploración dependerá en su totalidad de la planeación de la adquisición, lo que implica conocer previamente la conformación, distribución y espesor de cada unidad, aun contando con esta información, puede resultar complicado el procesado e  interpretación de las anomalías, por la misma ambigüedad del ajuste de los modelos que satisfagan las curvas de inversión y la propia heterogeneidad del medio y de sus propiedades.
+
+De manera que un modelo entrenado permita generar múltiples predicciones, en intervalos no explorados, e identificar regiones no cubiertas por el muestreos, permita contemplar la mejora de la adquisición con puntos adicionales \textit{in situ} mejorando el intervalo de lectura e impactando en la calidad del muestreo, ajustando la respuesta geoeléctrica.
+
+Pese a existir aplicaciones de ML implementadas en geofísica, no se identifica alguna enfocada este esta problemática en concreto (citar estudios de australia), %sin embargo, hay ejemplos en otros campos de estudio con un enfoque en el muestreo y clasificación de datos no paramétricos \citep{entezami2022non, bkassiny2013multidimensional, shi2021non} empleando técnicas como Dirichlet Process Mixture Model (DPMM), radial basis function network (RBFN),  Multiple Point Statistics (MPS) y Bayesian Compressive Sensing (BCS).
+
+Para poder abordar la problemática se requiere de un modelo robusto ante el ruido, que permita trabajar con datos no paramétricos, sea favorable a la distribución de los datos, pueda establecer un modelo mediante entrenamiento supervisado, con capacidad de ejecutar regresiones a partir de entrenamientos previos y permita realizar pronósticos de valores de resistividad. Estas condiciones son cubiertas por tres modelos de ML Random Forests (RF), Support Vector Machines (SVM) y Gradient Boosting Regression (GBR), de los cuales mediante su evaluación, por medio de la puntuación de predicción, la facilidad de implementación y ejecución en pruebas con datos reales,  permita identificar el que presenta el mejor rendimiento y ajuste para su implementación en la adquisición geofísica. 
