@@ -4,12 +4,38 @@ Adicionalmente durante el entrenamiento se evaluó el rendimiento empleando entr
 
 
 Tal como se observa en la tabla \ref{tab:hiperparametros_modelos}, el modelo Random Forest (RF) selecciona y realiza el entrenamiento empleando como hiperparametros óptimos los siguientes valores: 
+%
+%\begin{itemize}
+%	\item $max_depth: 20$
+%	\item $min_samples_split: 2$
+%	\item $n_estimators: 200$
+%\end{itemize}
 
-\begin{itemize}
-	\item $max_depth: 20$
-	\item $min_samples_split: 2$
-	\item $n_estimators: 200$
-\end{itemize}
+\begin{table}[h!]
+	\centering
+	% He cambiado \textit{k} por $k$ y he eliminado guiones bajos en el \label
+	\caption{Configuración de hiperparámetros para cada modelo. Se remarca en negrita el valor con la mejor generalización mediante $k$-Fold Cross-Validation usando GridSearchCV.}
+	\label{tab:hiperparametros-modelos-resultados} 
+	\small 
+	\begin{tabular}{lll}
+		\toprule
+		\textbf{Algoritmo}                                           & \textbf{Hiperparámetro} & \textbf{Valores Evaluados} \\
+		\midrule
+		\multirow{3}{*}{\textbf{Random Forest}}                      & n\_estimators           &  200\\
+		                                                             & max\_depth              & 20 \\
+		                                                             & min\_samples\_split     & 2 \\
+		\midrule
+		\multirow{3}{*}{\textbf{Support Vector Machine}}           & C                         &  150 \\
+	                                                                 & epsilon ($\epsilon$)    & 0.1 \\
+		                                                             & kernel                  & Radial Basis Function\\
+		\midrule
+		\multirow{3}{*}{\textbf{Gradient Boosting Regressor}}        & n\_estimators           & 500 \\
+		                                                             & learning\_rate          & 0.1\\
+	                  	                                             & max\_depth              & 3 \\
+		\bottomrule
+	\end{tabular}
+\end{table}
+
 
 Esta selección es un reflejo de la alta complejidad no lineal en las series, implicando la necesidad de arboles profundos para lograr una buena generalización considerando los cambios sutiles en las curvas de resistividad aparente, al establecer en 200 el numero de estimadores proporciona la estabilidad necesaria para reducir la varianza inherente a árboles tan profundos.
 
