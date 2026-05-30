@@ -295,20 +295,20 @@
 						\small 
 						\begin{tabular}{lll}
 							\toprule
-							\textbf{Algoritmo} & \textbf{Hiperparámetro} & \textbf{Valores Evaluados (Óptimo en negrita)} \\
+							\textbf{Algoritmo} & \textbf{Hiperparámetro} & \textbf{Valores Evaluados} \\
 							\midrule
-							\multirow{3}{*}{\textbf{Random Forest (RF)}} & n\_estimators & 50, 100, \textbf{200}, 500 \\
-							& max\_depth & 10, 15, \textbf{20}, 30, None \\
-							& min\_samples\_split & \textbf{2}, 5, 7, 10 \\
+							\multirow{3}{*}{\textbf{Random Forest}} & n\_estimators                  & 50, 100, 200, 500 \\
+							                                             & max\_depth                     & 10, 15, 20, 30, None \\
+							                                             & min\_samples\_split            & 2, 5, 7, 10 \\
 							\midrule
-							\multirow{4}{*}{\textbf{SVM}} & C & 1, 10, 100, \textbf{150} \\
-							& epsilon ($\epsilon$) & \textbf{0.1}, 0.2, 0.5, 0.9 \\
-							& kernel & \textbf{Radial Basis Function (RBF)} \\
-							& & Linear Function (linear) \\
+							\multirow{4}{*}{\textbf{Support Vector Machine}}       & C                    & 1, 10, 100, 150 \\
+							                                                       & epsilon ($\epsilon$) & 0.1, 0.2, 0.5, 0.9 \\
+							                                                       & kernel               & Radial Basis Function \\
+							                                                       &                      & Linear Function \\
 							\midrule
-							\multirow{3}{*}{\textbf{Gradient Boosting}} & n\_estimators & 100, 200, 300, \textbf{500} \\
-							& learning\_rate & 0.01, \textbf{0.1}, 0.99 \\
-							& max\_depth & \textbf{3}, 5, 10 \\
+							\multirow{3}{*}{\textbf{Gradient Boosting Regressor}}       & n\_estimators   & 100, 200, 300, 500 \\
+							                                                            & learning\_rate  & 0.01, 0.1, 0.99 \\
+							                                                            & max\_depth      & 3, 5, 10 \\
 							\bottomrule
 						\end{tabular}
 					\end{table}
