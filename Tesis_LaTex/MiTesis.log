@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.4.16)  27 MAY 2026 23:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.4.16)  30 MAY 2026 17:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1056,18 +1056,7 @@ Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 [45 <./Imagenes/11.png> <./Imagenes/13.png>]
 
 Package natbib Warning: Citation `kohavi1995' on page 46 undefined on input lin
-e 282.
-
-Runaway argument?
-{fig:Eva), emplearon los valores de k-pliegues $k=3$ y $k=5$. 
-! Paragraph ended before \T@ref was complete.
-<to be read again> 
-                   \par 
-l.287 			
-         
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
+e 286.
 
 
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
@@ -1076,13 +1065,21 @@ Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 [46
 
 ]
-Overfull \hbox (29.11252pt too wide) in paragraph at lines 296--314
+Runaway argument?
+{fig:Eva), emplearon los valores de k-pliegues $k=3$ y $k=5$. 
+! Paragraph ended before \T@ref was complete.
+<to be read again> 
+                   \par 
+l.291 			
+         
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+
+Overfull \hbox (29.11252pt too wide) in paragraph at lines 300--318
  [][] 
  []
-
-
-Package natbib Warning: Citation `Bergen2019' on page 47 undefined on input lin
-e 324.
 
 
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
@@ -1090,43 +1087,47 @@ Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
 [47]
 
-Package natbib Warning: Citation `Lary2016' on page 48 undefined on input line 
-326.
-
-
-Package natbib Warning: Citation `Belgiu2016' on page 48 undefined on input lin
+Package natbib Warning: Citation `Bergen2019' on page 48 undefined on input lin
 e 328.
 
 
+Package natbib Warning: Citation `Lary2016' on page 48 undefined on input line 
+330.
+
+
+Package natbib Warning: Citation `Belgiu2016' on page 48 undefined on input lin
+e 332.
+
+
 Package natbib Warning: Citation `Friedman2001' on page 48 undefined on input l
-ine 328.
+ine 332.
 
 
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
 
 [48]
-Underfull \hbox (badness 10000) in paragraph at lines 334--335
+Underfull \hbox (badness 10000) in paragraph at lines 338--339
 
  []
 
 <Imagenes/Vs-Global.png, id=873, 748.7172pt x 973.4769pt>
 File: Imagenes/Vs-Global.png Graphic file (type png)
 <use Imagenes/Vs-Global.png>
-Package pdftex.def Info: Imagenes/Vs-Global.png  used on input line 340.
+Package pdftex.def Info: Imagenes/Vs-Global.png  used on input line 344.
 (pdftex.def)             Requested size: 426.79134pt x 554.91731pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 345--346
+Underfull \hbox (badness 10000) in paragraph at lines 349--350
 
  []
 
 <Imagenes/Metricas-Full.png, id=874, 1077.5457pt x 908.4339pt>
 File: Imagenes/Metricas-Full.png Graphic file (type png)
 <use Imagenes/Metricas-Full.png>
-Package pdftex.def Info: Imagenes/Metricas-Full.png  used on input line 351.
+Package pdftex.def Info: Imagenes/Metricas-Full.png  used on input line 355.
 (pdftex.def)             Requested size: 426.79134pt x 359.8047pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1147,30 +1148,52 @@ Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
 
 [50 <./Imagenes/Vs-Global.png>]
+
+Package natbib Warning: Citation `Bergen2019' on page 51 undefined on input lin
+e 363.
+
+
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
 
 [51 <./Imagenes/Metricas-Full.png>]
-<Imagenes/S1-LN-EBSA-RF-T1.png, id=891, 613.5723pt x 393.8715pt>
+
+Package natbib Warning: Citation `Lary2016' on page 52 undefined on input line 
+365.
+
+
+Package natbib Warning: Citation `Belgiu2016' on page 52 undefined on input lin
+e 367.
+
+
+Package natbib Warning: Citation `Friedman2001' on page 52 undefined on input l
+ine 367.
+
+
+Overfull \vbox (11.36665pt too high) has occurred while \output is active []
+
+
+[52]
+<Imagenes/S1-LN-EBSA-RF-T1.png, id=895, 613.5723pt x 393.8715pt>
 File: Imagenes/S1-LN-EBSA-RF-T1.png Graphic file (type png)
 <use Imagenes/S1-LN-EBSA-RF-T1.png>
-Package pdftex.def Info: Imagenes/S1-LN-EBSA-RF-T1.png  used on input line 369.
+Package pdftex.def Info: Imagenes/S1-LN-EBSA-RF-T1.png  used on input line 380.
 
 (pdftex.def)             Requested size: 426.79134pt x 273.97127pt.
-<Imagenes/S1-LN-EBSA-GBR-T1.png, id=892, 613.5723pt x 393.8715pt>
+<Imagenes/S1-LN-EBSA-GBR-T1.png, id=896, 613.5723pt x 393.8715pt>
 File: Imagenes/S1-LN-EBSA-GBR-T1.png Graphic file (type png)
 <use Imagenes/S1-LN-EBSA-GBR-T1.png>
-Package pdftex.def Info: Imagenes/S1-LN-EBSA-GBR-T1.png  used on input line 376
+Package pdftex.def Info: Imagenes/S1-LN-EBSA-GBR-T1.png  used on input line 387
 .
 (pdftex.def)             Requested size: 426.79134pt x 273.97127pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Imagenes/S1-LN-EBSA-VSM-T1.png, id=893, 613.5723pt x 393.8715pt>
+<Imagenes/S1-LN-EBSA-VSM-T1.png, id=897, 613.5723pt x 393.8715pt>
 File: Imagenes/S1-LN-EBSA-VSM-T1.png Graphic file (type png)
 <use Imagenes/S1-LN-EBSA-VSM-T1.png>
-Package pdftex.def Info: Imagenes/S1-LN-EBSA-VSM-T1.png  used on input line 383
+Package pdftex.def Info: Imagenes/S1-LN-EBSA-VSM-T1.png  used on input line 394
 .
 (pdftex.def)             Requested size: 426.79134pt x 273.97127pt.
 
@@ -1180,27 +1203,27 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
 
-[52
+[53
 
  <./Imagenes/S1-LN-EBSA-RF-T1.png>]
 
-LaTeX Warning: Text page 53 contains only floats.
+LaTeX Warning: Text page 54 contains only floats.
 
 
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
 
-[53 <./Imagenes/S1-LN-EBSA-GBR-T1.png> <./Imagenes/S1-LN-EBSA-VSM-T1.png>]
+[54 <./Imagenes/S1-LN-EBSA-GBR-T1.png> <./Imagenes/S1-LN-EBSA-VSM-T1.png>]
 \openout2 = `Capitulos/Capitulo7.aux'.
 
 
 (Capitulos/Capitulo7.tex
 Cap\'{\i }tulo 7.
 
-LaTeX Warning: Reference `tab:hiperparametros_modelos' on page 54 undefined on 
+LaTeX Warning: Reference `tab:hiperparametros_modelos' on page 55 undefined on 
 input line 6.
 
-) [54
+) [55
 
 
 
@@ -1209,12 +1232,12 @@ input line 6.
 Overfull \vbox (9.33333pt too high) has occurred while \output is active []
 
 
-[55]
+[56]
 \openout2 = `Capitulos/Apendice1.aux'.
 
  (Capitulos/Apendice1.tex
 Ap\'{e}ndice A.
-) [56
+) [57
 
 
 
@@ -1231,7 +1254,7 @@ o\OT1/cmr/m/n/12 , \OT1/cmr/m/sc/12 L. Im-pro-ta \OT1/cmr/m/n/12 y \OT1/cmr/m/s
 c/12 D. Pic-ci-ni-ni \OT1/cmr/m/n/12 (2024), []A
  []
 
-[57
+[58
 
 
 
@@ -1240,7 +1263,7 @@ c/12 D. Pic-ci-ni-ni \OT1/cmr/m/n/12 (2024), []A
 Overfull \vbox (9.33333pt too high) has occurred while \output is active []
 
 
-[58])
+[59])
 
 Package natbib Warning: There were undefined citations.
 
@@ -1248,7 +1271,7 @@ Package natbib Warning: There were undefined citations.
 Overfull \vbox (9.33333pt too high) has occurred while \output is active []
 
 
-[59] (MiTesis.aux (Capitulos/Portadas.aux)
+[60] (MiTesis.aux (Capitulos/Portadas.aux)
 LaTeX Info: Redefining \. on input line 12.
 LaTeX Info: Redefining \% on input line 12.
  (Capitulos/Dedicatoria.aux)
@@ -1267,12 +1290,21 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
-Package rerunfilecheck Info: File `MiTesis.out' has not changed.
-(rerunfilecheck)             Checksum: 94F00CB4C8A35890DC0DBDE3FFFB27A1;10314.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `MiTesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `MiTesis.out':
+(rerunfilecheck)             Before: ECCC7D30E75779C458E4A152DC21F988;10364
+(rerunfilecheck)             After:  7E83F950C776D54D977CB76C58EEDFD7;10410.
  ) 
 Here is how much of TeX's memory you used:
- 18988 strings out of 467691
- 371040 string characters out of 5414987
+ 18989 strings out of 467691
+ 371047 string characters out of 5414987
  812666 words of memory out of 5000000
  47560 multiletter control sequences out of 15000+600000
  638668 words of font info for 83 fonts, out of 8000000 for 9000
@@ -1297,9 +1329,9 @@ ype1/public/amsfonts/cm/cmsy6.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX
 s/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/juanj/AppData/Loca
 l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Users/juanj/App
 Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/latxfont/lasy10.pfb>
-Output written on MiTesis.pdf (69 pages, 2022961 bytes).
+Output written on MiTesis.pdf (70 pages, 2026765 bytes).
 PDF statistics:
- 1055 PDF objects out of 1200 (max. 8388607)
- 211 named destinations out of 1000 (max. 500000)
+ 1059 PDF objects out of 1200 (max. 8388607)
+ 212 named destinations out of 1000 (max. 500000)
  511 words of extra memory for PDF output out of 10000 (max. 10000000)
 

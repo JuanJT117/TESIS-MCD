@@ -273,9 +273,13 @@
 			|
 	\clearpage	
 			
-	\section{Entrenamiento, evaluación y optimización}
+	\section{Evaluación, optimización y entrenamiento}
 	
-			La evaluación de los modelos de \textit{Machine Learning} se llevó a cabo mediante validación cruzada (\textit{Cross-Validation}) empleando $k=3$ y $k=5$ pliegues. Esta metodología permite analizar el equilibrio entre sesgo y varianza en la estimación del error predictivo de los datos de resistividad eléctrica \citep{hastie2009}.
+			Durante el proceso de implementación de los modelos Machine Learning (RF, VSM, GBR), se realizan 3 procesos iterativo que evalúa el modelo identificando el mejor ajuste de hiperparametros que optimice el desempeño, reduzca el sesgo y maximice la métricas de entrenamiento, todo ello empleando diferentes 
+			 
+			Los tres modelo de Machine Learning ejecutados se evaluaron mediante validación cruzada (\textit{Cross-Validation})
+			
+			La evaluación de los modelos de \textit{Machine Learning} se llevó a cabo mediante validación cruzada  empleando $k=3$ y $k=5$ pliegues. Esta metodología permite analizar el equilibrio entre sesgo y varianza en la estimación del error predictivo de los datos de resistividad eléctrica \citep{hastie2009}.
 			
 			En la practica, emplear configuración de $k=3$, los algoritmos se entrenan utilizando el 66.6\% de los datos, lo que minimiza el costo computacional pero introduce un sesgo pesimista en la evaluación del rendimiento. Por otro lado, al emplear $k=5$, el modelo se entrena con el 80\% de la información disponible, garantizando una estimación más robusta de su capacidad de generalización frente a perfiles geofísicos no vistos.
 			
@@ -317,7 +321,7 @@
 	
 					
 					
-	\subsection{Validación y comparación de modelos}
+	\subsection{Análisis de Estabilidad Espacial y Validación Cruzada}
 			
 			Para evaluar la robustez y capacidad de generalización de los algoritmos propuestos frente a la naturaleza discontinua de los datos geofísicos, se analizó su rendimiento mediante dos enfoques: el comportamiento global bajo diferentes particiones de validación cruzada ($k=3$ y $k=5$) y la varianza del error predictivo a lo largo de las columnas del perfil de resistividad eléctrica.
 			
@@ -353,7 +357,14 @@
 				\label{fig:RendimientoRF}
 			\end{figure}
 				
-				
+		
+		Para evaluar la robustez y capacidad de generalización de los algoritmos propuestos frente a la naturaleza discontinua de los datos geofísicos, se analizó su rendimiento mediante dos enfoques: el comportamiento global bajo diferentes particiones de validación cruzada ($k=3$ y $k=5$) y la varianza del error predictivo a lo largo de las columnas del perfil de resistividad eléctrica.
+		
+		En primer lugar, los gráficos de radar comparativos demuestran la superioridad de los métodos basados en ensambles de árboles de decisión, específicamente \textit{Random Forest} (RF) y \textit{Gradient Boosting Regressor} (GBR). Ambos modelos exhiben una alta estabilidad algorítmica al transicionar de $k=3$ a $k=5$ pliegues, manteniendo coeficientes de determinación ($R^2$) superiores a 0.98 y valores de RMSE y MAE notablemente bajos. Esta baja sensibilidad a la partición de los datos sugiere que RF y GBR logran capturar la complejidad global del fenómeno geofísico sin incurrir en un sobreajuste (\textit{overfitting}) significativo. En contraste, el modelo de \textit{Support Vector Machine} (SVM) presenta una penalización importante tanto en error absoluto como en varianza, evidenciando una menor flexibilidad para modelar las no-linealidades inherentes de los datos en este espacio de características \citep{Bergen2019}.
+		
+		Por otro lado, el análisis de la distribución espacial del error (evaluación por índice de columna) expone hallazgos críticos sobre la arquitectura de los modelos. Al observar las métricas iterativas de MSE, Desviación Estándar y Curtosis, se hace evidente que el error predictivo del SVM se degrada sustancialmente (alcanzando valores de MSE superiores a $10,000$ en las columnas centrales). Esto se debe a que SVM, al ser un algoritmo de optimización de márgenes espaciales, tiende a perder precisión frente a las transiciones abruptas y capas fuertemente contrastantes típicas de los perfiles de resistividad, a menos que el hiperparámetro de su núcleo (\textit{kernel}) esté calibrado para cada estrato local de forma independiente \citep{Lary2016}.
+		
+		Contrariamente, tanto RF como GBR mantienen una traza de error estable y muy cercana a cero a lo largo de todas las columnas geofísicas. La capacidad de los algoritmos basados en árboles para realizar particiones ortogonales y aislar subespacios locales les confiere una ventaja estructural para lidiar con datos espaciales altamente heterogéneos y variaciones estratigráficas pronunciadas \citep{Belgiu2016}. En particular, el enfoque de refuerzo secuencial de GBR \citep{Friedman2001} demuestra ser el más eficiente para corregir los residuos de predicción en zonas de alta incertidumbre, minimizando asimetrías y controlando la desviación estándar de los residuos de manera óptima a lo largo de todo el perfil.
 		\clearpage
 		
 

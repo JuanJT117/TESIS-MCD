@@ -49,9 +49,9 @@
 \contentsline {section}{\numberline {6.1}Análisis de datos iniciales y simulación}{33}{section.6.1}%
 \contentsline {subsection}{\numberline {6.1.1}Datos iniciales}{35}{subsection.6.1.1}%
 \contentsline {section}{\numberline {6.2}Preparación de datos}{41}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Entrenamiento, evaluación y optimización}{46}{section.6.3}%
-\contentsline {subsection}{\numberline {6.3.1}Validación y comparación de modelos}{47}{subsection.6.3.1}%
-\contentsline {section}{\numberline {6.4}Test y evaluación}{52}{section.6.4}%
-\contentsline {paragraph}{\numberline {6.4.0.0.1}LAMPAZO DEL NARANJO S1-LN-EBSA}{52}{paragraph.6.4.0.0.1}%
-\contentsline {chapter}{\numberline {7}RESULTADOS Y CONCLUSIONES}{54}{chapter.7}%
-\contentsline {chapter}{\numberline {A}Apéndice I}{56}{appendix.Alph1}%
+\contentsline {section}{\numberline {6.3}Evaluación, optimización y entrenamiento}{46}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Análisis de Estabilidad Espacial y Validación Cruzada}{48}{subsection.6.3.1}%
+\contentsline {section}{\numberline {6.4}Test y evaluación}{53}{section.6.4}%
+\contentsline {paragraph}{\numberline {6.4.0.0.1}LAMPAZO DEL NARANJO S1-LN-EBSA}{53}{paragraph.6.4.0.0.1}%
+\contentsline {chapter}{\numberline {7}RESULTADOS Y CONCLUSIONES}{55}{chapter.7}%
+\contentsline {chapter}{\numberline {A}Apéndice I}{57}{appendix.Alph1}%
