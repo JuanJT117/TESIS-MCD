@@ -14,53 +14,44 @@
 \contentsline {subsubsection}{\numberline {5.1.3.1}Arreglo de Electrodos y Factor Geométrico}{12}{subsubsection.5.1.3.1}%
 \contentsline {section}{\numberline {5.2}Adquisición de Datos Geofísicos}{14}{section.5.2}%
 \contentsline {subsection}{\numberline {5.2.1}Intervalo de Muestreo en SEV}{14}{subsection.5.2.1}%
-\contentsline {subsubsection}{\numberline {5.2.1.1}Factores que Determinan el Intervalo de Muestreo}{16}{subsubsection.5.2.1.1}%
+\contentsline {subsubsection}{\numberline {5.2.1.1}Factores que Determinan el Intervalo de Muestreo}{15}{subsubsection.5.2.1.1}%
 \contentsline {subsection}{\numberline {5.2.2}Proceso de Adquisición In Situ}{16}{subsection.5.2.2}%
 \contentsline {section}{\numberline {5.3}Machine Learning en la Geofísica}{17}{section.5.3}%
 \contentsline {section}{\numberline {5.4}Random Forests}{18}{section.5.4}%
 \contentsline {subsection}{\numberline {5.4.1}Bootstrap aggregating}{19}{subsection.5.4.1}%
 \contentsline {subsection}{\numberline {5.4.2}Selección Aleatoria de Características}{19}{subsection.5.4.2}%
-\contentsline {subsection}{\numberline {5.4.3}Predicción por Agregación}{20}{subsection.5.4.3}%
+\contentsline {subsection}{\numberline {5.4.3}Predicción por Agregación}{19}{subsection.5.4.3}%
 \contentsline {subsection}{\numberline {5.4.4}Varianza y Overfitting}{20}{subsection.5.4.4}%
 \contentsline {subsection}{\numberline {5.4.5}Bias-Varianza Tradeoff}{21}{subsection.5.4.5}%
 \contentsline {section}{\numberline {5.5}Support Vector Machines}{21}{section.5.5}%
 \contentsline {subsection}{\numberline {5.5.1}Hiperplano Separador}{22}{subsection.5.5.1}%
-\contentsline {subsection}{\numberline {5.5.2}Clasificador de Margen Máximo}{23}{subsection.5.5.2}%
+\contentsline {subsection}{\numberline {5.5.2}Clasificador de Margen Máximo}{22}{subsection.5.5.2}%
 \contentsline {subsection}{\numberline {5.5.3}Clasificador de Margen Suave (Soft Margin)}{23}{subsection.5.5.3}%
 \contentsline {subsection}{\numberline {5.5.4}Método del Kernel}{23}{subsection.5.5.4}%
 \contentsline {subsection}{\numberline {5.5.5}Regresión por Vectores de Soporte (SVR)}{24}{subsection.5.5.5}%
-\contentsline {section}{\numberline {5.6}Gradient Boosting Regression}{25}{section.5.6}%
-\contentsline {subsection}{\numberline {5.6.1}Naturaleza Secuencial}{25}{subsection.5.6.1}%
+\contentsline {section}{\numberline {5.6}Gradient Boosting Regression}{24}{section.5.6}%
+\contentsline {subsection}{\numberline {5.6.1}Naturaleza Secuencial}{24}{subsection.5.6.1}%
 \contentsline {subsection}{\numberline {5.6.2}Minimización de la Función de Pérdida}{25}{subsection.5.6.2}%
 \contentsline {subsection}{\numberline {5.6.3}Ajuste a los Residuales}{25}{subsection.5.6.3}%
-\contentsline {subsection}{\numberline {5.6.4}Shrinkage (Tasa de Aprendizaje)}{26}{subsection.5.6.4}%
+\contentsline {subsection}{\numberline {5.6.4}Shrinkage (Tasa de Aprendizaje)}{25}{subsection.5.6.4}%
 \contentsline {subsection}{\numberline {5.6.5}Regularización}{26}{subsection.5.6.5}%
 \contentsline {subsubsection}{\numberline {5.6.5.1}Algoritmo de Gradient Boosting para Regresión}{26}{subsubsection.5.6.5.1}%
-\contentsline {subsubsection}{\numberline {5.6.5.2}Parámetros de Ajuste Importantes}{28}{subsubsection.5.6.5.2}%
+\contentsline {subsubsection}{\numberline {5.6.5.2}Parámetros de Ajuste Importantes}{27}{subsubsection.5.6.5.2}%
 \contentsline {subsubsection}{\numberline {5.6.5.3}Compensación Bias-Varianza}{28}{subsubsection.5.6.5.3}%
-\contentsline {section}{\numberline {5.7}Métricas de evaluación }{29}{section.5.7}%
-\contentsline {subsection}{\numberline {5.7.1}Coeficiente de Determinación ($R^2$ Score)}{29}{subsection.5.7.1}%
+\contentsline {section}{\numberline {5.7}Métricas de evaluación }{28}{section.5.7}%
+\contentsline {subsection}{\numberline {5.7.1}Coeficiente de Determinación ($R^2$ Score)}{28}{subsection.5.7.1}%
 \contentsline {subsection}{\numberline {5.7.2}Raíz del Error Cuadrático Medio (RMSE - Root Mean Squared Error)}{29}{subsection.5.7.2}%
-\contentsline {subsection}{\numberline {5.7.3}Error Absoluto Medio (MAE - Mean Absolute Error)}{30}{subsection.5.7.3}%
+\contentsline {subsection}{\numberline {5.7.3}Error Absoluto Medio (MAE - Mean Absolute Error)}{29}{subsection.5.7.3}%
 \contentsline {subsection}{\numberline {5.7.4}Error Porcentual Absoluto Medio (MAPE - Mean Absolute Percentage Error)}{30}{subsection.5.7.4}%
-\contentsline {subsection}{\numberline {5.7.5}Residuo Medio (Mean Residual - Bias)}{31}{subsection.5.7.5}%
+\contentsline {subsection}{\numberline {5.7.5}Residuo Medio (Mean Residual - Bias)}{30}{subsection.5.7.5}%
 \contentsline {subsection}{\numberline {5.7.6}Desviación Estándar de los Residuos (Std Dev of Residuals)}{31}{subsection.5.7.6}%
-\contentsline {chapter}{\numberline {6}METODOLOGÍA}{33}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Análisis de datos iniciales y simulación}{33}{section.6.1}%
-\contentsline {subsection}{\numberline {6.1.1}Datos iniciales}{35}{subsection.6.1.1}%
-\contentsline {section}{\numberline {6.2}Preparación de datos}{41}{section.6.2}%
-<<<<<<< HEAD
-\contentsline {section}{\numberline {6.3}Evaluación, optimización y entrenamiento}{46}{section.6.3}%
-\contentsline {subsection}{\numberline {6.3.1}Análisis de Estabilidad Espacial y Validación Cruzada}{48}{subsection.6.3.1}%
-\contentsline {section}{\numberline {6.4}Test y evaluación}{53}{section.6.4}%
-\contentsline {paragraph}{\numberline {6.4.0.0.1}LAMPAZO DEL NARANJO S1-LN-EBSA}{53}{paragraph.6.4.0.0.1}%
-\contentsline {chapter}{\numberline {7}RESULTADOS Y CONCLUSIONES}{55}{chapter.7}%
-\contentsline {chapter}{\numberline {A}Apéndice I}{57}{appendix.Alph1}%
-=======
-\contentsline {section}{\numberline {6.3}Entrenamiento, evaluación y optimización}{46}{section.6.3}%
-\contentsline {subsection}{\numberline {6.3.1}Validación y comparación de modelos}{47}{subsection.6.3.1}%
+\contentsline {chapter}{\numberline {6}METODOLOGÍA}{32}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Análisis de datos iniciales y simulación}{32}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Datos iniciales}{34}{subsection.6.1.1}%
+\contentsline {section}{\numberline {6.2}Preparación de datos}{40}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Evaluación, optimización y entrenamiento}{45}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Análisis de Estabilidad Espacial y Validación Cruzada}{47}{subsection.6.3.1}%
 \contentsline {section}{\numberline {6.4}Test y evaluación}{52}{section.6.4}%
 \contentsline {paragraph}{\numberline {6.4.0.0.1}LAMPAZO DEL NARANJO S1-LN-EBSA}{52}{paragraph.6.4.0.0.1}%
 \contentsline {chapter}{\numberline {7}RESULTADOS Y CONCLUSIONES}{54}{chapter.7}%
-\contentsline {chapter}{\numberline {A}Apéndice I}{56}{chapter.A}%
->>>>>>> a743283174ccf8fa86593292ba1646536ab13f46
+\contentsline {chapter}{\numberline {A}Apéndice I}{56}{appendix.Alph1}%
