@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.4.16)  30 MAY 2026 17:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.4.16)  30 MAY 2026 22:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1438,11 +1438,11 @@ Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 [44 <./Imagenes/11.png> <./Imagenes/13.png>]
 
 Package natbib Warning: Citation `hastie2009' on page 45 undefined on input lin
-e 282.
+e 280.
 
 
 Package natbib Warning: Citation `kohavi1995' on page 45 undefined on input lin
-e 286.
+e 284.
 
 
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
@@ -1456,7 +1456,7 @@ Runaway argument?
 ! Paragraph ended before \T@ref was complete.
 <to be read again> 
                    \par 
-l.291 			
+l.289 			
          
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
@@ -1469,46 +1469,46 @@ Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 [46]
 
 Package natbib Warning: Citation `Bergen2019' on page 47 undefined on input lin
-e 328.
+e 326.
 
 
 Package natbib Warning: Citation `Lary2016' on page 47 undefined on input line 
-330.
+328.
 
 
 Package natbib Warning: Citation `Belgiu2016' on page 47 undefined on input lin
-e 332.
+e 330.
 
 
 Package natbib Warning: Citation `Friedman2001' on page 47 undefined on input l
-ine 332.
+ine 330.
 
 
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
 
 [47]
-Underfull \hbox (badness 10000) in paragraph at lines 338--339
+Underfull \hbox (badness 10000) in paragraph at lines 336--337
 
  []
 
 <Imagenes/Vs-Global.png, id=651, 748.7172pt x 973.4769pt>
 File: Imagenes/Vs-Global.png Graphic file (type png)
 <use Imagenes/Vs-Global.png>
-Package pdftex.def Info: Imagenes/Vs-Global.png  used on input line 344.
+Package pdftex.def Info: Imagenes/Vs-Global.png  used on input line 342.
 (pdftex.def)             Requested size: 426.79134pt x 554.91731pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 349--350
+Underfull \hbox (badness 10000) in paragraph at lines 347--348
 
  []
 
 <Imagenes/Metricas-Full.png, id=652, 1077.5457pt x 908.4339pt>
 File: Imagenes/Metricas-Full.png Graphic file (type png)
 <use Imagenes/Metricas-Full.png>
-Package pdftex.def Info: Imagenes/Metricas-Full.png  used on input line 355.
+Package pdftex.def Info: Imagenes/Metricas-Full.png  used on input line 353.
 (pdftex.def)             Requested size: 426.79134pt x 359.8047pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1531,7 +1531,7 @@ Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 [49 <./Imagenes/Vs-Global.png>]
 
 Package natbib Warning: Citation `Bergen2019' on page 50 undefined on input lin
-e 363.
+e 361.
 
 
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
@@ -1540,15 +1540,15 @@ Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 [50 <./Imagenes/Metricas-Full.png>]
 
 Package natbib Warning: Citation `Lary2016' on page 51 undefined on input line 
-365.
+363.
 
 
 Package natbib Warning: Citation `Belgiu2016' on page 51 undefined on input lin
-e 367.
+e 365.
 
 
 Package natbib Warning: Citation `Friedman2001' on page 51 undefined on input l
-ine 367.
+ine 365.
 
 
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
@@ -1558,13 +1558,13 @@ Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 <Imagenes/S1-LN-EBSA-RF-T1.png, id=673, 613.5723pt x 393.8715pt>
 File: Imagenes/S1-LN-EBSA-RF-T1.png Graphic file (type png)
 <use Imagenes/S1-LN-EBSA-RF-T1.png>
-Package pdftex.def Info: Imagenes/S1-LN-EBSA-RF-T1.png  used on input line 380.
+Package pdftex.def Info: Imagenes/S1-LN-EBSA-RF-T1.png  used on input line 378.
 
 (pdftex.def)             Requested size: 426.79134pt x 273.97127pt.
 <Imagenes/S1-LN-EBSA-GBR-T1.png, id=674, 613.5723pt x 393.8715pt>
 File: Imagenes/S1-LN-EBSA-GBR-T1.png Graphic file (type png)
 <use Imagenes/S1-LN-EBSA-GBR-T1.png>
-Package pdftex.def Info: Imagenes/S1-LN-EBSA-GBR-T1.png  used on input line 387
+Package pdftex.def Info: Imagenes/S1-LN-EBSA-GBR-T1.png  used on input line 385
 .
 (pdftex.def)             Requested size: 426.79134pt x 273.97127pt.
 
@@ -1574,7 +1574,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <Imagenes/S1-LN-EBSA-VSM-T1.png, id=675, 613.5723pt x 393.8715pt>
 File: Imagenes/S1-LN-EBSA-VSM-T1.png Graphic file (type png)
 <use Imagenes/S1-LN-EBSA-VSM-T1.png>
-Package pdftex.def Info: Imagenes/S1-LN-EBSA-VSM-T1.png  used on input line 394
+Package pdftex.def Info: Imagenes/S1-LN-EBSA-VSM-T1.png  used on input line 392
 .
 (pdftex.def)             Requested size: 426.79134pt x 273.97127pt.
 
@@ -1653,7 +1653,7 @@ Package rerunfilecheck Info: File `MiTesis.out' has not changed.
 Here is how much of TeX's memory you used:
  18799 strings out of 467691
  367908 string characters out of 5414987
- 811560 words of memory out of 5000000
+ 811561 words of memory out of 5000000
  47403 multiletter control sequences out of 15000+600000
  638499 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1676,7 +1676,7 @@ ype1/public/amsfonts/cm/cmsy6.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX
 /fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/juanj/AppData/Local/Program
 s/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/juanj/AppData/Loca
 l/Programs/MiKTeX/fonts/type1/public/amsfonts/latxfont/lasy10.pfb>
-Output written on MiTesis.pdf (66 pages, 1962776 bytes).
+Output written on MiTesis.pdf (66 pages, 1962788 bytes).
 PDF statistics:
  811 PDF objects out of 1000 (max. 8388607)
  183 named destinations out of 1000 (max. 500000)

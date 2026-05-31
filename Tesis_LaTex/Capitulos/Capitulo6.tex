@@ -275,10 +275,8 @@
 			
 	\section{Evaluación, optimización y entrenamiento}
 	
-			Durante el proceso de implementación de los modelos Machine Learning (RF, VSM, GBR), se realizan 3 procesos iterativo que evalúa el modelo identificando el mejor ajuste de hiperparametros que optimice el desempeño, reduzca el sesgo y maximice la métricas de entrenamiento, todo ello empleando diferentes 
+			Parte del proceso de implementación de los modelos Machine Learning (RF, VSM, GBR), requiere de la evaluación mediante \textit{Cross-Validation}, la cual realiza 3 procesos iterativos, que identifican el mejor ajuste de hiperparametros que prioricen el desempeño, la reducción del sesgo y la maximización de las métricas de entrenamiento, esta proceso divide el conjunto de datos en k-pliegues, en donde la fracción mayor corresponde al conjunto de entrenamiento y la mínima al de evaluación. 
 			 
-			Los tres modelo de Machine Learning ejecutados se evaluaron mediante validación cruzada (\textit{Cross-Validation})
-			
 			La evaluación de los modelos de \textit{Machine Learning} se llevó a cabo mediante validación cruzada  empleando $k=3$ y $k=5$ pliegues. Esta metodología permite analizar el equilibrio entre sesgo y varianza en la estimación del error predictivo de los datos de resistividad eléctrica \citep{hastie2009}.
 			
 			En la practica, emplear configuración de $k=3$, los algoritmos se entrenan utilizando el 66.6\% de los datos, lo que minimiza el costo computacional pero introduce un sesgo pesimista en la evaluación del rendimiento. Por otro lado, al emplear $k=5$, el modelo se entrena con el 80\% de la información disponible, garantizando una estimación más robusta de su capacidad de generalización frente a perfiles geofísicos no vistos.
