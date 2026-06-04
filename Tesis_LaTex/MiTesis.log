@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.5.26)  2 JUN 2026 17:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.5.26)  4 JUN 2026 17:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -765,7 +765,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
 
-<Imagenes/estructura-oro.png, id=398, 425.11765pt x 420.15794pt>
+<Imagenes/estructura-oro.png, id=402, 425.11765pt x 420.15794pt>
 File: Imagenes/estructura-oro.png Graphic file (type png)
 <use Imagenes/estructura-oro.png>
 Package pdftex.def Info: Imagenes/estructura-oro.png  used on input line 17.
@@ -808,7 +808,7 @@ Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
 
 [10]
-<Imagenes/ArregloElectrodos.png, id=411, 576.74294pt x 298.29088pt>
+<Imagenes/ArregloElectrodos.png, id=415, 576.74294pt x 298.29088pt>
 File: Imagenes/ArregloElectrodos.png Graphic file (type png)
 <use Imagenes/ArregloElectrodos.png>
 Package pdftex.def Info: Imagenes/ArregloElectrodos.png  used on input line 38.
@@ -852,7 +852,7 @@ ne 61.
 Package natbib Warning: Citation `lowrie2020' on page 12 undefined on input lin
 e 61.
 
-<Imagenes/5.png, id=420, 637.63219pt x 608.2725pt>
+<Imagenes/5.png, id=424, 637.63219pt x 608.2725pt>
 File: Imagenes/5.png Graphic file (type png)
 <use Imagenes/5.png>
 Package pdftex.def Info: Imagenes/5.png  used on input line 73.
@@ -872,7 +872,7 @@ ne 78.
 Package natbib Warning: Citation `lowrie2020' on page 12 undefined on input lin
 e 78.
 
-<Imagenes/1.png, id=421, 511.15968pt x 48.18pt>
+<Imagenes/1.png, id=425, 511.15968pt x 48.18pt>
 File: Imagenes/1.png Graphic file (type png)
 <use Imagenes/1.png>
 Package pdftex.def Info: Imagenes/1.png  used on input line 88.
@@ -884,7 +884,7 @@ ine 89.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Imagenes/2.png, id=422, 522.45187pt x 68.50594pt>
+<Imagenes/2.png, id=426, 522.45187pt x 68.50594pt>
 File: Imagenes/2.png Graphic file (type png)
 <use Imagenes/2.png>
 Package pdftex.def Info: Imagenes/2.png  used on input line 101.
@@ -901,7 +901,7 @@ Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
 
 [12]
-<Imagenes/3.png, id=433, 532.99126pt x 37.64063pt>
+<Imagenes/3.png, id=437, 532.99126pt x 37.64063pt>
 File: Imagenes/3.png Graphic file (type png)
 <use Imagenes/3.png>
 Package pdftex.def Info: Imagenes/3.png  used on input line 114.
@@ -1295,7 +1295,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 94--95
 
  []
 
-<Imagenes/6.png, id=553, 859.2903pt x 426.393pt>
+<Imagenes/6.png, id=557, 859.2903pt x 426.393pt>
 File: Imagenes/6.png Graphic file (type png)
 <use Imagenes/6.png>
 Package pdftex.def Info: Imagenes/6.png  used on input line 99.
@@ -1307,12 +1307,12 @@ Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 [34
 
  <./Imagenes/6.png>]
-<Imagenes/7.png, id=560, 859.2903pt x 426.393pt>
+<Imagenes/7.png, id=564, 859.2903pt x 426.393pt>
 File: Imagenes/7.png Graphic file (type png)
 <use Imagenes/7.png>
 Package pdftex.def Info: Imagenes/7.png  used on input line 110.
 (pdftex.def)             Requested size: 426.79134pt x 211.77762pt.
-<Imagenes/8.png, id=563, 855.6768pt x 854.9541pt>
+<Imagenes/8.png, id=567, 855.6768pt x 854.9541pt>
 File: Imagenes/8.png Graphic file (type png)
 <use Imagenes/8.png>
 Package pdftex.def Info: Imagenes/8.png  used on input line 121.
@@ -1328,7 +1328,7 @@ Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 [35
 
  <./Imagenes/7.png>]
-<Imagenes/9.png, id=570, 855.6768pt x 1144.7568pt>
+<Imagenes/9.png, id=574, 855.6768pt x 1144.7568pt>
 File: Imagenes/9.png Graphic file (type png)
 <use Imagenes/9.png>
 Package pdftex.def Info: Imagenes/9.png  used on input line 130.
@@ -1350,7 +1350,7 @@ Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
 
 [37 <./Imagenes/9.png>]
-<Imagenes/PCA-Analisis_Componentes_Principales.png, id=581, 613.5723pt x 341.83
+<Imagenes/PCA-Analisis_Componentes_Principales.png, id=585, 613.5723pt x 341.83
 71pt>
 File: Imagenes/PCA-Analisis_Componentes_Principales.png Graphic file (type png)
 
@@ -1363,7 +1363,7 @@ Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
 
 [38 <./Imagenes/PCA-Analisis_Componentes_Principales.png>]
-<Imagenes/MC-DI.png, id=595, 675.0018pt x 566.5968pt>
+<Imagenes/MC-DI.png, id=599, 675.0018pt x 566.5968pt>
 File: Imagenes/MC-DI.png Graphic file (type png)
 <use Imagenes/MC-DI.png>
 Package pdftex.def Info: Imagenes/MC-DI.png  used on input line 158.
@@ -1390,7 +1390,7 @@ Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 Package natbib Warning: Citation `telford1990' on page 42 undefined on input li
 ne 236.
 
-<Imagenes/12.png, id=615, 613.5723pt x 286.1892pt>
+<Imagenes/12.png, id=619, 613.5723pt x 286.1892pt>
 File: Imagenes/12.png Graphic file (type png)
 <use Imagenes/12.png>
 Package pdftex.def Info: Imagenes/12.png  used on input line 248.
@@ -1398,7 +1398,7 @@ Package pdftex.def Info: Imagenes/12.png  used on input line 248.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Imagenes/10.png, id=616, 613.5723pt x 286.1892pt>
+<Imagenes/10.png, id=620, 613.5723pt x 286.1892pt>
 File: Imagenes/10.png Graphic file (type png)
 <use Imagenes/10.png>
 Package pdftex.def Info: Imagenes/10.png  used on input line 255.
@@ -1406,7 +1406,7 @@ Package pdftex.def Info: Imagenes/10.png  used on input line 255.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Imagenes/11.png, id=617, 630.1944pt x 286.1892pt>
+<Imagenes/11.png, id=621, 630.1944pt x 286.1892pt>
 File: Imagenes/11.png Graphic file (type png)
 <use Imagenes/11.png>
 Package pdftex.def Info: Imagenes/11.png  used on input line 262.
@@ -1414,7 +1414,7 @@ Package pdftex.def Info: Imagenes/11.png  used on input line 262.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Imagenes/13.png, id=618, 630.9171pt x 286.1892pt>
+<Imagenes/13.png, id=622, 630.9171pt x 286.1892pt>
 File: Imagenes/13.png Graphic file (type png)
 <use Imagenes/13.png>
 Package pdftex.def Info: Imagenes/13.png  used on input line 269.
@@ -1460,9 +1460,14 @@ Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 [45
 
 ]
+<Imagenes/Vs-Global.png, id=647, 748.7172pt x 973.4769pt>
+File: Imagenes/Vs-Global.png Graphic file (type png)
+<use Imagenes/Vs-Global.png>
+Package pdftex.def Info: Imagenes/Vs-Global.png  used on input line 325.
+(pdftex.def)             Requested size: 426.79134pt x 554.91731pt.
 
-Package natbib Warning: Citation `Bergen2019' on page 46 undefined on input lin
-e 322.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
@@ -1470,62 +1475,7 @@ Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
 [46]
 
-Package natbib Warning: Citation `kohavi1995' on page 47 undefined on input lin
-e 324.
-
-
-Package natbib Warning: Citation `Lary2016' on page 47 undefined on input line 
-327.
-
-
-Package natbib Warning: Citation `Belgiu2016' on page 47 undefined on input lin
-e 329.
-
-
-Package natbib Warning: Citation `Friedman2001' on page 47 undefined on input l
-ine 329.
-
-
-Overfull \vbox (11.36665pt too high) has occurred while \output is active []
-
-
-[47]
-Underfull \hbox (badness 10000) in paragraph at lines 335--336
-
- []
-
-<Imagenes/Vs-Global.png, id=652, 748.7172pt x 973.4769pt>
-File: Imagenes/Vs-Global.png Graphic file (type png)
-<use Imagenes/Vs-Global.png>
-Package pdftex.def Info: Imagenes/Vs-Global.png  used on input line 341.
-(pdftex.def)             Requested size: 426.79134pt x 554.91731pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 346--347
-
- []
-
-<Imagenes/Metricas-Full.png, id=653, 1077.5457pt x 908.4339pt>
-File: Imagenes/Metricas-Full.png Graphic file (type png)
-<use Imagenes/Metricas-Full.png>
-Package pdftex.def Info: Imagenes/Metricas-Full.png  used on input line 352.
-(pdftex.def)             Requested size: 426.79134pt x 359.8047pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Package natbib Warning: Citation `Bergen2019' on page 48 undefined on input lin
-e 360.
-
-
-Overfull \vbox (11.36665pt too high) has occurred while \output is active []
-
-
-[48]
-
-LaTeX Warning: Text page 49 contains only floats.
+LaTeX Warning: Text page 47 contains only floats.
 
 
 Overfull \vbox (7.46109pt too high) has occurred while \output is active []
@@ -1534,10 +1484,51 @@ Overfull \vbox (7.46109pt too high) has occurred while \output is active []
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
 
-[49 <./Imagenes/Vs-Global.png>]
+[47 <./Imagenes/Vs-Global.png>]
 
-Package natbib Warning: Citation `Lary2016' on page 50 undefined on input line 
-362.
+Package natbib Warning: Citation `Bergen2019' on page 48 undefined on input lin
+e 332.
+
+
+Package natbib Warning: Citation `kohavi1995' on page 48 undefined on input lin
+e 334.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package natbib Warning: Citation `Lary2016' on page 48 undefined on input line 
+367.
+
+
+Overfull \vbox (11.36665pt too high) has occurred while \output is active []
+
+
+[48]
+
+Package natbib Warning: Citation `Belgiu2016' on page 49 undefined on input lin
+e 369.
+
+
+Package natbib Warning: Citation `Friedman2001' on page 49 undefined on input l
+ine 369.
+
+<Imagenes/Metricas-Full.png, id=662, 1077.5457pt x 908.4339pt>
+File: Imagenes/Metricas-Full.png Graphic file (type png)
+<use Imagenes/Metricas-Full.png>
+Package pdftex.def Info: Imagenes/Metricas-Full.png  used on input line 375.
+(pdftex.def)             Requested size: 426.79134pt x 359.8047pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \vbox (11.36665pt too high) has occurred while \output is active []
+
+
+[49]
+
+Package natbib Warning: Citation `Bergen2019' on page 50 undefined on input lin
+e 383.
 
 
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
@@ -1545,38 +1536,42 @@ Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
 [50 <./Imagenes/Metricas-Full.png>]
 
+Package natbib Warning: Citation `Lary2016' on page 51 undefined on input line 
+385.
+
+
 Package natbib Warning: Citation `Belgiu2016' on page 51 undefined on input lin
-e 364.
+e 387.
 
 
 Package natbib Warning: Citation `Friedman2001' on page 51 undefined on input l
-ine 364.
+ine 387.
 
 
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
 
 [51]
-<Imagenes/S1-LN-EBSA-RF-T1.png, id=674, 613.5723pt x 393.8715pt>
+<Imagenes/S1-LN-EBSA-RF-T1.png, id=678, 613.5723pt x 393.8715pt>
 File: Imagenes/S1-LN-EBSA-RF-T1.png Graphic file (type png)
 <use Imagenes/S1-LN-EBSA-RF-T1.png>
-Package pdftex.def Info: Imagenes/S1-LN-EBSA-RF-T1.png  used on input line 377.
+Package pdftex.def Info: Imagenes/S1-LN-EBSA-RF-T1.png  used on input line 400.
 
 (pdftex.def)             Requested size: 426.79134pt x 273.97127pt.
-<Imagenes/S1-LN-EBSA-GBR-T1.png, id=675, 613.5723pt x 393.8715pt>
+<Imagenes/S1-LN-EBSA-GBR-T1.png, id=679, 613.5723pt x 393.8715pt>
 File: Imagenes/S1-LN-EBSA-GBR-T1.png Graphic file (type png)
 <use Imagenes/S1-LN-EBSA-GBR-T1.png>
-Package pdftex.def Info: Imagenes/S1-LN-EBSA-GBR-T1.png  used on input line 384
+Package pdftex.def Info: Imagenes/S1-LN-EBSA-GBR-T1.png  used on input line 407
 .
 (pdftex.def)             Requested size: 426.79134pt x 273.97127pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Imagenes/S1-LN-EBSA-VSM-T1.png, id=676, 613.5723pt x 393.8715pt>
+<Imagenes/S1-LN-EBSA-VSM-T1.png, id=680, 613.5723pt x 393.8715pt>
 File: Imagenes/S1-LN-EBSA-VSM-T1.png Graphic file (type png)
 <use Imagenes/S1-LN-EBSA-VSM-T1.png>
-Package pdftex.def Info: Imagenes/S1-LN-EBSA-VSM-T1.png  used on input line 391
+Package pdftex.def Info: Imagenes/S1-LN-EBSA-VSM-T1.png  used on input line 414
 .
 (pdftex.def)             Requested size: 426.79134pt x 273.97127pt.
 
@@ -1653,10 +1648,10 @@ Package rerunfilecheck Info: File `MiTesis.out' has not changed.
 (rerunfilecheck)             Checksum: 3B14D036E13F7149FBC1585938C03964;10334.
  ) 
 Here is how much of TeX's memory you used:
- 18844 strings out of 467682
- 369570 string characters out of 5415183
- 813200 words of memory out of 5000000
- 47456 multiletter control sequences out of 15000+600000
+ 18846 strings out of 467682
+ 369627 string characters out of 5415183
+ 813383 words of memory out of 5000000
+ 47457 multiletter control sequences out of 15000+600000
  638499 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,14n,83p,1020b,1379s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1678,9 +1673,9 @@ msfonts/cm/cmsy6.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/p
 ublic/amsfonts/cm/cmsy8.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/
 type1/public/amsfonts/cm/cmti12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTe
 X/fonts/type1/public/amsfonts/latxfont/lasy10.pfb>
-Output written on MiTesis.pdf (66 pages, 1962354 bytes).
+Output written on MiTesis.pdf (66 pages, 1964062 bytes).
 PDF statistics:
- 812 PDF objects out of 1000 (max. 8388607)
- 183 named destinations out of 1000 (max. 500000)
+ 816 PDF objects out of 1000 (max. 8388607)
+ 184 named destinations out of 1000 (max. 500000)
  511 words of extra memory for PDF output out of 10000 (max. 10000000)
 

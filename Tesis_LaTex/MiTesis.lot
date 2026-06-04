@@ -10,6 +10,7 @@
 \contentsline {table}{\numberline {6.1}{\ignorespaces Resultados del modelo de resistividad por sitio.}}{33}{table.caption.12}%
 \contentsline {table}{\numberline {6.2}{\ignorespaces Rango de espesores (mínimo y máximo) registrados por sitio.}}{41}{table.caption.19}%
 \contentsline {table}{\numberline {6.3}{\ignorespaces Configuración de hiperparámetros para cada modelo. Se remarca en negrita el valor con la mejor generalización mediante $k$-Fold Cross-Validation usando GridSearchCV.}}{46}{table.caption.24}%
+\contentsline {table}{\numberline {6.4}{\ignorespaces Configuración de hiperparámetros para cada modelo, correspondiente a la mejor generalización mediante $k$-Fold Cross-Validation usando GridSearchCV.}}{49}{table.caption.26}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {7.1}{\ignorespaces Configuración de hiperparámetros para cada modelo. Se remarca en negrita el valor con la mejor generalización mediante $k$-Fold Cross-Validation usando GridSearchCV.}}{54}{table.caption.30}%
+\contentsline {table}{\numberline {7.1}{\ignorespaces Configuración de hiperparámetros para cada modelo. Se remarca en negrita el valor con la mejor generalización mediante $k$-Fold Cross-Validation usando GridSearchCV.}}{54}{table.caption.31}%
 \addvspace {10\p@ }
