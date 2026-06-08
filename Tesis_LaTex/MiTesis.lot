@@ -7,10 +7,9 @@
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {5.1}{\ignorespaces Ejemplo de un registro de adquisición de SEV.}}{17}{table.caption.11}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {6.1}{\ignorespaces Resultados del modelo de resistividad por sitio.}}{33}{table.caption.12}%
-\contentsline {table}{\numberline {6.2}{\ignorespaces Rango de espesores (mínimo y máximo) registrados por sitio.}}{41}{table.caption.19}%
-\contentsline {table}{\numberline {6.3}{\ignorespaces Configuración de hiperparámetros para cada modelo. Se remarca en negrita el valor con la mejor generalización mediante $k$-Fold Cross-Validation usando GridSearchCV.}}{46}{table.caption.24}%
-\contentsline {table}{\numberline {6.4}{\ignorespaces Configuración de hiperparámetros para cada modelo, correspondiente a la mejor generalización mediante $k$-Fold Cross-Validation usando GridSearchCV.}}{49}{table.caption.26}%
+\contentsline {table}{\numberline {6.1}{\ignorespaces Resultados del modelo de resistividad por sitio.}}{34}{table.caption.12}%
+\contentsline {table}{\numberline {6.2}{\ignorespaces Rango de espesores (mínimo y máximo) registrados por sitio.}}{42}{table.caption.19}%
+\contentsline {table}{\numberline {6.3}{\ignorespaces Configuración de hiperparámetros para cada modelo. Se remarca en negrita el valor con la mejor generalización mediante $k$-Fold Cross-Validation usando GridSearchCV.}}{47}{table.caption.24}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {7.1}{\ignorespaces Configuración de hiperparámetros para cada modelo. Se remarca en negrita el valor con la mejor generalización mediante $k$-Fold Cross-Validation usando GridSearchCV.}}{54}{table.caption.31}%
+\contentsline {table}{\numberline {7.1}{\ignorespaces Configuración de hiperparámetros para cada modelo. Se remarca en negrita el valor con la mejor generalización mediante $k$-Fold Cross-Validation usando GridSearchCV.}}{53}{table.caption.30}%
 \addvspace {10\p@ }

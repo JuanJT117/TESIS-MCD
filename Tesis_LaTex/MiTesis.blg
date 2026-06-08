@@ -1,0 +1,79 @@
+This is BibTeX, Version 0.99e
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: MiTesis.aux
+Reallocating 'name_of_file' (item size: 1) to 23 items.
+A level-1 auxiliary file: Capitulos/Portadas.aux
+Reallocating 'name_of_file' (item size: 1) to 26 items.
+A level-1 auxiliary file: Capitulos/Dedicatoria.aux
+Reallocating 'name_of_file' (item size: 1) to 30 items.
+A level-1 auxiliary file: Capitulos/Agradecimientos.aux
+Reallocating 'name_of_file' (item size: 1) to 24 items.
+A level-1 auxiliary file: Capitulos/Capitulo1.aux
+Reallocating 'name_of_file' (item size: 1) to 24 items.
+A level-1 auxiliary file: Capitulos/Capitulo2.aux
+Reallocating 'name_of_file' (item size: 1) to 24 items.
+A level-1 auxiliary file: Capitulos/Capitulo3.aux
+Reallocating 'name_of_file' (item size: 1) to 24 items.
+A level-1 auxiliary file: Capitulos/Capitulo4.aux
+Reallocating 'name_of_file' (item size: 1) to 25 items.
+A level-1 auxiliary file: Capitulos/Capitulo-5.aux
+Reallocating 'name_of_file' (item size: 1) to 24 items.
+A level-1 auxiliary file: Capitulos/Capitulo6.aux
+Case mismatch error between cite keys Friedman2001 and friedman2001
+---line 46 of file Capitulos/Capitulo6.aux
+ : \citation{Friedman2001
+ :                       }
+I'm skipping whatever remains of this command
+Reallocating 'name_of_file' (item size: 1) to 24 items.
+A level-1 auxiliary file: Capitulos/Capitulo7.aux
+Reallocating 'name_of_file' (item size: 1) to 24 items.
+A level-1 auxiliary file: Capitulos/Apendice1.aux
+Reallocating 'name_of_file' (item size: 1) to 10 items.
+The style file: mighelnat.bst
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+Database file #1: MiBiblio.bib
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Warning--can't use both volume and number fields in james2013
+You've used 29 entries,
+            3461 wiz_defined-function locations,
+            847 strings with 10456 characters,
+and the built_in function-call counts, 29927 in all, are:
+= -- 3141
+> -- 825
+< -- 36
++ -- 409
+- -- 255
+* -- 1887
+:= -- 3061
+add.period$ -- 29
+call.type$ -- 29
+change.case$ -- 203
+chr.to.int$ -- 35
+cite$ -- 59
+duplicate$ -- 3138
+empty$ -- 1907
+format.name$ -- 344
+if$ -- 6118
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 327
+newline$ -- 137
+num.names$ -- 116
+pop$ -- 976
+preamble$ -- 1
+purify$ -- 201
+quote$ -- 0
+skip$ -- 1944
+stack$ -- 0
+substring$ -- 1455
+swap$ -- 2531
+text.length$ -- 19
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 228
+warning$ -- 1
+while$ -- 155
+width$ -- 0
+write$ -- 358
+(There was 1 error message)

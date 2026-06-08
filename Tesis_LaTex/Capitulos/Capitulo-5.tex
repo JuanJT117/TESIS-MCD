@@ -465,7 +465,7 @@ Gradient Boosting busca simultáneamente reducir el sesgo (bias) y la varianza d
 En resumen, el algoritmo Gradient Boosting Regression construye un modelo fuerte combinando múltiples árboles débiles entrenados de forma secuencial. Cada nuevo árbol se enfoca en aprender los errores del modelo anterior, y su contribución se regula mediante una tasa de aprendizaje. Gracias a su capacidad para capturar patrones complejos y su flexibilidad, se ha convertido en una de las técnicas más potentes y ampliamente utilizadas en tareas de regresión y clasificación \citep{james2013, veirana2021, hastie2009, friedman2001}.
 
 
-\section{Métricas de evaluación }
+\section{Métricas de rendimiento y varianza del error predictivo }
 
 	\subsection{Coeficiente de Determinación ($R^2$ Score)}
 	
@@ -536,7 +536,7 @@ En resumen, el algoritmo Gradient Boosting Regression construye un modelo fuerte
 		
 		Donde $e_i = y_i - \hat{y}_i$ es el residuo.
 		
-		Interpretación en Data Science: Indica la precisión (en contraposición a la exactitud). Un modelo puede tener un sesgo bajo (Residuo Medio $\approx 0$) pero una desviación estándar alta, lo que significa que es inestable y sus predicciones oscilan mucho ("ruidosas"). Buscamos modelos con $\sigma_{res}$ baja.
+		Interpretación en Data Science: Indica la precisión (en contraposición a la exactitud). Un modelo puede tener un sesgo bajo (Residuo Medio $\approx 0$) pero una desviación estándar alta, lo que significa que es inestable y sus predicciones oscilan mucho (ruidosas). Buscamos modelos con $\sigma_{res}$ baja.
 		
 		
 	

@@ -1,76 +1,76 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.5.26)  4 JUN 2026 17:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.4.16)  7 JUN 2026 22:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **./MiTesis.tex
 (MiTesis.tex
 LaTeX2e <2025-11-01>
-L3 programming layer <2026-04-28>
+L3 programming layer <2026-03-20>
 (uanl.cls
 Document Class: uanl 
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/base\book.cls
+(C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/base\book.cls
 Document Class: book 2025/01/22 v1.4n Standard LaTeX document class
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/base\bk12.clo
+(C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/base\bk12.clo
 File: bk12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count276
-\c@chapter=\count277
-\c@section=\count278
-\c@subsection=\count279
-\c@subsubsection=\count280
-\c@paragraph=\count281
-\c@subparagraph=\count282
-\c@figure=\count283
-\c@table=\count284
+\c@part=\count275
+\c@chapter=\count276
+\c@section=\count277
+\c@subsection=\count278
+\c@subsubsection=\count279
+\c@paragraph=\count280
+\c@subparagraph=\count281
+\c@figure=\count282
+\c@table=\count283
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
 \bibindent=\dimen150
 )
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
-Package: babel 2026/05/20 v26.8 The multilingual framework for LuaLaTeX, pdfLaT
+(C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2026/03/24 v26.5 The multilingual framework for LuaLaTeX, pdfLaT
 eX and XeLaTeX
-\babel@savecnt=\count285
+\babel@savecnt=\count284
 LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input li
-ne 2084.
+ne 2078.
 LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input li
-ne 2086.
+ne 2080.
 LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input lin
-e 2088.
+e 2082.
 LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input lin
-e 2089.
+e 2083.
 LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) 
-on input line 2090.
+on input line 2084.
 LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) 
-on input line 2092.
+on input line 2086.
 LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) 
-on input line 2117.
+on input line 2111.
 \U@D=\dimen151
 \l@unhyphenated=\language79
 
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+(C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read2
-\bbl@dirlevel=\count286
+\bbl@dirlevel=\count285
 Package babel Info: Configuration files are deprecated, as
 (babel)             they can break document portability.
-(babel)             Reported on input line 4228.
+(babel)             Reported on input line 4206.
 
 *************************************
 * Local config file bblopts.cfg used
 *
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+(C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/es\babel-
-spanish.tex)
+(C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/es\babel
+-spanish.tex)
 Package babel Info: Importing font and identification data for spanish
-(babel)             from babel-es.ini. Reported on input line 4356.
+(babel)             from babel-es.ini. Reported on input line 4330.
 
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/babel-spanish\spanish.ld
-f
+(C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/babel-spanish\spanish.l
+df
 Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
 \es@quottoks=\toks17
-\es@quotdepth=\count287
+\es@quotdepth=\count286
 Package babel Info: Making " an active character on input line 570.
 Package babel Info: Making . an active character on input line 675.
 Package babel Info: Making < an active character on input line 722.
@@ -80,46 +80,45 @@ LaTeX Encoding Info:    Redeclaring text command \guillemotleft (encoding OT1)
 on input line 12.
 LaTeX Encoding Info:    Redeclaring text command \guillemotright (encoding OT1)
  on input line 12.
- (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+ (C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2024/02/08 v1.3d Input encoding file
 \inpenc@prehook=\toks18
 \inpenc@posthook=\toks19
-)
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/natbib\natbib.sty
+) (C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/natbib\natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip51
 \bibsep=\skip52
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count288
+\c@NAT@ctr=\count287
 )
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+(C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2025/07/09 v2.17z AMS math features
 \@mathmargin=\skip53
 
 For additional information on amsmath, use the `?' option.
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+(C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
 Package: amstext 2024/11/17 v2.01 AMS text
 
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+(C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks20
 \ex@=\dimen152
 ))
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+(C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen153
 )
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+(C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count289
+\inf@bad=\count288
 LaTeX Info: Redefining \frac on input line 233.
-\uproot@=\count290
-\leftroot@=\count291
+\uproot@=\count289
+\leftroot@=\count290
 LaTeX Info: Redefining \overline on input line 398.
 LaTeX Info: Redefining \colon on input line 409.
-\classnum@=\count292
-\DOTSCASE@=\count293
+\classnum@=\count291
+\DOTSCASE@=\count292
 LaTeX Info: Redefining \ldots on input line 495.
 LaTeX Info: Redefining \dots on input line 498.
 LaTeX Info: Redefining \cdots on input line 619.
@@ -132,20 +131,20 @@ LaTeX Info: Redefining \Bigg on input line 724.
 \big@size=\dimen154
 LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
-\macc@depth=\count294
+\macc@depth=\count293
 LaTeX Info: Redefining \bmod on input line 904.
 LaTeX Info: Redefining \pmod on input line 909.
 LaTeX Info: Redefining \smash on input line 939.
 LaTeX Info: Redefining \relbar on input line 969.
 LaTeX Info: Redefining \Relbar on input line 970.
-\c@MaxMatrixCols=\count295
+\c@MaxMatrixCols=\count294
 \dotsspace@=\muskip17
-\c@parentequation=\count296
-\dspbrk@lvl=\count297
+\c@parentequation=\count295
+\dspbrk@lvl=\count296
 \tag@help=\toks21
-\row@=\count298
-\column@=\count299
-\maxfields@=\count300
+\row@=\count297
+\column@=\count298
+\maxfields@=\count299
 \andhelp@=\toks22
 \eqnshift@=\dimen155
 \alignsep@=\dimen156
@@ -160,7 +159,7 @@ LaTeX Info: Redefining \Relbar on input line 970.
 LaTeX Info: Redefining \[ on input line 2950.
 LaTeX Info: Redefining \] on input line 2951.
 )
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+(C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
@@ -168,34 +167,35 @@ LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+(C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+(C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+(C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks25
 )
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+(C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+(C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
 )
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cf
-g
+(C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 106.
 
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+(C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen161
 \Gin@req@width=\dimen162
-) (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
+)
+(C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
 Package: titlesec 2025/01/04 v2.17 Sectioning titles
 \ttl@box=\box55
 \beforetitleunit=\skip56
@@ -206,18 +206,17 @@ Package: titlesec 2025/01/04 v2.17 Sectioning titles
 \titlewidth=\dimen165
 \titlewidthlast=\dimen166
 \titlewidthfirst=\dimen167
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titleps.sty))
-\c@teorema=\count301
-)
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+
+(C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titleps.sty))
+\c@teorema=\count300
+) (C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
 
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+(C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 274.
-
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+(C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
 Package xcolor Info: Model `RGB' extended on input line 1365.
@@ -227,10 +226,9 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
-) (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
-Package: colortbl 2026/05/01 v1.0l Color table columns (DPC)
-
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+) (C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
+Package: colortbl 2024/10/29 v1.0k Color table columns (DPC)
+(C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
 Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
 \col@sep=\dimen168
 \ar@mcellbox=\box56
@@ -242,133 +240,135 @@ Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
 )
 \everycr=\toks28
 \minrowclearance=\skip60
-\rownum=\count302
+\rownum=\count301
 )
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
-Package: hyperref 2026-04-24 v7.01q Hypertext links for LaTeX
+(C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2026-01-29 v7.01p Hypertext links for LaTeX
 
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+(C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2024/12/12 v1.0g TeX engine tests
 )
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+(C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 )
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinek
-eys.sty
+(C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
+keys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 )
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.st
-y
+(C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.s
+ty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
- (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+
+(C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
 Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
 )
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.
-sty
+(C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
+.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.st
-y
+(C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
+ty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-)) (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+))
+(C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-) (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+)
+(C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2026-01-29 v2.58 Cross-referencing by name of section
 
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+(C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 )
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitl
-estring.sty
+(C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettit
+lestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+(C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count303
-) (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
-Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count304
+\c@section@level=\count302
 )
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.st
-y
+(C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count303
+)
+(C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.s
+ty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
 \@linkdim=\dimen170
-\Hy@linkcounter=\count305
-\Hy@pagecounter=\count306
- (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
-File: pd1enc.def 2026-04-24 v7.01q Hyperref: PDFDocEncoding definition (HO)
+\Hy@linkcounter=\count304
+\Hy@pagecounter=\count305
+ (C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2026-01-29 v7.01p Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
-)
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+) (C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count307
-
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
-File: puenc.def 2026-04-24 v7.01q Hyperref: PDF Unicode definition (HO)
+\Hy@SavedSpaceFactor=\count306
+ (C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2026-01-29 v7.01p Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Hyper figures OFF on input line 4199.
-Package hyperref Info: Link nesting OFF on input line 4204.
-Package hyperref Info: Hyper index ON on input line 4207.
-Package hyperref Info: Plain pages OFF on input line 4214.
-Package hyperref Info: Backreferencing OFF on input line 4219.
+Package hyperref Info: Hyper figures OFF on input line 4201.
+Package hyperref Info: Link nesting OFF on input line 4206.
+Package hyperref Info: Hyper index ON on input line 4209.
+Package hyperref Info: Plain pages OFF on input line 4216.
+Package hyperref Info: Backreferencing OFF on input line 4221.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4466.
-\c@Hy@tempcnt=\count308
+Package hyperref Info: Bookmarks ON on input line 4468.
+\c@Hy@tempcnt=\count307
 
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+(C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 4805.
+LaTeX Info: Redefining \url on input line 4807.
 \XeTeXLinkMargin=\dimen171
 
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+(C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.
-sty
+(C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc
+.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count309
+\Fld@menulength=\count308
 \Field@Width=\dimen172
 \Fld@charsize=\dimen173
-Package hyperref Info: Hyper figures OFF on input line 6091.
-Package hyperref Info: Link nesting OFF on input line 6096.
-Package hyperref Info: Hyper index ON on input line 6099.
-Package hyperref Info: backreferencing OFF on input line 6106.
-Package hyperref Info: Link coloring OFF on input line 6111.
-Package hyperref Info: Link coloring with OCG OFF on input line 6116.
-Package hyperref Info: PDF/A mode OFF on input line 6121.
-\Hy@abspage=\count310
-\c@Item=\count311
-\c@Hfootnote=\count312
+Package hyperref Info: Hyper figures OFF on input line 6084.
+Package hyperref Info: Link nesting OFF on input line 6089.
+Package hyperref Info: Hyper index ON on input line 6092.
+Package hyperref Info: backreferencing OFF on input line 6099.
+Package hyperref Info: Link coloring OFF on input line 6104.
+Package hyperref Info: Link coloring with OCG OFF on input line 6109.
+Package hyperref Info: PDF/A mode OFF on input line 6114.
+\Hy@abspage=\count309
+\c@Item=\count310
+\c@Hfootnote=\count311
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
-File: hpdftex.def 2026-04-24 v7.01q Hyperref driver for pdfTeX
-\Fld@listcount=\count313
-\c@bookmark@seq@number=\count314
+(C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2026-01-29 v7.01p Hyperref driver for pdfTeX
+\Fld@listcount=\count312
+\c@bookmark@seq@number=\count313
 
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfile
-check.sty
+(C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
+echeck.sty
 Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
 
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniqueco
-unter.sty
+(C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquec
+ounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
@@ -379,7 +379,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 Package hyperref Info: Option `breaklinks' set `true' on input line 14.
 Package hyperref Info: Option `colorlinks' set `true' on input line 14.
 
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+(C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \heavyrulewidth=\dimen174
 \lightrulewidth=\dimen175
@@ -391,18 +391,18 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \cmidrulesep=\dimen181
 \cmidrulekern=\dimen182
 \defaultaddspace=\dimen183
-\@cmidla=\count315
-\@cmidlb=\count316
+\@cmidla=\count314
+\@cmidlb=\count315
 \@aboverulesep=\dimen184
 \@belowrulesep=\dimen185
-\@thisruleclass=\count317
-\@lastruleclass=\count318
+\@thisruleclass=\count316
+\@lastruleclass=\count317
 \@thisrulewidth=\dimen186
 )
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+(C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
 
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+(C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@tempdima=\dimen187
 \captionmargin=\dimen188
@@ -414,27 +414,27 @@ Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@hangindent=\dimen194
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count319
-\c@continuedfloat=\count320
+\c@caption@flags=\count318
+\c@continuedfloat=\count319
 Package caption Info: hyperref package is loaded.
 )
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
-Package: siunitx 2026-05-15 v3.5.5 A comprehensive (SI) units package
-\l__siunitx_number_uncert_offset_int=\count321
-\l__siunitx_number_exponent_fixed_int=\count322
-\l__siunitx_number_min_decimal_int=\count323
-\l__siunitx_number_min_integer_int=\count324
-\l__siunitx_number_round_precision_int=\count325
-\l__siunitx_number_lower_threshold_int=\count326
-\l__siunitx_number_upper_threshold_int=\count327
-\l__siunitx_number_group_first_int=\count328
-\l__siunitx_number_group_size_int=\count329
-\l__siunitx_number_group_min_int=\count330
-\l__siunitx_number_group_minimum_int=\count331
-\l__siunitx_compound_count_int=\count332
+(C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
+Package: siunitx 2026-04-09 v3.5.3 A comprehensive (SI) units package
+\l__siunitx_number_uncert_offset_int=\count320
+\l__siunitx_number_exponent_fixed_int=\count321
+\l__siunitx_number_min_decimal_int=\count322
+\l__siunitx_number_min_integer_int=\count323
+\l__siunitx_number_round_precision_int=\count324
+\l__siunitx_number_lower_threshold_int=\count325
+\l__siunitx_number_upper_threshold_int=\count326
+\l__siunitx_number_group_first_int=\count327
+\l__siunitx_number_group_size_int=\count328
+\l__siunitx_number_group_min_int=\count329
+\l__siunitx_number_group_minimum_int=\count330
+\l__siunitx_compound_count_int=\count331
 
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/translations\translation
-s.sty
+(C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/translations\translatio
+ns.sty
 Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
  (CN)
 )
@@ -448,24 +448,24 @@ Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
 \l__siunitx_table_after_box=\box63
 \l__siunitx_table_before_dim=\dimen197
 \l__siunitx_table_carry_dim=\dimen198
-\l__siunitx_unit_tmp_int=\count333
-\l__siunitx_unit_position_int=\count334
-\l__siunitx_unit_total_int=\count335
+\l__siunitx_unit_tmp_int=\count332
+\l__siunitx_unit_position_int=\count333
+\l__siunitx_unit_total_int=\count334
 \l__siunitx_sexagesimal_tmp_dim=\dimen199
 \l__siunitx_sexagesimal_marker_box=\box64
 \l__siunitx_sexagesimal_unit_box=\box65
 )
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
+(C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
 Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
 \multirow@colwidth=\skip62
-\multirow@cntb=\count336
+\multirow@cntb=\count335
 \multirow@dima=\skip63
 \bigstrutjot=\dimen256
 )
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdft
-ex.def
+(C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def
 File: l3backend-pdftex.def 2026-02-18 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count337
+\l__color_backend_stack_int=\count336
 ) (MiTesis.aux (Capitulos/Portadas.aux)
 LaTeX Info: Redefining \. on input line 12.
 LaTeX Info: Redefining \% on input line 12.
@@ -478,53 +478,53 @@ Package babel Info: 'spanish' activates 'spanish' shorthands.
 (Capitulos/Apendice1.aux))
 \openout1 = `MiTesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Info: Redefining \. on input line 63.
-LaTeX Info: Redefining \% on input line 63.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Info: Redefining \. on input line 62.
+LaTeX Info: Redefining \% on input line 62.
 
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mki
-i
+(C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count338
+\scratchcounter=\count337
 \scratchdimen=\dimen257
 \scratchbox=\box66
-\nofMPsegments=\count339
-\nofMParguments=\count340
+\nofMPsegments=\count338
+\nofMParguments=\count339
 \everyMPshowfont=\toks29
-\MPscratchCnt=\count341
+\MPscratchCnt=\count340
 \MPscratchDim=\dimen258
-\MPnumerator=\count342
-\makeMPintoPDFobject=\count343
+\MPnumerator=\count341
+\makeMPintoPDFobject=\count342
 \everyMPtoPDFconversion=\toks30
 )
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-ba
-se.sty
+(C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cf
-g
+(C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
+fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring ON on input line 63.
+Package hyperref Info: Link coloring ON on input line 62.
  (MiTesis.out) (MiTesis.out)
 \@outlinefile=\write3
 \openout3 = `MiTesis.out'.
@@ -532,13 +532,13 @@ Package hyperref Info: Link coloring ON on input line 63.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\trans
-lations-basic-dictionary-spanish.trsl
+(C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\tran
+slations-basic-dictionary-spanish.trsl
 File: translations-basic-dictionary-spanish.trsl (spanish translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `spanish'. on input line 63.
+or `spanish'. on input line 62.
 \openout2 = `Capitulos/Portadas.aux'.
 
  (Capitulos/Portadas.tex
@@ -550,24 +550,25 @@ Package pdftex.def Info: Figuras/uanl.png  used on input line 12.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 14.
 
 
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+(C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 14.
 
 
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+(C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 [1
 
 
 
-{C:/Users/USER/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./Figuras/uan
-l.png>]
+{C:/Users/juanj/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./Figuras/ua
+nl.png>]
 LaTeX Font Info:    Trying to load font information for U+lasy on input line 54
 .
- (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/base\ulasy.fd
+
+(C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/base\ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 Overfull \hbox (28.59856pt too wide) in paragraph at lines 62--91
@@ -672,28 +673,6 @@ Cap\'{\i }tulo 2.
 
  (Capitulos/Capitulo3.tex
 Cap\'{\i }tulo 3.
-
-Package natbib Warning: Citation `li2024' on page 5 undefined on input line 3.
-
-
-Package natbib Warning: Citation `liu2020' on page 5 undefined on input line 3.
-
-
-
-Package natbib Warning: Citation `el2001' on page 5 undefined on input line 3.
-
-
-Package natbib Warning: Citation `wrona2018' on page 5 undefined on input line 
-3.
-
-
-Package natbib Warning: Citation `diaferia2024high' on page 5 undefined on inpu
-t line 3.
-
-
-Package natbib Warning: Citation `panebianco2024automated' on page 5 undefined 
-on input line 3.
-
 [5
 
 
@@ -718,82 +697,21 @@ Cap\'{\i }tulo 4.
 
  (Capitulos/Capitulo-5.tex
 Cap\'{\i }tulo 5.
-
-Package natbib Warning: Citation `parasnis2012' on page 8 undefined on input li
-ne 5.
-
-
-Package natbib Warning: Citation `reynolds2011' on page 8 undefined on input li
-ne 5.
-
-
-Package natbib Warning: Citation `lay1995' on page 8 undefined on input line 5.
-
-
-
-Package natbib Warning: Citation `fox1830' on page 8 undefined on input line 7.
-
-
-
-Package natbib Warning: Citation `reynolds2011' on page 8 undefined on input li
-ne 7.
-
-
-Package natbib Warning: Citation `revil2013' on page 8 undefined on input line 
-7.
-
-
-Package natbib Warning: Citation `tiab2024' on page 8 undefined on input line 1
-1.
-
 [8
 
 
 
 
 ]
-
-Package natbib Warning: Citation `gandhi2016' on page 9 undefined on input line
- 13.
-
-
-Package natbib Warning: Citation `tiab2024' on page 9 undefined on input line 1
-3.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
 
-<Imagenes/estructura-oro.png, id=402, 425.11765pt x 420.15794pt>
+<Imagenes/estructura-oro.png, id=443, 425.11765pt x 420.15794pt>
 File: Imagenes/estructura-oro.png Graphic file (type png)
 <use Imagenes/estructura-oro.png>
 Package pdftex.def Info: Imagenes/estructura-oro.png  used on input line 17.
 (pdftex.def)             Requested size: 142.26378pt x 140.60152pt.
-
-Package natbib Warning: Citation `sorrell1973' on page 9 undefined on input lin
-e 18.
-
-
-Package natbib Warning: Citation `revil2013' on page 9 undefined on input line 
-22.
-
-
-Package natbib Warning: Citation `reynolds2011' on page 9 undefined on input li
-ne 22.
-
-
-Package natbib Warning: Citation `igboama2023' on page 9 undefined on input lin
-e 22.
-
-
-Package natbib Warning: Citation `reynolds2011' on page 9 undefined on input li
-ne 24.
-
-
-Package natbib Warning: Citation `igboama2023' on page 9 undefined on input lin
-e 24.
-
 
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
@@ -808,90 +726,22 @@ Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
 
 [10]
-<Imagenes/ArregloElectrodos.png, id=415, 576.74294pt x 298.29088pt>
+<Imagenes/ArregloElectrodos.png, id=472, 576.74294pt x 298.29088pt>
 File: Imagenes/ArregloElectrodos.png Graphic file (type png)
 <use Imagenes/ArregloElectrodos.png>
 Package pdftex.def Info: Imagenes/ArregloElectrodos.png  used on input line 38.
 
 (pdftex.def)             Requested size: 256.0748pt x 132.44543pt.
 
-
-Package natbib Warning: Citation `reynolds2011' on page 11 undefined on input l
-ine 39.
-
-
-Package natbib Warning: Citation `igboama2023' on page 11 undefined on input li
-ne 43.
-
-
-Package natbib Warning: Citation `igboama2023' on page 11 undefined on input li
-ne 49.
-
-
-Package natbib Warning: Citation `lowrie2020' on page 11 undefined on input lin
-e 49.
-
-
-Package natbib Warning: Citation `igboama2023' on page 11 undefined on input li
-ne 55.
-
-
-Package natbib Warning: Citation `lowrie2020' on page 11 undefined on input lin
-e 55.
-
-
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
 
 [11 <./Imagenes/ArregloElectrodos.png>]
-
-Package natbib Warning: Citation `igboama2023' on page 12 undefined on input li
-ne 61.
-
-
-Package natbib Warning: Citation `lowrie2020' on page 12 undefined on input lin
-e 61.
-
-<Imagenes/5.png, id=424, 637.63219pt x 608.2725pt>
+<Imagenes/5.png, id=499, 637.63219pt x 608.2725pt>
 File: Imagenes/5.png Graphic file (type png)
 <use Imagenes/5.png>
 Package pdftex.def Info: Imagenes/5.png  used on input line 73.
 (pdftex.def)             Requested size: 369.88582pt x 352.85399pt.
-
-Package natbib Warning: Citation `reynolds2011' on page 12 undefined on input l
-ine 74.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Package natbib Warning: Citation `igboama2023' on page 12 undefined on input li
-ne 78.
-
-
-Package natbib Warning: Citation `lowrie2020' on page 12 undefined on input lin
-e 78.
-
-<Imagenes/1.png, id=425, 511.15968pt x 48.18pt>
-File: Imagenes/1.png Graphic file (type png)
-<use Imagenes/1.png>
-Package pdftex.def Info: Imagenes/1.png  used on input line 88.
-(pdftex.def)             Requested size: 256.0748pt x 24.13623pt.
-
-Package natbib Warning: Citation `reynolds2011' on page 12 undefined on input l
-ine 89.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<Imagenes/2.png, id=426, 522.45187pt x 68.50594pt>
-File: Imagenes/2.png Graphic file (type png)
-<use Imagenes/2.png>
-Package pdftex.def Info: Imagenes/2.png  used on input line 101.
-(pdftex.def)             Requested size: 256.0748pt x 33.5776pt.
-
-Package natbib Warning: Citation `reynolds2011' on page 12 undefined on input l
-ine 102.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -901,16 +751,25 @@ Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
 
 [12]
-<Imagenes/3.png, id=437, 532.99126pt x 37.64063pt>
+<Imagenes/1.png, id=515, 511.15968pt x 48.18pt>
+File: Imagenes/1.png Graphic file (type png)
+<use Imagenes/1.png>
+Package pdftex.def Info: Imagenes/1.png  used on input line 88.
+(pdftex.def)             Requested size: 256.0748pt x 24.13623pt.
+<Imagenes/2.png, id=518, 522.45187pt x 68.50594pt>
+File: Imagenes/2.png Graphic file (type png)
+<use Imagenes/2.png>
+Package pdftex.def Info: Imagenes/2.png  used on input line 101.
+(pdftex.def)             Requested size: 256.0748pt x 33.5776pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Imagenes/3.png, id=521, 532.99126pt x 37.64063pt>
 File: Imagenes/3.png Graphic file (type png)
 <use Imagenes/3.png>
 Package pdftex.def Info: Imagenes/3.png  used on input line 114.
 (pdftex.def)             Requested size: 256.0748pt x 18.0845pt.
-
-
-Package natbib Warning: Citation `reynolds2011' on page 13 undefined on input l
-ine 115.
-
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -918,41 +777,19 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
 
-[13 <./Imagenes/5.png> <./Imagenes/1.png> <./Imagenes/2.png>]
-
-Package natbib Warning: Citation `alvarado2010' on page 14 undefined on input l
-ine 137.
-
-
+[13 <./Imagenes/5.png> <./Imagenes/1.png>]
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
 
-[14 <./Imagenes/3.png>]
-
-Package natbib Warning: Citation `alvarado2010' on page 15 undefined on input l
-ine 139.
-
-
-Package natbib Warning: Citation `alvarado2010' on page 15 undefined on input l
-ine 145.
-
-
-Package natbib Warning: Citation `telford1990' on page 15 undefined on input li
-ne 153.
-
-
+[14 <./Imagenes/2.png> <./Imagenes/3.png>]
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
 
 [15]
-
-Package natbib Warning: Citation `telford1990' on page 16 undefined on input li
-ne 168.
+Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
 
-Package natbib Warning: Citation `telford1990' on page 16 undefined on input li
-ne 170.
-
+[16]
 
 Package siunitx Info: Option "table-align-text-post" has been deprecated in
 (siunitx)             this release.
@@ -990,264 +827,54 @@ Overfull \hbox (5.87494pt too wide) detected at line 220
  []
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Package natbib Warning: Citation `wrona2018' on page 16 undefined on input line
- 225.
-
-
-Package natbib Warning: Citation `liu2020' on page 16 undefined on input line 2
-25.
-
-
-Package natbib Warning: Citation `el2001' on page 16 undefined on input line 22
-5.
-
-
-Package natbib Warning: Citation `li2024' on page 16 undefined on input line 22
-5.
-
-
-Overfull \vbox (11.36665pt too high) has occurred while \output is active []
-
-
-[16]
-
-Package natbib Warning: Citation `li2024' on page 17 undefined on input line 22
-9.
-
-
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
 
 [17]
-
-Package natbib Warning: Citation `breiman2001' on page 18 undefined on input li
-ne 245.
-
-
-Package natbib Warning: Citation `breiman2001' on page 18 undefined on input li
-ne 245.
-
-
-Package natbib Warning: Citation `lan2020' on page 18 undefined on input line 2
-45.
-
-
-Package natbib Warning: Citation `breiman2001' on page 18 undefined on input li
-ne 247.
-
-
-Package natbib Warning: Citation `lan2020' on page 18 undefined on input line 2
-47.
-
-
-Package natbib Warning: Citation `breiman2001' on page 18 undefined on input li
-ne 252.
-
-
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
 
 [18]
-
-Package natbib Warning: Citation `breiman2001' on page 19 undefined on input li
-ne 254.
-
-
-Package natbib Warning: Citation `breiman2001' on page 19 undefined on input li
-ne 260.
-
-
-Package natbib Warning: Citation `breiman2001' on page 19 undefined on input li
-ne 264.
-
-
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
 
 [19]
-
-Package natbib Warning: Citation `breiman2001' on page 20 undefined on input li
-ne 271.
-
-
-Package natbib Warning: Citation `breiman2001' on page 20 undefined on input li
-ne 279.
-
-
-Package natbib Warning: Citation `veirana2021' on page 20 undefined on input li
-ne 279.
-
-
-Package natbib Warning: Citation `breiman2001' on page 20 undefined on input li
-ne 287.
-
-
-Package natbib Warning: Citation `veirana2021' on page 20 undefined on input li
-ne 287.
-
-
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
 
 [20]
-
-Package natbib Warning: Citation `breiman2001' on page 21 undefined on input li
-ne 291.
-
-
-Package natbib Warning: Citation `breiman2001' on page 21 undefined on input li
-ne 293.
-
-
-Package natbib Warning: Citation `james2013' on page 21 undefined on input line
- 298.
-
-
-Package natbib Warning: Citation `veirana2021' on page 21 undefined on input li
-ne 298.
-
-
-Package natbib Warning: Citation `james2013' on page 21 undefined on input line
- 300.
-
-
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
 
 [21]
-
-Package natbib Warning: Citation `james2013' on page 22 undefined on input line
- 307.
-
-
-Package natbib Warning: Citation `james2013' on page 22 undefined on input line
- 321.
-
-
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
 
 [22]
-
-Package natbib Warning: Citation `james2013' on page 23 undefined on input line
- 335.
-
-
-Package natbib Warning: Citation `veirana2021' on page 23 undefined on input li
-ne 335.
-
-
-Package natbib Warning: Citation `james2013' on page 23 undefined on input line
- 339.
-
-
-Package natbib Warning: Citation `veirana2021' on page 23 undefined on input li
-ne 339.
-
-
-Package natbib Warning: Citation `james2013' on page 23 undefined on input line
- 363.
-
-
-Package natbib Warning: Citation `veirana2021' on page 23 undefined on input li
-ne 363.
-
-
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
 
 [23]
-
-Package natbib Warning: Citation `hastie2009' on page 24 undefined on input lin
-e 384.
-
-
-Package natbib Warning: Citation `friedman2001' on page 24 undefined on input l
-ine 384.
-
-
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
 
 [24]
-
-Package natbib Warning: Citation `james2013' on page 25 undefined on input line
- 392.
-
-
-Package natbib Warning: Citation `james2013' on page 25 undefined on input line
- 404.
-
-
-Package natbib Warning: Citation `veirana2021' on page 25 undefined on input li
-ne 404.
-
-
-Package natbib Warning: Citation `james2013' on page 25 undefined on input line
- 412.
-
-
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
 
 [25]
-
-Package natbib Warning: Citation `james2013' on page 26 undefined on input line
- 416.
-
-
-Package natbib Warning: Citation `hastie2009' on page 26 undefined on input lin
-e 416.
-
-
-Package natbib Warning: Citation `friedman2001' on page 26 undefined on input l
-ine 416.
-
-
-Package natbib Warning: Citation `james2013' on page 26 undefined on input line
- 418.
-
-
-Package natbib Warning: Citation `hastie2009' on page 26 undefined on input lin
-e 418.
-
-
-Package natbib Warning: Citation `friedman2001' on page 26 undefined on input l
-ine 418.
-
-
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
 
 [26]
-
-Package natbib Warning: Citation `james2013' on page 27 undefined on input line
- 461.
-
-
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
 
 [27]
-
-Package natbib Warning: Citation `james2013' on page 28 undefined on input line
- 465.
+Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
 
-Package natbib Warning: Citation `veirana2021' on page 28 undefined on input li
-ne 465.
-
-
-Package natbib Warning: Citation `hastie2009' on page 28 undefined on input lin
-e 465.
-
-
-Package natbib Warning: Citation `friedman2001' on page 28 undefined on input l
-ine 465.
-
+[28]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 470.
@@ -1264,24 +891,24 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
 
-[28]
-Overfull \vbox (11.36665pt too high) has occurred while \output is active []
-
-
 [29]
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
 
-[30])
+[30]
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
 
-[31]
+[31])
+Overfull \vbox (11.36665pt too high) has occurred while \output is active []
+
+
+[32]
 \openout2 = `Capitulos/Capitulo6.aux'.
 
  (Capitulos/Capitulo6.tex
 Cap\'{\i }tulo 6.
-[32
+[33
 
 
 
@@ -1290,12 +917,12 @@ Cap\'{\i }tulo 6.
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
 
-[33]
+[34]
 Underfull \hbox (badness 10000) in paragraph at lines 94--95
 
  []
 
-<Imagenes/6.png, id=557, 859.2903pt x 426.393pt>
+<Imagenes/6.png, id=772, 859.2903pt x 426.393pt>
 File: Imagenes/6.png Graphic file (type png)
 <use Imagenes/6.png>
 Package pdftex.def Info: Imagenes/6.png  used on input line 99.
@@ -1304,15 +931,15 @@ Package pdftex.def Info: Imagenes/6.png  used on input line 99.
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
 
-[34
+[35
 
  <./Imagenes/6.png>]
-<Imagenes/7.png, id=564, 859.2903pt x 426.393pt>
+<Imagenes/7.png, id=779, 859.2903pt x 426.393pt>
 File: Imagenes/7.png Graphic file (type png)
 <use Imagenes/7.png>
 Package pdftex.def Info: Imagenes/7.png  used on input line 110.
 (pdftex.def)             Requested size: 426.79134pt x 211.77762pt.
-<Imagenes/8.png, id=567, 855.6768pt x 854.9541pt>
+<Imagenes/8.png, id=782, 855.6768pt x 854.9541pt>
 File: Imagenes/8.png Graphic file (type png)
 <use Imagenes/8.png>
 Package pdftex.def Info: Imagenes/8.png  used on input line 121.
@@ -1325,10 +952,10 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
 
-[35
+[36
 
  <./Imagenes/7.png>]
-<Imagenes/9.png, id=574, 855.6768pt x 1144.7568pt>
+<Imagenes/9.png, id=789, 855.6768pt x 1144.7568pt>
 File: Imagenes/9.png Graphic file (type png)
 <use Imagenes/9.png>
 Package pdftex.def Info: Imagenes/9.png  used on input line 130.
@@ -1341,16 +968,16 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
 
-[36 <./Imagenes/8.png>]
+[37 <./Imagenes/8.png>]
 
-LaTeX Warning: Text page 37 contains only floats.
+LaTeX Warning: Text page 38 contains only floats.
 
 
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
 
-[37 <./Imagenes/9.png>]
-<Imagenes/PCA-Analisis_Componentes_Principales.png, id=585, 613.5723pt x 341.83
+[38 <./Imagenes/9.png>]
+<Imagenes/PCA-Analisis_Componentes_Principales.png, id=800, 613.5723pt x 341.83
 71pt>
 File: Imagenes/PCA-Analisis_Componentes_Principales.png Graphic file (type png)
 
@@ -1362,8 +989,8 @@ d on input line 149.
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
 
-[38 <./Imagenes/PCA-Analisis_Componentes_Principales.png>]
-<Imagenes/MC-DI.png, id=599, 675.0018pt x 566.5968pt>
+[39 <./Imagenes/PCA-Analisis_Componentes_Principales.png>]
+<Imagenes/MC-DI.png, id=815, 675.0018pt x 566.5968pt>
 File: Imagenes/MC-DI.png Graphic file (type png)
 <use Imagenes/MC-DI.png>
 Package pdftex.def Info: Imagenes/MC-DI.png  used on input line 158.
@@ -1372,33 +999,25 @@ Package pdftex.def Info: Imagenes/MC-DI.png  used on input line 158.
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
 
-[39 <./Imagenes/MC-DI.png>]
-
-Package natbib Warning: Citation `Ruecker2017' on page 40 undefined on input li
-ne 168.
-
-
-Overfull \vbox (11.36665pt too high) has occurred while \output is active []
-
-
-[40]
+[40 <./Imagenes/MC-DI.png>]
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
 
 [41]
+Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
-Package natbib Warning: Citation `telford1990' on page 42 undefined on input li
-ne 236.
 
-<Imagenes/12.png, id=619, 613.5723pt x 286.1892pt>
+[42]
+<Imagenes/12.png, id=840, 613.5723pt x 286.1892pt>
 File: Imagenes/12.png Graphic file (type png)
 <use Imagenes/12.png>
 Package pdftex.def Info: Imagenes/12.png  used on input line 248.
 (pdftex.def)             Requested size: 426.79134pt x 199.06902pt.
 
+
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Imagenes/10.png, id=620, 613.5723pt x 286.1892pt>
+<Imagenes/10.png, id=841, 613.5723pt x 286.1892pt>
 File: Imagenes/10.png Graphic file (type png)
 <use Imagenes/10.png>
 Package pdftex.def Info: Imagenes/10.png  used on input line 255.
@@ -1406,7 +1025,7 @@ Package pdftex.def Info: Imagenes/10.png  used on input line 255.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Imagenes/11.png, id=621, 630.1944pt x 286.1892pt>
+<Imagenes/11.png, id=842, 630.1944pt x 286.1892pt>
 File: Imagenes/11.png Graphic file (type png)
 <use Imagenes/11.png>
 Package pdftex.def Info: Imagenes/11.png  used on input line 262.
@@ -1414,7 +1033,7 @@ Package pdftex.def Info: Imagenes/11.png  used on input line 262.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Imagenes/13.png, id=622, 630.9171pt x 286.1892pt>
+<Imagenes/13.png, id=843, 630.9171pt x 286.1892pt>
 File: Imagenes/13.png Graphic file (type png)
 <use Imagenes/13.png>
 Package pdftex.def Info: Imagenes/13.png  used on input line 269.
@@ -1426,30 +1045,15 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
 
-[42]
+[43]
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
 
-[43 <./Imagenes/12.png> <./Imagenes/10.png>]
+[44 <./Imagenes/12.png> <./Imagenes/10.png>]
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
 
-[44 <./Imagenes/11.png> <./Imagenes/13.png>]
-
-Package natbib Warning: Citation `hastie2009' on page 45 undefined on input lin
-e 280.
-
-Runaway argument?
-{fig:Eva). 
-! Paragraph ended before \T@ref was complete.
-<to be read again> 
-                   \par 
-l.287 			
-         
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
+[45 <./Imagenes/11.png> <./Imagenes/13.png>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1457,10 +1061,10 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
 
-[45
+[46
 
 ]
-<Imagenes/Vs-Global.png, id=647, 748.7172pt x 973.4769pt>
+<Imagenes/Vs-Global.png, id=871, 748.7172pt x 973.4769pt>
 File: Imagenes/Vs-Global.png Graphic file (type png)
 <use Imagenes/Vs-Global.png>
 Package pdftex.def Info: Imagenes/Vs-Global.png  used on input line 325.
@@ -1473,9 +1077,9 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
 
-[46]
+[47]
 
-LaTeX Warning: Text page 47 contains only floats.
+LaTeX Warning: Text page 48 contains only floats.
 
 
 Overfull \vbox (7.46109pt too high) has occurred while \output is active []
@@ -1484,40 +1088,13 @@ Overfull \vbox (7.46109pt too high) has occurred while \output is active []
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
 
-[47 <./Imagenes/Vs-Global.png>]
-
-Package natbib Warning: Citation `Bergen2019' on page 48 undefined on input lin
-e 332.
-
-
-Package natbib Warning: Citation `kohavi1995' on page 48 undefined on input lin
-e 334.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Package natbib Warning: Citation `Lary2016' on page 48 undefined on input line 
-367.
-
-
-Overfull \vbox (11.36665pt too high) has occurred while \output is active []
-
-
-[48]
-
-Package natbib Warning: Citation `Belgiu2016' on page 49 undefined on input lin
-e 369.
-
-
-Package natbib Warning: Citation `Friedman2001' on page 49 undefined on input l
-ine 369.
-
-<Imagenes/Metricas-Full.png, id=662, 1077.5457pt x 908.4339pt>
+[48 <./Imagenes/Vs-Global.png>]
+<Imagenes/Metricas-Full.png, id=887, 1077.5457pt x 908.4339pt>
 File: Imagenes/Metricas-Full.png Graphic file (type png)
 <use Imagenes/Metricas-Full.png>
-Package pdftex.def Info: Imagenes/Metricas-Full.png  used on input line 375.
+Package pdftex.def Info: Imagenes/Metricas-Full.png  used on input line 369.
 (pdftex.def)             Requested size: 426.79134pt x 359.8047pt.
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1526,52 +1103,30 @@ Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
 
 [49]
-
-Package natbib Warning: Citation `Bergen2019' on page 50 undefined on input lin
-e 383.
-
-
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
 
 [50 <./Imagenes/Metricas-Full.png>]
-
-Package natbib Warning: Citation `Lary2016' on page 51 undefined on input line 
-385.
-
-
-Package natbib Warning: Citation `Belgiu2016' on page 51 undefined on input lin
-e 387.
-
-
-Package natbib Warning: Citation `Friedman2001' on page 51 undefined on input l
-ine 387.
-
-
-Overfull \vbox (11.36665pt too high) has occurred while \output is active []
-
-
-[51]
-<Imagenes/S1-LN-EBSA-RF-T1.png, id=678, 613.5723pt x 393.8715pt>
+<Imagenes/S1-LN-EBSA-RF-T1.png, id=907, 613.5723pt x 393.8715pt>
 File: Imagenes/S1-LN-EBSA-RF-T1.png Graphic file (type png)
 <use Imagenes/S1-LN-EBSA-RF-T1.png>
-Package pdftex.def Info: Imagenes/S1-LN-EBSA-RF-T1.png  used on input line 400.
+Package pdftex.def Info: Imagenes/S1-LN-EBSA-RF-T1.png  used on input line 387.
 
 (pdftex.def)             Requested size: 426.79134pt x 273.97127pt.
-<Imagenes/S1-LN-EBSA-GBR-T1.png, id=679, 613.5723pt x 393.8715pt>
+<Imagenes/S1-LN-EBSA-GBR-T1.png, id=908, 613.5723pt x 393.8715pt>
 File: Imagenes/S1-LN-EBSA-GBR-T1.png Graphic file (type png)
 <use Imagenes/S1-LN-EBSA-GBR-T1.png>
-Package pdftex.def Info: Imagenes/S1-LN-EBSA-GBR-T1.png  used on input line 407
+Package pdftex.def Info: Imagenes/S1-LN-EBSA-GBR-T1.png  used on input line 394
 .
 (pdftex.def)             Requested size: 426.79134pt x 273.97127pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Imagenes/S1-LN-EBSA-VSM-T1.png, id=680, 613.5723pt x 393.8715pt>
+<Imagenes/S1-LN-EBSA-VSM-T1.png, id=909, 613.5723pt x 393.8715pt>
 File: Imagenes/S1-LN-EBSA-VSM-T1.png Graphic file (type png)
 <use Imagenes/S1-LN-EBSA-VSM-T1.png>
-Package pdftex.def Info: Imagenes/S1-LN-EBSA-VSM-T1.png  used on input line 414
+Package pdftex.def Info: Imagenes/S1-LN-EBSA-VSM-T1.png  used on input line 401
 .
 (pdftex.def)             Requested size: 426.79134pt x 273.97127pt.
 
@@ -1581,27 +1136,21 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
 
-[52
+[51 <./Imagenes/S1-LN-EBSA-RF-T1.png>]
 
- <./Imagenes/S1-LN-EBSA-RF-T1.png>]
-
-LaTeX Warning: Text page 53 contains only floats.
+LaTeX Warning: Text page 52 contains only floats.
 
 
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
 
-[53 <./Imagenes/S1-LN-EBSA-GBR-T1.png> <./Imagenes/S1-LN-EBSA-VSM-T1.png>]
+[52 <./Imagenes/S1-LN-EBSA-GBR-T1.png> <./Imagenes/S1-LN-EBSA-VSM-T1.png>]
 \openout2 = `Capitulos/Capitulo7.aux'.
 
 
 (Capitulos/Capitulo7.tex
 Cap\'{\i }tulo 7.
-
-LaTeX Warning: Reference `tab:hiperparametros_modelos' on page 54 undefined on 
-input line 6.
-
-[54
+[53
 
 
 
@@ -1610,22 +1159,42 @@ input line 6.
 Overfull \vbox (9.33333pt too high) has occurred while \output is active []
 
 
-[55]
+[54]
 \openout2 = `Capitulos/Apendice1.aux'.
 
  (Capitulos/Apendice1.tex
 Ap\'{e}ndice A.
-) [56
+) [55
+
+
+
+
+] (MiTesis.bbl
+LaTeX Encoding Info:    Ignoring declaration for text command \guillemotleft (e
+ncoding OT1) on input line 2.
+LaTeX Encoding Info:    Ignoring declaration for text command \guillemotright (
+encoding OT1) on input line 4.
+
+Underfull \hbox (badness 2088) in paragraph at lines 49--55
+[]\OT1/cmr/m/sc/12 Diaferia, G.\OT1/cmr/m/n/12 , \OT1/cmr/m/sc/12 L. Va-lo-ro-s
+o\OT1/cmr/m/n/12 , \OT1/cmr/m/sc/12 L. Im-pro-ta \OT1/cmr/m/n/12 y \OT1/cmr/m/s
+c/12 D. Pic-ci-ni-ni \OT1/cmr/m/n/12 (2024), []A
+ []
+
+[56
 
 
 
 
 ]
-No file MiTesis.bbl.
+Overfull \vbox (9.33333pt too high) has occurred while \output is active []
 
-Package natbib Warning: There were undefined citations.
 
-(MiTesis.aux (Capitulos/Portadas.aux)
+[57])
+Overfull \vbox (9.33333pt too high) has occurred while \output is active []
+
+
+[58] (MiTesis.aux (Capitulos/Portadas.aux)
 LaTeX Info: Redefining \. on input line 12.
 LaTeX Info: Redefining \% on input line 12.
  (Capitulos/Dedicatoria.aux)
@@ -1635,47 +1204,44 @@ LaTeX Info: Redefining \% on input line 12.
 (Capitulos/Apendice1.aux))
  ***********
 LaTeX2e <2025-11-01>
-L3 programming layer <2026-04-28>
+L3 programming layer <2026-03-20>
  ***********
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `MiTesis.out' has not changed.
-(rerunfilecheck)             Checksum: 3B14D036E13F7149FBC1585938C03964;10334.
+(rerunfilecheck)             Checksum: DE6938F1D714BE8A1245B8BA174CA60B;10516.
  ) 
 Here is how much of TeX's memory you used:
- 18846 strings out of 467682
- 369627 string characters out of 5415183
- 813383 words of memory out of 5000000
- 47457 multiletter control sequences out of 15000+600000
+ 19010 strings out of 467691
+ 371430 string characters out of 5414987
+ 813156 words of memory out of 5000000
+ 47579 multiletter control sequences out of 15000+600000
  638499 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,14n,83p,1020b,1379s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
-mbx10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
-nts/cm/cmbx12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/publ
-ic/amsfonts/cm/cmbx8.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/typ
-e1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/
-fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/USER/AppData/Local/Programs
-/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/USER/AppData/Local/
-Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/USER/AppDat
-a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/USER
-/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Use
-rs/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-<C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr
-8.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
-cm/cmsy10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
-msfonts/cm/cmsy6.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmsy8.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/
-type1/public/amsfonts/cm/cmti12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTe
-X/fonts/type1/public/amsfonts/latxfont/lasy10.pfb>
-Output written on MiTesis.pdf (66 pages, 1964062 bytes).
+ 75i,14n,83p,875b,1379s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmbx10.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmbx12.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmbx8.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/juanj/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/juanj/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/juanj/AppData
+/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/juan
+j/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Us
+ers/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pf
+b><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmr12.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
+onts/cm/cmr8.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmsy10.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmsy6.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX
+/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/juanj/AppData/Local/Program
+s/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/juanj/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/public/amsfonts/latxfont/lasy10.pfb>
+Output written on MiTesis.pdf (68 pages, 2018496 bytes).
 PDF statistics:
- 816 PDF objects out of 1000 (max. 8388607)
- 184 named destinations out of 1000 (max. 500000)
+ 1067 PDF objects out of 1200 (max. 8388607)
+ 215 named destinations out of 1000 (max. 500000)
  511 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -9,19 +9,20 @@
 \contentsline {figure}{\numberline {5.2}{\ignorespaces Configuración general de electrodos}}{11}{figure.caption.6}%
 \contentsline {figure}{\numberline {5.3}{\ignorespaces Esquema de la contribución de la respuesta eléctrica}}{13}{figure.caption.7}%
 \contentsline {figure}{\numberline {5.4}{\ignorespaces Esquema del arreglo Wenner}}{13}{figure.caption.8}%
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Esquema del arreglo Schlumberger}}{13}{figure.caption.9}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Esquema del arreglo Schlumberger}}{14}{figure.caption.9}%
 \contentsline {figure}{\numberline {5.6}{\ignorespaces Esquema del arreglo Dipolo-dipolo}}{14}{figure.caption.10}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Histogramas de los espesores identificados en los modelos de interpretación geofísica}}{34}{figure.caption.13}%
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Histogramas de las resistividades identificadas en los modelos de inversión geofísica}}{35}{figure.caption.14}%
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Boxplot de la distribución global de espesores por sitio}}{36}{figure.caption.15}%
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Boxplot de la distribución global de resistividad por sitio}}{37}{figure.caption.16}%
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Análisis de componentes principales en datos base}}{38}{figure.caption.17}%
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Matriz de correlación de variables iniciales}}{39}{figure.caption.18}%
-\contentsline {figure}{\numberline {6.7}{\ignorespaces Valores de entrenamiento correspondientes al registro 100}}{43}{figure.caption.20}%
-\contentsline {figure}{\numberline {6.8}{\ignorespaces Valores de entrenamiento correspondientes al registro 556}}{43}{figure.caption.21}%
-\contentsline {figure}{\numberline {6.9}{\ignorespaces Valores de entrenamiento correspondientes al registro 900}}{44}{figure.caption.22}%
-\contentsline {figure}{\numberline {6.10}{\ignorespaces Valores de entrenamiento correspondientes al registro 1640}}{44}{figure.caption.23}%
-\contentsline {figure}{\numberline {6.11}{\ignorespaces Comparación de métricas de evaluación para diferentes conjuntos de entrenamiento}}{47}{figure.caption.25}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Histogramas de los espesores identificados en los modelos de interpretación geofísica}}{35}{figure.caption.13}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Histogramas de las resistividades identificadas en los modelos de inversión geofísica}}{36}{figure.caption.14}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Boxplot de la distribución global de espesores por sitio}}{37}{figure.caption.15}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Boxplot de la distribución global de resistividad por sitio}}{38}{figure.caption.16}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Análisis de componentes principales en datos base}}{39}{figure.caption.17}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Matriz de correlación de variables iniciales}}{40}{figure.caption.18}%
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Valores de entrenamiento correspondientes al registro 100}}{44}{figure.caption.20}%
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Valores de entrenamiento correspondientes al registro 556}}{44}{figure.caption.21}%
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Valores de entrenamiento correspondientes al registro 900}}{45}{figure.caption.22}%
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Valores de entrenamiento correspondientes al registro 1640}}{45}{figure.caption.23}%
+\contentsline {figure}{\numberline {6.11}{\ignorespaces Comparación de métricas de evaluación para diferentes conjuntos de entrenamiento}}{48}{figure.caption.25}%
+\contentsline {figure}{\numberline {6.12}{\ignorespaces Rendimiento de la varianza del error predictivo y generalización de los modelos}}{50}{figure.caption.26}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
