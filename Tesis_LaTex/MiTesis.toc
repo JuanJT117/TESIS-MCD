@@ -48,7 +48,7 @@
 \contentsline {chapter}{\numberline {6}METODOLOGÍA}{33}{chapter.6}%
 \contentsline {section}{\numberline {6.1}Análisis de datos iniciales y simulación}{33}{section.6.1}%
 \contentsline {subsection}{\numberline {6.1.1}Datos iniciales}{35}{subsection.6.1.1}%
-\contentsline {section}{\numberline {6.2}Preparación de datos}{41}{section.6.2}%
+\contentsline {section}{\numberline {6.2}Conjunto de entrenamiento}{41}{section.6.2}%
 \contentsline {section}{\numberline {6.3}Evaluación, optimización y entrenamiento}{46}{section.6.3}%
 \contentsline {subsection}{\numberline {6.3.1}Análisis de rendimiento y generalización}{47}{subsection.6.3.1}%
 \contentsline {section}{\numberline {6.4}Test y evaluación}{51}{section.6.4}%

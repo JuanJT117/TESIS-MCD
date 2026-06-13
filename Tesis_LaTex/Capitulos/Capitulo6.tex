@@ -5,11 +5,7 @@
 
 %\textbf{Adquisición de datos y preprocesamiento: En primer lugar, se realiza la adquisición de datos in situ utilizando el método de Sondeo Eléctrico Vertical (SEV), el cual consiste en medir la resistividad del terreno a diferentes profundidades con un intervalo de muestreo predefinido. Este intervalo se determina de acuerdo con el objetivo de exploración, como la identificación de unidades geológicas, acuíferos, fallas, fracturas o estructuras antropogénicas. Para garantizar que los datos sean adecuados para el análisis, se lleva a cabo un preprocesamiento de los datos, que incluye la limpieza de valores atípicos, normalización de las lecturas y manejo de valores faltantes.}
 
-	El objetivo central de la metodología consiste en evaluar la eficacia de la generación de pronósticos de resistividad aparente a partir del entrenamiento supervisado de los modelos Random Forest, Gradient Boosting Regression y Vector Sopporter Machine.
-	
-	En ciencia de datos la cadena de procesos de análisis, se estructura y diseña rigurosamente para garantizar la calidad de los datos de entrada, la preparación y diseño de los datos de entrenamiento, la optimización de los modelos y la evaluación de los resultados, así como la comparación de cada modelo empleado.
-	
-	El proceso metodológico se dividió en 5 etapas:
+	En ciencia de datos la cadena de procesos se diseña, estructura y aplica rigurosamente, de acuerdo a las características del proyecto, los datos y objetivos, sin embargo es posible identificar 5 procesos elementales dentro de las diferentes técnicas de \textit{Machine Learning} :%para garantizar la calidad de los datos de entrada, la preparación y diseño de los datos de entrenamiento, la optimización de los modelos y la evaluación de los resultados, así como la comparación de cada modelo empleado.
 	
 	\begin{enumerate}
 		\item Análisis de datos iniciales y simulación
@@ -19,7 +15,10 @@
 		\item Test y evaluación
 	\end{enumerate}
 	
-
+	la metodología aplicada a la hipótesis particular de este trabajo busca establecer un conjunto de entrenamiento aceptable, generación de pronósticos de resistividad aparente, mediante el entrenamiento supervisado de los modelos Random Forest, Gradient Boosting Regression y Vector Sopporter Machine, e identificar el mejor modelo a partir del análisis de sus métricas.
+	
+	
+	
 	\section{Análisis de datos iniciales y simulación}
 	
 	Durante las etapas de adquisición "in situ", se cuenta con información limitada generada en gabinete y los datos obtenidos durante la adquisición geofísica, estos últimos correspondiendo a profundidades aparentes de exploración, aperturas de electrodos de corriente y potencial, así como a los resultados de resistividad aparente resultantes de cada lectura.
@@ -161,7 +160,7 @@
 			\end{figure}
 			 
 			
-	\section{Preparación de datos}
+	\section{Conjunto de entrenamiento}
 			
 			Debido al bajo volumen de datos iniciales generados  en una campaña de exploración y su alto costo relativo, aunque significativo localmente para la interpretación de cada sitio, es insuficiente para establece una base de entrenamiento robusta, por lo que es imprescindible contar con las cantidad de datos suficiente para el entrenamiento.
 			
@@ -275,7 +274,7 @@
 			
 	\section{Evaluación, optimización y entrenamiento}
 	
-			Parte del proceso de implementación de los modelos Machine Learning (RF, VSM, GBR), requiere de la evaluación mediante GridSearchCV el cual emplea la técnica \textit{Cross-Validation}, en este proceso se realizan validaciones iterativas con el objetivo de identifican el mejor ajuste de hiperparámetros que prioricen el desempeño, la reducción del sesgo y la maximización de las métricas de entrenamiento, este proceso divide el conjunto de datos en k-pliegues (Particiones), en donde la fracción mayor corresponde al conjunto de entrenamiento y la mínima al de evaluación. 
+			La correcta implementación de los modelos Machine Learning (RF, VSM, GBR), requiere de la evaluación mediante GridSearchCV el cual emplea la técnica \textit{Cross-Validation}, en este proceso se realizan validaciones iterativas con el objetivo de identifican el mejor ajuste de hiperparámetros que prioricen el desempeño, la reducción del sesgo y la maximización de las métricas de entrenamiento, este proceso divide el conjunto de datos en k-pliegues (Particiones), en donde la fracción mayor corresponde al conjunto de entrenamiento y la mínima al de evaluación. 
 			 
 			En el proceso de evaluación del algoritmo GridSearchCV consideran un conjunto de entrenamiento de $k=3$ y $k=5$ pliegues. Esto permite analizar el equilibrio entre sesgo y varianza en la estimación del error predictivo de los datos de resistividad eléctrica \citep{hastie2009}.
 			
