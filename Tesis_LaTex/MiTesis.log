@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.4.16)  12 JUN 2026 22:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.4.16)  13 JUL 2026 00:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -707,7 +707,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
 
-<Imagenes/estructura-oro.png, id=443, 425.11765pt x 420.15794pt>
+<Imagenes/estructura-oro.png, id=441, 425.11765pt x 420.15794pt>
 File: Imagenes/estructura-oro.png Graphic file (type png)
 <use Imagenes/estructura-oro.png>
 Package pdftex.def Info: Imagenes/estructura-oro.png  used on input line 17.
@@ -726,7 +726,7 @@ Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
 
 [10]
-<Imagenes/ArregloElectrodos.png, id=472, 576.74294pt x 298.29088pt>
+<Imagenes/ArregloElectrodos.png, id=470, 576.74294pt x 298.29088pt>
 File: Imagenes/ArregloElectrodos.png Graphic file (type png)
 <use Imagenes/ArregloElectrodos.png>
 Package pdftex.def Info: Imagenes/ArregloElectrodos.png  used on input line 38.
@@ -737,7 +737,7 @@ Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
 
 [11 <./Imagenes/ArregloElectrodos.png>]
-<Imagenes/5.png, id=499, 637.63219pt x 608.2725pt>
+<Imagenes/5.png, id=497, 637.63219pt x 608.2725pt>
 File: Imagenes/5.png Graphic file (type png)
 <use Imagenes/5.png>
 Package pdftex.def Info: Imagenes/5.png  used on input line 73.
@@ -751,12 +751,12 @@ Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
 
 [12]
-<Imagenes/1.png, id=515, 511.15968pt x 48.18pt>
+<Imagenes/1.png, id=513, 511.15968pt x 48.18pt>
 File: Imagenes/1.png Graphic file (type png)
 <use Imagenes/1.png>
 Package pdftex.def Info: Imagenes/1.png  used on input line 88.
 (pdftex.def)             Requested size: 256.0748pt x 24.13623pt.
-<Imagenes/2.png, id=518, 522.45187pt x 68.50594pt>
+<Imagenes/2.png, id=516, 522.45187pt x 68.50594pt>
 File: Imagenes/2.png Graphic file (type png)
 <use Imagenes/2.png>
 Package pdftex.def Info: Imagenes/2.png  used on input line 101.
@@ -765,7 +765,7 @@ Package pdftex.def Info: Imagenes/2.png  used on input line 101.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Imagenes/3.png, id=521, 532.99126pt x 37.64063pt>
+<Imagenes/3.png, id=519, 532.99126pt x 37.64063pt>
 File: Imagenes/3.png Graphic file (type png)
 <use Imagenes/3.png>
 Package pdftex.def Info: Imagenes/3.png  used on input line 114.
@@ -922,7 +922,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 93--94
 
  []
 
-<Imagenes/6.png, id=772, 859.2903pt x 426.393pt>
+<Imagenes/6.png, id=770, 859.2903pt x 426.393pt>
 File: Imagenes/6.png Graphic file (type png)
 <use Imagenes/6.png>
 Package pdftex.def Info: Imagenes/6.png  used on input line 98.
@@ -934,12 +934,12 @@ Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 [35
 
  <./Imagenes/6.png>]
-<Imagenes/7.png, id=779, 859.2903pt x 426.393pt>
+<Imagenes/7.png, id=777, 859.2903pt x 426.393pt>
 File: Imagenes/7.png Graphic file (type png)
 <use Imagenes/7.png>
 Package pdftex.def Info: Imagenes/7.png  used on input line 109.
 (pdftex.def)             Requested size: 426.79134pt x 211.77762pt.
-<Imagenes/8.png, id=782, 855.6768pt x 854.9541pt>
+<Imagenes/8.png, id=780, 855.6768pt x 854.9541pt>
 File: Imagenes/8.png Graphic file (type png)
 <use Imagenes/8.png>
 Package pdftex.def Info: Imagenes/8.png  used on input line 120.
@@ -955,7 +955,7 @@ Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 [36
 
  <./Imagenes/7.png>]
-<Imagenes/9.png, id=789, 855.6768pt x 1144.7568pt>
+<Imagenes/9.png, id=787, 855.6768pt x 1144.7568pt>
 File: Imagenes/9.png Graphic file (type png)
 <use Imagenes/9.png>
 Package pdftex.def Info: Imagenes/9.png  used on input line 129.
@@ -977,7 +977,7 @@ Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
 
 [38 <./Imagenes/9.png>]
-<Imagenes/PCA-Analisis_Componentes_Principales.png, id=800, 613.5723pt x 341.83
+<Imagenes/PCA-Analisis_Componentes_Principales.png, id=798, 613.5723pt x 341.83
 71pt>
 File: Imagenes/PCA-Analisis_Componentes_Principales.png Graphic file (type png)
 
@@ -990,7 +990,7 @@ Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
 
 [39 <./Imagenes/PCA-Analisis_Componentes_Principales.png>]
-<Imagenes/MC-DI.png, id=815, 675.0018pt x 566.5968pt>
+<Imagenes/MC-DI.png, id=813, 675.0018pt x 566.5968pt>
 File: Imagenes/MC-DI.png Graphic file (type png)
 <use Imagenes/MC-DI.png>
 Package pdftex.def Info: Imagenes/MC-DI.png  used on input line 157.
@@ -1008,7 +1008,7 @@ Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
 
 [42]
-<Imagenes/12.png, id=840, 613.5723pt x 286.1892pt>
+<Imagenes/12.png, id=838, 613.5723pt x 286.1892pt>
 File: Imagenes/12.png Graphic file (type png)
 <use Imagenes/12.png>
 Package pdftex.def Info: Imagenes/12.png  used on input line 247.
@@ -1017,7 +1017,7 @@ Package pdftex.def Info: Imagenes/12.png  used on input line 247.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Imagenes/10.png, id=841, 613.5723pt x 286.1892pt>
+<Imagenes/10.png, id=839, 613.5723pt x 286.1892pt>
 File: Imagenes/10.png Graphic file (type png)
 <use Imagenes/10.png>
 Package pdftex.def Info: Imagenes/10.png  used on input line 254.
@@ -1025,7 +1025,7 @@ Package pdftex.def Info: Imagenes/10.png  used on input line 254.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Imagenes/11.png, id=842, 630.1944pt x 286.1892pt>
+<Imagenes/11.png, id=840, 630.1944pt x 286.1892pt>
 File: Imagenes/11.png Graphic file (type png)
 <use Imagenes/11.png>
 Package pdftex.def Info: Imagenes/11.png  used on input line 261.
@@ -1033,7 +1033,7 @@ Package pdftex.def Info: Imagenes/11.png  used on input line 261.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Imagenes/13.png, id=843, 630.9171pt x 286.1892pt>
+<Imagenes/13.png, id=841, 630.9171pt x 286.1892pt>
 File: Imagenes/13.png Graphic file (type png)
 <use Imagenes/13.png>
 Package pdftex.def Info: Imagenes/13.png  used on input line 268.
@@ -1064,10 +1064,10 @@ Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 [46
 
 ]
-<Imagenes/Vs-Global.png, id=871, 748.7172pt x 973.4769pt>
+<Imagenes/Vs-Global.png, id=869, 748.7172pt x 973.4769pt>
 File: Imagenes/Vs-Global.png Graphic file (type png)
 <use Imagenes/Vs-Global.png>
-Package pdftex.def Info: Imagenes/Vs-Global.png  used on input line 324.
+Package pdftex.def Info: Imagenes/Vs-Global.png  used on input line 323.
 (pdftex.def)             Requested size: 426.79134pt x 554.91731pt.
 
 
@@ -1089,10 +1089,10 @@ Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
 
 [48 <./Imagenes/Vs-Global.png>]
-<Imagenes/Metricas-Full.png, id=887, 1077.5457pt x 908.4339pt>
+<Imagenes/Metricas-Full.png, id=888, 1077.5457pt x 908.4339pt>
 File: Imagenes/Metricas-Full.png Graphic file (type png)
 <use Imagenes/Metricas-Full.png>
-Package pdftex.def Info: Imagenes/Metricas-Full.png  used on input line 368.
+Package pdftex.def Info: Imagenes/Metricas-Full.png  used on input line 371.
 (pdftex.def)             Requested size: 426.79134pt x 359.8047pt.
 
 
@@ -1103,30 +1103,31 @@ Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
 
 [49]
+<Imagenes/S1-LN-EBSA-RF-T1.png, id=900, 613.5723pt x 393.8715pt>
+File: Imagenes/S1-LN-EBSA-RF-T1.png Graphic file (type png)
+<use Imagenes/S1-LN-EBSA-RF-T1.png>
+Package pdftex.def Info: Imagenes/S1-LN-EBSA-RF-T1.png  used on input line 387.
+
+(pdftex.def)             Requested size: 426.79134pt x 273.97127pt.
+
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
 
 [50 <./Imagenes/Metricas-Full.png>]
-<Imagenes/S1-LN-EBSA-RF-T1.png, id=907, 613.5723pt x 393.8715pt>
-File: Imagenes/S1-LN-EBSA-RF-T1.png Graphic file (type png)
-<use Imagenes/S1-LN-EBSA-RF-T1.png>
-Package pdftex.def Info: Imagenes/S1-LN-EBSA-RF-T1.png  used on input line 386.
-
-(pdftex.def)             Requested size: 426.79134pt x 273.97127pt.
-<Imagenes/S1-LN-EBSA-GBR-T1.png, id=908, 613.5723pt x 393.8715pt>
+<Imagenes/S1-LN-EBSA-GBR-T1.png, id=907, 613.5723pt x 393.8715pt>
 File: Imagenes/S1-LN-EBSA-GBR-T1.png Graphic file (type png)
 <use Imagenes/S1-LN-EBSA-GBR-T1.png>
-Package pdftex.def Info: Imagenes/S1-LN-EBSA-GBR-T1.png  used on input line 393
+Package pdftex.def Info: Imagenes/S1-LN-EBSA-GBR-T1.png  used on input line 394
 .
 (pdftex.def)             Requested size: 426.79134pt x 273.97127pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Imagenes/S1-LN-EBSA-VSM-T1.png, id=909, 613.5723pt x 393.8715pt>
+<Imagenes/S1-LN-EBSA-VSM-T1.png, id=908, 613.5723pt x 393.8715pt>
 File: Imagenes/S1-LN-EBSA-VSM-T1.png Graphic file (type png)
 <use Imagenes/S1-LN-EBSA-VSM-T1.png>
-Package pdftex.def Info: Imagenes/S1-LN-EBSA-VSM-T1.png  used on input line 400
+Package pdftex.def Info: Imagenes/S1-LN-EBSA-VSM-T1.png  used on input line 401
 .
 (pdftex.def)             Requested size: 426.79134pt x 273.97127pt.
 
@@ -1216,7 +1217,7 @@ Package rerunfilecheck Info: File `MiTesis.out' has not changed.
 Here is how much of TeX's memory you used:
  19010 strings out of 467691
  371430 string characters out of 5414987
- 813156 words of memory out of 5000000
+ 813040 words of memory out of 5000000
  47579 multiletter control sequences out of 15000+600000
  638499 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1239,9 +1240,9 @@ ype1/public/amsfonts/cm/cmsy6.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX
 /fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/juanj/AppData/Local/Program
 s/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/juanj/AppData/Loca
 l/Programs/MiKTeX/fonts/type1/public/amsfonts/latxfont/lasy10.pfb>
-Output written on MiTesis.pdf (68 pages, 2018608 bytes).
+Output written on MiTesis.pdf (68 pages, 2018013 bytes).
 PDF statistics:
- 1067 PDF objects out of 1200 (max. 8388607)
+ 1065 PDF objects out of 1200 (max. 8388607)
  215 named destinations out of 1000 (max. 500000)
  511 words of extra memory for PDF output out of 10000 (max. 10000000)
 
