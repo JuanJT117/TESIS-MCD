@@ -364,7 +364,7 @@
 			
 			%Finalmente estableciendo los hiperparametros de la partición \textit{k-Fold}$=5$ como la mejor configuración para la optima generalización de los modelos, y subsecuentemente realizando un análisis global del desempeño de los modelos entrenados evaluando la varianza del error predictivo aplicado a los 30 niveles de capas de regresión o columnas de pronostico (ver figura \ref{fig:RendimientoRF}).
 			
-			El análisis de la varianza del error predictivo de cada capa expone la eficiencia del pronostico de los tres modelos, mediante la comparación del rendimiento, las métricas iterativas de Error Cuadrático Medio, Desviación Estándar y Curtosis, se hace evidente que el error predictivo del SVM se degrada significativamente (ver figura \ref{fig:RendimientoRF}). Esto se debe a que SVM, al ser un algoritmo de optimización de márgenes espaciales, tiende a perder precisión frente a las transiciones abruptas y capas fuertemente contrastantes típicas de los perfiles de resistividad, a menos que el hiperparámetro de su núcleo (\textit{kernel}) esté calibrado para cada estrato local de forma independiente \citep{Lary2016}.
+			El análisis de la varianza del error predictivo de cada capa expone la eficiencia del pronostico de los tres modelos, mediante la comparación del rendimiento, las métricas iterativas de Error Cuadrático Medio, Desviación Estándar y Curtosis, se hace evidente que el error predictivo del modelo SVM se degrada significativamente (ver figura \ref{fig:RendimientoRF}). Esto se debe a que SVM, al ser un algoritmo de optimización de márgenes espaciales, tiende a perder precisión frente a las transiciones abruptas y capas fuertemente contrastantes típicas de los perfiles de resistividad, a menos que el hiperparámetro de su núcleo (\textit{kernel}) esté calibrado para cada estrato local de forma independiente \citep{Lary2016}.
 			
 			\begin{figure}[h!] % 10.png  fig:VER556
 				\centering
@@ -379,6 +379,10 @@
 		
 
 	\section{Test y evaluación}
+	
+	A partir del entrenamiento resultante de los tres modelos, RF, VSM y GBR, se ejecuta un test comparativo, ejecutando pronósticos sobre secuencias de datos adquiridos durante campañas de prospección, por lo que no forman parte del conjunto de entrenamiento.
+	
+	Para poder evaluar la capacidad de pronostico de cada modelo para el mimo conjunto de datos, se acoplan los pronósticos del mismo 
 	
 	\paragraph{LAMPAZO DEL NARANJO  S1-LN-EBSA} datos correspondientes a SEV en Lampazos del naranjo, sitio no integrado en el entrenamiento
 	
