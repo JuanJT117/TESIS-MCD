@@ -52,6 +52,8 @@
 \contentsline {section}{\numberline {6.3}Evaluación, optimización y entrenamiento}{46}{section.6.3}%
 \contentsline {subsection}{\numberline {6.3.1}Análisis de rendimiento y generalización}{47}{subsection.6.3.1}%
 \contentsline {section}{\numberline {6.4}Test y evaluación}{51}{section.6.4}%
-\contentsline {paragraph}{\numberline {6.4.0.0.1}LAMPAZO DEL NARANJO S1-LN-EBSA}{51}{paragraph.6.4.0.0.1}%
-\contentsline {chapter}{\numberline {7}RESULTADOS Y CONCLUSIONES}{53}{chapter.7}%
-\contentsline {chapter}{\numberline {A}Apéndice I}{55}{appendix.Alph1}%
+\contentsline {paragraph}{\numberline {6.4.0.0.1}Sondeo 1 Exploración Geohidrológica los Olivos (S1-EGH-OLIVOS)}{51}{paragraph.6.4.0.0.1}%
+\contentsline {paragraph}{\numberline {6.4.0.0.2}Sondeo 1 Lampazo Del Naranjo EBSA (S1-LN-EBSA)}{52}{paragraph.6.4.0.0.2}%
+\contentsline {paragraph}{\numberline {6.4.0.0.3}Sondeo 2 Lampazo Del Naranjo EBSA (S2-LN-EBSA)}{52}{paragraph.6.4.0.0.3}%
+\contentsline {chapter}{\numberline {7}RESULTADOS Y CONCLUSIONES}{57}{chapter.7}%
+\contentsline {chapter}{\numberline {A}Apéndice I}{59}{appendix.Alph1}%

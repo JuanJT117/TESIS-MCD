@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.4.16)  2 AUG 2026 12:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.4.16)  10 AUG 2026 00:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1107,28 +1107,87 @@ Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
 
 [50 <./Imagenes/Metricas-Full.png>]
-<Imagenes/S1-LN-EBSA-RF-T1.png, id=906, 613.5723pt x 393.8715pt>
-File: Imagenes/S1-LN-EBSA-RF-T1.png Graphic file (type png)
-<use Imagenes/S1-LN-EBSA-RF-T1.png>
-Package pdftex.def Info: Imagenes/S1-LN-EBSA-RF-T1.png  used on input line 391.
-
-(pdftex.def)             Requested size: 426.79134pt x 273.97127pt.
-<Imagenes/S1-LN-EBSA-GBR-T1.png, id=907, 613.5723pt x 393.8715pt>
-File: Imagenes/S1-LN-EBSA-GBR-T1.png Graphic file (type png)
-<use Imagenes/S1-LN-EBSA-GBR-T1.png>
-Package pdftex.def Info: Imagenes/S1-LN-EBSA-GBR-T1.png  used on input line 398
-.
-(pdftex.def)             Requested size: 426.79134pt x 273.97127pt.
+<Imagenes/S1-EGH-OLIVOS-COMP-T1.png, id=906, 726.7953pt x 453.25336pt>
+File: Imagenes/S1-EGH-OLIVOS-COMP-T1.png Graphic file (type png)
+<use Imagenes/S1-EGH-OLIVOS-COMP-T1.png>
+Package pdftex.def Info: Imagenes/S1-EGH-OLIVOS-COMP-T1.png  used on input line
+ 395.
+(pdftex.def)             Requested size: 426.79134pt x 266.16534pt.
+<Imagenes/S1-EGH-OLIVOS-COMP-T2.png, id=907, 726.7953pt x 453.25336pt>
+File: Imagenes/S1-EGH-OLIVOS-COMP-T2.png Graphic file (type png)
+<use Imagenes/S1-EGH-OLIVOS-COMP-T2.png>
+Package pdftex.def Info: Imagenes/S1-EGH-OLIVOS-COMP-T2.png  used on input line
+ 402.
+(pdftex.def)             Requested size: 426.79134pt x 266.16534pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Imagenes/S1-LN-EBSA-VSM-T1.png, id=908, 613.5723pt x 393.8715pt>
-File: Imagenes/S1-LN-EBSA-VSM-T1.png Graphic file (type png)
-<use Imagenes/S1-LN-EBSA-VSM-T1.png>
-Package pdftex.def Info: Imagenes/S1-LN-EBSA-VSM-T1.png  used on input line 405
-.
-(pdftex.def)             Requested size: 426.79134pt x 273.97127pt.
+<Imagenes/S1-EGH-OLIVOS-COMP-T3.png, id=908, 726.7953pt x 453.25336pt>
+File: Imagenes/S1-EGH-OLIVOS-COMP-T3.png Graphic file (type png)
+<use Imagenes/S1-EGH-OLIVOS-COMP-T3.png>
+Package pdftex.def Info: Imagenes/S1-EGH-OLIVOS-COMP-T3.png  used on input line
+ 409.
+(pdftex.def)             Requested size: 426.79134pt x 266.16534pt.
+
+Overfull \vbox (11.36665pt too high) has occurred while \output is active []
+
+
+[51 <./Imagenes/S1-EGH-OLIVOS-COMP-T1.png>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Imagenes/S1-LN-EBSA-COMP-T1.png, id=917, 726.91576pt x 453.25336pt>
+File: Imagenes/S1-LN-EBSA-COMP-T1.png Graphic file (type png)
+<use Imagenes/S1-LN-EBSA-COMP-T1.png>
+Package pdftex.def Info: Imagenes/S1-LN-EBSA-COMP-T1.png  used on input line 41
+8.
+(pdftex.def)             Requested size: 426.79134pt x 266.11693pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Imagenes/S1-LN-EBSA-COMP-T2.png, id=918, 726.91576pt x 453.25336pt>
+File: Imagenes/S1-LN-EBSA-COMP-T2.png Graphic file (type png)
+<use Imagenes/S1-LN-EBSA-COMP-T2.png>
+Package pdftex.def Info: Imagenes/S1-LN-EBSA-COMP-T2.png  used on input line 42
+5.
+(pdftex.def)             Requested size: 426.79134pt x 266.11693pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Imagenes/S1-LN-EBSA-COMP-T3.png, id=919, 726.91576pt x 453.25336pt>
+File: Imagenes/S1-LN-EBSA-COMP-T3.png Graphic file (type png)
+<use Imagenes/S1-LN-EBSA-COMP-T3.png>
+Package pdftex.def Info: Imagenes/S1-LN-EBSA-COMP-T3.png  used on input line 43
+2.
+(pdftex.def)             Requested size: 426.79134pt x 266.11693pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Imagenes/S2-LN-EBSA-COMP-T1.png, id=920, 727.0362pt x 453.25336pt>
+File: Imagenes/S2-LN-EBSA-COMP-T1.png Graphic file (type png)
+<use Imagenes/S2-LN-EBSA-COMP-T1.png>
+Package pdftex.def Info: Imagenes/S2-LN-EBSA-COMP-T1.png  used on input line 44
+1.
+(pdftex.def)             Requested size: 426.79134pt x 266.06853pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Imagenes/S2-LN-EBSA-COMP-T2.png, id=921, 727.0362pt x 453.25336pt>
+File: Imagenes/S2-LN-EBSA-COMP-T2.png Graphic file (type png)
+<use Imagenes/S2-LN-EBSA-COMP-T2.png>
+Package pdftex.def Info: Imagenes/S2-LN-EBSA-COMP-T2.png  used on input line 44
+8.
+(pdftex.def)             Requested size: 426.79134pt x 266.06853pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Imagenes/S2-LN-EBSA-COMP-T3.png, id=922, 727.0362pt x 453.25336pt>
+File: Imagenes/S2-LN-EBSA-COMP-T3.png Graphic file (type png)
+<use Imagenes/S2-LN-EBSA-COMP-T3.png>
+Package pdftex.def Info: Imagenes/S2-LN-EBSA-COMP-T3.png  used on input line 45
+5.
+(pdftex.def)             Requested size: 426.79134pt x 266.06853pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1136,21 +1195,40 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
 
-[51 <./Imagenes/S1-LN-EBSA-RF-T1.png>]
+[52 <./Imagenes/S1-EGH-OLIVOS-COMP-T2.png>]
 
-LaTeX Warning: Text page 52 contains only floats.
+LaTeX Warning: Text page 53 contains only floats.
 
 
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
 
-[52 <./Imagenes/S1-LN-EBSA-GBR-T1.png> <./Imagenes/S1-LN-EBSA-VSM-T1.png>]
+[53 <./Imagenes/S1-EGH-OLIVOS-COMP-T3.png> <./Imagenes/S1-LN-EBSA-COMP-T1.png>]
+
+LaTeX Warning: Text page 54 contains only floats.
+
+
+Overfull \vbox (11.36665pt too high) has occurred while \output is active []
+
+
+[54 <./Imagenes/S1-LN-EBSA-COMP-T2.png> <./Imagenes/S1-LN-EBSA-COMP-T3.png>]
+
+LaTeX Warning: Text page 55 contains only floats.
+
+
+Overfull \vbox (11.36665pt too high) has occurred while \output is active []
+
+
+[55 <./Imagenes/S2-LN-EBSA-COMP-T1.png> <./Imagenes/S2-LN-EBSA-COMP-T2.png>]
+Overfull \vbox (11.36665pt too high) has occurred while \output is active []
+
+
+[56 <./Imagenes/S2-LN-EBSA-COMP-T3.png>]
 \openout2 = `Capitulos/Capitulo7.aux'.
 
-
-(Capitulos/Capitulo7.tex
+ (Capitulos/Capitulo7.tex
 Cap\'{\i }tulo 7.
-[53
+[57
 
 
 
@@ -1159,12 +1237,12 @@ Cap\'{\i }tulo 7.
 Overfull \vbox (9.33333pt too high) has occurred while \output is active []
 
 
-[54]
+[58]
 \openout2 = `Capitulos/Apendice1.aux'.
 
  (Capitulos/Apendice1.tex
 Ap\'{e}ndice A.
-) [55
+) [59
 
 
 
@@ -1181,7 +1259,7 @@ o\OT1/cmr/m/n/12 , \OT1/cmr/m/sc/12 L. Im-pro-ta \OT1/cmr/m/n/12 y \OT1/cmr/m/s
 c/12 D. Pic-ci-ni-ni \OT1/cmr/m/n/12 (2024), []A
  []
 
-[56
+[60
 
 
 
@@ -1190,11 +1268,11 @@ c/12 D. Pic-ci-ni-ni \OT1/cmr/m/n/12 (2024), []A
 Overfull \vbox (9.33333pt too high) has occurred while \output is active []
 
 
-[57])
+[61])
 Overfull \vbox (9.33333pt too high) has occurred while \output is active []
 
 
-[58] (MiTesis.aux (Capitulos/Portadas.aux)
+[62] (MiTesis.aux (Capitulos/Portadas.aux)
 LaTeX Info: Redefining \. on input line 12.
 LaTeX Info: Redefining \% on input line 12.
  (Capitulos/Dedicatoria.aux)
@@ -1214,10 +1292,10 @@ Package rerunfilecheck Info: File `MiTesis.out' has not changed.
 (rerunfilecheck)             Checksum: FF1FCDFE45CA75200C393E03FB3BA717;10538.
  ) 
 Here is how much of TeX's memory you used:
- 19010 strings out of 467691
- 371430 string characters out of 5414987
- 813040 words of memory out of 5000000
- 47579 multiletter control sequences out of 15000+600000
+ 19070 strings out of 467691
+ 373453 string characters out of 5414987
+ 813250 words of memory out of 5000000
+ 47627 multiletter control sequences out of 15000+600000
  638499 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,14n,83p,875b,1379s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1239,9 +1317,9 @@ ype1/public/amsfonts/cm/cmsy6.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX
 /fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/juanj/AppData/Local/Program
 s/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/juanj/AppData/Loca
 l/Programs/MiKTeX/fonts/type1/public/amsfonts/latxfont/lasy10.pfb>
-Output written on MiTesis.pdf (68 pages, 2018374 bytes).
+Output written on MiTesis.pdf (72 pages, 6968702 bytes).
 PDF statistics:
- 1065 PDF objects out of 1200 (max. 8388607)
- 215 named destinations out of 1000 (max. 500000)
- 511 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1106 PDF objects out of 1200 (max. 8388607)
+ 227 named destinations out of 1000 (max. 500000)
+ 541 words of extra memory for PDF output out of 10000 (max. 10000000)
 
