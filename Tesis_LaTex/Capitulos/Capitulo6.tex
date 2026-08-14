@@ -380,80 +380,85 @@
 
 	\section{Test y evaluación}
 	
+	A partir del entrenamiento resultante de los tres modelos, RF, VSM y GBR, se ejecuta un test comparativo de pronósticos, en este proceso se emplean datos adquiridos en campañas de prospección, cuyos resultados de inversión, espesor y resistividad real, integran los modelos de unidades de resistividad empleados en la etapa de generación de modelos sintéticos de respuesta geoeléctrica, iterando variaciones generando un volumen apropiado de datos para el entrenamiento, de manera que los valores de resistividad aparente originales no forman parte del entrenamiento, quedando los algoritmos expuestos a la no-unicidad inherente del método geoeléctrico.
 	
+	Para evaluar la capacidad de pronostico de los modelo, se acoplan los resultados de pronósticos, de los tres modelos, permitiendo una comparación directa, se presentan tres variaciones de pronóstico del mismo sitio, de manera que el rendimiento de la generalización del entrena pueda ser observado directamente en el pronósticos comparativo.
 	
-	A partir del entrenamiento resultante de los tres modelos, RF, VSM y GBR, se ejecuta un test comparativo de pronósticos, en este proceso se emplean datos adquiridos en campañas de prospección, cuyos resultados de inversión integran los modelos de unidades de resistividad  empleados en la etapa de generación de modelos sintéticos de respuesta geoeléctrica de los cuales se iteraron variaciones para generar un volumen apropiado de datos de entrenamiento.
+	Se emplearon los 
 	
+	\clearpage
+		\subsection{Sondeo 1 Exploración Geohidrológica los Olivos (S1-EGH-OLIVOS)} 
+		
+		datos correspondientes a SEV en Lampazos del naranjo, sitio no integrado en el entrenamiento
 	
+			\begin{figure}[!h] % Imagenes/S1-LN-EBSA-RF-T1.png  fig:resultados1
+				\centering
+				\includegraphics[width=14cm]{Imagenes/S1-EGH-OLIVOS-COMP-T1.png}
+				\caption[]{}
+				\label{fig:S1-EGH-OLIVOS-COMP-T1}
+			\end{figure}
+		%	\vspace*{1.1cm}
+			\begin{figure}[!h] % Imagenes/S1-LN-EBSA-GBR-T1.png  fig:resultados2
+				\centering
+				\includegraphics[width=14cm]{Imagenes/S1-EGH-OLIVOS-COMP-T2.png}
+				\caption[]{}
+				\label{fig:S1-EGH-OLIVOS-COMP-T2}
+			\end{figure}
+		%	\vspace*{1.1cm}
+			\begin{figure}[!h] % Imagenes/S1-LN-EBSA-VSM-T1.png  fig:resultados3
+				\centering
+				\includegraphics[width=14cm]{Imagenes/S1-EGH-OLIVOS-COMP-T3.png}
+				\caption[]{}
+				\label{fig:S1-EGH-OLIVOS-COMP-T3}
+			\end{figure}
+			
+		\subsection{Sondeo 1 Lampazo Del Naranjo EBSA (S1-LN-EBSA)} 
+		
+		datos correspondientes a SEV en Lampazos del naranjo, sitio no integrado en el entrenamiento
+			
+			\begin{figure}[!h] % Imagenes/S1-LN-EBSA-RF-T1.png  fig:resultados1
+				\centering
+				\includegraphics[width=14cm]{Imagenes/S1-LN-EBSA-COMP-T1.png}
+				\caption[]{}
+				\label{fig:S1-LN-EBSA-COMP-T1}
+			\end{figure}
+		%	\vspace*{1.1cm}
+			\begin{figure}[!h] % Imagenes/S1-LN-EBSA-GBR-T1.png  fig:resultados2
+				\centering
+				\includegraphics[width=14cm]{Imagenes/S1-LN-EBSA-COMP-T2.png}
+				\caption[]{}
+				\label{fig:S1-LN-EBSA-COMP-T2}
+			\end{figure}
+		%	\vspace*{1.1cm}
+			\begin{figure}[!h] % Imagenes/S1-LN-EBSA-VSM-T1.png  fig:resultados3
+				\centering
+				\includegraphics[width=14cm]{Imagenes/S1-LN-EBSA-COMP-T3.png}
+				\caption[]{}
+				\label{fig:S1-LN-EBSA-COMP-T3}
+			\end{figure}
 	
-	Para poder evaluar la capacidad de pronostico de cada modelo para el mimo conjunto de datos, se acoplan los pronósticos del mismo 
+		\subsection{Sondeo 2 Lampazo Del Naranjo EBSA (S2-LN-EBSA)}
+		 
+		datos correspondientes a SEV en Lampazos del naranjo, sitio no integrado en el entrenamiento
 	
-	\paragraph{Sondeo 1 Exploración Geohidrológica los Olivos (S1-EGH-OLIVOS)} datos correspondientes a SEV en Lampazos del naranjo, sitio no integrado en el entrenamiento
-	
-	\begin{figure}[h!] % Imagenes/S1-LN-EBSA-RF-T1.png  fig:resultados1
-		\centering
-		\includegraphics[width=15cm]{Imagenes/S1-EGH-OLIVOS-COMP-T1.png}
-		\caption[]{}
-		\label{fig:S1-EGH-OLIVOS-COMP-T1}
-	\end{figure}
-		\vspace*{1.1cm}
-	\begin{figure}[h!] % Imagenes/S1-LN-EBSA-GBR-T1.png  fig:resultados2
-		\centering
-		\includegraphics[width=15cm]{Imagenes/S1-EGH-OLIVOS-COMP-T2.png}
-		\caption[]{}
-		\label{fig:S1-EGH-OLIVOS-COMP-T2}
-	\end{figure}
-	\vspace*{1.1cm}
-	\begin{figure}[h!] % Imagenes/S1-LN-EBSA-VSM-T1.png  fig:resultados3
-		\centering
-		\includegraphics[width=15cm]{Imagenes/S1-EGH-OLIVOS-COMP-T3.png}
-		\caption[]{}
-		\label{fig:S1-EGH-OLIVOS-COMP-T3}
-	\end{figure}
-	
-	\paragraph{Sondeo 1 Lampazo Del Naranjo EBSA (S1-LN-EBSA)} datos correspondientes a SEV en Lampazos del naranjo, sitio no integrado en el entrenamiento
-	
-	\begin{figure}[h!] % Imagenes/S1-LN-EBSA-RF-T1.png  fig:resultados1
-		\centering
-		\includegraphics[width=15cm]{Imagenes/S1-LN-EBSA-COMP-T1.png}
-		\caption[]{}
-		\label{fig:S1-LN-EBSA-COMP-T1}
-	\end{figure}
-	\vspace*{1.1cm}
-	\begin{figure}[h!] % Imagenes/S1-LN-EBSA-GBR-T1.png  fig:resultados2
-		\centering
-		\includegraphics[width=15cm]{Imagenes/S1-LN-EBSA-COMP-T2.png}
-		\caption[]{}
-		\label{fig:S1-LN-EBSA-COMP-T2}
-	\end{figure}
-	\vspace*{1.1cm}
-	\begin{figure}[h!] % Imagenes/S1-LN-EBSA-VSM-T1.png  fig:resultados3
-		\centering
-		\includegraphics[width=15cm]{Imagenes/S1-LN-EBSA-COMP-T3.png}
-		\caption[]{}
-		\label{fig:S1-LN-EBSA-COMP-T3}
-	\end{figure}
-	
-		\paragraph{Sondeo 2 Lampazo Del Naranjo EBSA (S2-LN-EBSA)} datos correspondientes a SEV en Lampazos del naranjo, sitio no integrado en el entrenamiento
-	
-	\begin{figure}[h!] % Imagenes/S1-LN-EBSA-RF-T1.png  fig:resultados1
-		\centering
-		\includegraphics[width=15cm]{Imagenes/S2-LN-EBSA-COMP-T1.png}
-		\caption[]{}
-		\label{fig:S2-LN-EBSA-COMP-T1}
-	\end{figure}
-	\vspace*{1.1cm}
-	\begin{figure}[h!] % Imagenes/S1-LN-EBSA-GBR-T1.png  fig:resultados2
-		\centering
-		\includegraphics[width=15cm]{Imagenes/S2-LN-EBSA-COMP-T2.png}
-		\caption[]{}
-		\label{fig:S2-LN-EBSA-COMP-T2}
-	\end{figure}
-	\vspace*{1.1cm}
-	\begin{figure}[h!] % Imagenes/S1-LN-EBSA-VSM-T1.png  fig:resultados3
-		\centering
-		\includegraphics[width=15cm]{Imagenes/S2-LN-EBSA-COMP-T3.png}
-		\caption[]{}
-		\label{fig:S2-LN-EBSA-COMP-T3}
-	\end{figure}
+			\begin{figure}[!h] % Imagenes/S1-LN-EBSA-RF-T1.png  fig:resultados1
+				\centering
+				\includegraphics[width=14cm]{Imagenes/S2-LN-EBSA-COMP-T1.png}
+				\caption[]{}
+				\label{fig:S2-LN-EBSA-COMP-T1}
+			\end{figure}
+		%	\vspace*{1.1cm}
+			\begin{figure}[!h] % Imagenes/S1-LN-EBSA-GBR-T1.png  fig:resultados2
+				\centering
+				\includegraphics[width=14cm]{Imagenes/S2-LN-EBSA-COMP-T2.png}
+				\caption[]{}
+				\label{fig:S2-LN-EBSA-COMP-T2}
+			\end{figure}
+		%	\vspace*{1.1cm}
+			\begin{figure}[!h] % Imagenes/S1-LN-EBSA-VSM-T1.png  fig:resultados3
+				\centering
+				\includegraphics[width=14cm]{Imagenes/S2-LN-EBSA-COMP-T3.png}
+				\caption[]{}
+				\label{fig:S2-LN-EBSA-COMP-T3}
+			\end{figure}
 	
