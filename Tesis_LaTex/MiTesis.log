@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.4.16)  16 AUG 2026 19:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.4.16)  17 AUG 2026 00:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1012,7 +1012,7 @@ Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
 
 [42]
-<Imagenes/12.png, id=867, 613.5723pt x 286.1892pt>
+<Imagenes/12.png, id=871, 613.5723pt x 286.1892pt>
 File: Imagenes/12.png Graphic file (type png)
 <use Imagenes/12.png>
 Package pdftex.def Info: Imagenes/12.png  used on input line 247.
@@ -1021,7 +1021,7 @@ Package pdftex.def Info: Imagenes/12.png  used on input line 247.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Imagenes/10.png, id=868, 613.5723pt x 286.1892pt>
+<Imagenes/10.png, id=872, 613.5723pt x 286.1892pt>
 File: Imagenes/10.png Graphic file (type png)
 <use Imagenes/10.png>
 Package pdftex.def Info: Imagenes/10.png  used on input line 254.
@@ -1029,7 +1029,7 @@ Package pdftex.def Info: Imagenes/10.png  used on input line 254.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Imagenes/11.png, id=869, 630.1944pt x 286.1892pt>
+<Imagenes/11.png, id=873, 630.1944pt x 286.1892pt>
 File: Imagenes/11.png Graphic file (type png)
 <use Imagenes/11.png>
 Package pdftex.def Info: Imagenes/11.png  used on input line 261.
@@ -1037,7 +1037,7 @@ Package pdftex.def Info: Imagenes/11.png  used on input line 261.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Imagenes/13.png, id=870, 630.9171pt x 286.1892pt>
+<Imagenes/13.png, id=874, 630.9171pt x 286.1892pt>
 File: Imagenes/13.png Graphic file (type png)
 <use Imagenes/13.png>
 Package pdftex.def Info: Imagenes/13.png  used on input line 268.
@@ -1068,7 +1068,7 @@ Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 [46
 
 ]
-<Imagenes/Vs-Global.png, id=898, 748.7172pt x 973.4769pt>
+<Imagenes/Vs-Global.png, id=902, 748.7172pt x 973.4769pt>
 File: Imagenes/Vs-Global.png Graphic file (type png)
 <use Imagenes/Vs-Global.png>
 Package pdftex.def Info: Imagenes/Vs-Global.png  used on input line 323.
@@ -1093,7 +1093,7 @@ Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
 
 [48 <./Imagenes/Vs-Global.png>]
-<Imagenes/Metricas-Full.png, id=917, 1077.5457pt x 908.4339pt>
+<Imagenes/Metricas-Full.png, id=921, 1077.5457pt x 908.4339pt>
 File: Imagenes/Metricas-Full.png Graphic file (type png)
 <use Imagenes/Metricas-Full.png>
 Package pdftex.def Info: Imagenes/Metricas-Full.png  used on input line 371.
@@ -1111,17 +1111,15 @@ Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
 
 [50 <./Imagenes/Metricas-Full.png>]
-Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[51]
 <Imagenes/S1-EGH-OLIVOS-COMP-T1.png, id=940, 726.7953pt x 453.25336pt>
 File: Imagenes/S1-EGH-OLIVOS-COMP-T1.png Graphic file (type png)
 <use Imagenes/S1-EGH-OLIVOS-COMP-T1.png>
 Package pdftex.def Info: Imagenes/S1-EGH-OLIVOS-COMP-T1.png  used on input line
  454.
 (pdftex.def)             Requested size: 426.79134pt x 266.16534pt.
-
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1147,13 +1145,11 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
 
-[52
-
-]
-
-LaTeX Warning: Text page 53 contains only floats.
+[51]
+Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
 
+[52]
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
 
@@ -1163,31 +1159,31 @@ Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
 
 [54 <./Imagenes/S1-EGH-OLIVOS-COMP-T3.png>]
-<Imagenes/S1-LN-EBSA-COMP-T1.png, id=965, 726.91576pt x 453.25336pt>
+<Imagenes/S1-LN-EBSA-COMP-T1.png, id=966, 726.91576pt x 453.25336pt>
 File: Imagenes/S1-LN-EBSA-COMP-T1.png Graphic file (type png)
 <use Imagenes/S1-LN-EBSA-COMP-T1.png>
 Package pdftex.def Info: Imagenes/S1-LN-EBSA-COMP-T1.png  used on input line 54
 4.
-(pdftex.def)             Requested size: 341.43306pt x 212.89078pt.
+(pdftex.def)             Requested size: 426.79134pt x 266.11693pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Imagenes/S1-LN-EBSA-COMP-T2.png, id=966, 726.91576pt x 453.25336pt>
+<Imagenes/S1-LN-EBSA-COMP-T2.png, id=967, 726.91576pt x 453.25336pt>
 File: Imagenes/S1-LN-EBSA-COMP-T2.png Graphic file (type png)
 <use Imagenes/S1-LN-EBSA-COMP-T2.png>
 Package pdftex.def Info: Imagenes/S1-LN-EBSA-COMP-T2.png  used on input line 55
 1.
-(pdftex.def)             Requested size: 341.43306pt x 212.89078pt.
+(pdftex.def)             Requested size: 426.79134pt x 266.11693pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Imagenes/S1-LN-EBSA-COMP-T3.png, id=967, 726.91576pt x 453.25336pt>
+<Imagenes/S1-LN-EBSA-COMP-T3.png, id=968, 726.91576pt x 453.25336pt>
 File: Imagenes/S1-LN-EBSA-COMP-T3.png Graphic file (type png)
 <use Imagenes/S1-LN-EBSA-COMP-T3.png>
 Package pdftex.def Info: Imagenes/S1-LN-EBSA-COMP-T3.png  used on input line 55
 8.
-(pdftex.def)             Requested size: 341.43306pt x 212.89078pt.
+(pdftex.def)             Requested size: 426.79134pt x 266.11693pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1198,6 +1194,10 @@ Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 [55
 
 ]
+
+LaTeX Warning: Text page 56 contains only floats.
+
+
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
 
@@ -1206,31 +1206,31 @@ Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
 
 [57 <./Imagenes/S1-LN-EBSA-COMP-T3.png>]
-<Imagenes/S2-LN-EBSA-COMP-T1.png, id=987, 727.0362pt x 453.25336pt>
+<Imagenes/S2-LN-EBSA-COMP-T1.png, id=988, 727.0362pt x 453.25336pt>
 File: Imagenes/S2-LN-EBSA-COMP-T1.png Graphic file (type png)
 <use Imagenes/S2-LN-EBSA-COMP-T1.png>
 Package pdftex.def Info: Imagenes/S2-LN-EBSA-COMP-T1.png  used on input line 62
 9.
-(pdftex.def)             Requested size: 341.43306pt x 212.8562pt.
+(pdftex.def)             Requested size: 426.79134pt x 266.06853pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Imagenes/S2-LN-EBSA-COMP-T2.png, id=988, 727.0362pt x 453.25336pt>
+<Imagenes/S2-LN-EBSA-COMP-T2.png, id=989, 727.0362pt x 453.25336pt>
 File: Imagenes/S2-LN-EBSA-COMP-T2.png Graphic file (type png)
 <use Imagenes/S2-LN-EBSA-COMP-T2.png>
 Package pdftex.def Info: Imagenes/S2-LN-EBSA-COMP-T2.png  used on input line 63
 6.
-(pdftex.def)             Requested size: 341.43306pt x 212.8562pt.
+(pdftex.def)             Requested size: 426.79134pt x 266.06853pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Imagenes/S2-LN-EBSA-COMP-T3.png, id=989, 727.0362pt x 453.25336pt>
+<Imagenes/S2-LN-EBSA-COMP-T3.png, id=990, 727.0362pt x 453.25336pt>
 File: Imagenes/S2-LN-EBSA-COMP-T3.png Graphic file (type png)
 <use Imagenes/S2-LN-EBSA-COMP-T3.png>
 Package pdftex.def Info: Imagenes/S2-LN-EBSA-COMP-T3.png  used on input line 64
 3.
-(pdftex.def)             Requested size: 341.43306pt x 212.8562pt.
+(pdftex.def)             Requested size: 426.79134pt x 266.06853pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1241,6 +1241,10 @@ Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 [58
 
 ]
+
+LaTeX Warning: Text page 59 contains only floats.
+
+
 Overfull \vbox (11.36665pt too high) has occurred while \output is active []
 
 
@@ -1317,39 +1321,35 @@ Package rerunfilecheck Info: File `MiTesis.out' has not changed.
 (rerunfilecheck)             Checksum: A47D594AF32E746F84D71E80D5FB46ED;11572.
  ) 
 Here is how much of TeX's memory you used:
- 19083 strings out of 467691
- 373640 string characters out of 5414987
+ 19081 strings out of 467691
+ 373621 string characters out of 5414987
  813598 words of memory out of 5000000
- 47631 multiletter control sequences out of 15000+600000
- 638811 words of font info for 83 fonts, out of 8000000 for 9000
+ 47630 multiletter control sequences out of 15000+600000
+ 638499 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,14n,83p,875b,1404s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmbx10.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmbx12.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmbx6.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/juanj/AppData/Local/Programs/MiKT
-eX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/juanj/AppData/Local/Pro
-grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/juanj/AppData/
-Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/juanj
-/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Us
-ers/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pf
+ublic/amsfonts/cm/cmbx8.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/juanj/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/juanj/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/juanj/AppData
+/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/juan
+j/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Us
+ers/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pf
 b><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmmi6.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
-onts/cm/cmmi8.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/pub
-lic/amsfonts/cm/cmr10.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/public/amsfonts/cm/cmr12.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX
-/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/juanj/AppData/Local/Programs
-/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/juanj/AppData/Local/P
-rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/juanj/AppDat
-a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/juan
-j/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Us
-ers/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.p
-fb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/la
-txfont/lasy10.pfb>
-Output written on MiTesis.pdf (77 pages, 7020675 bytes).
+cmr10.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
+onts/cm/cmr12.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/pub
+lic/amsfonts/cm/cmr8.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/ty
+pe1/public/amsfonts/cm/cmsy10.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX
+/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/juanj/AppData/Local/Program
+s/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/juanj/AppData/Local
+/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/juanj/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/latxfont/lasy10.pfb>
+Output written on MiTesis.pdf (77 pages, 6992495 bytes).
 PDF statistics:
- 1172 PDF objects out of 1200 (max. 8388607)
+ 1161 PDF objects out of 1200 (max. 8388607)
  235 named destinations out of 1000 (max. 500000)
  565 words of extra memory for PDF output out of 10000 (max. 10000000)
 
