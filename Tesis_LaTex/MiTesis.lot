@@ -10,6 +10,9 @@
 \contentsline {table}{\numberline {6.1}{\ignorespaces Resultados del modelo de resistividad por sitio.}}{34}{table.caption.12}%
 \contentsline {table}{\numberline {6.2}{\ignorespaces Rango de espesores (mínimo y máximo) registrados por sitio.}}{42}{table.caption.19}%
 \contentsline {table}{\numberline {6.3}{\ignorespaces Configuración de hiperparámetros para cada modelo.}}{47}{table.caption.24}%
+\contentsline {table}{\numberline {6.4}{\ignorespaces Valores de resistividad aparente original y pronósticos para el Sitio S1-EGH-OLIVOS.}}{52}{table.caption.27}%
+\contentsline {table}{\numberline {6.5}{\ignorespaces Valores de resistividad aparente original y pronósticos para el Sitio S1-LN-EBSA.}}{55}{table.caption.31}%
+\contentsline {table}{\numberline {6.6}{\ignorespaces Valores de resistividad aparente original y pronósticos para el Sitio S2-LN-EBSA.}}{58}{table.caption.35}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {7.1}{\ignorespaces Configuración de hiperparámetros para cada modelo. Se remarca en negrita el valor con la mejor generalización mediante $k$-Fold Cross-Validation usando GridSearchCV.}}{57}{table.caption.36}%
+\contentsline {table}{\numberline {7.1}{\ignorespaces Configuración de hiperparámetros para cada modelo. Se remarca en negrita el valor con la mejor generalización mediante $k$-Fold Cross-Validation usando GridSearchCV.}}{61}{table.caption.39}%
 \addvspace {10\p@ }
