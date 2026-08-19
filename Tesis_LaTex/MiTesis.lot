@@ -10,9 +10,15 @@
 \contentsline {table}{\numberline {6.1}{\ignorespaces Resultados del modelo de resistividad por sitio.}}{34}{table.caption.12}%
 \contentsline {table}{\numberline {6.2}{\ignorespaces Rango de espesores (mínimo y máximo) registrados por sitio.}}{42}{table.caption.19}%
 \contentsline {table}{\numberline {6.3}{\ignorespaces Configuración de hiperparámetros para cada modelo.}}{47}{table.caption.24}%
-\contentsline {table}{\numberline {6.4}{\ignorespaces Valores de resistividad aparente original y pronósticos para el Sitio S1-EGH-OLIVOS.}}{52}{table.caption.27}%
-\contentsline {table}{\numberline {6.5}{\ignorespaces Valores de resistividad aparente original y pronósticos para el Sitio S1-LN-EBSA.}}{55}{table.caption.31}%
-\contentsline {table}{\numberline {6.6}{\ignorespaces Valores de resistividad aparente original y pronósticos para el Sitio S2-LN-EBSA.}}{58}{table.caption.35}%
+\contentsline {table}{\numberline {6.4}{\ignorespaces Cuarta comparativa de modelos de imputación (RF, GBR, SVM) frente a datos originales e incompletos.}}{52}{table.caption.27}%
+\contentsline {table}{\numberline {6.5}{\ignorespaces Quinta comparativa de modelos de imputación (RF, GBR, SVM) frente a datos originales e incompletos.}}{54}{table.caption.29}%
+\contentsline {table}{\numberline {6.6}{\ignorespaces Sexta comparativa de modelos de imputación (RF, GBR, SVM) frente a datos originales e incompletos.}}{56}{table.caption.31}%
+\contentsline {table}{\numberline {6.7}{\ignorespaces Comparativa de modelos de imputación (RF, GBR, SVM) frente a datos originales e incompletos.}}{59}{table.caption.33}%
+\contentsline {table}{\numberline {6.8}{\ignorespaces Segunda comparativa de modelos de imputación (RF, GBR, SVM) frente a datos originales e incompletos.}}{60}{table.caption.35}%
+\contentsline {table}{\numberline {6.9}{\ignorespaces Tercera comparativa de modelos de imputación (RF, GBR, SVM) frente a datos originales e incompletos.}}{62}{table.caption.37}%
+\contentsline {table}{\numberline {6.10}{\ignorespaces Novena comparativa de modelos de imputación (RF, GBR, SVM) frente a datos originales e incompletos.}}{65}{table.caption.39}%
+\contentsline {table}{\numberline {6.11}{\ignorespaces Séptima comparativa de modelos de imputación (RF, GBR, SVM) frente a datos originales e incompletos.}}{66}{table.caption.41}%
+\contentsline {table}{\numberline {6.12}{\ignorespaces Octava comparativa de modelos de imputación (RF, GBR, SVM) frente a datos originales e incompletos.}}{68}{table.caption.43}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {7.1}{\ignorespaces Configuración de hiperparámetros para cada modelo. Se remarca en negrita el valor con la mejor generalización mediante $k$-Fold Cross-Validation usando GridSearchCV.}}{61}{table.caption.39}%
+\contentsline {table}{\numberline {7.1}{\ignorespaces Configuración de hiperparámetros para cada modelo. Se remarca en negrita el valor con la mejor generalización mediante $k$-Fold Cross-Validation usando GridSearchCV.}}{70}{table.caption.45}%
 \addvspace {10\p@ }

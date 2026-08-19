@@ -388,81 +388,207 @@
 	
 	%\clearpage
 		\subsection{Sondeo 1 Exploración Geohidrológica los Olivos (S1-EGH-OLIVOS)} 
-		\begin{table}[h!]
-			\centering
-			
-			% --- 1. Tamaño de letra tiny ---
-			\scriptsize
-			
-			% --- 2. Reducir ligeramente el espacio entre columnas ---
-			\setlength{\tabcolsep}{4pt} 
-			
-			\caption{Valores de resistividad aparente original y pronósticos para el Sitio S1-EGH-OLIVOS.}
-			\label{tab:resistividad_S1-EGH-OLIVOS}
-			
-			% --- 3. Definir columnas con siunitx para alineación decimal ---
-			\begin{tabular}{ 
-					S[table-format=3.0] % AB/2
-					S[table-format=4.2] % Pronóstico 1
-					S[table-format=4.2] % Pronóstico 2
-					S[table-format=4.2] % Pronóstico 3
-					S[table-format=4.2] % Original
-				}
-				% --- 4. Encabezados limpios con booktabs ---
-				\toprule
-				{\textbf{AB/2 (m)}} & {\textbf{$\rho_a$ Test 1 ($\Omega\cdot$m)}} & {\textbf{$\rho_a$ Test 2 ($\Omega\cdot$m)}} & {\textbf{$\rho_a$ Test 3 ($\Omega\cdot$m)}} & {\textbf{$\rho_a$ Original ($\Omega\cdot$m)}} \\
-				\midrule
-				
-				% --- 5. Datos ordenados y limpios ---
-				2   & 68.97   & 68.97   & 68.97   & 68.97   \\
-				5   & 70.54   & 70.54   & 70.54   & 70.54   \\
-				10  & 98.06   & \textbf{0.00}    & 98.06   & 98.06   \\
-				10  & 80.12   & \textbf{0.00}    & 80.12   & 80.12   \\
-				20  & 488.98  & \textbf{0.00}    & 488.98  & 488.98  \\
-				30  & 1036.73 & \textbf{0.00}    & 1036.73 & 1036.73 \\
-				40  & \textbf{0.00}    & \textbf{0.00}    & 107.91  & 107.91  \\
-				40  & \textbf{0.00}    & \textbf{0.00}    & 86.83   & 86.83   \\
-				50  & 90.45   & 90.45   & 90.45   & 90.45   \\
-				60  & 95.91   & 95.91   & 95.91   & 95.91   \\
-				\addlinespace % Espacio extra cada 10 filas para mejorar la lectura
-				70  & 103.92  & 103.92  & 103.92  & 103.92  \\
-				80  & \textbf{0.00}    & 109.63  & 109.63  & 109.63  \\
-				90  & 109.11  & 109.11  & \textbf{0.00}    & 109.11  \\
-				100 & 110.01  & 110.01  & \textbf{0.00}    & 110.01  \\
-				110 & 112.33  & 112.33  & \textbf{0.00}    & 112.33  \\
-				120 & 115.67  & 115.67  & \textbf{0.00}    & 115.67  \\
-				130 & 117.57  & 117.57  & \textbf{0.00}    & 117.57  \\
-				150 & \textbf{0.00}    & 37.79   & \textbf{0.00}    & 37.79   \\
-				160 & 114.43  & 114.43  & 114.43  & 114.43  \\
-				170 & 114.15  & 114.15  & 114.15  & 114.15  \\
-				\addlinespace
-				180 & 116.06  & 116.06  & 116.06  & 116.06  \\
-				190 & 107.76  & 107.76  & 107.76  & 107.76  \\
-				210 & \textbf{0.00}    & 112.15  & 112.15  & 112.15  \\
-				230 & \textbf{0.00}    & 119.37  & 119.37  & 119.37  \\
-				250 & \textbf{0.00}    & 114.78  & 114.78  & 114.78  \\
-				
-				\bottomrule
-			\end{tabular}
-		\end{table}
-		datos correspondientes a SEV en Lampazos del naranjo, sitio no integrado en el entrenamiento
 		
+			\begin{table}[h!]
+				\centering
+				
+				% --- 1. Tamaño de letra tiny ---
+				\footnotesize
+				
+				% --- 2. Reducir ligeramente el espacio entre columnas ---
+				\setlength{\tabcolsep}{3pt} 
+				
+				\caption{Cuarta comparativa de modelos de imputación (RF, GBR, SVM) frente a datos originales e incompletos.}
+				\label{tab:comparativa_modelos_imputacion_4}
+				
+				% --- 3. Definir columnas con siunitx para alineación decimal ---
+				\begin{tabular}{ 
+						S[table-format=3.0] % AB/2
+						S[table-format=4.2] % Rhoa_Incompleto
+						S[table-format=4.2] % Rhoa_Original
+						S[table-format=4.2] % Pronostico_RF
+						S[table-format=4.2] % Pronostico_GBR
+						S[table-format=4.2] % Pronostico_SVM
+						c                   % Imputado (Texto)
+					}
+					% --- 4. Encabezados limpios con booktabs ---
+					\toprule
+					{\textbf{AB/2 (m)}} & {\textbf{$\rho_a$ Incompleto}} & {\textbf{$\rho_a$ Original}} & {\textbf{Pronóstico RF }} & {\textbf{Pronóstico GBR}} & {\textbf{Pronóstico SVM}}\\
+					\midrule
+					
+					% --- 5. Datos ordenados y limpios ---
+					2   & 68.97   & 68.97   & 68.97   & 68.97   & 68.97   \\
+					5   & 70.54   & 70.54   & 70.54   & 70.54   & 70.54   \\
+					10  & 98.06   & 98.06   & 98.06   & 98.06   & 98.06   \\
+					10  & 80.12   & 80.12   & 80.12   & 80.12   & 80.12   \\
+					20  & 488.98  & 488.98  & 488.98  & 488.98  & 488.98  \\
+					30  & 1036.73 & 1036.73 & 1036.73 & 1036.73 & 1036.73 \\
+					40  & 0.00    & 107.91  & 283.63  & 367.54  & 299.41  \\
+					40  & 0.00    & 86.83   & 175.94  & 242.34  & 285.25  \\
+					50  & 90.45   & 90.45   & 90.45   & 90.45   & 90.45   \\
+					60  & 95.91   & 95.91   & 95.91   & 95.91   & 95.91   \\
+					\addlinespace % Espacio extra cada 10 filas
+					70  & 103.92  & 103.92  & 103.92  & 103.92  & 103.92  \\
+					80  & 0.00    & 109.63  & 92.04   & 96.74   & 256.65  \\
+					90  & 109.11  & 109.11  & 109.11  & 109.11  & 109.11  \\
+					100 & 110.01  & 110.01  & 110.01  & 110.01  & 110.01  \\
+					110 & 112.33  & 112.33  & 112.33  & 112.33  & 112.33  \\
+					120 & 115.67  & 115.67  & 115.67  & 115.67  & 115.67  \\
+					130 & 117.57  & 117.57  & 117.57  & 117.57  & 117.57  \\
+					150 & 0.00    & 37.79   & 108.19  & 83.62   & 247.58  \\
+					160 & 114.43  & 114.43  & 114.43  & 114.43  & 114.43  \\
+					170 & 114.15  & 114.15  & 114.15  & 114.15  & 114.15  \\
+					\addlinespace % Espacio extra cada 10 filas
+					180 & 116.06  & 116.06  & 116.06  & 116.06  & 116.06  \\
+					190 & 107.76  & 107.76  & 107.76  & 107.76  & 107.76  \\
+					210 & 0.00    & 112.15  & 86.94   & 87.52   & 252.97  \\
+					230 & 0.00    & 119.37  & 81.23   & 98.70   & 254.09  \\
+					250 & 0.00    & 114.78  & 70.47   & 87.66   & 256.12  \\
+					
+					\bottomrule
+				\end{tabular}
+			\end{table}
 		
-	
+			datos correspondientes a SEV en Lampazos del naranjo, sitio no integrado en el entrenamiento
+		
 			\begin{figure}[!h] % Imagenes/S1-LN-EBSA-RF-T1.png  fig:resultados1
 				\centering
 				\includegraphics[width=15cm]{Imagenes/S1-EGH-OLIVOS-COMP-T1.png}
 				\caption[]{Test 1}
 				\label{fig:S1-EGH-OLIVOS-COMP-T1}
 			\end{figure}
-		%	\vspace*{1.1cm}
+			
+\clearpage
+			
+			\begin{table}[h!]
+				\centering
+				
+				% --- 1. Tamaño de letra tiny ---
+				\footnotesize
+				
+				% --- 2. Reducir ligeramente el espacio entre columnas ---
+				\setlength{\tabcolsep}{3pt} 
+				
+				\caption{Quinta comparativa de modelos de imputación (RF, GBR, SVM) frente a datos originales e incompletos.}
+				\label{tab:comparativa_modelos_imputacion_5}
+				
+				% --- 3. Definir columnas con siunitx para alineación decimal ---
+				% Nota: Se añade un '-' al formato de SVM para manejar los valores negativos correctamente.
+				\begin{tabular}{ 
+						S[table-format=3.0]  % AB/2
+						S[table-format=4.2]  % Rhoa_Incompleto
+						S[table-format=4.2]  % Rhoa_Original
+						S[table-format=4.2]  % Pronostico_RF
+						S[table-format=4.2]  % Pronostico_GBR
+						S[table-format=-4.2] % Pronostico_SVM (Soporta negativos)
+						c                    % Imputado (Texto)
+					}
+					% --- 4. Encabezados limpios con booktabs ---
+					\toprule
+					{\textbf{AB/2 (m)}} & {\textbf{$\rho_a$ Incompleto}} & {\textbf{$\rho_a$ Original}} & {\textbf{Pronóstico RF}} & {\textbf{Pronóstico GBR}} & {\textbf{Pronóstico SVM}}\\         
+					\midrule
+					
+					% --- 5. Datos ordenados y limpios ---
+					2   & 68.97  & 68.97   & 68.97  & 68.97  & 68.97   \\
+					5   & 70.54  & 70.54   & 70.54  & 70.54  & 70.54   \\
+					10  & 0.00   & 98.06   & 56.19  & 89.90  & -10.27  \\
+					10  & 0.00   & 80.12   & 39.20  & 80.13  & -21.47  \\
+					20  & 0.00   & 488.98  & 42.37  & 90.20  & -27.86  \\
+					30  & 0.00   & 1036.73 & 49.24  & 89.16  & -1.62   \\
+					40  & 0.00   & 107.91  & 60.49  & 77.31  & 39.18   \\
+					40  & 0.00   & 86.83   & 64.76  & 83.48  & 54.27   \\
+					50  & 90.45  & 90.45   & 90.45  & 90.45  & 90.45   \\
+					60  & 95.91  & 95.91   & 95.91  & 95.91  & 95.91   \\
+					\addlinespace % Espacio extra cada 10 filas
+					70  & 103.92 & 103.92  & 103.92 & 103.92 & 103.92  \\
+					80  & 109.63 & 109.63  & 109.63 & 109.63 & 109.63  \\
+					90  & 109.11 & 109.11  & 109.11 & 109.11 & 109.11  \\
+					100 & 110.01 & 110.01  & 110.01 & 110.01 & 110.01  \\
+					110 & 112.33 & 112.33  & 112.33 & 112.33 & 112.33  \\
+					120 & 115.67 & 115.67  & 115.67 & 115.67 & 115.67  \\
+					130 & 117.57 & 117.57  & 117.57 & 117.57 & 117.57  \\
+					150 & 37.79  & 37.79   & 37.79  & 37.79  & 37.79   \\
+					160 & 114.43 & 114.43  & 114.43 & 114.43 & 114.43  \\
+					170 & 114.15 & 114.15  & 114.15 & 114.15 & 114.15  \\
+					\addlinespace % Espacio extra cada 10 filas
+					180 & 116.06 & 116.06  & 116.06 & 116.06 & 116.06  \\
+					190 & 107.76 & 107.76  & 107.76 & 107.76 & 107.76  \\
+					210 & 112.15 & 112.15  & 112.15 & 112.15 & 112.15  \\
+					230 & 119.37 & 119.37  & 119.37 & 119.37 & 119.37  \\
+					250 & 114.78 & 114.78  & 114.78 & 114.78 & 114.78  \\
+					
+					\bottomrule
+				\end{tabular}
+			\end{table}
+			
 			\begin{figure}[!h] % Imagenes/S1-LN-EBSA-GBR-T1.png  fig:resultados2
 				\centering
 				\includegraphics[width=15cm]{Imagenes/S1-EGH-OLIVOS-COMP-T2.png}
 				\caption[]{Test 2}
 				\label{fig:S1-EGH-OLIVOS-COMP-T2}
 			\end{figure}
-		%	\vspace*{1.1cm}
+\clearpage	
+			
+			\begin{table}[h!]
+				\centering
+				
+				% --- 1. Tamaño de letra tiny ---
+				\footnotesize
+				
+				% --- 2. Reducir ligeramente el espacio entre columnas ---
+				\setlength{\tabcolsep}{3pt} 
+				
+				\caption{Sexta comparativa de modelos de imputación (RF, GBR, SVM) frente a datos originales e incompletos.}
+				\label{tab:comparativa_modelos_imputacion_6}
+				
+				% --- 3. Definir columnas con siunitx para alineación decimal ---
+				\begin{tabular}{ 
+						S[table-format=3.0] % AB/2
+						S[table-format=4.2] % Rhoa_Incompleto
+						S[table-format=4.2] % Rhoa_Original
+						S[table-format=4.2] % Pronostico_RF
+						S[table-format=4.2] % Pronostico_GBR
+						S[table-format=4.2] % Pronostico_SVM
+						c                   % Imputado (Texto)
+					}
+					% --- 4. Encabezados limpios con booktabs ---
+					\toprule
+					{\textbf{AB/2 (m)}} & {\textbf{$\rho_a$ Incompleto}} & {\textbf{$\rho_a$ Original}} & {\textbf{Pronóstico RF}} & {\textbf{Pronóstico GBR}} & {\textbf{Pronóstico SVM}}\\
+					\midrule
+					
+					% --- 5. Datos ordenados y limpios ---
+					2   & 68.97   & 68.97   & 68.97   & 68.97   & 68.97   \\
+					5   & 70.54   & 70.54   & 70.54   & 70.54   & 70.54   \\
+					10  & 98.06   & 98.06   & 98.06   & 98.06   & 98.06   \\
+					10  & 80.12   & 80.12   & 80.12   & 80.12   & 80.12   \\
+					20  & 488.98  & 488.98  & 488.98  & 488.98  & 488.98  \\
+					30  & 1036.73 & 1036.73 & 1036.73 & 1036.73 & 1036.73 \\
+					40  & 107.91  & 107.91  & 107.91  & 107.91  & 107.91  \\
+					40  & 86.83   & 86.83   & 86.83   & 86.83   & 86.83   \\
+					50  & 90.45   & 90.45   & 90.45   & 90.45   & 90.45   \\
+					60  & 95.91   & 95.91   & 95.91   & 95.91   & 95.91   \\
+					\addlinespace % Espacio extra cada 10 filas
+					70  & 103.92  & 103.92  & 103.92  & 103.92  & 103.92  \\
+					80  & 109.63  & 109.63  & 109.63  & 109.63  & 109.63  \\
+					90  & 0.00    & 109.11  & 62.24   & 84.52   & 222.12  \\
+					100 & 0.00    & 110.01  & 57.31   & 88.07   & 228.03  \\
+					110 & 0.00    & 112.33  & 53.34   & 83.19   & 234.09  \\
+					120 & 0.00    & 115.67  & 60.53   & 92.58   & 239.37  \\
+					130 & 0.00    & 117.57  & 65.96   & 102.21  & 238.32  \\
+					150 & 0.00    & 37.79   & 81.81   & 107.71  & 224.15  \\
+					160 & 114.43  & 114.43  & 114.43  & 114.43  & 114.43  \\
+					170 & 114.15  & 114.15  & 114.15  & 114.15  & 114.15  \\
+					\addlinespace % Espacio extra cada 10 filas
+					180 & 116.06  & 116.06  & 116.06  & 116.06  & 116.06  \\
+					190 & 107.76  & 107.76  & 107.76  & 107.76  & 107.76  \\
+					210 & 112.15  & 112.15  & 112.15  & 112.15  & 112.15  \\
+					230 & 119.37  & 119.37  & 119.37  & 119.37  & 119.37  \\
+					250 & 114.78  & 114.78  & 114.78  & 114.78  & 114.78  \\
+					
+					\bottomrule
+				\end{tabular}
+			\end{table}
+			
 			\begin{figure}[!h] % Imagenes/S1-LN-EBSA-VSM-T1.png  fig:resultados3
 				\centering
 				\includegraphics[width=15cm]{Imagenes/S1-EGH-OLIVOS-COMP-T3.png}
@@ -470,175 +596,436 @@
 				\label{fig:S1-EGH-OLIVOS-COMP-T3}
 			\end{figure}
 			
-			\clearpage
+\clearpage
 		\subsection{Sondeo 1 Lampazo Del Naranjo EBSA (S1-LN-EBSA)} 
 		
-		datos correspondientes a SEV en Lampazos del naranjo, sitio no integrado en el entrenamiento
-		
-		\begin{table}[h!]
-			\centering
+			datos correspondientes a SEV en Lampazos del naranjo, sitio no integrado en el entrenamiento
 			
-			% --- 1. Tamaño de letra tiny ---
-			\scriptsize 
-			
-			% --- 2. Reducir ligeramente el espacio entre columnas si es necesario ---
-			\setlength{\tabcolsep}{4pt} 
-			
-			\caption{Valores de resistividad aparente original y pronósticos para el Sitio S1-LN-EBSA.}
-			\label{tab:resistividad_S1-LN-EBSA}
-			
-			% --- 3. Definir columnas con siunitx para alineación decimal ---
-			%    El valor máximo es 17157.28, por lo que usamos formato 5.2 (5 enteros, 2 decimales)
-			\begin{tabular}{ 
-					S[table-format=3.0] % AB/2
-					S[table-format=5.2] % Pronóstico 1
-					S[table-format=5.2] % Pronóstico 2
-					S[table-format=5.2] % Pronóstico 3
-					S[table-format=5.2] % Original
-				}
-				% --- 4. Encabezados limpios con booktabs ---
-				\toprule
-				{\textbf{AB/2 (m)}} & {\textbf{$\rho_a$ Test 1 ($\Omega\cdot$m)}} & {\textbf{$\rho_a$ Test 2 ($\Omega\cdot$m)}} & {\textbf{$\rho_a$ Test 3 ($\Omega\cdot$m)}} & {\textbf{$\rho_a$ Original ($\Omega\cdot$m)}} \\
-				\midrule
+			\begin{table}[h!]
+				\centering
 				
-				% --- 5. Datos ordenados y limpios ---
-				2   & 209.44   & 209.44   & 209.44   & 209.44   \\
-				3   & 138.23   & \textbf{0.00}     & 138.23   & 138.23   \\
-				5   & 85.57    & \textbf{0.00}     & 85.57    & 85.57    \\
-				8   & 75.48    & \textbf{0.00}     & 75.48    & 75.48    \\
-				10  & 79.79    & 79.79    & 79.79    & 79.79    \\
-				10  & 77.79    & 77.79    & 77.79    & 77.79    \\
-				12  & 63.47    & 63.47    & 63.47    & 63.47    \\
-				15  & 63.56    & \textbf{0.00}     & 63.56    & 63.56    \\
-				25  & 53.44    & \textbf{0.00}     & 53.44    & 53.44    \\
-				30  & 50.28    & \textbf{0.00}     & 50.28    & 50.28    \\
-				\addlinespace % Espacio extra cada 10 filas para mejorar la lectura
-				45  & 55.54    & \textbf{0.00}     & 55.54    & 55.54    \\
-				55  & 47.15    & \textbf{0.00}     & 47.15    & 47.15    \\
-				65  & 53.40    & 53.40    & 53.40    & 53.40    \\
-				75  & 40.48    & 40.48    & 40.48    & 40.48    \\
-				85  & 44.13    & 44.13    & 44.13    & 44.13    \\
-				95  & 86.93    & 86.93    & 86.93    & 86.93    \\
-				110 & 78.62    & 78.62    & 78.62    & 78.62    \\
-				130 & 72.56    & 72.56    & 72.56    & 72.56    \\
-				140 & 76.29    & 76.29    & \textbf{0.00}     & 76.29    \\
-				150 & 162.54   & 162.54   & \textbf{0.00}     & 162.54   \\
-				\addlinespace
-				170 & 124.33   & 124.33   & \textbf{0.00}     & 124.33   \\
-				190 & 0.00     & 116.13   & \textbf{0.00}     & 116.13   \\
-				210 & 241.76   & 241.76   & \textbf{0.00}     & 241.76   \\
-				220 & \textbf{0.00}     & 402.26   & \textbf{0.00}     & 402.26   \\
-				240 & 376.99   & 376.99   & \textbf{0.00}     & 376.99   \\
-				260 & 122.61   & 122.61   & 122.61   & 122.61   \\
-				280 & \textbf{0.00}     & 363.33   & 363.33   & 363.33   \\
-				300 & \textbf{0.00}     & 147.65   & 147.65   & 147.65   \\
-				310 & \textbf{0.00}     & 103.69   & 103.69   & 103.69   \\
-				320 & 17157.28 & 17157.28 & 17157.28 & 17157.28 \\
+				% --- 1. Tamaño de letra tiny ---
+				\footnotesize
 				
-				\bottomrule
-			\end{tabular}
-		\end{table}
+				% --- 2. Reducir ligeramente el espacio entre columnas ---
+				\setlength{\tabcolsep}{3pt} 
+				
+				\caption{Comparativa de modelos de imputación (RF, GBR, SVM) frente a datos originales e incompletos.}
+				\label{tab:comparativa_modelos_imputacion}
+				
+				% --- 3. Definir columnas con siunitx para alineación decimal ---
+				\begin{tabular}{ 
+						S[table-format=3.0] % AB/2
+						S[table-format=5.2] % Rhoa_Incompleto
+						S[table-format=5.2] % Rhoa_Original
+						S[table-format=5.2] % Pronostico_RF
+						S[table-format=5.2] % Pronostico_GBR
+						S[table-format=5.2] % Pronostico_SVM
+						c                   % Imputado (Texto)
+					}
+					% --- 4. Encabezados limpios con booktabs ---
+					\toprule
+					{\textbf{AB/2 (m)}} & {\textbf{$\rho_a$ Incompleto}} & {\textbf{$\rho_a$ Original}} & {\textbf{Pronóstico RF}} & {\textbf{Pronóstico GBR}} & {\textbf{Pronóstico SVM}} \\
+					\midrule
+					
+					% --- 5. Datos ordenados y limpios ---
+					2   & 209.44   & 209.44   & 209.44   & 209.44   & 209.44   \\
+					3   & 138.23   & 138.23   & 138.23   & 138.23   & 138.23   \\
+					5   & 85.57    & 85.57    & 85.57    & 85.57    & 85.57    \\
+					8   & 75.48    & 75.48    & 75.48    & 75.48    & 75.48    \\
+					10  & 79.79    & 79.79    & 79.79    & 79.79    & 79.79    \\
+					10  & 77.79    & 77.79    & 77.79    & 77.79    & 77.79    \\
+					12  & 63.47    & 63.47    & 63.47    & 63.47    & 63.47    \\
+					15  & 63.56    & 63.56    & 63.56    & 63.56    & 63.56    \\
+					25  & 53.44    & 53.44    & 53.44    & 53.44    & 53.44    \\
+					30  & 50.28    & 50.28    & 50.28    & 50.28    & 50.28    \\
+					\addlinespace % Espacio extra cada 10 filas para mejorar la lectura
+					45  & 55.54    & 55.54    & 55.54    & 55.54    & 55.54    \\
+					55  & 47.15    & 47.15    & 47.15    & 47.15    & 47.15    \\
+					65  & 53.40    & 53.40    & 53.40    & 53.40    & 53.40    \\
+					75  & 40.48    & 40.48    & 40.48    & 40.48    & 40.48    \\
+					85  & 44.13    & 44.13    & 44.13    & 44.13    & 44.13    \\
+					95  & 86.93    & 86.93    & 86.93    & 86.93    & 86.93    \\
+					110 & 78.62    & 78.62    & 78.62    & 78.62    & 78.62    \\
+					130 & 72.56    & 72.56    & 72.56    & 72.56    & 72.56    \\
+					140 & 76.29    & 76.29    & 76.29    & 76.29    & 76.29    \\
+					150 & 162.54   & 162.54   & 162.54   & 162.54   & 162.54   \\
+					\addlinespace
+					170 & 124.33   & 124.33   & 124.33   & 124.33   & 124.33   \\
+					190 & 0.00     & 116.13   & 200.51   & 111.58   & 1696.75  \\
+					210 & 241.76   & 241.76   & 241.76   & 241.76   & 241.76   \\
+					220 & 0.00     & 402.26   & 207.90   & 142.87   & 1746.91  \\
+					240 & 376.99   & 376.99   & 376.99   & 376.99   & 376.99   \\
+					260 & 122.61   & 122.61   & 122.61   & 122.61   & 122.61   \\
+					280 & 0.00     & 363.33   & 274.64   & 209.89   & 1836.39  \\
+					300 & 0.00     & 147.65   & 294.91   & 385.66   & 1860.00  \\
+					310 & 0.00     & 103.69   & 309.79   & 198.89   & 1880.56  \\
+					320 & 17157.28 & 17157.28 & 17157.28 & 17157.28 & 17157.28 \\
+					
+					\bottomrule
+				\end{tabular}
+			\end{table}
 			
-			\begin{figure}[!h] % Imagenes/S1-LN-EBSA-RF-T1.png  fig:resultados1
+			\begin{figure}[h] % Imagenes/S1-LN-EBSA-RF-T1.png  fig:resultados1
 				\centering
 				\includegraphics[width=15cm]{Imagenes/S1-LN-EBSA-COMP-T1.png}
 				\caption[]{Test 1}
 				\label{fig:S1-LN-EBSA-COMP-T1}
 			\end{figure}
-		%	\vspace*{1.1cm}
-			\begin{figure}[!h] % Imagenes/S1-LN-EBSA-GBR-T1.png  fig:resultados2
+			
+\clearpage	
+	
+			\begin{table}[h!]
+				\centering
+				
+				% --- 1. Tamaño de letra tiny ---
+				\footnotesize
+				
+				% --- 2. Reducir ligeramente el espacio entre columnas ---
+				\setlength{\tabcolsep}{3pt} 
+				
+				\caption{Segunda comparativa de modelos de imputación (RF, GBR, SVM) frente a datos originales e incompletos.}
+				\label{tab:comparativa_modelos_imputacion_2}
+				
+				% --- 3. Definir columnas con siunitx para alineación decimal ---
+				\begin{tabular}{ 
+						S[table-format=3.0] % AB/2
+						S[table-format=5.2] % Rhoa_Incompleto
+						S[table-format=5.2] % Rhoa_Original
+						S[table-format=5.2] % Pronostico_RF
+						S[table-format=5.2] % Pronostico_GBR
+						S[table-format=5.2] % Pronostico_SVM
+						c                   % Imputado (Texto)
+					}
+					% --- 4. Encabezados limpios con booktabs ---
+					\toprule
+					{\textbf{AB/2 (m)}} & {\textbf{$\rho_a$ Incompleto}} & {\textbf{$\rho_a$ Original}} & {\textbf{Pronóstico RF}} & {\textbf{Pronóstico GBR}} & {\textbf{Pronóstico SVM}} \\
+					\midrule
+					
+					% --- 5. Datos ordenados y limpios ---
+					2   & 209.44   & 209.44   & 209.44   & 209.44   & 209.44    \\
+					3   & 0.00     & 138.23   & 125.09   & 97.86    & 853.03    \\
+					5   & 0.00     & 85.57    & 93.98    & 77.91    & 868.90    \\
+					8   & 0.00     & 75.48    & 79.53    & 72.32    & 873.48    \\
+					10  & 79.79    & 79.79    & 79.79    & 79.79    & 79.79     \\
+					10  & 77.79    & 77.79    & 77.79    & 77.79    & 77.79     \\
+					12  & 63.47    & 63.47    & 63.47    & 63.47    & 63.47     \\
+					15  & 0.00     & 63.56    & 54.41    & 60.75    & 1015.39   \\
+					25  & 0.00     & 53.44    & 56.02    & 22.40    & 1091.36   \\
+					30  & 0.00     & 50.28    & 61.78    & 65.85    & 1161.75   \\
+					\addlinespace % Espacio extra cada 10 filas
+					45  & 0.00     & 55.54    & 64.17    & 61.52    & 1203.07   \\
+					55  & 0.00     & 47.15    & 49.67    & 62.96    & 1268.76   \\
+					65  & 53.40    & 53.40    & 53.40    & 53.40    & 53.40     \\
+					75  & 40.48    & 40.48    & 40.48    & 40.48    & 40.48     \\
+					85  & 44.13    & 44.13    & 44.13    & 44.13    & 44.13     \\
+					95  & 86.93    & 86.93    & 86.93    & 86.93    & 86.93     \\
+					110 & 78.62    & 78.62    & 78.62    & 78.62    & 78.62     \\
+					130 & 72.56    & 72.56    & 72.56    & 72.56    & 72.56     \\
+					140 & 76.29    & 76.29    & 76.29    & 76.29    & 76.29     \\
+					150 & 162.54   & 162.54   & 162.54   & 162.54   & 162.54    \\
+					\addlinespace % Espacio extra cada 10 filas
+					170 & 124.33   & 124.33   & 124.33   & 124.33   & 124.33    \\
+					190 & 116.13   & 116.13   & 116.13   & 116.13   & 116.13    \\
+					210 & 241.76   & 241.76   & 241.76   & 241.76   & 241.76    \\
+					220 & 402.26   & 402.26   & 402.26   & 402.26   & 402.26    \\
+					240 & 376.99   & 376.99   & 376.99   & 376.99   & 376.99    \\
+					260 & 122.61   & 122.61   & 122.61   & 122.61   & 122.61    \\
+					280 & 363.33   & 363.33   & 363.33   & 363.33   & 363.33    \\
+					300 & 147.65   & 147.65   & 147.65   & 147.65   & 147.65    \\
+					310 & 103.69   & 103.69   & 103.69   & 103.69   & 103.69    \\
+					320 & 17157.28 & 17157.28 & 17157.28 & 17157.28 & 17157.28  \\
+					
+					\bottomrule
+				\end{tabular}
+			\end{table}
+			
+			\begin{figure}[h] % Imagenes/S1-LN-EBSA-GBR-T1.png  fig:resultados2
 				\centering
 				\includegraphics[width=15cm]{Imagenes/S1-LN-EBSA-COMP-T2.png}
 				\caption[]{Test 2}
 				\label{fig:S1-LN-EBSA-COMP-T2}
 			\end{figure}
-		%	\vspace*{1.1cm}
-			\begin{figure}[!h] % Imagenes/S1-LN-EBSA-VSM-T1.png  fig:resultados3
+			
+\clearpage
+
+			\begin{table}[h!]
+				\centering
+				
+				% --- 1. Tamaño de letra tiny ---
+				\footnotesize
+				
+				% --- 2. Reducir ligeramente el espacio entre columnas ---
+				\setlength{\tabcolsep}{3pt} 
+				
+				\caption{Tercera comparativa de modelos de imputación (RF, GBR, SVM) frente a datos originales e incompletos.}
+				\label{tab:comparativa_modelos_imputacion_3}
+				
+				% --- 3. Definir columnas con siunitx para alineación decimal ---
+				\begin{tabular}{ 
+						S[table-format=3.0] % AB/2
+						S[table-format=5.2] % Rhoa_Incompleto
+						S[table-format=5.2] % Rhoa_Original
+						S[table-format=5.2] % Pronostico_RF
+						S[table-format=5.2] % Pronostico_GBR
+						S[table-format=5.2] % Pronostico_SVM
+						c                   % Imputado (Texto)
+					}
+					% --- 4. Encabezados limpios con booktabs ---
+					\toprule
+					{\textbf{AB/2 (m)}} & {\textbf{$\rho_a$ Incompleto}} & {\textbf{$\rho_a$ Original}} & {\textbf{Pronóstico RF}} & {\textbf{Pronóstico GBR)}} & {\textbf{Pronóstico SVM}} \\
+					\midrule
+					
+					% --- 5. Datos ordenados y limpios ---
+					2   & 209.44   & 209.44   & 209.44   & 209.44   & 209.44   \\
+					3   & 138.23   & 138.23   & 138.23   & 138.23   & 138.23   \\
+					5   & 85.57    & 85.57    & 85.57    & 85.57    & 85.57    \\
+					8   & 75.48    & 75.48    & 75.48    & 75.48    & 75.48    \\
+					10  & 79.79    & 79.79    & 79.79    & 79.79    & 79.79    \\
+					10  & 77.79    & 77.79    & 77.79    & 77.79    & 77.79    \\
+					12  & 63.47    & 63.47    & 63.47    & 63.47    & 63.47    \\
+					15  & 63.56    & 63.56    & 63.56    & 63.56    & 63.56    \\
+					25  & 53.44    & 53.44    & 53.44    & 53.44    & 53.44    \\
+					30  & 50.28    & 50.28    & 50.28    & 50.28    & 50.28    \\
+					\addlinespace % Espacio extra cada 10 filas para mejorar lectura
+					45  & 55.54    & 55.54    & 55.54    & 55.54    & 55.54    \\
+					55  & 47.15    & 47.15    & 47.15    & 47.15    & 47.15    \\
+					65  & 53.40    & 53.40    & 53.40    & 53.40    & 53.40    \\
+					75  & 40.48    & 40.48    & 40.48    & 40.48    & 40.48    \\
+					85  & 44.13    & 44.13    & 44.13    & 44.13    & 44.13    \\
+					95  & 86.93    & 86.93    & 86.93    & 86.93    & 86.93    \\
+					110 & 78.62    & 78.62    & 78.62    & 78.62    & 78.62    \\
+					130 & 72.56    & 72.56    & 72.56    & 72.56    & 72.56    \\
+					140 & 0.00     & 76.29    & 120.20   & 85.39    & 1595.40  \\
+					150 & 0.00     & 162.54   & 120.22   & 100.04   & 1611.57  \\
+					\addlinespace % Espacio extra cada 10 filas
+					170 & 0.00     & 124.33   & 130.77   & 99.88    & 1658.26  \\
+					190 & 0.00     & 116.13   & 173.43   & 126.22   & 1696.75  \\
+					210 & 0.00     & 241.76   & 218.84   & 162.12   & 1719.94  \\
+					220 & 0.00     & 402.26   & 241.00   & 178.39   & 1746.91  \\
+					240 & 0.00     & 376.99   & 281.00   & 248.75   & 1770.34  \\
+					260 & 122.61   & 122.61   & 122.61   & 122.61   & 122.61   \\
+					280 & 363.33   & 363.33   & 363.33   & 363.33   & 363.33   \\
+					300 & 147.65   & 147.65   & 147.65   & 147.65   & 147.65   \\
+					310 & 103.69   & 103.69   & 103.69   & 103.69   & 103.69   \\
+					320 & 17157.28 & 17157.28 & 17157.28 & 17157.28 & 17157.28 \\
+					
+					\bottomrule
+				\end{tabular}
+			\end{table}
+			
+			\begin{figure}[h] % Imagenes/S1-LN-EBSA-VSM-T1.png  fig:resultados3
 				\centering
 				\includegraphics[width=15cm]{Imagenes/S1-LN-EBSA-COMP-T3.png}
 				\caption[]{Test 3}
 				\label{fig:S1-LN-EBSA-COMP-T3}
 			\end{figure}
-	
-		\clearpage
+			
+\clearpage
 		\subsection{Sondeo 2 Lampazo Del Naranjo EBSA (S2-LN-EBSA)}
 		 
-		datos correspondientes a SEV en Lampazos del naranjo, sitio no integrado en el entrenamiento
-		
-		\begin{table}[h!]
-			\centering
+			datos correspondientes a SEV en Lampazos del naranjo, sitio no integrado en el entrenamiento
 			
-			% --- 1. Tamaño de letra tiny ---
-			\scriptsize
-			
-			% --- 2. Reducir ligeramente el espacio entre columnas ---
-			\setlength{\tabcolsep}{4pt} 
-			
-			\caption{Valores de resistividad aparente original y pronósticos para el Sitio S2-LN-EBSA.}
-			\label{tab:resistividad_S2-LN-EBSA}
-			
-			% --- 3. Definir columnas con siunitx para alineación decimal ---
-			\begin{tabular}{ 
-					S[table-format=3.0] % AB/2
-					S[table-format=3.2] % Pronóstico 1
-					S[table-format=3.2] % Pronóstico 2
-					S[table-format=3.2] % Pronóstico 3
-					S[table-format=3.2] % Original
-				}
-				% --- 4. Encabezados limpios con booktabs ---
-				\toprule
-				{\textbf{AB/2 (m)}} & {\textbf{$\rho_a$ Test 1 ($\Omega\cdot$m)}} & {\textbf{$\rho_a$ Test 2 ($\Omega\cdot$m)}} & {\textbf{$\rho_a$ Test 3 ($\Omega\cdot$m)}} & {\textbf{$\rho_a$ Original ($\Omega\cdot$m)}} \\
-				\midrule
+			\begin{table}[h!]
+				\centering
 				
-				% --- 5. Datos ordenados y limpios ---
-				3   & 20.11  & 20.11  & 20.11  & 20.11  \\
-				4   & 176.45 & \textbf{0.00}   & 176.45 & 176.45 \\
-				5   & 80.28  & \textbf{0.00}   & 80.28  & 80.28  \\
-				8   & 160.85 & \textbf{0.00}   & 160.85 & 160.85 \\
-				10  & 301.59 & \textbf{0.00}   & 301.59 & 301.59 \\
-				15  & 100.04 & \textbf{0.00}   & 100.04 & 100.04 \\
-				25  & 67.04  & 67.04  & 67.04  & 67.04  \\
-				30  & 9.17   & 9.17   & 9.17   & 9.17   \\
-				40  & 6.54   & 6.54   & 6.54   & 6.54   \\
-				50  & 39.46  & 39.46  & 39.46  & 39.46  \\
-				\addlinespace % Espacio extra cada 10 filas para mejorar la lectura
-				70  & 48.14  & 48.14  & \textbf{0.00}   & 48.14  \\
-				80  & 16.05  & 16.05  & \textbf{0.00}   & 16.05  \\
-				100 & 128.33 & 128.33 & \textbf{0.00}   & 128.33 \\
-				120 & 873.66 & 873.66 & \textbf{0.00}   & 873.66 \\
-				130 & 72.56  & 72.56  & \textbf{0.00}   & 72.56  \\
-				140 & \textbf{0.00}   & 76.29  & 76.29  & 76.29  \\
-				150 & \textbf{0.00}   & 159.71 & 159.71 & 159.71 \\
-				170 & \textbf{0.00}   & 108.10 & 108.10 & 108.10 \\
-				180 & \textbf{0.00}   & 121.31 & 121.31 & 121.31 \\
-				190 & \textbf{0.00}   & 130.22 & 130.22 & 130.22 \\
-				\addlinespace
-				210 & \textbf{0.00}   & 177.49 & 177.49 & 177.49 \\
-				230 & \textbf{0.00}   & 183.46 & 183.46 & 183.46 \\
-				250 & \textbf{0.00}   & 194.49 & 194.49 & 194.49 \\
-				260 & 153.89 & 153.89 & 153.89 & 153.89 \\
-				280 & 313.65 & 313.65 & 313.65 & 313.65 \\
-				290 & 592.77 & 592.77 & 592.77 & 592.77 \\
+				% --- 1. Tamaño de letra tiny ---
+				\footnotesize
 				
-				\bottomrule
-			\end{tabular}
-		\end{table}
-		
-			\begin{figure}[!h] % Imagenes/S1-LN-EBSA-RF-T1.png  fig:resultados1
+				% --- 2. Reducir ligeramente el espacio entre columnas ---
+				\setlength{\tabcolsep}{3pt} 
+				
+				\caption{Novena comparativa de modelos de imputación (RF, GBR, SVM) frente a datos originales e incompletos.}
+				\label{tab:comparativa_modelos_imputacion_9}
+				
+				% --- 3. Definir columnas con siunitx para alineación decimal ---
+				\begin{tabular}{ 
+						S[table-format=3.0] % AB/2
+						S[table-format=3.2] % Rhoa_Incompleto
+						S[table-format=3.2] % Rhoa_Original
+						S[table-format=3.2] % Pronostico_RF
+						S[table-format=3.2] % Pronostico_GBR
+						S[table-format=3.2] % Pronostico_SVM
+						c                   % Imputado (Texto)
+					}
+					% --- 4. Encabezados limpios con booktabs ---
+					\toprule
+					{\textbf{AB/2 (m)}} & {\textbf{$\rho_a$ Incompleto}} & {\textbf{$\rho_a$ Original}} & {\textbf{Pronóstico RF}} & {\textbf{Pronóstico GBR}} & {\textbf{Pronóstico SVM}}\\
+					\midrule
+					
+					% --- 5. Datos ordenados y limpios ---
+					3   & 20.11  & 20.11  & 20.11  & 20.11  & 20.11  \\
+					4   & 176.45 & 176.45 & 176.45 & 176.45 & 176.45 \\
+					5   & 80.28  & 80.28  & 80.28  & 80.28  & 80.28  \\
+					8   & 160.85 & 160.85 & 160.85 & 160.85 & 160.85 \\
+					10  & 301.59 & 301.59 & 301.59 & 301.59 & 301.59 \\
+					15  & 100.04 & 100.04 & 100.04 & 100.04 & 100.04 \\
+					25  & 67.04  & 67.04  & 67.04  & 67.04  & 67.04  \\
+					30  & 9.17   & 9.17   & 9.17   & 9.17   & 9.17   \\
+					40  & 6.54   & 6.54   & 6.54   & 6.54   & 6.54   \\
+					50  & 39.46  & 39.46  & 39.46  & 39.46  & 39.46  \\
+					\addlinespace % Espacio extra cada 10 filas
+					70  & 48.14  & 48.14  & 48.14  & 48.14  & 48.14  \\
+					80  & 16.05  & 16.05  & 16.05  & 16.05  & 16.05  \\
+					100 & 128.33 & 128.33 & 128.33 & 128.33 & 128.33 \\
+					120 & 873.66 & 873.66 & 873.66 & 873.66 & 873.66 \\
+					130 & 72.56  & 72.56  & 72.56  & 72.56  & 72.56  \\
+					140 & 0.00   & 76.29  & 213.78 & 318.59 & 315.45 \\
+					150 & 0.00   & 159.71 & 218.55 & 307.10 & 319.26 \\
+					170 & 0.00   & 108.10 & 197.96 & 246.16 & 317.51 \\
+					180 & 0.00   & 121.31 & 165.39 & 52.45  & 325.77 \\
+					190 & 0.00   & 130.22 & 143.59 & 50.28  & 342.71 \\
+					\addlinespace % Espacio extra cada 10 filas
+					210 & 0.00   & 177.49 & 207.38 & 132.54 & 350.27 \\
+					230 & 0.00   & 183.46 & 207.36 & 134.06 & 354.35 \\
+					250 & 0.00   & 194.49 & 214.31 & 169.32 & 354.65 \\
+					260 & 153.89 & 153.89 & 153.89 & 153.89 & 153.89 \\
+					280 & 313.65 & 313.65 & 313.65 & 313.65 & 313.65 \\
+					290 & 592.77 & 592.77 & 592.77 & 592.77 & 592.77 \\
+					
+					\bottomrule
+				\end{tabular}
+			\end{table}
+			
+			\begin{figure}[h] % Imagenes/S1-LN-EBSA-RF-T1.png  fig:resultados1
 				\centering
 				\includegraphics[width=15cm]{Imagenes/S2-LN-EBSA-COMP-T1.png}
 				\caption[]{Test 1}
 				\label{fig:S2-LN-EBSA-COMP-T1}
 			\end{figure}
-		%	\vspace*{1.1cm}
-			\begin{figure}[!h] % Imagenes/S1-LN-EBSA-GBR-T1.png  fig:resultados2
+\clearpage
+			
+			\begin{table}[h!]
+				\centering
+				
+				% --- 1. Tamaño de letra tiny ---
+				\footnotesize 
+				
+				% --- 2. Reducir ligeramente el espacio entre columnas ---
+				\setlength{\tabcolsep}{3pt} 
+				
+				\caption{Séptima comparativa de modelos de imputación (RF, GBR, SVM) frente a datos originales e incompletos.}
+				\label{tab:comparativa_modelos_imputacion_7}
+				
+				% --- 3. Definir columnas con siunitx para alineación decimal ---
+				\begin{tabular}{ 
+						S[table-format=3.0] % AB/2
+						S[table-format=3.2] % Rhoa_Incompleto
+						S[table-format=3.2] % Rhoa_Original
+						S[table-format=3.2] % Pronostico_RF
+						S[table-format=3.2] % Pronostico_GBR
+						S[table-format=3.2] % Pronostico_SVM
+						c                   % Imputado (Texto)
+					}
+					% --- 4. Encabezados limpios con booktabs ---
+					\toprule
+					{\textbf{AB/2 (m)}} & {\textbf{$\rho_a$ Incompleto}} & {\textbf{$\rho_a$ Original}} & {\textbf{Pronóstico RF}} & {\textbf{Pronóstico GBR}} & {\textbf{Pronóstico SVM}}\\
+					\midrule
+					
+					% --- 5. Datos ordenados y limpios ---
+					3   & 20.11  & 20.11  & 20.11  & 20.11  & 20.11  \\
+					4   & 0.00   & 176.45 & 17.37  & 61.98  & 14.79  \\
+					5   & 0.00   & 80.28  & 14.99  & 54.40  & 31.98  \\
+					8   & 0.00   & 160.85 & 15.37  & 53.82  & 17.15  \\
+					10  & 0.00   & 301.59 & 30.20  & 50.49  & 39.40  \\
+					15  & 0.00   & 100.04 & 37.34  & 38.92  & 57.28  \\
+					25  & 67.04  & 67.04  & 67.04  & 67.04  & 67.04  \\
+					30  & 9.17   & 9.17   & 9.17   & 9.17   & 9.17   \\
+					40  & 6.54   & 6.54   & 6.54   & 6.54   & 6.54   \\
+					50  & 39.46  & 39.46  & 39.46  & 39.46  & 39.46  \\
+					\addlinespace % Espacio extra cada 10 filas
+					70  & 48.14  & 48.14  & 48.14  & 48.14  & 48.14  \\
+					80  & 16.05  & 16.05  & 16.05  & 16.05  & 16.05  \\
+					100 & 128.33 & 128.33 & 128.33 & 128.33 & 128.33 \\
+					120 & 873.66 & 873.66 & 873.66 & 873.66 & 873.66 \\
+					130 & 72.56  & 72.56  & 72.56  & 72.56  & 72.56  \\
+					140 & 76.29  & 76.29  & 76.29  & 76.29  & 76.29  \\
+					150 & 159.71 & 159.71 & 159.71 & 159.71 & 159.71 \\
+					170 & 108.10 & 108.10 & 108.10 & 108.10 & 108.10 \\
+					180 & 121.31 & 121.31 & 121.31 & 121.31 & 121.31 \\
+					190 & 130.22 & 130.22 & 130.22 & 130.22 & 130.22 \\
+					\addlinespace % Espacio extra cada 10 filas
+					210 & 177.49 & 177.49 & 177.49 & 177.49 & 177.49 \\
+					230 & 183.46 & 183.46 & 183.46 & 183.46 & 183.46 \\
+					250 & 194.49 & 194.49 & 194.49 & 194.49 & 194.49 \\
+					260 & 153.89 & 153.89 & 153.89 & 153.89 & 153.89 \\
+					280 & 313.65 & 313.65 & 313.65 & 313.65 & 313.65 \\
+					290 & 592.77 & 592.77 & 592.77 & 592.77 & 592.77 \\
+					
+					\bottomrule
+				\end{tabular}
+			\end{table}
+			
+			\begin{figure}[h] % Imagenes/S1-LN-EBSA-GBR-T1.png  fig:resultados2
 				\centering
 				\includegraphics[width=15cm]{Imagenes/S2-LN-EBSA-COMP-T2.png}
 				\caption[]{Test 2}
 				\label{fig:S2-LN-EBSA-COMP-T2}
 			\end{figure}
-		%	\vspace*{1.1cm}
-			\begin{figure}[!h] % Imagenes/S1-LN-EBSA-VSM-T1.png  fig:resultados3
+\clearpage
+			
+			\begin{table}[h!]
+				\centering
+				
+				% --- 1. Tamaño de letra tiny ---
+				\footnotesize
+				
+				% --- 2. Reducir ligeramente el espacio entre columnas ---
+				\setlength{\tabcolsep}{3pt} 
+				
+				\caption{Octava comparativa de modelos de imputación (RF, GBR, SVM) frente a datos originales e incompletos.}
+				\label{tab:comparativa_modelos_imputacion_8}
+				
+				% --- 3. Definir columnas con siunitx para alineación decimal ---
+				\begin{tabular}{ 
+						S[table-format=3.0] % AB/2
+						S[table-format=3.2] % Rhoa_Incompleto
+						S[table-format=3.2] % Rhoa_Original
+						S[table-format=3.2] % Pronostico_RF
+						S[table-format=3.2] % Pronostico_GBR
+						S[table-format=3.2] % Pronostico_SVM
+						c                   % Imputado (Texto)
+					}
+					% --- 4. Encabezados limpios con booktabs ---
+					\toprule
+					{\textbf{AB/2 (m)}} & {\textbf{$\rho_a$ Incompleto}} & {\textbf{$\rho_a$ Original}} & {\textbf{Pronóstico RF}} & {\textbf{Pronóstico GBR}} & {\textbf{Pronóstico SVM}}\\
+					\midrule
+					
+					% --- 5. Datos ordenados y limpios ---
+					3   & 20.11  & 20.11  & 20.11  & 20.11  & 20.11  \\
+					4   & 176.45 & 176.45 & 176.45 & 176.45 & 176.45 \\
+					5   & 80.28  & 80.28  & 80.28  & 80.28  & 80.28  \\
+					8   & 160.85 & 160.85 & 160.85 & 160.85 & 160.85 \\
+					10  & 301.59 & 301.59 & 301.59 & 301.59 & 301.59 \\
+					15  & 100.04 & 100.04 & 100.04 & 100.04 & 100.04 \\
+					25  & 67.04  & 67.04  & 67.04  & 67.04  & 67.04  \\
+					30  & 9.17   & 9.17   & 9.17   & 9.17   & 9.17   \\
+					40  & 6.54   & 6.54   & 6.54   & 6.54   & 6.54   \\
+					50  & 39.46  & 39.46  & 39.46  & 39.46  & 39.46  \\
+					\addlinespace % Espacio extra cada 10 filas
+					70  & 0.00   & 48.14  & 52.74  & 60.48  & 132.29 \\
+					80  & 0.00   & 16.05  & 54.66  & 58.59  & 165.91 \\
+					100 & 0.00   & 128.33 & 61.75  & 111.02 & 177.89 \\
+					120 & 0.00   & 873.66 & 61.55  & 95.29  & 192.02 \\
+					130 & 0.00   & 72.56  & 87.89  & 111.86 & 204.59 \\
+					140 & 76.29  & 76.29  & 76.29  & 76.29  & 76.29  \\
+					150 & 159.71 & 159.71 & 159.71 & 159.71 & 159.71 \\
+					170 & 108.10 & 108.10 & 108.10 & 108.10 & 108.10 \\
+					180 & 121.31 & 121.31 & 121.31 & 121.31 & 121.31 \\
+					190 & 130.22 & 130.22 & 130.22 & 130.22 & 130.22 \\
+					\addlinespace % Espacio extra cada 10 filas
+					210 & 177.49 & 177.49 & 177.49 & 177.49 & 177.49 \\
+					230 & 183.46 & 183.46 & 183.46 & 183.46 & 183.46 \\
+					250 & 194.49 & 194.49 & 194.49 & 194.49 & 194.49 \\
+					260 & 153.89 & 153.89 & 153.89 & 153.89 & 153.89 \\
+					280 & 313.65 & 313.65 & 313.65 & 313.65 & 313.65 \\
+					290 & 592.77 & 592.77 & 592.77 & 592.77 & 592.77 \\
+					
+					\bottomrule
+				\end{tabular}
+			\end{table}
+			
+			\begin{figure}[h] % Imagenes/S1-LN-EBSA-VSM-T1.png  fig:resultados3
 				\centering
 				\includegraphics[width=15cm]{Imagenes/S2-LN-EBSA-COMP-T3.png}
 				\caption[]{Test3}
