@@ -1,5 +1,5 @@
 \babel@toc {spanish}{}\relax 
-\contentsline {chapter}{Agradecimientos}{\es@scroman {xii}}{chapter*.4}%
+\contentsline {chapter}{Agradecimientos}{\es@scroman {xiii}}{chapter*.4}%
 \contentsline {chapter}{\numberline {1}INTRODUCCIÓN}{1}{chapter.1}%
 \contentsline {chapter}{\numberline {2}DELIMITACIÓN Y PLANTEAMIENTO DEL PROBLEMA}{4}{chapter.2}%
 \contentsline {chapter}{\numberline {3}JUSTIFICACIÓN}{5}{chapter.3}%
@@ -54,6 +54,6 @@
 \contentsline {section}{\numberline {6.4}Test y evaluación}{51}{section.6.4}%
 \contentsline {subsection}{\numberline {6.4.1}Sondeo 1 Exploración Geohidrológica los Olivos (S1-EGH-OLIVOS)}{51}{subsection.6.4.1}%
 \contentsline {subsection}{\numberline {6.4.2}Sondeo 1 Lampazo Del Naranjo EBSA (S1-LN-EBSA)}{58}{subsection.6.4.2}%
-\contentsline {subsection}{\numberline {6.4.3}Sondeo 2 Lampazo Del Naranjo EBSA (S2-LN-EBSA)}{64}{subsection.6.4.3}%
-\contentsline {chapter}{\numberline {7}RESULTADOS Y CONCLUSIONES}{70}{chapter.7}%
-\contentsline {chapter}{\numberline {A}Apéndice I}{72}{appendix.Alph1}%
+\contentsline {subsection}{\numberline {6.4.3}Sondeo 2 Lampazo Del Naranjo EBSA (S2-LN-EBSA)}{65}{subsection.6.4.3}%
+\contentsline {chapter}{\numberline {7}RESULTADOS Y CONCLUSIONES}{71}{chapter.7}%
+\contentsline {chapter}{\numberline {A}Apéndice I}{73}{appendix.Alph1}%

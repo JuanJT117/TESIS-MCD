@@ -11,14 +11,23 @@
 \contentsline {table}{\numberline {6.2}{\ignorespaces Rango de espesores (mínimo y máximo) registrados por sitio.}}{42}{table.caption.19}%
 \contentsline {table}{\numberline {6.3}{\ignorespaces Configuración de hiperparámetros para cada modelo.}}{47}{table.caption.24}%
 \contentsline {table}{\numberline {6.4}{\ignorespaces Cuarta comparativa de modelos de imputación (RF, GBR, SVM) frente a datos originales e incompletos.}}{52}{table.caption.27}%
-\contentsline {table}{\numberline {6.5}{\ignorespaces Quinta comparativa de modelos de imputación (RF, GBR, SVM) frente a datos originales e incompletos.}}{54}{table.caption.29}%
-\contentsline {table}{\numberline {6.6}{\ignorespaces Sexta comparativa de modelos de imputación (RF, GBR, SVM) frente a datos originales e incompletos.}}{56}{table.caption.31}%
-\contentsline {table}{\numberline {6.7}{\ignorespaces Comparativa de modelos de imputación (RF, GBR, SVM) frente a datos originales e incompletos.}}{59}{table.caption.33}%
-\contentsline {table}{\numberline {6.8}{\ignorespaces Segunda comparativa de modelos de imputación (RF, GBR, SVM) frente a datos originales e incompletos.}}{60}{table.caption.35}%
-\contentsline {table}{\numberline {6.9}{\ignorespaces Tercera comparativa de modelos de imputación (RF, GBR, SVM) frente a datos originales e incompletos.}}{62}{table.caption.37}%
-\contentsline {table}{\numberline {6.10}{\ignorespaces Novena comparativa de modelos de imputación (RF, GBR, SVM) frente a datos originales e incompletos.}}{65}{table.caption.39}%
-\contentsline {table}{\numberline {6.11}{\ignorespaces Séptima comparativa de modelos de imputación (RF, GBR, SVM) frente a datos originales e incompletos.}}{66}{table.caption.41}%
-\contentsline {table}{\numberline {6.12}{\ignorespaces Octava comparativa de modelos de imputación (RF, GBR, SVM) frente a datos originales e incompletos.}}{68}{table.caption.43}%
+\contentsline {table}{\numberline {6.5}{\ignorespaces Evaluación estadística de residuos y métricas de error ($\Omega \cdot $m) para los modelos de imputación.}}{53}{table.caption.29}%
+\contentsline {table}{\numberline {6.6}{\ignorespaces Quinta comparativa de modelos de imputación (RF, GBR, SVM) frente a datos originales e incompletos.}}{54}{table.caption.30}%
+\contentsline {table}{\numberline {6.7}{\ignorespaces Evaluación estadística de residuos y métricas de error ($\Omega \cdot $m) para los modelos de imputación.}}{55}{table.caption.32}%
+\contentsline {table}{\numberline {6.8}{\ignorespaces Sexta comparativa de modelos de imputación (RF, GBR, SVM) frente a datos originales e incompletos.}}{56}{table.caption.33}%
+\contentsline {table}{\numberline {6.9}{\ignorespaces Evaluación estadística de residuos y métricas de error ($\Omega \cdot $m) para los modelos de imputación.}}{57}{table.caption.35}%
+\contentsline {table}{\numberline {6.10}{\ignorespaces Comparativa de modelos de imputación (RF, GBR, SVM) frente a datos originales e incompletos.}}{59}{table.caption.36}%
+\contentsline {table}{\numberline {6.11}{\ignorespaces Evaluación estadística de residuos y métricas de error ($\Omega \cdot $m) para los modelos de imputación.}}{60}{table.caption.38}%
+\contentsline {table}{\numberline {6.12}{\ignorespaces Segunda comparativa de modelos de imputación (RF, GBR, SVM) frente a datos originales e incompletos.}}{61}{table.caption.39}%
+\contentsline {table}{\numberline {6.13}{\ignorespaces Evaluación estadística de residuos y métricas de error ($\Omega \cdot $m) para los modelos de imputación.}}{62}{table.caption.41}%
+\contentsline {table}{\numberline {6.14}{\ignorespaces Tercera comparativa de modelos de imputación (RF, GBR, SVM) frente a datos originales e incompletos.}}{63}{table.caption.42}%
+\contentsline {table}{\numberline {6.15}{\ignorespaces Evaluación estadística de residuos y métricas de error ($\Omega \cdot $m) para los modelos de imputación.}}{64}{table.caption.44}%
+\contentsline {table}{\numberline {6.16}{\ignorespaces Novena comparativa de modelos de imputación (RF, GBR, SVM) frente a datos originales e incompletos.}}{65}{table.caption.45}%
+\contentsline {table}{\numberline {6.17}{\ignorespaces Evaluación estadística de residuos y métricas de error ($\Omega \cdot $m) para los modelos de imputación.}}{66}{table.caption.47}%
+\contentsline {table}{\numberline {6.18}{\ignorespaces Séptima comparativa de modelos de imputación (RF, GBR, SVM) frente a datos originales e incompletos.}}{67}{table.caption.48}%
+\contentsline {table}{\numberline {6.19}{\ignorespaces Evaluación estadística de residuos y métricas de error ($\Omega \cdot $m) para los modelos de imputación.}}{68}{table.caption.50}%
+\contentsline {table}{\numberline {6.20}{\ignorespaces Octava comparativa de modelos de imputación (RF, GBR, SVM) frente a datos originales e incompletos.}}{69}{table.caption.51}%
+\contentsline {table}{\numberline {6.21}{\ignorespaces Evaluación estadística de residuos y métricas de error ($\Omega \cdot $m) para los modelos de imputación.}}{70}{table.caption.53}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {7.1}{\ignorespaces Configuración de hiperparámetros para cada modelo. Se remarca en negrita el valor con la mejor generalización mediante $k$-Fold Cross-Validation usando GridSearchCV.}}{70}{table.caption.45}%
+\contentsline {table}{\numberline {7.1}{\ignorespaces Configuración de hiperparámetros para cada modelo. Se remarca en negrita el valor con la mejor generalización mediante $k$-Fold Cross-Validation usando GridSearchCV.}}{71}{table.caption.54}%
 \addvspace {10\p@ }

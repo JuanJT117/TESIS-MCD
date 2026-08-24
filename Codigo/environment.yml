@@ -1,0 +1,15 @@
+name: Tesis
+channels:
+  - gimli
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.10
+  - pygimli
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - joblib

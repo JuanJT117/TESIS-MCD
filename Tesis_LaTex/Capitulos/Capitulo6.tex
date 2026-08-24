@@ -384,7 +384,7 @@
 	
 	Para evaluar la capacidad de respuesta, se acoplan los resultados de pronósticos de los tres modelos permitiendo una comparación directa, adicionalmente,se presentan tres variaciones de pronóstico del mismo sitio, de manera que el rendimiento de la generalización pueda ser observado directamente en el pronósticos comparativo .
 	
-	Los sondeos empelados en la evaluación corresponden a las claves: S1-EGH-OLIVOS, S1-LN-EBSA y S2-LN-EBSA, se caracterizan por presentar distintas distribución de resistividad aparente, así como, distinta dificultad de interpretación. 
+	Los sondeos empelados en la evaluación corresponden a trabajos realizados en Nuevo León y Puebla, correspondientes a las claves S1-EGH-OLIVOS, S1-LN-EBSA y S2-LN-EBSA, estos sondeos presentan patrones de distribución de resistividad aparente distintos entre si marcando aun mas la no unicidad de modelos y sesgo en el entrenamiento. 
 	
 	%\clearpage
 		\subsection{Sondeo 1 Exploración Geohidrológica los Olivos (S1-EGH-OLIVOS)} 
@@ -449,14 +449,48 @@
 				\end{tabular}
 			\end{table}
 		
-			datos correspondientes a SEV en Lampazos del naranjo, sitio no integrado en el entrenamiento
-		
-			\begin{figure}[!h] % Imagenes/S1-LN-EBSA-RF-T1.png  fig:resultados1
+			\begin{figure}[!h] % Imagenes/S1-EGH-OLIVOS-COMP-T1.png  fig:S1-EGH-OLIVOS-COMP-T1
 				\centering
 				\includegraphics[width=15cm]{Imagenes/S1-EGH-OLIVOS-COMP-T1.png}
 				\caption[]{Test 1}
 				\label{fig:S1-EGH-OLIVOS-COMP-T1}
 			\end{figure}
+			
+			\begin{table}[h!]
+				\centering
+				
+				% --- 1. Tamaño de letra tiny ---
+				\footnotesize
+				
+				% --- 2. Ajuste del espacio entre columnas ---
+				\setlength{\tabcolsep}{4pt} 
+				
+				\caption{Evaluación estadística de residuos y métricas de error ($\Omega\cdot$m) para los modelos de imputación.}
+				\label{tab:evaluacion_residuos_modelos_4}
+				
+				% --- 3. Definición de columnas con siunitx ---
+				\begin{tabular}{ 
+						l                   % Modelo
+						S[table-format=2.4] % Std Global
+						S[table-format=2.4] % RMSE Global
+						S[table-format=3.4] % Std Imputados
+						S[table-format=3.4] % RMSE Imputados
+					}
+					% --- 4. Encabezados jerárquicos y limpios ---
+					\toprule
+					& \multicolumn{2}{c}{\textbf{Evaluación Global}} & \multicolumn{2}{c}{\textbf{Solo Datos Imputados}} \\
+					\cmidrule(lr){2-3} \cmidrule(lr){4-5}
+					\textbf{Modelo} & {\textbf{Desv. Est. ($\sigma$)}} & {\textbf{RMSE}} & {\textbf{Desv. Est. ($\sigma$)}} & {\textbf{RMSE}} \\
+					\midrule
+					
+					% --- 5. Datos ordenados (a 4 decimales para rigor editorial) ---
+					Random Forest          & 43.9577 & 43.8809 &  83.5058 &  82.9272 \\
+					Gradient Boosting      & 61.2311 & 61.8470 & 112.1513 & 116.8798 \\
+					Support Vector Machine & 77.8531 & 89.3591 &  32.1428 & 168.8729 \\
+					
+					\bottomrule
+				\end{tabular}
+			\end{table}
 			
 \clearpage
 			
@@ -521,12 +555,49 @@
 				\end{tabular}
 			\end{table}
 			
-			\begin{figure}[!h] % Imagenes/S1-LN-EBSA-GBR-T1.png  fig:resultados2
+			\begin{figure}[!h] % Imagenes/S1-EGH-OLIVOS-COMP-T2.png  fig:S1-EGH-OLIVOS-COMP-T2
 				\centering
 				\includegraphics[width=15cm]{Imagenes/S1-EGH-OLIVOS-COMP-T2.png}
 				\caption[]{Test 2}
 				\label{fig:S1-EGH-OLIVOS-COMP-T2}
 			\end{figure}
+			
+			\begin{table}[h!]
+				\centering
+				
+				% --- 1. Tamaño de letra tiny ---
+				\footnotesize
+				
+				% --- 2. Ajuste del espacio entre columnas ---
+				\setlength{\tabcolsep}{4pt} 
+				
+				\caption{Evaluación estadística de residuos y métricas de error ($\Omega\cdot$m) para los modelos de imputación.}
+				\label{tab:evaluacion_residuos_modelos_5}
+				
+				% --- 3. Definición de columnas con siunitx ---
+				\begin{tabular}{ 
+						l                   % Modelo
+						S[table-format=3.4] % Std Global
+						S[table-format=3.4] % RMSE Global
+						S[table-format=3.4] % Std Imputados
+						S[table-format=3.4] % RMSE Imputados
+					}
+					% --- 4. Encabezados jerárquicos y limpios ---
+					\toprule
+					& \multicolumn{2}{c}{\textbf{Evaluación Global}} & \multicolumn{2}{c}{\textbf{Solo Datos Imputados}} \\
+					\cmidrule(lr){2-3} \cmidrule(lr){4-5}
+					\textbf{Modelo} & {\textbf{Desv. Est. ($\sigma$)}} & {\textbf{RMSE}} & {\textbf{Desv. Est. ($\sigma$)}} & {\textbf{RMSE}} \\
+					\midrule
+					
+					% --- 5. Datos ordenados (a 4 decimales para rigor editorial) ---
+					Random Forest          & 212.1413 & 217.3253 & 390.2118 & 443.6135 \\
+					Gradient Boosting      & 202.1571 & 205.7116 & 383.8315 & 419.9070 \\
+					Support Vector Machine & 226.7333 & 234.3612 & 398.1351 & 478.3878 \\
+					
+					\bottomrule
+				\end{tabular}
+			\end{table}
+			
 \clearpage	
 			
 			\begin{table}[h!]
@@ -589,12 +660,48 @@
 				\end{tabular}
 			\end{table}
 			
-			\begin{figure}[!h] % Imagenes/S1-LN-EBSA-VSM-T1.png  fig:resultados3
+			\begin{figure}[!h] % Imagenes/S1-EGH-OLIVOS-COMP-T3.png  fig:S1-EGH-OLIVOS-COMP-T3
 				\centering
 				\includegraphics[width=15cm]{Imagenes/S1-EGH-OLIVOS-COMP-T3.png}
 				\caption[]{Test 3}
 				\label{fig:S1-EGH-OLIVOS-COMP-T3}
 			\end{figure}
+			
+			\begin{table}[h!]
+				\centering
+				
+				% --- 1. Tamaño de letra tiny ---
+				\footnotesize
+				
+				% --- 2. Ajuste del espacio entre columnas ---
+				\setlength{\tabcolsep}{4pt} 
+				
+				\caption{Evaluación estadística de residuos y métricas de error ($\Omega\cdot$m) para los modelos de imputación.}
+				\label{tab:evaluacion_residuos_modelos_6}
+				
+				% --- 3. Definición de columnas con siunitx ---
+				\begin{tabular}{ 
+						l                   % Modelo
+						S[table-format=2.4] % Std Global
+						S[table-format=2.4] % RMSE Global
+						S[table-format=2.4] % Std Imputados
+						S[table-format=3.4] % RMSE Imputados
+					}
+					% --- 4. Encabezados jerárquicos y limpios ---
+					\toprule
+					& \multicolumn{2}{c}{\textbf{Evaluación Global}} & \multicolumn{2}{c}{\textbf{Solo Datos Imputados}} \\
+					\cmidrule(lr){2-3} \cmidrule(lr){4-5}
+					\textbf{Modelo} & {\textbf{Desv. Est. ($\sigma$)}} & {\textbf{RMSE}} & {\textbf{Desv. Est. ($\sigma$)}} & {\textbf{RMSE}} \\
+					\midrule
+					
+					% --- 5. Datos ordenados (a 4 decimales para rigor editorial) ---
+					Random Forest          & 24.2704 & 25.3740 & 39.8364 &  51.7945 \\
+					Gradient Boosting      & 17.6966 & 17.4290 & 38.1273 &  35.5768 \\
+					Support Vector Machine & 58.3015 & 65.1580 & 27.5676 & 133.0031 \\
+					
+					\bottomrule
+				\end{tabular}
+			\end{table}
 			
 \clearpage
 		\subsection{Sondeo 1 Lampazo Del Naranjo EBSA (S1-LN-EBSA)} 
@@ -666,12 +773,48 @@
 				\end{tabular}
 			\end{table}
 			
-			\begin{figure}[h] % Imagenes/S1-LN-EBSA-RF-T1.png  fig:resultados1
+			\begin{figure}[h] % Imagenes/S1-LN-EBSA-COMP-T1.png  fig:S1-LN-EBSA-COMP-T1
 				\centering
 				\includegraphics[width=15cm]{Imagenes/S1-LN-EBSA-COMP-T1.png}
 				\caption[]{Test 1}
 				\label{fig:S1-LN-EBSA-COMP-T1}
 			\end{figure}
+			
+			\begin{table}[h!]
+				\centering
+				
+				% --- 1. Tamaño de letra tiny ---
+				\footnotesize
+				
+				% --- 2. Ajuste del espacio entre columnas ---
+				\setlength{\tabcolsep}{4pt} 
+				
+				\caption{Evaluación estadística de residuos y métricas de error ($\Omega\cdot$m) para los modelos de imputación.}
+				\label{tab:evaluacion_residuos_modelos}
+				
+				% --- 3. Definición de columnas con siunitx ---
+				\begin{tabular}{ 
+						l                   % Modelo
+						S[table-format=3.4] % Std Global
+						S[table-format=3.4] % RMSE Global
+						S[table-format=3.4] % Std Imputados
+						S[table-format=4.4] % RMSE Imputados
+					}
+					% --- 4. Encabezados jerárquicos y limpios ---
+					\toprule
+					& \multicolumn{2}{c}{\textbf{Evaluación Global}} & \multicolumn{2}{c}{\textbf{Solo Datos Imputados}} \\
+					\cmidrule(lr){2-3} \cmidrule(lr){4-5}
+					\textbf{Modelo} & {\textbf{Desv. Est. ($\sigma$)}} & {\textbf{RMSE}} & {\textbf{Desv. Est. ($\sigma$)}} & {\textbf{RMSE}} \\
+					\midrule
+					
+					% --- 5. Datos ordenados (redondeados a 4 decimales para rigor editorial) ---
+					Random Forest          &  63.2796 &  62.4293 & 167.4342 &  152.9199 \\
+					Gradient Boosting      &  73.4188 &  72.2393 & 196.9381 &  176.9495 \\
+					Support Vector Machine & 601.4914 & 647.1925 & 175.4063 & 1585.2914 \\
+					
+					\bottomrule
+				\end{tabular}
+			\end{table}
 			
 \clearpage	
 	
@@ -740,12 +883,48 @@
 				\end{tabular}
 			\end{table}
 			
-			\begin{figure}[h] % Imagenes/S1-LN-EBSA-GBR-T1.png  fig:resultados2
+			\begin{figure}[h] % Imagenes/S1-LN-EBSA-COMP-T2.png  fig:S1-LN-EBSA-COMP-T2
 				\centering
 				\includegraphics[width=15cm]{Imagenes/S1-LN-EBSA-COMP-T2.png}
 				\caption[]{Test 2}
 				\label{fig:S1-LN-EBSA-COMP-T2}
 			\end{figure}
+			
+			\begin{table}[h!]
+				\centering
+				
+				% --- 1. Tamaño de letra tiny ---
+				\footnotesize
+				
+				% --- 2. Ajuste del espacio entre columnas ---
+				\setlength{\tabcolsep}{4pt} 
+				
+				\caption{Evaluación estadística de residuos y métricas de error ($\Omega\cdot$m) para los modelos de imputación.}
+				\label{tab:evaluacion_residuos_modelos_2}
+				
+				% --- 3. Definición de columnas con siunitx ---
+				\begin{tabular}{ 
+						l                   % Modelo
+						S[table-format=3.4] % Std Global
+						S[table-format=3.4] % RMSE Global
+						S[table-format=3.4] % Std Imputados
+						S[table-format=3.4] % RMSE Imputados
+					}
+					% --- 4. Encabezados jerárquicos y limpios ---
+					\toprule
+					& \multicolumn{2}{c}{\textbf{Evaluación Global}} & \multicolumn{2}{c}{\textbf{Solo Datos Imputados}} \\
+					\cmidrule(lr){2-3} \cmidrule(lr){4-5}
+					\textbf{Modelo} & {\textbf{Desv. Est. ($\sigma$)}} & {\textbf{RMSE}} & {\textbf{Desv. Est. ($\sigma$)}} & {\textbf{RMSE}} \\
+					\midrule
+					
+					% --- 5. Datos ordenados (a 4 decimales para rigor editorial) ---
+					Random Forest          &   4.3764 &   4.3333 &   8.7318 &   8.3915 \\
+					Gradient Boosting      &  10.3759 &  10.3246 &  20.4024 &  19.9934 \\
+					Support Vector Machine & 446.3848 & 509.5467 & 188.7295 & 986.7330 \\
+					
+					\bottomrule
+				\end{tabular}
+			\end{table}
 			
 \clearpage
 
@@ -821,10 +1000,45 @@
 				\label{fig:S1-LN-EBSA-COMP-T3}
 			\end{figure}
 			
+			\begin{table}[h!]
+				\centering
+				
+				% --- 1. Tamaño de letra tiny ---
+				\footnotesize
+				
+				% --- 2. Ajuste del espacio entre columnas ---
+				\setlength{\tabcolsep}{4pt} 
+				
+				\caption{Evaluación estadística de residuos y métricas de error ($\Omega\cdot$m) para los modelos de imputación.}
+				\label{tab:evaluacion_residuos_modelos_3}
+				
+				% --- 3. Definición de columnas con siunitx ---
+				\begin{tabular}{ 
+						l                   % Modelo
+						S[table-format=3.4] % Std Global
+						S[table-format=3.4] % RMSE Global
+						S[table-format=2.4] % Std Imputados
+						S[table-format=4.4] % RMSE Imputados
+					}
+					% --- 4. Encabezados jerárquicos y limpios ---
+					\toprule
+					& \multicolumn{2}{c}{\textbf{Evaluación Global}} & \multicolumn{2}{c}{\textbf{Solo Datos Imputados}} \\
+					\cmidrule(lr){2-3} \cmidrule(lr){4-5}
+					\textbf{Modelo} & {\textbf{Desv. Est. ($\sigma$)}} & {\textbf{RMSE}} & {\textbf{Desv. Est. ($\sigma$)}} & {\textbf{RMSE}} \\
+					\midrule
+					
+					% --- 5. Datos ordenados (a 4 decimales para rigor editorial) ---
+					Random Forest          &  37.7140 &  37.7653 & 77.6668 &   78.1816 \\
+					Gradient Boosting      &  48.8759 &  50.8571 & 83.6166 &  105.2842 \\
+					Support Vector Machine & 634.0247 & 711.6456 & 82.4813 & 1473.2463 \\
+					
+					\bottomrule
+				\end{tabular}
+			\end{table}
+			
 \clearpage
 		\subsection{Sondeo 2 Lampazo Del Naranjo EBSA (S2-LN-EBSA)}
 		 
-			datos correspondientes a SEV en Lampazos del naranjo, sitio no integrado en el entrenamiento
 			
 			\begin{table}[h!]
 				\centering
@@ -887,12 +1101,49 @@
 				\end{tabular}
 			\end{table}
 			
-			\begin{figure}[h] % Imagenes/S1-LN-EBSA-RF-T1.png  fig:resultados1
+			\begin{figure}[h] % Imagenes/S2-LN-EBSA-COMP-T1.png  fig:S2-LN-EBSA-COMP-T1
 				\centering
 				\includegraphics[width=15cm]{Imagenes/S2-LN-EBSA-COMP-T1.png}
 				\caption[]{Test 1}
 				\label{fig:S2-LN-EBSA-COMP-T1}
 			\end{figure}
+			
+			\begin{table}[h!]
+				\centering
+				
+				% --- 1. Tamaño de letra tiny ---
+				\footnotesize
+				
+				% --- 2. Ajuste del espacio entre columnas ---
+				\setlength{\tabcolsep}{4pt} 
+				
+				\caption{Evaluación estadística de residuos y métricas de error ($\Omega\cdot$m) para los modelos de imputación.}
+				\label{tab:evaluacion_residuos_modelos_7}
+				
+				% --- 3. Definición de columnas con siunitx ---
+				\begin{tabular}{ 
+						l                   % Modelo
+						S[table-format=2.4] % Std Global
+						S[table-format=3.4] % RMSE Global
+						S[table-format=3.4] % Std Imputados
+						S[table-format=3.4] % RMSE Imputados
+					}
+					% --- 4. Encabezados jerárquicos y limpios ---
+					\toprule
+					& \multicolumn{2}{c}{\textbf{Evaluación Global}} & \multicolumn{2}{c}{\textbf{Solo Datos Imputados}} \\
+					\cmidrule(lr){2-3} \cmidrule(lr){4-5}
+					\textbf{Modelo} & {\textbf{Desv. Est. ($\sigma$)}} & {\textbf{RMSE}} & {\textbf{Desv. Est. ($\sigma$)}} & {\textbf{RMSE}} \\
+					\midrule
+					
+					% --- 5. Datos ordenados (a 4 decimales para rigor editorial) ---
+					Random Forest          & 33.3010 &  36.3848 &  42.5225 &  65.5936 \\
+					Gradient Boosting      & 67.2692 &  66.7133 & 123.8111 & 120.2691 \\
+					Support Vector Machine & 91.2728 & 107.0900 &  29.2242 & 193.0592 \\
+					
+					\bottomrule
+				\end{tabular}
+			\end{table}
+			
 \clearpage
 			
 			\begin{table}[h!]
@@ -956,12 +1207,49 @@
 				\end{tabular}
 			\end{table}
 			
-			\begin{figure}[h] % Imagenes/S1-LN-EBSA-GBR-T1.png  fig:resultados2
+			\begin{figure}[h] % Imagenes/S2-LN-EBSA-COMP-T2.png  fig:S2-LN-EBSA-COMP-T2
 				\centering
 				\includegraphics[width=15cm]{Imagenes/S2-LN-EBSA-COMP-T2.png}
 				\caption[]{Test 2}
 				\label{fig:S2-LN-EBSA-COMP-T2}
 			\end{figure}
+			
+			\begin{table}[h!]
+				\centering
+				
+				% --- 1. Tamaño de letra tiny ---
+				\footnotesize
+				
+				% --- 2. Ajuste del espacio entre columnas ---
+				\setlength{\tabcolsep}{4pt} 
+				
+				\caption{Evaluación estadística de residuos y métricas de error ($\Omega\cdot$m) para los modelos de imputación.}
+				\label{tab:evaluacion_residuos_modelos_8}
+				
+				% --- 3. Definición de columnas con siunitx ---
+				\begin{tabular}{ 
+						l                   % Modelo
+						S[table-format=2.4] % Std Global
+						S[table-format=2.4] % RMSE Global
+						S[table-format=2.4] % Std Imputados
+						S[table-format=3.4] % RMSE Imputados
+					}
+					% --- 4. Encabezados jerárquicos y limpios ---
+					\toprule
+					& \multicolumn{2}{c}{\textbf{Evaluación Global}} & \multicolumn{2}{c}{\textbf{Solo Datos Imputados}} \\
+					\cmidrule(lr){2-3} \cmidrule(lr){4-5}
+					\textbf{Modelo} & {\textbf{Desv. Est. ($\sigma$)}} & {\textbf{RMSE}} & {\textbf{Desv. Est. ($\sigma$)}} & {\textbf{RMSE}} \\
+					\midrule
+					
+					% --- 5. Datos ordenados (a 4 decimales para rigor editorial) ---
+					Random Forest          & 66.1083 & 70.2513 & 85.4570 & 160.1975 \\
+					Gradient Boosting      & 56.5578 & 59.4893 & 85.7103 & 135.6565 \\
+					Support Vector Machine & 64.1885 & 67.8481 & 90.7389 & 154.7175 \\
+					
+					\bottomrule
+				\end{tabular}
+			\end{table}
+			
 \clearpage
 			
 			\begin{table}[h!]
@@ -1025,10 +1313,46 @@
 				\end{tabular}
 			\end{table}
 			
-			\begin{figure}[h] % Imagenes/S1-LN-EBSA-VSM-T1.png  fig:resultados3
+			\begin{figure}[h] % Imagenes/S2-LN-EBSA-COMP-T3.png  fig:S2-LN-EBSA-COMP-T3
 				\centering
 				\includegraphics[width=15cm]{Imagenes/S2-LN-EBSA-COMP-T3.png}
 				\caption[]{Test3}
 				\label{fig:S2-LN-EBSA-COMP-T3}
 			\end{figure}
+			
+			\begin{table}[h!]
+				\centering
+				
+				% --- 1. Tamaño de letra tiny ---
+				\footnotesize
+				
+				% --- 2. Ajuste del espacio entre columnas ---
+				\setlength{\tabcolsep}{4pt} 
+				
+				\caption{Evaluación estadística de residuos y métricas de error ($\Omega\cdot$m) para los modelos de imputación.}
+				\label{tab:evaluacion_residuos_modelos_9}
+				
+				% --- 3. Definición de columnas con siunitx ---
+				\begin{tabular}{ 
+						l                   % Modelo
+						S[table-format=3.4] % Std Global
+						S[table-format=3.4] % RMSE Global
+						S[table-format=3.4] % Std Imputados
+						S[table-format=3.4] % RMSE Imputados
+					}
+					% --- 4. Encabezados jerárquicos y limpios ---
+					\toprule
+					& \multicolumn{2}{c}{\textbf{Evaluación Global}} & \multicolumn{2}{c}{\textbf{Solo Datos Imputados}} \\
+					\cmidrule(lr){2-3} \cmidrule(lr){4-5}
+					\textbf{Modelo} & {\textbf{Desv. Est. ($\sigma$)}} & {\textbf{RMSE}} & {\textbf{Desv. Est. ($\sigma$)}} & {\textbf{RMSE}} \\
+					\midrule
+					
+					% --- 5. Datos ordenados (a 4 decimales para rigor editorial) ---
+					Random Forest          & 159.9791 & 160.0125 & 364.4082 & 364.8846 \\
+					Gradient Boosting      & 153.7190 & 153.1296 & 357.5068 & 349.1892 \\
+					Support Vector Machine & 143.0162 & 140.6117 & 353.5208 & 320.6439 \\
+					
+					\bottomrule
+				\end{tabular}
+			\end{table}
 	
