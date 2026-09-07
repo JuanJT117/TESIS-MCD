@@ -331,8 +331,6 @@
 			
 			Esta baja sensibilidad a la partición de los datos en RF y GBR es evidencia de que logran capturar la complejidad global del fenómeno geoeléctrico sin incurrir en un sobreajuste significativo (\textit{overfitting}), comportándose estables y resistentes a la variabilidad de las distribuciones espaciales del conjunto de datos dada la convergencia de las métricas entre ambos escenarios vista en los modelos RF y GBR. 
 			
-			
-			
 			%A partir del resultado de la evaluación del algoritmo GridSearchCV (Cross-Validation) empleando un valor de partición $k=5$, se obtuvieron los hiperparámetros para cada modelo cuya generalización  
 			
 %			\begin{table}[h!]
@@ -382,23 +380,29 @@
 	
 	A partir del entrenamiento de los modelos RF, VSM y GBR, se ejecuta un test comparativo de pronósticos, en este proceso se emplean datos adquiridos en campañas de prospección, cuyos resultados de inversión, espesor y resistividad real, integran los modelos de unidades de resistividad empleados en la etapa de generación de modelos sintéticos de respuesta geoeléctrica, de manera que los valores de resistividad aparente originales no forman parte del entrenamiento, quedando los algoritmos expuestos a la no-unicidad inherente del método geoeléctrico.
 	
-	Para evaluar la capacidad de respuesta, se acoplan los resultados de pronósticos de los tres modelos permitiendo una comparación directa, adicionalmente,se presentan tres variaciones de pronóstico del mismo sitio, de manera que el rendimiento de la generalización pueda ser observado directamente en el pronósticos comparativo .
+	Los sondeos empelados en la evaluación se derivan trabajos realizados en Nuevo León y Puebla, correspondientes a las claves S1-EGH-OLIVOS, S1-LN-EBSA y S2-LN-EBSA, estos sondeos presentan patrones de distribución de resistividad aparente distintos entre si, del tipo cuantitativos no normales, marcando aun mas la no unicidad de los modelos resistivos aparentes, aminorando el sesgo del entrenamiento en el pronostico. 
 	
-	Los sondeos empelados en la evaluación corresponden a trabajos realizados en Nuevo León y Puebla, correspondientes a las claves S1-EGH-OLIVOS, S1-LN-EBSA y S2-LN-EBSA, estos sondeos presentan patrones de distribución de resistividad aparente distintos entre si marcando aun mas la no unicidad de modelos y sesgo en el entrenamiento. 
+	Para evaluar la capacidad de respuesta, se acoplan los resultados de pronósticos de los tres modelos permitiendo una comparación directa, adicionalmente,se presentan tres variaciones de pronóstico del mismo sitio, de manera que el rendimiento de la generalización pueda ser observado directamente en el pronósticos comparativo.
 	
-	%\clearpage
+	De igual manera se integra dos tablas como herramienta de comparación y evaluación, la primera corresponde a la \textit{comparativa de modelos de pronostico}, con los valores originales, a pronosticar y pronosticados correspondientes a cada modelo ML,y la segunda corresponde a una síntesis del rendimiento cuantitativo de los modelos, desacoplando el error total del asociado al pronóstico, para cada test respectivamente, integrando la desviación estándar muestral de los residuos ($s$, con $ddof=1$) y la raíz del error cuadrático medio ($\mathrm{RMSE}$) evaluando la curva completa contra los datos pronosticados.
+	
+	
+	
+	
+	
+\clearpage
 		\subsection{Sondeo 1 Exploración Geohidrológica los Olivos (S1-EGH-OLIVOS)} 
-		
+		\subsubsection{Test 1}
 			\begin{table}[h!]
 				\centering
 				
 				% --- 1. Tamaño de letra tiny ---
-				\footnotesize
+				\scriptsize
 				
 				% --- 2. Reducir ligeramente el espacio entre columnas ---
 				\setlength{\tabcolsep}{3pt} 
 				
-				\caption{Cuarta comparativa de modelos de imputación (RF, GBR, SVM) frente a datos originales e incompletos.}
+				\caption{Cuarta comparativa de modelos pronosticados (RF, GBR, SVM) frente a datos originales e incompletos.}
 				\label{tab:comparativa_modelos_imputacion_4}
 				
 				% --- 3. Definir columnas con siunitx para alineación decimal ---
@@ -423,27 +427,27 @@
 					10  & 80.12   & 80.12   & 80.12   & 80.12   & 80.12   \\
 					20  & 488.98  & 488.98  & 488.98  & 488.98  & 488.98  \\
 					30  & 1036.73 & 1036.73 & 1036.73 & 1036.73 & 1036.73 \\
-					40  & 0.00    & 107.91  & 283.63  & 367.54  & 299.41  \\
-					40  & 0.00    & 86.83   & 175.94  & 242.34  & 285.25  \\
+					40  & \textbf{0.00}    & \textbf{107.91}  & \textbf{283.63}  & \textbf{367.54}  & \textbf{299.41}  \\
+					40  & \textbf{0.00}    & \textbf{86.83}   & \textbf{175.94}  & \textbf{242.34}  & \textbf{285.25}  \\
 					50  & 90.45   & 90.45   & 90.45   & 90.45   & 90.45   \\
 					60  & 95.91   & 95.91   & 95.91   & 95.91   & 95.91   \\
 					\addlinespace % Espacio extra cada 10 filas
 					70  & 103.92  & 103.92  & 103.92  & 103.92  & 103.92  \\
-					80  & 0.00    & 109.63  & 92.04   & 96.74   & 256.65  \\
+					80  & \textbf{0.00}    & \textbf{109.63}  & \textbf{92.04}   & \textbf{96.74}   & \textbf{256.65}  \\
 					90  & 109.11  & 109.11  & 109.11  & 109.11  & 109.11  \\
 					100 & 110.01  & 110.01  & 110.01  & 110.01  & 110.01  \\
 					110 & 112.33  & 112.33  & 112.33  & 112.33  & 112.33  \\
 					120 & 115.67  & 115.67  & 115.67  & 115.67  & 115.67  \\
 					130 & 117.57  & 117.57  & 117.57  & 117.57  & 117.57  \\
-					150 & 0.00    & 37.79   & 108.19  & 83.62   & 247.58  \\
+					150 & \textbf{0.00}    & \textbf{37.79}   & \textbf{108.19}  & \textbf{83.62}   & \textbf{247.58}  \\
 					160 & 114.43  & 114.43  & 114.43  & 114.43  & 114.43  \\
 					170 & 114.15  & 114.15  & 114.15  & 114.15  & 114.15  \\
 					\addlinespace % Espacio extra cada 10 filas
 					180 & 116.06  & 116.06  & 116.06  & 116.06  & 116.06  \\
 					190 & 107.76  & 107.76  & 107.76  & 107.76  & 107.76  \\
-					210 & 0.00    & 112.15  & 86.94   & 87.52   & 252.97  \\
-					230 & 0.00    & 119.37  & 81.23   & 98.70   & 254.09  \\
-					250 & 0.00    & 114.78  & 70.47   & 87.66   & 256.12  \\
+					210 & \textbf{0.00}    & \textbf{112.15}  & \textbf{86.94}   & \textbf{87.52}   & \textbf{252.97}  \\
+					230 & \textbf{0.00}    & \textbf{119.37}  & \textbf{81.23}   & \textbf{98.70}   & \textbf{254.09}  \\
+					250 & \textbf{0.00}    & \textbf{114.78}  & \textbf{70.47}   & \textbf{87.66}   & \textbf{256.12}  \\
 					
 					\bottomrule
 				\end{tabular}
@@ -460,12 +464,12 @@
 				\centering
 				
 				% --- 1. Tamaño de letra tiny ---
-				\footnotesize
+				\scriptsize
 				
 				% --- 2. Ajuste del espacio entre columnas ---
 				\setlength{\tabcolsep}{4pt} 
 				
-				\caption{Evaluación estadística de residuos y métricas de error ($\Omega\cdot$m) para los modelos de imputación.}
+				\caption{Evaluación estadística de residuos y métricas de error ($\Omega\cdot$m) para los modelos pronosticados.}
 				\label{tab:evaluacion_residuos_modelos_4}
 				
 				% --- 3. Definición de columnas con siunitx ---
@@ -478,7 +482,7 @@
 					}
 					% --- 4. Encabezados jerárquicos y limpios ---
 					\toprule
-					& \multicolumn{2}{c}{\textbf{Evaluación Global}} & \multicolumn{2}{c}{\textbf{Solo Datos Imputados}} \\
+					& \multicolumn{2}{c}{\textbf{Evaluación Global}} & \multicolumn{2}{c}{\textbf{Datos Pronosticados}} \\
 					\cmidrule(lr){2-3} \cmidrule(lr){4-5}
 					\textbf{Modelo} & {\textbf{Desv. Est. ($\sigma$)}} & {\textbf{RMSE}} & {\textbf{Desv. Est. ($\sigma$)}} & {\textbf{RMSE}} \\
 					\midrule
@@ -493,17 +497,17 @@
 			\end{table}
 			
 \clearpage
-			
+			\subsubsection{Test 2}
 			\begin{table}[h!]
 				\centering
 				
 				% --- 1. Tamaño de letra tiny ---
-				\footnotesize
+				\scriptsize
 				
 				% --- 2. Reducir ligeramente el espacio entre columnas ---
 				\setlength{\tabcolsep}{3pt} 
 				
-				\caption{Quinta comparativa de modelos de imputación (RF, GBR, SVM) frente a datos originales e incompletos.}
+				\caption{Quinta comparativa de modelos pronosticados (RF, GBR, SVM) frente a datos originales e incompletos.}
 				\label{tab:comparativa_modelos_imputacion_5}
 				
 				% --- 3. Definir columnas con siunitx para alineación decimal ---
@@ -525,12 +529,12 @@
 					% --- 5. Datos ordenados y limpios ---
 					2   & 68.97  & 68.97   & 68.97  & 68.97  & 68.97   \\
 					5   & 70.54  & 70.54   & 70.54  & 70.54  & 70.54   \\
-					10  & 0.00   & 98.06   & 56.19  & 89.90  & -10.27  \\
-					10  & 0.00   & 80.12   & 39.20  & 80.13  & -21.47  \\
-					20  & 0.00   & 488.98  & 42.37  & 90.20  & -27.86  \\
-					30  & 0.00   & 1036.73 & 49.24  & 89.16  & -1.62   \\
-					40  & 0.00   & 107.91  & 60.49  & 77.31  & 39.18   \\
-					40  & 0.00   & 86.83   & 64.76  & 83.48  & 54.27   \\
+					10  & \textbf{0.00}   & \textbf{98.06}   & \textbf{56.19}  & \textbf{89.90}  & \textbf{-10.27}  \\
+					10  & \textbf{0.00}   & \textbf{80.12}   & \textbf{39.20}  & \textbf{80.13}  & \textbf{-21.47}  \\
+					20  & \textbf{0.00}   & \textbf{488.98}  & \textbf{42.37}  & \textbf{90.20}  & \textbf{-27.86}  \\
+					30  & \textbf{0.00}   & \textbf{1036.73} & \textbf{49.24}  & \textbf{89.16}  & \textbf{-1.62}   \\
+					40  & \textbf{0.00}   & \textbf{107.91}  & \textbf{60.49}  & \textbf{77.31}  & \textbf{39.18}   \\
+					40  & \textbf{0.00}   & \textbf{86.83}   & \textbf{64.76}  & \textbf{83.48}  & \textbf{54.27}   \\
 					50  & 90.45  & 90.45   & 90.45  & 90.45  & 90.45   \\
 					60  & 95.91  & 95.91   & 95.91  & 95.91  & 95.91   \\
 					\addlinespace % Espacio extra cada 10 filas
@@ -566,12 +570,12 @@
 				\centering
 				
 				% --- 1. Tamaño de letra tiny ---
-				\footnotesize
+				\scriptsize
 				
 				% --- 2. Ajuste del espacio entre columnas ---
 				\setlength{\tabcolsep}{4pt} 
 				
-				\caption{Evaluación estadística de residuos y métricas de error ($\Omega\cdot$m) para los modelos de imputación.}
+				\caption{Evaluación estadística de residuos y métricas de error ($\Omega\cdot$m) para los modelos pronosticados.}
 				\label{tab:evaluacion_residuos_modelos_5}
 				
 				% --- 3. Definición de columnas con siunitx ---
@@ -584,7 +588,7 @@
 					}
 					% --- 4. Encabezados jerárquicos y limpios ---
 					\toprule
-					& \multicolumn{2}{c}{\textbf{Evaluación Global}} & \multicolumn{2}{c}{\textbf{Solo Datos Imputados}} \\
+					& \multicolumn{2}{c}{\textbf{Evaluación Global}} & \multicolumn{2}{c}{\textbf{Datos Pronosticados}} \\
 					\cmidrule(lr){2-3} \cmidrule(lr){4-5}
 					\textbf{Modelo} & {\textbf{Desv. Est. ($\sigma$)}} & {\textbf{RMSE}} & {\textbf{Desv. Est. ($\sigma$)}} & {\textbf{RMSE}} \\
 					\midrule
@@ -599,17 +603,17 @@
 			\end{table}
 			
 \clearpage	
-			
+			\subsubsection{Test 3}
 			\begin{table}[h!]
 				\centering
 				
 				% --- 1. Tamaño de letra tiny ---
-				\footnotesize
+				\scriptsize
 				
 				% --- 2. Reducir ligeramente el espacio entre columnas ---
 				\setlength{\tabcolsep}{3pt} 
 				
-				\caption{Sexta comparativa de modelos de imputación (RF, GBR, SVM) frente a datos originales e incompletos.}
+				\caption{Sexta comparativa de modelos pronosticados (RF, GBR, SVM) frente a datos originales e incompletos.}
 				\label{tab:comparativa_modelos_imputacion_6}
 				
 				% --- 3. Definir columnas con siunitx para alineación decimal ---
@@ -641,12 +645,12 @@
 					\addlinespace % Espacio extra cada 10 filas
 					70  & 103.92  & 103.92  & 103.92  & 103.92  & 103.92  \\
 					80  & 109.63  & 109.63  & 109.63  & 109.63  & 109.63  \\
-					90  & 0.00    & 109.11  & 62.24   & 84.52   & 222.12  \\
-					100 & 0.00    & 110.01  & 57.31   & 88.07   & 228.03  \\
-					110 & 0.00    & 112.33  & 53.34   & 83.19   & 234.09  \\
-					120 & 0.00    & 115.67  & 60.53   & 92.58   & 239.37  \\
-					130 & 0.00    & 117.57  & 65.96   & 102.21  & 238.32  \\
-					150 & 0.00    & 37.79   & 81.81   & 107.71  & 224.15  \\
+					90  & \textbf{0.00}    & \textbf{109.11}  & \textbf{62.24}   & \textbf{84.52}   & \textbf{222.12}  \\
+					100 & \textbf{0.00}    & \textbf{110.01}  & \textbf{57.31}   & \textbf{88.07}   & \textbf{228.03}  \\
+					110 & \textbf{0.00}    & \textbf{112.33}  & \textbf{53.34}   & \textbf{83.19}   & \textbf{234.09}  \\
+					120 & \textbf{0.00}    & \textbf{115.67}  & \textbf{60.53}   & \textbf{92.58}   & \textbf{239.37}  \\
+					130 & \textbf{0.00}    & \textbf{117.57}  & \textbf{65.96}   & \textbf{102.21}  & \textbf{238.32}  \\
+					150 & \textbf{0.00}    & \textbf{37.79}   & \textbf{81.81}   & \textbf{107.71}  & \textbf{224.15}  \\
 					160 & 114.43  & 114.43  & 114.43  & 114.43  & 114.43  \\
 					170 & 114.15  & 114.15  & 114.15  & 114.15  & 114.15  \\
 					\addlinespace % Espacio extra cada 10 filas
@@ -671,12 +675,12 @@
 				\centering
 				
 				% --- 1. Tamaño de letra tiny ---
-				\footnotesize
+				\scriptsize
 				
 				% --- 2. Ajuste del espacio entre columnas ---
 				\setlength{\tabcolsep}{4pt} 
 				
-				\caption{Evaluación estadística de residuos y métricas de error ($\Omega\cdot$m) para los modelos de imputación.}
+				\caption{Evaluación estadística de residuos y métricas de error ($\Omega\cdot$m) para los modelos pronosticados.}
 				\label{tab:evaluacion_residuos_modelos_6}
 				
 				% --- 3. Definición de columnas con siunitx ---
@@ -689,7 +693,7 @@
 					}
 					% --- 4. Encabezados jerárquicos y limpios ---
 					\toprule
-					& \multicolumn{2}{c}{\textbf{Evaluación Global}} & \multicolumn{2}{c}{\textbf{Solo Datos Imputados}} \\
+					& \multicolumn{2}{c}{\textbf{Evaluación Global}} & \multicolumn{2}{c}{\textbf{Datos Pronosticados}} \\
 					\cmidrule(lr){2-3} \cmidrule(lr){4-5}
 					\textbf{Modelo} & {\textbf{Desv. Est. ($\sigma$)}} & {\textbf{RMSE}} & {\textbf{Desv. Est. ($\sigma$)}} & {\textbf{RMSE}} \\
 					\midrule
@@ -705,19 +709,17 @@
 			
 \clearpage
 		\subsection{Sondeo 1 Lampazo Del Naranjo EBSA (S1-LN-EBSA)} 
-		
-			datos correspondientes a SEV en Lampazos del naranjo, sitio no integrado en el entrenamiento
-			
+		\subsubsection{Test 1}
 			\begin{table}[h!]
 				\centering
 				
 				% --- 1. Tamaño de letra tiny ---
-				\footnotesize
+				\scriptsize
 				
 				% --- 2. Reducir ligeramente el espacio entre columnas ---
 				\setlength{\tabcolsep}{3pt} 
 				
-				\caption{Comparativa de modelos de imputación (RF, GBR, SVM) frente a datos originales e incompletos.}
+				\caption{Comparativa de modelos pronosticados (RF, GBR, SVM) frente a datos originales e incompletos.}
 				\label{tab:comparativa_modelos_imputacion}
 				
 				% --- 3. Definir columnas con siunitx para alineación decimal ---
@@ -759,21 +761,21 @@
 					150 & 162.54   & 162.54   & 162.54   & 162.54   & 162.54   \\
 					\addlinespace
 					170 & 124.33   & 124.33   & 124.33   & 124.33   & 124.33   \\
-					190 & 0.00     & 116.13   & 200.51   & 111.58   & 1696.75  \\
+					190 & \textbf{0.00}     & \textbf{116.13}   & \textbf{200.51}   & \textbf{111.58}   & \textbf{1696.75}  \\
 					210 & 241.76   & 241.76   & 241.76   & 241.76   & 241.76   \\
-					220 & 0.00     & 402.26   & 207.90   & 142.87   & 1746.91  \\
+					220 & \textbf{0.00}     & \textbf{402.26}   & \textbf{207.90}   & \textbf{142.87}   & \textbf{1746.91}  \\
 					240 & 376.99   & 376.99   & 376.99   & 376.99   & 376.99   \\
 					260 & 122.61   & 122.61   & 122.61   & 122.61   & 122.61   \\
-					280 & 0.00     & 363.33   & 274.64   & 209.89   & 1836.39  \\
-					300 & 0.00     & 147.65   & 294.91   & 385.66   & 1860.00  \\
-					310 & 0.00     & 103.69   & 309.79   & 198.89   & 1880.56  \\
+					280 & \textbf{0.00}     & \textbf{363.33}   & \textbf{274.64}   & \textbf{209.89}   & \textbf{1836.39}  \\
+					300 & \textbf{0.00}     & \textbf{147.65}   & \textbf{294.91}   & \textbf{385.66}   & \textbf{1860.00}  \\
+					310 & \textbf{0.00}     & \textbf{103.69}   & \textbf{309.79}   & \textbf{198.89}   & \textbf{1880.56}  \\
 					320 & 17157.28 & 17157.28 & 17157.28 & 17157.28 & 17157.28 \\
 					
 					\bottomrule
 				\end{tabular}
 			\end{table}
 			
-			\begin{figure}[h] % Imagenes/S1-LN-EBSA-COMP-T1.png  fig:S1-LN-EBSA-COMP-T1
+			\begin{figure}[!h] % Imagenes/S1-LN-EBSA-COMP-T1.png  fig:S1-LN-EBSA-COMP-T1
 				\centering
 				\includegraphics[width=15cm]{Imagenes/S1-LN-EBSA-COMP-T1.png}
 				\caption[]{Test 1}
@@ -784,12 +786,12 @@
 				\centering
 				
 				% --- 1. Tamaño de letra tiny ---
-				\footnotesize
+				\scriptsize
 				
 				% --- 2. Ajuste del espacio entre columnas ---
 				\setlength{\tabcolsep}{4pt} 
 				
-				\caption{Evaluación estadística de residuos y métricas de error ($\Omega\cdot$m) para los modelos de imputación.}
+				\caption{Evaluación estadística de residuos y métricas de error ($\Omega\cdot$m) para los modelos pronosticados.}
 				\label{tab:evaluacion_residuos_modelos}
 				
 				% --- 3. Definición de columnas con siunitx ---
@@ -802,7 +804,7 @@
 					}
 					% --- 4. Encabezados jerárquicos y limpios ---
 					\toprule
-					& \multicolumn{2}{c}{\textbf{Evaluación Global}} & \multicolumn{2}{c}{\textbf{Solo Datos Imputados}} \\
+					& \multicolumn{2}{c}{\textbf{Evaluación Global}} & \multicolumn{2}{c}{\textbf{Datos Pronosticados}} \\
 					\cmidrule(lr){2-3} \cmidrule(lr){4-5}
 					\textbf{Modelo} & {\textbf{Desv. Est. ($\sigma$)}} & {\textbf{RMSE}} & {\textbf{Desv. Est. ($\sigma$)}} & {\textbf{RMSE}} \\
 					\midrule
@@ -817,17 +819,17 @@
 			\end{table}
 			
 \clearpage	
-	
+		\subsubsection{Test 2}
 			\begin{table}[h!]
 				\centering
 				
 				% --- 1. Tamaño de letra tiny ---
-				\footnotesize
+				\scriptsize
 				
 				% --- 2. Reducir ligeramente el espacio entre columnas ---
 				\setlength{\tabcolsep}{3pt} 
 				
-				\caption{Segunda comparativa de modelos de imputación (RF, GBR, SVM) frente a datos originales e incompletos.}
+				\caption{Segunda comparativa de modelos pronosticados (RF, GBR, SVM) frente a datos originales e incompletos.}
 				\label{tab:comparativa_modelos_imputacion_2}
 				
 				% --- 3. Definir columnas con siunitx para alineación decimal ---
@@ -847,18 +849,18 @@
 					
 					% --- 5. Datos ordenados y limpios ---
 					2   & 209.44   & 209.44   & 209.44   & 209.44   & 209.44    \\
-					3   & 0.00     & 138.23   & 125.09   & 97.86    & 853.03    \\
-					5   & 0.00     & 85.57    & 93.98    & 77.91    & 868.90    \\
-					8   & 0.00     & 75.48    & 79.53    & 72.32    & 873.48    \\
+					3   & \textbf{0.00}     & \textbf{138.23}   & \textbf{125.09}   & \textbf{97.86}    & \textbf{853.03}    \\
+					5   & \textbf{0.00}     & \textbf{85.57}    & \textbf{93.98}    & \textbf{77.91}    & \textbf{868.90}    \\
+					8   & \textbf{0.00}     & \textbf{75.48}    & \textbf{79.53}    & \textbf{72.32}    & \textbf{873.48}    \\
 					10  & 79.79    & 79.79    & 79.79    & 79.79    & 79.79     \\
 					10  & 77.79    & 77.79    & 77.79    & 77.79    & 77.79     \\
 					12  & 63.47    & 63.47    & 63.47    & 63.47    & 63.47     \\
-					15  & 0.00     & 63.56    & 54.41    & 60.75    & 1015.39   \\
-					25  & 0.00     & 53.44    & 56.02    & 22.40    & 1091.36   \\
-					30  & 0.00     & 50.28    & 61.78    & 65.85    & 1161.75   \\
+					15  & \textbf{0.00}     & \textbf{63.56}    & \textbf{54.41}    & \textbf{60.75}    & \textbf{1015.39}   \\
+					25  & \textbf{0.00}     & \textbf{53.44}    & \textbf{56.02}    & \textbf{22.40}    & \textbf{1091.36}   \\
+					30  & \textbf{0.00}     & \textbf{50.28}    & \textbf{61.78}    & \textbf{65.85}    & \textbf{1161.75}   \\
 					\addlinespace % Espacio extra cada 10 filas
-					45  & 0.00     & 55.54    & 64.17    & 61.52    & 1203.07   \\
-					55  & 0.00     & 47.15    & 49.67    & 62.96    & 1268.76   \\
+					45  & \textbf{0.00}     & \textbf{55.54}    & \textbf{64.17}    & \textbf{61.52}    & \textbf{1203.07}   \\
+					55  & \textbf{0.00}     & \textbf{47.15}    & \textbf{49.67}    & \textbf{62.96}    & \textbf{1268.76}   \\
 					65  & 53.40    & 53.40    & 53.40    & 53.40    & 53.40     \\
 					75  & 40.48    & 40.48    & 40.48    & 40.48    & 40.48     \\
 					85  & 44.13    & 44.13    & 44.13    & 44.13    & 44.13     \\
@@ -894,12 +896,12 @@
 				\centering
 				
 				% --- 1. Tamaño de letra tiny ---
-				\footnotesize
+				\scriptsize
 				
 				% --- 2. Ajuste del espacio entre columnas ---
 				\setlength{\tabcolsep}{4pt} 
 				
-				\caption{Evaluación estadística de residuos y métricas de error ($\Omega\cdot$m) para los modelos de imputación.}
+				\caption{Evaluación estadística de residuos y métricas de error ($\Omega\cdot$m) para los modelos pronosticados.}
 				\label{tab:evaluacion_residuos_modelos_2}
 				
 				% --- 3. Definición de columnas con siunitx ---
@@ -912,7 +914,7 @@
 					}
 					% --- 4. Encabezados jerárquicos y limpios ---
 					\toprule
-					& \multicolumn{2}{c}{\textbf{Evaluación Global}} & \multicolumn{2}{c}{\textbf{Solo Datos Imputados}} \\
+					& \multicolumn{2}{c}{\textbf{Evaluación Global}} & \multicolumn{2}{c}{\textbf{Datos Pronosticados}} \\
 					\cmidrule(lr){2-3} \cmidrule(lr){4-5}
 					\textbf{Modelo} & {\textbf{Desv. Est. ($\sigma$)}} & {\textbf{RMSE}} & {\textbf{Desv. Est. ($\sigma$)}} & {\textbf{RMSE}} \\
 					\midrule
@@ -927,17 +929,17 @@
 			\end{table}
 			
 \clearpage
-
+		\subsubsection{Test 3}
 			\begin{table}[h!]
 				\centering
 				
 				% --- 1. Tamaño de letra tiny ---
-				\footnotesize
+				\scriptsize
 				
 				% --- 2. Reducir ligeramente el espacio entre columnas ---
 				\setlength{\tabcolsep}{3pt} 
 				
-				\caption{Tercera comparativa de modelos de imputación (RF, GBR, SVM) frente a datos originales e incompletos.}
+				\caption{Tercera comparativa de modelos pronosticados (RF, GBR, SVM) frente a datos originales e incompletos.}
 				\label{tab:comparativa_modelos_imputacion_3}
 				
 				% --- 3. Definir columnas con siunitx para alineación decimal ---
@@ -975,14 +977,14 @@
 					95  & 86.93    & 86.93    & 86.93    & 86.93    & 86.93    \\
 					110 & 78.62    & 78.62    & 78.62    & 78.62    & 78.62    \\
 					130 & 72.56    & 72.56    & 72.56    & 72.56    & 72.56    \\
-					140 & 0.00     & 76.29    & 120.20   & 85.39    & 1595.40  \\
-					150 & 0.00     & 162.54   & 120.22   & 100.04   & 1611.57  \\
+					140 & \textbf{0.00}     & \textbf{76.29}    & \textbf{120.20}   & \textbf{85.39}    & \textbf{1595.40}  \\
+					150 & \textbf{0.00}     & \textbf{162.54}   & \textbf{120.22}   & \textbf{100.04}   & \textbf{1611.57}  \\
 					\addlinespace % Espacio extra cada 10 filas
-					170 & 0.00     & 124.33   & 130.77   & 99.88    & 1658.26  \\
-					190 & 0.00     & 116.13   & 173.43   & 126.22   & 1696.75  \\
-					210 & 0.00     & 241.76   & 218.84   & 162.12   & 1719.94  \\
-					220 & 0.00     & 402.26   & 241.00   & 178.39   & 1746.91  \\
-					240 & 0.00     & 376.99   & 281.00   & 248.75   & 1770.34  \\
+					170 & \textbf{0.00}     & \textbf{124.33}   & \textbf{130.77}   & \textbf{99.88}    & \textbf{1658.26}  \\
+					190 & \textbf{0.00}     & \textbf{116.13}   & \textbf{173.43}   & \textbf{126.22}   & \textbf{1696.75}  \\
+					210 & \textbf{0.00}     & \textbf{241.76}   & \textbf{218.84}   & \textbf{162.12}   & \textbf{1719.94}  \\
+					220 & \textbf{0.00}     & \textbf{402.26}   & \textbf{241.00}   & \textbf{178.39}   & \textbf{1746.91}  \\
+					240 & \textbf{0.00}     & \textbf{376.99}   & \textbf{281.00}   & \textbf{248.75}   & \textbf{1770.34}  \\
 					260 & 122.61   & 122.61   & 122.61   & 122.61   & 122.61   \\
 					280 & 363.33   & 363.33   & 363.33   & 363.33   & 363.33   \\
 					300 & 147.65   & 147.65   & 147.65   & 147.65   & 147.65   \\
@@ -1004,12 +1006,12 @@
 				\centering
 				
 				% --- 1. Tamaño de letra tiny ---
-				\footnotesize
+				\scriptsize
 				
 				% --- 2. Ajuste del espacio entre columnas ---
 				\setlength{\tabcolsep}{4pt} 
 				
-				\caption{Evaluación estadística de residuos y métricas de error ($\Omega\cdot$m) para los modelos de imputación.}
+				\caption{Evaluación estadística de residuos y métricas de error ($\Omega\cdot$m) para los modelos pronosticados.}
 				\label{tab:evaluacion_residuos_modelos_3}
 				
 				% --- 3. Definición de columnas con siunitx ---
@@ -1022,7 +1024,7 @@
 					}
 					% --- 4. Encabezados jerárquicos y limpios ---
 					\toprule
-					& \multicolumn{2}{c}{\textbf{Evaluación Global}} & \multicolumn{2}{c}{\textbf{Solo Datos Imputados}} \\
+					& \multicolumn{2}{c}{\textbf{Evaluación Global}} & \multicolumn{2}{c}{\textbf{Datos Pronosticados}} \\
 					\cmidrule(lr){2-3} \cmidrule(lr){4-5}
 					\textbf{Modelo} & {\textbf{Desv. Est. ($\sigma$)}} & {\textbf{RMSE}} & {\textbf{Desv. Est. ($\sigma$)}} & {\textbf{RMSE}} \\
 					\midrule
@@ -1038,18 +1040,17 @@
 			
 \clearpage
 		\subsection{Sondeo 2 Lampazo Del Naranjo EBSA (S2-LN-EBSA)}
-		 
-			
+		\subsubsection{Test 1}
 			\begin{table}[h!]
 				\centering
 				
 				% --- 1. Tamaño de letra tiny ---
-				\footnotesize
+				\scriptsize
 				
 				% --- 2. Reducir ligeramente el espacio entre columnas ---
 				\setlength{\tabcolsep}{3pt} 
 				
-				\caption{Novena comparativa de modelos de imputación (RF, GBR, SVM) frente a datos originales e incompletos.}
+				\caption{Novena comparativa de modelos pronosticados (RF, GBR, SVM) frente a datos originales e incompletos.}
 				\label{tab:comparativa_modelos_imputacion_9}
 				
 				% --- 3. Definir columnas con siunitx para alineación decimal ---
@@ -1084,15 +1085,15 @@
 					100 & 128.33 & 128.33 & 128.33 & 128.33 & 128.33 \\
 					120 & 873.66 & 873.66 & 873.66 & 873.66 & 873.66 \\
 					130 & 72.56  & 72.56  & 72.56  & 72.56  & 72.56  \\
-					140 & 0.00   & 76.29  & 213.78 & 318.59 & 315.45 \\
-					150 & 0.00   & 159.71 & 218.55 & 307.10 & 319.26 \\
-					170 & 0.00   & 108.10 & 197.96 & 246.16 & 317.51 \\
-					180 & 0.00   & 121.31 & 165.39 & 52.45  & 325.77 \\
-					190 & 0.00   & 130.22 & 143.59 & 50.28  & 342.71 \\
+					140 & \textbf{0.00}   & \textbf{76.29}  & \textbf{213.78} & \textbf{318.59} & \textbf{315.45} \\
+					150 & \textbf{0.00}   & \textbf{159.71} & \textbf{218.55} & \textbf{307.10} & \textbf{319.26} \\
+					170 & \textbf{0.00}   & \textbf{108.10} & \textbf{197.96} & \textbf{246.16} & \textbf{317.51} \\
+					180 & \textbf{0.00}   & \textbf{121.31} & \textbf{165.39} & \textbf{52.45}  & \textbf{325.77} \\
+					190 & \textbf{0.00}   & \textbf{130.22} & \textbf{143.59} & \textbf{50.28}  & \textbf{342.71} \\
 					\addlinespace % Espacio extra cada 10 filas
-					210 & 0.00   & 177.49 & 207.38 & 132.54 & 350.27 \\
-					230 & 0.00   & 183.46 & 207.36 & 134.06 & 354.35 \\
-					250 & 0.00   & 194.49 & 214.31 & 169.32 & 354.65 \\
+					210 & \textbf{0.00}   & \textbf{177.49} & \textbf{207.38} & \textbf{132.54} & \textbf{350.27} \\
+					230 & \textbf{0.00}   & \textbf{183.46} & \textbf{207.36} & \textbf{134.06} & \textbf{354.35} \\
+					250 & \textbf{0.00}   & \textbf{194.49} & \textbf{214.31} & \textbf{169.32} & \textbf{354.65} \\
 					260 & 153.89 & 153.89 & 153.89 & 153.89 & 153.89 \\
 					280 & 313.65 & 313.65 & 313.65 & 313.65 & 313.65 \\
 					290 & 592.77 & 592.77 & 592.77 & 592.77 & 592.77 \\
@@ -1112,12 +1113,12 @@
 				\centering
 				
 				% --- 1. Tamaño de letra tiny ---
-				\footnotesize
+				\scriptsize
 				
 				% --- 2. Ajuste del espacio entre columnas ---
 				\setlength{\tabcolsep}{4pt} 
 				
-				\caption{Evaluación estadística de residuos y métricas de error ($\Omega\cdot$m) para los modelos de imputación.}
+				\caption{Evaluación estadística de residuos y métricas de error ($\Omega\cdot$m) para los modelos pronosticados.}
 				\label{tab:evaluacion_residuos_modelos_7}
 				
 				% --- 3. Definición de columnas con siunitx ---
@@ -1130,7 +1131,7 @@
 					}
 					% --- 4. Encabezados jerárquicos y limpios ---
 					\toprule
-					& \multicolumn{2}{c}{\textbf{Evaluación Global}} & \multicolumn{2}{c}{\textbf{Solo Datos Imputados}} \\
+					& \multicolumn{2}{c}{\textbf{Evaluación Global}} & \multicolumn{2}{c}{\textbf{Datos Pronosticados}} \\
 					\cmidrule(lr){2-3} \cmidrule(lr){4-5}
 					\textbf{Modelo} & {\textbf{Desv. Est. ($\sigma$)}} & {\textbf{RMSE}} & {\textbf{Desv. Est. ($\sigma$)}} & {\textbf{RMSE}} \\
 					\midrule
@@ -1145,17 +1146,17 @@
 			\end{table}
 			
 \clearpage
-			
+		\subsubsection{Test 2}
 			\begin{table}[h!]
 				\centering
 				
 				% --- 1. Tamaño de letra tiny ---
-				\footnotesize 
+				\scriptsize 
 				
 				% --- 2. Reducir ligeramente el espacio entre columnas ---
 				\setlength{\tabcolsep}{3pt} 
 				
-				\caption{Séptima comparativa de modelos de imputación (RF, GBR, SVM) frente a datos originales e incompletos.}
+				\caption{Séptima comparativa de modelos pronosticados (RF, GBR, SVM) frente a datos originales e incompletos.}
 				\label{tab:comparativa_modelos_imputacion_7}
 				
 				% --- 3. Definir columnas con siunitx para alineación decimal ---
@@ -1175,11 +1176,11 @@
 					
 					% --- 5. Datos ordenados y limpios ---
 					3   & 20.11  & 20.11  & 20.11  & 20.11  & 20.11  \\
-					4   & 0.00   & 176.45 & 17.37  & 61.98  & 14.79  \\
-					5   & 0.00   & 80.28  & 14.99  & 54.40  & 31.98  \\
-					8   & 0.00   & 160.85 & 15.37  & 53.82  & 17.15  \\
-					10  & 0.00   & 301.59 & 30.20  & 50.49  & 39.40  \\
-					15  & 0.00   & 100.04 & 37.34  & 38.92  & 57.28  \\
+					4   & \textbf{0.00}   & \textbf{176.45} & \textbf{17.37}  & \textbf{61.98}  & \textbf{14.79}  \\
+					5   & \textbf{0.00}   & \textbf{80.28}  & \textbf{14.99}  & \textbf{54.40}  & \textbf{31.98}  \\
+					8   & \textbf{0.00}   & \textbf{160.85} & \textbf{15.37}  & \textbf{53.82}  & \textbf{17.15}  \\
+					10  & \textbf{0.00}   & \textbf{301.59} & \textbf{30.20}  & \textbf{50.49}  & \textbf{39.40}  \\
+					15  & \textbf{0.00}   & \textbf{100.04} & \textbf{37.34}  & \textbf{38.92}  & \textbf{57.28}  \\
 					25  & 67.04  & 67.04  & 67.04  & 67.04  & 67.04  \\
 					30  & 9.17   & 9.17   & 9.17   & 9.17   & 9.17   \\
 					40  & 6.54   & 6.54   & 6.54   & 6.54   & 6.54   \\
@@ -1218,12 +1219,12 @@
 				\centering
 				
 				% --- 1. Tamaño de letra tiny ---
-				\footnotesize
+				\scriptsize
 				
 				% --- 2. Ajuste del espacio entre columnas ---
 				\setlength{\tabcolsep}{4pt} 
 				
-				\caption{Evaluación estadística de residuos y métricas de error ($\Omega\cdot$m) para los modelos de imputación.}
+				\caption{Evaluación estadística de residuos y métricas de error ($\Omega\cdot$m) para los modelos pronosticados.}
 				\label{tab:evaluacion_residuos_modelos_8}
 				
 				% --- 3. Definición de columnas con siunitx ---
@@ -1236,7 +1237,7 @@
 					}
 					% --- 4. Encabezados jerárquicos y limpios ---
 					\toprule
-					& \multicolumn{2}{c}{\textbf{Evaluación Global}} & \multicolumn{2}{c}{\textbf{Solo Datos Imputados}} \\
+					& \multicolumn{2}{c}{\textbf{Evaluación Global}} & \multicolumn{2}{c}{\textbf{Datos Pronosticados}} \\
 					\cmidrule(lr){2-3} \cmidrule(lr){4-5}
 					\textbf{Modelo} & {\textbf{Desv. Est. ($\sigma$)}} & {\textbf{RMSE}} & {\textbf{Desv. Est. ($\sigma$)}} & {\textbf{RMSE}} \\
 					\midrule
@@ -1251,17 +1252,17 @@
 			\end{table}
 			
 \clearpage
-			
+		\subsubsection{Test 3}
 			\begin{table}[h!]
 				\centering
 				
 				% --- 1. Tamaño de letra tiny ---
-				\footnotesize
+				\scriptsize
 				
 				% --- 2. Reducir ligeramente el espacio entre columnas ---
 				\setlength{\tabcolsep}{3pt} 
 				
-				\caption{Octava comparativa de modelos de imputación (RF, GBR, SVM) frente a datos originales e incompletos.}
+				\caption{Octava comparativa de modelos pronosticados (RF, GBR, SVM) frente a datos originales e incompletos.}
 				\label{tab:comparativa_modelos_imputacion_8}
 				
 				% --- 3. Definir columnas con siunitx para alineación decimal ---
@@ -1291,11 +1292,11 @@
 					40  & 6.54   & 6.54   & 6.54   & 6.54   & 6.54   \\
 					50  & 39.46  & 39.46  & 39.46  & 39.46  & 39.46  \\
 					\addlinespace % Espacio extra cada 10 filas
-					70  & 0.00   & 48.14  & 52.74  & 60.48  & 132.29 \\
-					80  & 0.00   & 16.05  & 54.66  & 58.59  & 165.91 \\
-					100 & 0.00   & 128.33 & 61.75  & 111.02 & 177.89 \\
-					120 & 0.00   & 873.66 & 61.55  & 95.29  & 192.02 \\
-					130 & 0.00   & 72.56  & 87.89  & 111.86 & 204.59 \\
+					70  & \textbf{0.00}   & \textbf{48.14}  & \textbf{52.74}  & \textbf{60.48}  & \textbf{132.29} \\
+					80  & \textbf{0.00}   & \textbf{16.05}  & \textbf{54.66}  & \textbf{58.59}  & \textbf{165.91} \\
+					100 & \textbf{0.00}   & \textbf{128.33} & \textbf{61.75}  & \textbf{111.02} & \textbf{177.89} \\
+					120 & \textbf{0.00}   & \textbf{873.66} & \textbf{61.55}  & \textbf{95.29}  & \textbf{192.02} \\
+					130 & \textbf{0.00}   & \textbf{72.56}  & \textbf{87.89}  & \textbf{111.86} & \textbf{204.59} \\
 					140 & 76.29  & 76.29  & 76.29  & 76.29  & 76.29  \\
 					150 & 159.71 & 159.71 & 159.71 & 159.71 & 159.71 \\
 					170 & 108.10 & 108.10 & 108.10 & 108.10 & 108.10 \\
@@ -1324,12 +1325,12 @@
 				\centering
 				
 				% --- 1. Tamaño de letra tiny ---
-				\footnotesize
+				\scriptsize
 				
 				% --- 2. Ajuste del espacio entre columnas ---
 				\setlength{\tabcolsep}{4pt} 
 				
-				\caption{Evaluación estadística de residuos y métricas de error ($\Omega\cdot$m) para los modelos de imputación.}
+				\caption{Evaluación estadística de residuos y métricas de error ($\Omega\cdot$m) para los modelos pronosticados.}
 				\label{tab:evaluacion_residuos_modelos_9}
 				
 				% --- 3. Definición de columnas con siunitx ---
@@ -1342,7 +1343,7 @@
 					}
 					% --- 4. Encabezados jerárquicos y limpios ---
 					\toprule
-					& \multicolumn{2}{c}{\textbf{Evaluación Global}} & \multicolumn{2}{c}{\textbf{Solo Datos Imputados}} \\
+					& \multicolumn{2}{c}{\textbf{Evaluación Global}} & \multicolumn{2}{c}{\textbf{Datos Pronosticados}} \\
 					\cmidrule(lr){2-3} \cmidrule(lr){4-5}
 					\textbf{Modelo} & {\textbf{Desv. Est. ($\sigma$)}} & {\textbf{RMSE}} & {\textbf{Desv. Est. ($\sigma$)}} & {\textbf{RMSE}} \\
 					\midrule

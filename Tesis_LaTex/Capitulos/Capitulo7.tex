@@ -1,17 +1,13 @@
 \chapter{RESULTADOS Y CONCLUSIONES}
 
-Adicionalmente durante el entrenamiento se evaluó el rendimiento empleando entradas y salidas de datos (test) con transformación logarítmica, mostrando un pobre desempeño en la evaluación del entrenamiento y predicción.
+Al considerar la variabilidad de distribución de una señal geoeléctrica en la obtención de pronósticos de resistividad aparente, hace evidente que, los modelos capaces de generar un resultado convincente deben de poder se entrenados a partir de datos no paramétricos y logar generalizar el comportamiento geoeléctrico para obtener pronósticos razonable.  
+
+Los modelos no paramétricos de Machine Learning Random Forest, Gradient Boosting Regressor y Support Vector Machine, conforman dos aproximaciones diferentes, basados en ensamble de árboles de decisión (RF y GBR) frente a modelos de vectores de soporte basados en funciones kernel (SVM), ambos con un buen rendimiento ante conjuntos de datos no lineales, bimodales, sesgados o no gaussianos, es decir, presentan una generalización aceptable ante datos con distribuciones erráticas propias de la respuesta geoeléctrica analizada.
+
+Durante la evaluación de los tres modelos, mediante el algoritmo GridSearchCV, se identifico un mejor desempeño de métricas, Coeficiente de Determinación, Raíz del Error Cuadrático Medio, Error Absoluto Medio, Error Porcentual Absoluto Medio,Residuo Medio y Desviación Estándar de los Residuos, al emplear 5 K-pliegues (k=5 particiones) (ver figura \ref{fig:Eva}), al igual que la identificación de los hiperparametros óptimos para cada modelo (ver tabla \ref{tab:hiperparametros-modelos-resultados}), con los cuales se realiza el entrenamiento final de cada modelo.
 
 
-Tal como se observa en la tabla \ref{tab:hiperparametros-modelos-resultados}, el modelo Random Forest (RF) selecciona y realiza el entrenamiento empleando como hiperparametros óptimos los siguientes valores: 
-%
-%\begin{itemize}
-%	\item $max_depth: 20$
-%	\item $min_samples_split: 2$
-%	\item $n_estimators: 200$
-%\end{itemize}
-
-\begin{table}[h!]
+\begin{table}[h!] % tabla hiperparametros seleccionados \ref{tab:hiperparametros-modelos-resultados}
 	\centering
 	% He cambiado \textit{k} por $k$ y he eliminado guiones bajos en el \label
 	\caption{Configuración de hiperparámetros para cada modelo. Se remarca en negrita el valor con la mejor generalización mediante $k$-Fold Cross-Validation usando GridSearchCV.}
@@ -37,9 +33,3 @@ Tal como se observa en la tabla \ref{tab:hiperparametros-modelos-resultados}, el
 \end{table}
 
 
-Esta selección es un reflejo de la alta complejidad no lineal en las series, implicando la necesidad de arboles profundos para lograr una buena generalización considerando los cambios sutiles en las curvas de resistividad aparente, al establecer en 200 el numero de estimadores proporciona la estabilidad necesaria para reducir la varianza inherente a árboles tan profundos.
-
-
-GBR
-
-El modelo Gradient Boosting Regressor (GBR), optimizado mediante validación cruzada ($k=5$), demuestra una capacidad predictiva sobresaliente con un $R^2$ de 0.9884. La configuración de 500 estimadores con baja profundidad permitió capturar la complejidad de los sondeos sin caer en sobreajuste. Aunque el modelo presenta una alta precisión global, la diferencia entre el MAE (13.04) y el RMSE (48.90), sumado a un MAPE del 9.51\%, revela una sensibilidad a valores extremos, comportándose de manera robusta en la mayoría del dominio pero perdiendo precisión en puntos singulares de alta resistividad o ruido elevado.
