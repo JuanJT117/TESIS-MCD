@@ -1,12 +1,12 @@
 \chapter{RESULTADOS Y CONCLUSIONES}
 
-Al considerar la variabilidad de distribución de una señal geoeléctrica en la obtención de pronósticos de resistividad aparente, hace evidente que, los modelos capaces de generar un resultado convincente deben de poder se entrenados a partir de datos con una distribución altamente variable y lograr generalizar el comportamiento geoeléctrico de un conjunto de SEV's en un mismo sitio y poder obtener pronósticos razonable.  
+Al considerar la variabilidad de distribución de una señal geoeléctrica en la obtención de pronósticos de resistividad aparente, hace evidente que, los modelos capaces de generar un resultado convincente deben de poder ser entrenados a partir de datos con una distribución altamente variable y lograr generalizar el comportamiento geoeléctrico de un conjunto de SEV's en un mismo sitio y obtener un pronósticos razonable.  
 
-Los modelos no paramétricos de Machine Learning Random Forest, Gradient Boosting Regressor y Support Vector Machine, conforman dos aproximaciones diferentes, basados en ensamble de árboles de decisión (RF y GBR) frente a modelos de vectores de soporte basados en funciones kernel (SVM), ambos con un buen rendimiento ante conjuntos de datos no lineales, bimodales, sesgados o no gaussianos, es decir, presentan una generalización aceptable ante datos con distribuciones altamente variable propias de la respuesta geoeléctrica analizada.
+Los modelos no paramétricos de Machine Learning Random Forest, Gradient Boosting Regressor y Support Vector Machine, conforman dos aproximaciones diferentes, basados en árboles de decisión (RF y GBR), frente a modelos de vectores de soporte basados en funciones kernel (SVM), ambos con un buen rendimiento ante conjuntos de datos no lineales, bimodales, sesgados o no gaussianos, es decir, presentan una generalización aceptable ante datos con distribuciones altamente variable, característica típica de la respuesta geoeléctrica del subsuelo.
 
 %Identificar los modelos ML no paramétricos compatibles con las variables de entrenamiento, correspondientes a la etapa de adquisición en campo.
 
-Durante la evaluación de los tres modelos, mediante el algoritmo GridSearchCV, se identifico un mejor desempeño de métricas (Coeficiente de Determinación, Raíz del Error Cuadrático Medio, Error Absoluto Medio, Error Porcentual Absoluto Medio,Residuo Medio y Desviación Estándar de los Residuos) al emplear 5 K-pliegues (k=5 particiones) (ver figura \ref{fig:Eva}), al igual que, la configuración de los hiperparametros óptimos para cada modelo (RF, VSM y GB) (ver tabla \ref{tab:hiperparametros-modelos-resultados}), empleados en el entrenamiento final.
+Durante la evaluación de los tres modelos, mediante el algoritmo GridSearchCV, se identifico un mejor desempeño en las métricas, Coeficiente de Determinación, Raíz del Error Cuadrático Medio, Error Absoluto Medio, Error Porcentual Absoluto Medio,Residuo Medio y Desviación Estándar de los Residuos, al emplear 5 K-pliegues (k=5 particiones) (ver figura \ref{fig:Eva}), durante la evaluación el algoritmo identifica, entre los hiperparametros de la configuración inicial, a aquella combinación con el rendimiento óptimos para cada modelo (RF, SVM y GB) (ver tabla \ref{tab:hiperparametros-modelos-resultados}), configuración que sera empleadas en el entrenamiento final.
 
 
 
@@ -18,19 +18,19 @@ Durante la evaluación de los tres modelos, mediante el algoritmo GridSearchCV, 
 	\small 
 	\begin{tabular}{lll}
 		\toprule
-		\textbf{Algoritmo}                                           & \textbf{Hiperparámetro} & \textbf{Valores Evaluados} \\
+		\textbf{Algoritmo}                      & \textbf{Hiperparámetro} & \textbf{Valores Evaluados} \\
 		\midrule
-		\multirow{3}{*}{\textbf{Random Forest}}                      & n\_estimators           &  200\\
-		                                                             & max\_depth              & 20 \\
-		                                                             & min\_samples\_split     & 2 \\
+		\multirow{3}{*}{\textbf{Random Forest}} & n\_estimators           & 200\\
+		                                        & max\_depth              & 20 \\
+		                                        & min\_samples\_split     & 2 \\
 		\midrule
-		\multirow{3}{*}{\textbf{Support Vector Machine}}           & C                         &  150 \\
-	                                                                 & epsilon ($\epsilon$)    & 0.1 \\
-		                                                             & kernel                  & Radial Basis Function\\
+		\multirow{3}{*}{\textbf{Support Vector Machine}} & C                     & 150 \\
+	                                                     & epsilon ($\epsilon$)  & 0.1 \\
+		                                                 & kernel                & Radial Basis Function\\
 		\midrule
-		\multirow{3}{*}{\textbf{Gradient Boosting Regressor}}        & n\_estimators           & 500 \\
-		                                                             & learning\_rate          & 0.1\\
-	                  	                                             & max\_depth              & 3 \\
+		\multirow{3}{*}{\textbf{Gradient Boosting Regressor}} & n\_estimators    & 500 \\
+		                                                      & learning\_rate   & 0.1\\
+	                  	                                      & max\_depth       & 3 \\
 		\bottomrule
 	\end{tabular}
 \end{table}
@@ -38,6 +38,8 @@ Durante la evaluación de los tres modelos, mediante el algoritmo GridSearchCV, 
 % Realizar comparación y evaluación de las métricas aplicadas a los modelos de entrenamiento.
 
 Al realizar el análisis de la varianza del error predictivo de cada capa para cada modelo, se identifica claramente una mejor aproximación en los métodos basados en árboles de decisión, Random Forest y Gradient Boosting Regressor, que el basado en kernel, Support Vector Machine. Se observa una diferencia de entre 10 a 50 unidades en desviación estándar, una diferencia de entre  6 a 20 unidades en Residuo medio (sin considerar su polaridad negativa, presentando un rango de entre 2 a 11 unidades), mientras que se observa una convergencia en el Coeficiente de determinación ($R^2$) hacia las ultimas capas, obteniendo un rango próximo al 0.98 los modelos Random Forest y Gradient Boosting Regressor, mientras que Support Vector Machine incrementa su Score de 0.90 a 0.98 en las las ultimas capas, mientras que el Error Cuadrático Medio (MSE) de predicción es significativamente mayor en el método VSM, con respecto a los métodos basados en árboles de decisión (ver figura \ref{fig:RendimientoRF}).
+
+
 
 
 %Establecer una comparativa entre la evaluación de pronósticos a partir de ensayos con datos de control.
